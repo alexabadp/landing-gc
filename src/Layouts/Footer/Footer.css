@@ -1,0 +1,26 @@
+.main-footer {
+  color: white;
+  background-color: #2d2a26;
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+li {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 30px;
+}
