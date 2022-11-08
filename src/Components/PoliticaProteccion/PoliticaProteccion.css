@@ -1,0 +1,76 @@
+.header-content {
+  background-color: rgba(231, 0, 49, 0.85);
+  height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-title {
+  width: 761px;
+  height: 62px;
+  left: 350px;
+  top: 155px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 62px;
+  color: white;
+}
+
+.header-subtitle {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: white;
+}
+
+.body-title {
+  text-align: center;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 41px;
+  margin-top: 96px;
+  margin-bottom: 48px;
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: justify;
+}
+
+.subtitle-title {
+  color: #2d2a26;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 31px;
+  margin-top: 40px;
+}
+
+ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ol li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  counter-increment: my-awesome-counter;
+  text-align: justify;
+}
+
+ol li::before {
+  content: counter(my-awesome-counter) ". ";
+  color: #e70031;
+  font-weight: bold;
+}

@@ -5,23 +5,25 @@ import Header from "./Layouts/Header/Header";
 import { Container } from "react-bootstrap";
 import ContactUs from "./Components/ContactUs/ContactUs";
 import Footer from "./Layouts/Footer/Footer";
+import LibroReclamaciones from "./Components/LibroReclamaciones/LibroReclamaciones";
+import PoliticaProteccion from "./Components/PoliticaProteccion/PoliticaProteccion";
 
 const LandingPage = () => {
   return (
     <Switch>
       <Route exact path="/" component={ContactUs} />
+      <Route exact path="/libroreclamaciones" component={LibroReclamaciones} />
+      <Route exact path="/politicaproteccion" component={PoliticaProteccion} />
     </Switch>
   );
 };
 
 function App() {
   return (
-    <div className="page-container">
-      <div className="content-wrap">
-        <Header />
-        <LandingPage />
-        <Footer />
-      </div>
+    <div className="c-content">
+      <Header />
+      <LandingPage />
+      <Footer />
     </div>
   );
 }
