@@ -1,0 +1,58 @@
+.claim-subtitle {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 31px;
+  color: #2d2a26;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+span.circle {
+  background: rgba(231, 0, 49, 0.85);
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  color: white;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 40px;
+  margin-right: 5px;
+  text-align: center;
+  width: 40px;
+  margin-right: 16px;
+}
+
+.claims {
+  background-color: white;
+}
+
+.form-claim {
+  background-color: #f9faff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cia-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.claim-details {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.claim-process {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.content-claim {
+  width: 75%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}

@@ -28,7 +28,7 @@ function PoliticaProteccion() {
                 alteración, acceso no autorizado y robo de los datos personales
                 facilitados por los titulares de datos personales.
               </p>
-              <h1 className="subtitle-title">Consentimiento del usuario</h1>
+              <h1 className="content-subtitle">Consentimiento del usuario</h1>
               <p>
                 Trilce se obliga a que de los datos personales obtenidos a
                 través de formularios del portal web, cuenten previamente con el
@@ -36,7 +36,7 @@ function PoliticaProteccion() {
                 información, los cuales serán tratados única y específicamente
                 para la finalidad solicitada.
               </p>
-              <h1 className="subtitle-title">
+              <h1 className="content-subtitle">
                 Tratamiento de Datos Personales
               </h1>
               <ol>
@@ -69,7 +69,7 @@ function PoliticaProteccion() {
                   ajeno a la responsabilidad de Trilce.
                 </li>
               </ol>
-              <h1 className="subtitle-title">Medidas de Seguridad</h1>
+              <h1 className="content-subtitle">Medidas de Seguridad</h1>
               <p>
                 Trilce se compromete a brindar todas las medidas técnicas,
                 legales y administrativas necesarias para garantizar la
@@ -80,7 +80,7 @@ function PoliticaProteccion() {
                 datos personales, evitando que estos sean filtrados, difundidos
                 o cualquier acción que ponga en peligro su información personal.
               </p>
-              <h1 className="subtitle-title">
+              <h1 className="content-subtitle">
                 Cambios de Política de Privacidad
               </h1>
               <ol>
@@ -98,7 +98,7 @@ function PoliticaProteccion() {
                   punto anterior.
                 </li>
               </ol>
-              <h1 className="subtitle-title">
+              <h1 className="content-subtitle">
                 Cambios de Política de Privacidad
               </h1>
               <p>
