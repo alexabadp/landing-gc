@@ -20,11 +20,15 @@ const LandingPage = () => {
 
 function App() {
   return (
-    <div className="c-content">
+    <>
+      {" "}
       <Header />
       <LandingPage />
       <Footer />
-    </div>
+    </>
+    // <div className="c-content">
+
+    // </div>
   );
 }
 

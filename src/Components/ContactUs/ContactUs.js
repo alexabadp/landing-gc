@@ -1,4 +1,11 @@
-import { Button, Form, Image } from "react-bootstrap";
+import {
+  Container,
+  FormControl,
+  FormHelperText,
+  Input,
+  InputLabel,
+  TextField,
+} from "@mui/material";
 import { withRouter } from "react-router-dom";
 import logo from "../../Assets/Images/girl-making-notes.png";
 import "./ContactUs.css";
@@ -6,26 +13,22 @@ import "./ContactUs.css";
 function ContactUs() {
   return (
     <>
-      <header id="header" class="header">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-xl-5">
-              <div class="text-container">
-                <h1 class="h1-large">Find influencers for your products</h1>
-                <p class="p-large">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                  dignissim, neque ut ultrices sollicitudin
-                </p>
-                <a class="btn-solid-lg" href="#services">
-                  Offered services
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-6 col-xl-7">
-              <div class="image-container">
-                <img class="img-fluid" src={logo} alt="alternative" />
-              </div>
-            </div>
+      <header id="header" className="header">
+        <Container>
+          <div className="col-lg-6 col-xl-6">
+            <h1>Contáctanos</h1>
+            <FormControl>
+              <InputLabel htmlFor="my-input">Email address</InputLabel>
+              <Input id="my-input" aria-describedby="my-helper-text" />
+              <FormHelperText id="my-helper-text">
+                We'll never share your email.
+              </FormHelperText>
+            </FormControl>
+          </div>
+        </Container>
+        <div className="col-lg-6 col-xl-6">
+          <div className="image-container">
+            <img className="img-fluid" src={logo} alt="alternative" />
           </div>
         </div>
       </header>

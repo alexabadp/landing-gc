@@ -1,13 +1,27 @@
+@media (min-width: 1200px) {
+  .container {
+    width: 100%;
+    max-width: none;
+    padding: 0;
+  }
+
+  .row {
+    margin-right: 155px;
+    margin-left: 155px;
+  }
+}
+
 .header-content {
   background-color: rgba(231, 0, 49, 0.85);
   height: 360px;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* margin-left: -144px; */
 }
 
 .header-title {
-  width: 761px;
+  /* width: 761px; */
   height: 62px;
   left: 350px;
   top: 155px;
@@ -73,4 +87,8 @@ ol li::before {
   content: counter(my-awesome-counter) ". ";
   color: #e70031;
   font-weight: bold;
+}
+
+.last-parragraph {
+  margin-bottom: 40px;
 }

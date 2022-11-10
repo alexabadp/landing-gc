@@ -1,21 +1,7 @@
-.contactus-container {
-  background-color: #f8faff;
-  width: 100%;
-  height: 796px;
+.image-container {
+  position: absolute;
+  right: 0px;
 }
-
-.contactus-form {
-  border-color: red;
-  border-style: double;
-  width: 50%;
-  height: 796px;
-  float: left;
-}
-
-.contactus-image {
-  border-color: green;
-  border-style: double;
-  width: 50%;
-  height: 796px;
-  float: left;
+.Container {
+  background-color: red;
 }
