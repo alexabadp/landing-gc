@@ -1,12 +1,25 @@
+import { BsChevronDown } from "react-icons/bs";
+import { FaAngleDown } from "react-icons/fa";
 import { withRouter } from "react-router-dom";
 import "./PoliticaProteccion.css";
 
 function PoliticaProteccion() {
   return (
     <>
-      <div className="container">
+      <div className="container container-politica">
         <div className="header-content col-lg-12">
-          <h1 className="header-title">Protección de Datos Personales</h1>
+          <div className="header-politica">
+            <h1 className="header-title">Protección de Datos Personales</h1>
+            <h4>Conoce nuestros Términos y Condiciones</h4>
+            <BsChevronDown
+              style={{
+                color: "#FFFFFF",
+                fontSize: "1.5em",
+                marginTop: "40px",
+                strokeWidth: "2",
+              }}
+            />
+          </div>
         </div>
 
         <div className="row">
@@ -14,7 +27,6 @@ function PoliticaProteccion() {
             <h1 className="body-title">
               Política de protección de datos de GrupoCiencias
             </h1>
-
             <p>
               La presente Política de Protección de Datos Personales Trilce,
               describe el tratamiento que nuestra institución (en adelante

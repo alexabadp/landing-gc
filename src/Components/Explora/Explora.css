@@ -3,11 +3,12 @@
   height: 821px;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
+.container-explora {
+  display: flex !important;
+  justify-content: center !important;
 }
-.centered {
+
+.header-explora {
   display: table-cell;
   width: 1440px;
   text-align: center;

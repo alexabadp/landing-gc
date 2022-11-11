@@ -9,9 +9,9 @@ import "./Explora.css";
 function Explora() {
   return (
     <>
-      <div className="container">
+      <div className="container container-explora">
         <div className="explora">
-          <div className="centered">
+          <div className="header-explora">
             <h1 className="explora-title">Explora</h1>
             <h4>Conoce todos nuestros ciclos disponibles</h4>
           </div>
