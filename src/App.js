@@ -7,6 +7,8 @@ import ContactUs from "./Components/ContactUs/ContactUs";
 import Footer from "./Layouts/Footer/Footer";
 import LibroReclamaciones from "./Components/LibroReclamaciones/LibroReclamaciones";
 import PoliticaProteccion from "./Components/PoliticaProteccion/PoliticaProteccion";
+import Sedes from "./Components/Sedes/Sedes";
+import Explora from "./Components/Explora/Explora";
 
 const LandingPage = () => {
   return (
@@ -14,6 +16,8 @@ const LandingPage = () => {
       <Route exact path="/" component={ContactUs} />
       <Route exact path="/libroreclamaciones" component={LibroReclamaciones} />
       <Route exact path="/politicaproteccion" component={PoliticaProteccion} />
+      <Route exact path="/sedes" component={Sedes} />
+      <Route exact path="/explora" component={Explora} />
     </Switch>
   );
 };
@@ -21,14 +25,10 @@ const LandingPage = () => {
 function App() {
   return (
     <>
-      {" "}
       <Header />
       <LandingPage />
       <Footer />
     </>
-    // <div className="c-content">
-
-    // </div>
   );
 }
 

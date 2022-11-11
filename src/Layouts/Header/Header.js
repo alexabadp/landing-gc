@@ -29,14 +29,14 @@ function Header() {
         <Nav className="justify-content-end" style={{ width: "100%" }}>
           <Nav.Link href="#link">Inicio</Nav.Link>
           <Nav.Link
-            href="#home"
+            href="/explora"
             style={{ color: "#e70031", fontWeight: "bold" }}
           >
             Explora
           </Nav.Link>
           <Nav.Link href="#link">Biblioteca</Nav.Link>
           <Nav.Link href="#link">Contactanos</Nav.Link>
-          <Nav.Link href="#link">Aula Virtual</Nav.Link>
+          <Nav.Link href="/sedes">Sedes</Nav.Link>
           <div
             className="intranet-button"
             onClick={() =>

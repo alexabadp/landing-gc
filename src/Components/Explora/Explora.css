@@ -1,0 +1,76 @@
+.explora {
+  background-color: rgba(231, 0, 49, 0.85);
+  height: 821px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.centered {
+  display: table-cell;
+  width: 1440px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 239px;
+}
+
+.explora-title {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 62px;
+  color: white;
+}
+
+.explora-images {
+  position: absolute;
+  top: 556px;
+  display: table;
+  margin: 0 auto;
+}
+
+.verano-image {
+  display: inline-block;
+  width: 158.7px;
+  height: 136.73px;
+  margin-right: 60px;
+  /* left: 399.3px;
+  top: 555.57px; */
+}
+
+.semestral-image {
+  display: inline-block;
+  width: 158.7px;
+  height: 136.73px;
+  margin-right: 60px;
+  /* left: 636.67px;
+  top: 557.74px; */
+}
+
+.repaso-image {
+  display: inline-block;
+  width: 158.7px;
+  height: 136.73px;
+  margin-right: 60px;
+  /* left: 882.45px;
+  top: 556.93px; */
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+  margin-top: 15px;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: white;
+  text-align: center;
+}
