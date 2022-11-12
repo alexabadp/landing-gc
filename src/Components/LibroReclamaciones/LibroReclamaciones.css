@@ -1,3 +1,29 @@
+@media (min-width: 480px) and (max-width: 1440px) {
+  .container-claim {
+    width: 100%;
+    max-width: none;
+    padding: 0;
+  }
+
+  .container-claim .row {
+    margin-right: 155px;
+    margin-left: 155px;
+  }
+}
+
+@media (min-width: 1441px) {
+  .container-claim {
+    width: 1440px;
+    max-width: none;
+    padding: 0;
+  }
+
+  .container-claim .row {
+    margin-right: 155px;
+    margin-left: 155px;
+  }
+}
+
 .claim-subtitle {
   font-style: normal;
   font-weight: 800;
@@ -25,6 +51,14 @@ span.circle {
 
 .claims {
   background-color: white;
+}
+
+.header-claim {
+  display: table-cell;
+  width: 1440px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 60px;
 }
 
 .form-claim {
@@ -55,4 +89,53 @@ span.circle {
   width: 75%;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.cia-info {
+  margin-top: 66px;
+  margin-bottom: 62px;
+}
+
+.block-one {
+  width: 50%;
+  float: left;
+  text-align: left;
+}
+
+.block-two {
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+
+.block-title {
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+}
+.block-ruc {
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  margin-left: 0px;
+}
+
+.block-claim {
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 18px;
+}
+
+.block-date {
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
 }

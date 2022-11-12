@@ -1,7 +1,11 @@
 .image-container {
-  position: absolute;
   right: 0px;
 }
 .Container {
   background-color: red;
+}
+
+.contact-button {
+  width: 187px;
+  height: 60px;
 }

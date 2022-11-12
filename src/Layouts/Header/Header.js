@@ -27,15 +27,15 @@ function Header() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="justify-content-end" style={{ width: "100%" }}>
-          <Nav.Link href="#link">Inicio</Nav.Link>
+          <Nav.Link href="/">Inicio</Nav.Link>
           <Nav.Link
             href="/explora"
             style={{ color: "#e70031", fontWeight: "bold" }}
           >
             Explora
           </Nav.Link>
-          <Nav.Link href="#link">Biblioteca</Nav.Link>
-          <Nav.Link href="#link">Contactanos</Nav.Link>
+          <Nav.Link href="/libroreclamaciones">Biblioteca</Nav.Link>
+          <Nav.Link href="/politicaproteccion">Contactanos</Nav.Link>
           <Nav.Link href="/sedes">Sedes</Nav.Link>
           <div
             className="intranet-button"
