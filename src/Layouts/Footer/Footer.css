@@ -1,3 +1,34 @@
+@media (min-width: 280px) and (max-width: 540px) {
+  .copy {
+    text-align: center !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 15px !important;
+  }
+
+  .claim {
+    text-align: center !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+  }
+
+  .c-footer {
+    overflow-y: hidden;
+    height: 660px !important;
+  }
+}
+
+@media (min-width: 541px) and (max-width: 1440px) {
+  .c-footer .row {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}
+
+@media (min-width: 1440px) {
+}
+
 .footer {
   color: white;
   background-color: #2d2a26;
@@ -9,13 +40,48 @@
   overflow-x: hidden;
 }
 
-h4 {
-  font-size: 20px;
+.c-footer h4 {
+  font-family: "Marlin Geo";
+  font-style: normal;
   font-weight: 700;
+  font-size: 20px;
   line-height: 26px;
-  letter-spacing: 0em;
   text-align: left;
-  padding-bottom: 30px;
+}
+
+.icons li {
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.uni-list li {
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  margin-top: 26px;
+}
+
+.library li {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.count li {
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
 }
 
 li {
@@ -23,6 +89,25 @@ li {
   font-weight: 700;
   line-height: 23px;
   letter-spacing: 0em;
-
   padding-bottom: 30px;
+}
+
+.copy {
+  text-align: left;
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+  margin-top: 100px;
+}
+
+.claim {
+  text-align: right;
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+  margin-top: 100px;
 }

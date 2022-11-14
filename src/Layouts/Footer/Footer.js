@@ -2,6 +2,7 @@ import "./Footer.css";
 import logo from "../../Assets/Images/footer-logo.png";
 import { Image } from "react-bootstrap";
 import {
+  FaBookOpen,
   FaFacebook,
   FaInstagram,
   FaTelegramPlane,
@@ -12,7 +13,7 @@ import {
 import { AiFillMail, AiFillPhone } from "react-icons/ai";
 
 function Footer() {
-  const style = { fontSize: "1em", marginRight: "20px" };
+  const style = { fontSize: "0.5em", marginRight: "20px" };
   return (
     <footer className="c-footer footer clearfix">
       <div className="float-xs-left footer-content">
@@ -25,27 +26,27 @@ function Footer() {
                 marginLeft: "15px",
               }}
             />
-            <h1 className="list-unstyled">
+            <h1 className="icons list-unstyled">
               <li>Nuestras redes socials:</li>
               <FaWhatsapp style={style} />
               <FaYoutube style={style} />
               <FaInstagram style={style} />
-              <FaFacebook style={style} color="#E70031" size={"1.5em"} />
-              <FaTiktok />
+              <FaFacebook style={style} color="#E70031" size={"2.5em"} />
+              <FaTiktok style={style} />
             </h1>
           </div>
-          {/* Column2 */}
+
           <div className="col">
             <h4>Universidades</h4>
-            <ul className="list-unstyled">
+            <ul className="uni-list list-unstyled">
               <li>Universidad Nacional de Ingeniería (UNI)</li>
               <li>Universidad Nacional Mayor de San Marcos (UNMSM)</li>
             </ul>
           </div>
-          {/* Column3 */}
+
           <div className="col">
             <h4>Biblioteca</h4>
-            <ul className="list-unstyled">
+            <ul className="library list-unstyled">
               <li>Videoclase</li>
               <li>Materiales</li>
               <li>
@@ -60,10 +61,10 @@ function Footer() {
               </li>
             </ul>
           </div>
-          {/* Column4 */}
+
           <div className="col">
             <h4>Cuenta con nosotros</h4>
-            <ul className="list-unstyled">
+            <ul className="count list-unstyled">
               <li>Contáctanos</li>
               <li>
                 <AiFillMail style={{ marginRight: "10px" }} />
@@ -80,7 +81,20 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <hr />
+
+        <div className="row">
+          <div className="copy col-xl-6 col-sx-12 ">
+            Copyright © 2022. EXAFRAME S.A ® Marca registrada.
+          </div>
+          <div className="claim col-xl-6 col-sx-12">
+            <FaBookOpen
+              color="white"
+              size={"1.5em"}
+              style={{ marginRight: "20px" }}
+            />
+            Libro de reclamos
+          </div>
+        </div>
       </div>
     </footer>
   );

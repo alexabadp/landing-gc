@@ -4,21 +4,32 @@ import { withRouter } from "react-router-dom";
 import "./PoliticaProteccion.css";
 
 function PoliticaProteccion() {
+  const style = {
+    color: "#FFFFFF",
+    fontSize: "1.5em",
+    marginTop: "40px",
+    strokeWidth: "2",
+  };
   return (
     <>
       <div className="container container-politica">
         <div className="header-content col-lg-12">
           <div className="header-politica">
-            <h1 className="header-title">Protección de Datos Personales</h1>
-            <h4>Conoce nuestros Términos y Condiciones</h4>
-            <BsChevronDown
-              style={{
-                color: "#FFFFFF",
-                fontSize: "1.5em",
-                marginTop: "40px",
-                strokeWidth: "2",
-              }}
-            />
+            <div className="row">
+              <div className="col-12 col-xl-12">
+                <h1 className="header-title">Protección de Datos Personales</h1>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-12 col-xs-12">
+                <h4 className="header-subtitle">
+                  Conoce nuestros Términos y Condiciones
+                </h4>
+              </div>
+            </div>
+            <div className="row">
+              <BsChevronDown style={style} />
+            </div>
           </div>
         </div>
 
