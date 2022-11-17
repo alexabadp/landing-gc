@@ -1,11 +1,47 @@
-.image-container {
-  right: 0px;
-}
-.Container {
-  background-color: red;
+@media (min-width: 280px) and (max-width: 540px) {
+  .image-container {
+    display: none;
+  }
+  h1 {
+    margin-left: 0px !important;
+  }
+
+  .contact-button {
+    margin-bottom: 30px;
+    margin-left: 65px;
+  }
 }
 
-.contact-button {
-  width: 187px;
-  height: 60px;
+@media (min-width: 541px) and (max-width: 1439px) {
+  .container-contact {
+    width: 100%;
+    max-width: none;
+    padding: 0;
+    padding-right: 5px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container-contact {
+    width: 100%;
+    max-width: none;
+    padding: 0;
+  }
+
+  .container-contact .row {
+    margin-right: 0px;
+    margin-left: 50px;
+  }
+}
+
+.container-contact {
+  background-color: #f9faff;
+}
+
+h1 {
+  margin-left: 55px;
+}
+
+.image-container {
+  text-align: end;
 }

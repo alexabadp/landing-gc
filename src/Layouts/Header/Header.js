@@ -1,7 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useContext } from "react";
 import { Container, Image, Nav, Navbar, Row } from "react-bootstrap";
 import { Binoculars, Display } from "react-bootstrap-icons";
+import { HeaderContext } from "../../App";
 import logo from "../../Assets/Images/logo-small.png";
+import { SECOND_HEADER } from "../../Components/Shared/Constants";
 import "./Header.css";
 
 function Header() {
@@ -34,8 +37,8 @@ function Header() {
           >
             Explora
           </Nav.Link>
-          <Nav.Link href="/libroreclamaciones">Biblioteca</Nav.Link>
-          <Nav.Link href="/politicaproteccion">Contactanos</Nav.Link>
+          <Nav.Link href="/biblioteca">Biblioteca</Nav.Link>
+          <Nav.Link href="/contactus">Contactanos</Nav.Link>
           <Nav.Link href="/sedes">Sedes</Nav.Link>
           <div
             className="intranet-button"

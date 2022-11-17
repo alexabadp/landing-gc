@@ -5,7 +5,6 @@ import "./ContactForm.css";
 function ContactForm() {
   return (
     <>
-      <h1 className="form-title">Contáctanos</h1>
       <Form>
         <Form.Group className="mb-3">
           <Row className="g-2">

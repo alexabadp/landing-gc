@@ -9,25 +9,41 @@ import LibroReclamaciones from "./Components/LibroReclamaciones/LibroReclamacion
 import PoliticaProteccion from "./Components/PoliticaProteccion/PoliticaProteccion";
 import Sedes from "./Components/Sedes/Sedes";
 import Explora from "./Components/Explora/Explora";
+import { createContext } from "react";
+import PageContainer from "../src/Layouts/PageContainer/Page";
+import bilblioteca from "./Components/Biblioteca/bilblioteca";
+import LandingCiclo from "./Components/LandingCiclo/LandingCiclo";
 
 const LandingPage = () => {
   return (
-    <Switch>
-      <Route exact path="/" component={ContactUs} />
-      <Route exact path="/libroreclamaciones" component={LibroReclamaciones} />
-      <Route exact path="/politicaproteccion" component={PoliticaProteccion} />
-      <Route exact path="/sedes" component={Sedes} />
-      <Route exact path="/explora" component={Explora} />
-    </Switch>
+    <PageContainer>
+      <Switch>
+        <Route exact path="/" component={LandingCiclo} />
+        <Route
+          exact
+          path="/libroreclamaciones"
+          component={LibroReclamaciones}
+        />
+        <Route
+          exact
+          path="/politicaproteccion"
+          component={PoliticaProteccion}
+        />
+        <Route exact path="/biblioteca" component={bilblioteca} />
+        <Route exact path="/sedes" component={Sedes} />
+        <Route exact path="/explora" component={Explora} />
+        <Route exact path="/contactus" component={ContactUs} />
+      </Switch>
+    </PageContainer>
   );
 };
+
+export const HeaderContext = createContext();
 
 function App() {
   return (
     <>
-      <Header />
       <LandingPage />
-      <Footer />
     </>
   );
 }

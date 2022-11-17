@@ -13,9 +13,17 @@
     line-height: 19px !important;
   }
 
-  .c-footer {
+  .footer-max {
+    display: none !important;
     overflow-y: hidden;
     height: 660px !important;
+  }
+  .footer-min {
+    display: block !important;
+  }
+
+  .footer-min .row {
+    margin-top: 0px !important;
   }
 }
 
@@ -24,9 +32,26 @@
     margin-right: 15px;
     margin-left: 15px;
   }
+  .footer-max {
+    display: block !important;
+  }
+  .footer-min {
+    display: none !important;
+  }
 }
 
 @media (min-width: 1440px) {
+  .footer-max {
+    display: block !important;
+  }
+  .footer-min {
+    display: none !important;
+  }
+
+  .footer-content {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 }
 
 .footer {
@@ -49,6 +74,10 @@
   text-align: left;
 }
 
+.icons {
+  margin-left: 0px;
+}
+
 .icons li {
   font-family: "Marlin Geo";
   font-style: normal;
@@ -57,6 +86,7 @@
   line-height: 18px;
   margin-top: 20px;
   margin-bottom: 0px;
+  margin-left: 0px;
 }
 
 .uni-list li {
@@ -74,6 +104,10 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 18px;
+}
+
+.library h4 {
+  margin-bottom: 30px;
 }
 
 .count li {
@@ -110,4 +144,39 @@ li {
   font-size: 15px;
   line-height: 19px;
   margin-top: 100px;
+}
+
+.footer-min {
+  padding-top: 5px;
+}
+
+.footer-min li {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  padding-bottom: 8px;
+  padding-left: 15px;
+}
+
+.min-icon {
+  margin-top: 25px;
+  justify-content: center;
+  display: flex;
+}
+
+.min-icon h4 {
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+}
+
+.min-icon h5 {
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
 }

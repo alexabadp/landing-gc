@@ -29,15 +29,27 @@
     line-height: 21px !important;
   }
 
-  p {
+  .container-politica p {
     font-weight: 400 !important;
     font-size: 15px !important;
     line-height: 24px !important;
   }
 
-  .row {
+  ol li {
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 24px !important;
+  }
+
+  .container-politica .row {
     margin-right: 2px !important;
     margin-left: 2px !important;
+  }
+
+  .header-politica .img,
+  svg {
+    margin-left: 0px !important;
+    stroke-width: "1px" !important;
   }
 }
 
@@ -62,7 +74,7 @@
     margin-bottom: 0px !important;
   }
 
-  .row {
+  .container-politica .row {
     margin-right: 8px !important;
     margin-left: 8px !important;
   }
@@ -74,14 +86,25 @@
 
 @media (min-width: 1440px) {
   .container-politica {
-    width: 1440px;
+    width: 100%;
     max-width: none;
     padding: 0;
   }
 
-  .row {
+  .container-politica .row {
     margin-right: 155px;
     margin-left: 155px;
+  }
+
+  .content-subtitle {
+    font-family: "Marlin Geo";
+    color: #2d2a26;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 31px;
+    margin-top: 40px;
+    margin-left: 0px;
   }
 }
 
@@ -133,7 +156,7 @@
   margin-bottom: 48px;
 }
 
-p {
+.container-politica p {
   font-family: "Marlin Geo";
   font-style: normal;
   font-weight: 400;

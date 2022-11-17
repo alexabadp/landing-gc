@@ -8,7 +8,7 @@ function PoliticaProteccion() {
     color: "#FFFFFF",
     fontSize: "1.5em",
     marginTop: "40px",
-    strokeWidth: "2",
+    strokeWidth: "2px",
   };
   return (
     <>
