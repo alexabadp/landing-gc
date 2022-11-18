@@ -21,9 +21,11 @@ function LandingCiclo() {
               <p>
                 La mejor experiencia de aprendizaje en el mejor ambiente digital
               </p>
-              <Button variant="danger" className="enroll">
-                Matricúlate ahora
-              </Button>
+              <div className="enroll-div">
+                <Button variant="danger" className="enroll">
+                  Matricúlate ahora
+                </Button>
+              </div>
             </div>
             <div className="col-lg-8 image-container">
               <div className="row">
@@ -56,30 +58,36 @@ function LandingCiclo() {
               <div className="about">Acerca del ciclo</div>
               <div className="ciclo-detail">
                 <div className="row">
-                  <div className="col-lg-5 subtitle">Fecha de inicio:</div>
-                  <div className="col-lg-7 values">5 de enero del 2023</div>
+                  <div className="col-lg-5 col-xl-12 subtitle">
+                    Fecha de inicio:
+                  </div>
+                  <div className="col-lg-7 col-xl-12 values">
+                    5 de enero del 2023
+                  </div>
                 </div>
                 <div className="row">
-                  <div className="col-lg-5 subtitle">Fecha fin:</div>
-                  <div className="col-lg-7 values">
+                  <div className="col-lg-5 col-xl-12 subtitle">Fecha fin:</div>
+                  <div className="col-lg-7 col-xl-12 values">
                     11 de mayo del 2023 (10 meses)
                   </div>
                 </div>
                 <div className="row">
-                  <div className="col-lg-5 subtitle">Horarios: </div>
-                  <div className="col-lg-7 values">
+                  <div className="col-lg-5 col-xl-12 subtitle">Horarios: </div>
+                  <div className="col-lg-7 col-xl-12 values">
                     Martes y jueves de 19:00 a 21:00 hrs (LIM-CDMX-BOG). 64
                     horas de aprendizaje.
                   </div>
                 </div>
               </div>
-              <div className="resume">Resumen</div>
-              <p>
-                Ciclo introductorio para chicos que inician su preparación o que
-                están terminando la secundaria, pero tienen el objetivo de
-                ingresar a la Universidad Nacional de Ingeniería, conocerán el
-                sistema UNI desde cero y con los temas base de cada curso.
-              </p>
+              <div className="row resume-info">
+                <div className="resume">Resumen</div>
+                <p>
+                  Ciclo introductorio para chicos que inician su preparación o
+                  que están terminando la secundaria, pero tienen el objetivo de
+                  ingresar a la Universidad Nacional de Ingeniería, conocerán el
+                  sistema UNI desde cero y con los temas base de cada curso.
+                </p>
+              </div>
             </div>
             <div className="col-lg-5 info">
               <div className="duration-detail">
@@ -176,7 +184,7 @@ function LandingCiclo() {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-7">
+            <div className="col-lg-7 notebook-div">
               <Image
                 src={notebook}
                 className="navbar-logo"
@@ -192,13 +200,13 @@ function LandingCiclo() {
                 universidades:
               </div>
               <div className="row">
-                <div className="col-lg-4">
+                <div className="col-lg-4 uni1">
                   <Image src={university} className="navbar-logo" style={{}} />
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-4 uni2">
                   <Image src={university} className="navbar-logo" style={{}} />
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-4 uni3">
                   <Image src={university} className="navbar-logo" style={{}} />
                 </div>
               </div>
