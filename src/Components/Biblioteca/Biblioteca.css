@@ -1,0 +1,49 @@
+.container-biblioteca {
+  background-color: #262626;
+  padding-bottom: 107px;
+}
+
+.title-biblioteca {
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #e70031;
+  margin-top: 112px;
+  margin-bottom: 15px;
+}
+
+.subtitle-biblioteca {
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 41px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 10px;
+}
+
+.detail-biblioteca {
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 120px;
+}
+
+.back-courses {
+  margin-top: 64px;
+  text-align: center;
+}
+
+.back-courses button {
+  width: 224px;
+  background-color: #4e4e4e !important;
+  border-radius: 0px;
+}

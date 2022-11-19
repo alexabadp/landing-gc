@@ -11,7 +11,7 @@ import Sedes from "./Components/Sedes/Sedes";
 import Explora from "./Components/Explora/Explora";
 import { createContext } from "react";
 import PageContainer from "../src/Layouts/PageContainer/Page";
-import bilblioteca from "./Components/Biblioteca/bilblioteca";
+import bilblioteca from "./Components/Biblioteca/Bilblioteca";
 import LandingCiclo from "./Components/LandingCiclo/LandingCiclo";
 
 const LandingPage = () => {
