@@ -9,10 +9,10 @@ function SedeInfo() {
       <div className="row sede-card">
         <div className="sede">Grupo Ciencias - Comas</div>
         <div className="row">
-          <div className="col-lg-10 sede-content">
+          <div className="col-lg-10 col-10 sede-content">
             Av. Universitaria 6403, Comas 15314
           </div>
-          <div className="col-lg-1 icon-tag">
+          <div className="col-lg-1 col-1 icon-tag">
             <FaCopy
               style={{
                 marginLeft: "10px",
@@ -23,7 +23,7 @@ function SedeInfo() {
             />
           </div>
 
-          <div className="col-lg-1 copy-tag">copiar</div>
+          <div className="col-lg-1 col-1 copy-tag">copiar</div>
         </div>
         <div className="sede-content">Tel: 01 655 9088</div>
         <div className="sede-content">Whatsapp: 966381384</div>

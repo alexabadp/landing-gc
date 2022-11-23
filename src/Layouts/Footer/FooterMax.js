@@ -83,10 +83,10 @@ function FooterMax() {
         </div>
 
         <div className="row">
-          <div className="copy col-xl-7">
+          <div className="copy col-lg-6">
             Copyright © 2022. EXAFRAME S.A ® Marca registrada.
           </div>
-          <div className="claim col-xl-2">
+          <div className="claim col-lg-3 claim-book">
             <FaBookOpen
               color="white"
               size={"1.5em"}
@@ -94,7 +94,7 @@ function FooterMax() {
             />
             <a href="/libroreclamaciones">Libro de reclamos</a>
           </div>
-          <div className="claim col-xl-3">
+          <div className="claim col-lg-3 data-protect">
             <a href="/politicaproteccion">Proteccion de Datos Personales</a>
           </div>
         </div>

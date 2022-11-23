@@ -1,0 +1,130 @@
+.container-shome {
+  width: 100%;
+  max-width: none;
+  padding: 0;
+}
+
+.main-shome-fblock {
+  display: flex;
+  justify-content: center;
+  background-color: #d8f0f8;
+  width: 100%;
+  height: 804px;
+}
+
+.access-suniversity {
+  margin-top: 60px;
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.main-shome-fblock p {
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.shome-fblock-button {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.swho-we-are {
+  margin-top: 75px;
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 26px;
+  color: #2d2a26;
+  text-align: center;
+}
+
+.main-shome-sblock p {
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.shome-sblock-video {
+  margin-top: 25px;
+  width: 358px;
+  height: 224px;
+  margin-bottom: 50px;
+}
+
+.main-shome-tblock {
+  background: rgba(231, 0, 49, 0.08);
+  height: 489px;
+}
+
+.shome-tblock-image {
+  margin-left: 0px;
+}
+
+.shome-tblock-title {
+  margin-top: 20px;
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  color: #2d2a26;
+}
+
+.main-shome-tblock {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(45, 42, 38, 0.75);
+}
+
+.shome-tblock-button {
+  margin-top: 60px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.main-shome-foblock {
+  background-color: white;
+  height: 820px;
+}
+
+.shome-foblock-title {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 31px;
+  color: #2d2a26;
+  text-align: center;
+}
+
+.shome-fiblock-title {
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  color: #2d2a26;
+  text-align: center;
+}

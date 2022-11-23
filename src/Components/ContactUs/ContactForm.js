@@ -10,7 +10,7 @@ function ContactForm() {
           <Row className="g-2">
             <Form.Label>Universidad que deseas postular</Form.Label>
             <Col sm="12">
-              <Form.Select aria-label="Default select example">
+              <Form.Select aria-label="Default select example" size="lg">
                 <option value="1">Universidad1</option>
                 <option value="2">Universidad2</option>
                 <option value="3">Universidad3</option>
@@ -23,7 +23,7 @@ function ContactForm() {
           <Row className="g-2">
             <Form.Label>Elije el ciclo que te interesa</Form.Label>
             <Col sm="12">
-              <Form.Select aria-label="Default select example">
+              <Form.Select aria-label="Default select example" size="lg">
                 <option value="1">Ciclo1</option>
                 <option value="2">Ciclo2</option>
                 <option value="3">Ciclo3</option>
@@ -36,11 +36,11 @@ function ContactForm() {
           <Row className="g-2">
             <Col sm="7">
               <Form.Label>Nombres y apellidos</Form.Label>
-              <Form.Control type="name" />
+              <Form.Control type="name" size="lg" />
             </Col>
             <Col sm="5">
               <Form.Label>DNI</Form.Label>
-              <Form.Control type="lastName" />
+              <Form.Control type="lastName" size="lg" />
             </Col>
           </Row>
         </Form.Group>
@@ -49,11 +49,11 @@ function ContactForm() {
           <Row className="g-2">
             <Col sm="7">
               <Form.Label>Correo electrónico</Form.Label>
-              <Form.Control type="name" />
+              <Form.Control type="name" size="lg" />
             </Col>
             <Col sm="5">
               <Form.Label>Celular</Form.Label>
-              <Form.Control type="lastName" />
+              <Form.Control type="lastName" size="lg" />
             </Col>
           </Row>
         </Form.Group>

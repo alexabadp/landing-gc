@@ -181,3 +181,7 @@ li {
   font-size: 12px;
   line-height: 15px;
 }
+
+.data-protect {
+  text-align: right;
+}

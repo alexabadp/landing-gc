@@ -37,6 +37,46 @@
     text-align: center !important;
   }
 
+  .ciclo-detail .subtitle {
+    font-family: "Marlin Geo" !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    line-height: 19px !important;
+    color: #2d2a26 !important;
+  }
+
+  .ciclo-detail .values {
+    font-family: "Marlin Geo" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 36px !important;
+    color: #2d2a26 !important;
+  }
+
+  .duration {
+    margin-left: 5px !important;
+  }
+
+  .duration-detail .subtitle {
+    font-family: "Marlin Geo" !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 21px !important;
+    color: #2d2a26 !important;
+  }
+
+  .duration-detail .value {
+    font-family: "Marlin Geo" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 21px !important;
+    color: #2d2a26 !important;
+  }
+
   .ciclo-detail {
     text-align: left;
     margin-left: 15px;
@@ -63,6 +103,12 @@
 
   .resume-info p {
     text-align: justify !important;
+    font-family: "Marlin Geo" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 24px !important;
+    color: #2d2a26 !important;
   }
 
   .title-enjoy {
@@ -72,9 +118,32 @@
   }
 
   .subtitle-enjoy {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 28px !important;
+    width: 358px !important;
+  }
+
+  .list-enjoy li {
+    font-family: "Marlin Geo" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 20px !important;
+  }
+
+  .title-university {
+    font-family: "Marlin Geo" !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 21px !important;
+    text-align: center !important;
+    color: #2d2a26 !important;
+  }
+
+  .uni2 {
+    margin-top: 30px;
   }
 }
 

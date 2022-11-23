@@ -8,25 +8,20 @@
   .container-claim .row {
     padding-right: 0px !important;
     padding-left: 0px !important;
+    width: 100%;
   }
 
   .claim-process p {
     width: 260px !important;
-    float: left !important;
     text-align: center !important;
     justify-content: center !important;
     text-align: justify !important;
-    margin-left: 65px !important;
+    margin-left: 35px;
   }
 
   .claim-process .img,
   svg {
     display: none !important;
-  }
-
-  .claim-process .options {
-    align-items: center;
-    margin-left: 75px;
   }
 
   .cancel {
@@ -36,6 +31,34 @@
   .cia-info {
     margin-left: 5px;
     margin-right: 5px;
+  }
+
+  .process-info {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .claim-process {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .options .cancel {
+    margin-left: 0px;
+  }
+
+  .claim-subtitle {
+    margin-left: 0px !important;
+    font-weight: 800;
+    font-size: 16px !important;
+    line-height: 15px;
   }
 }
 
@@ -60,20 +83,38 @@
   }
 
   .container-claim .row {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .header-one {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .claim-process {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
   }
 }
 
+.cursor {
+  cursor: pointer;
+}
+
 .claim-subtitle {
+  font-family: "Marlin Geo";
   font-style: normal;
   font-weight: 800;
   font-size: 24px;
   line-height: 31px;
   color: #2d2a26;
-  margin-top: 20px;
+  margin-top: 80px;
   margin-bottom: 20px;
-  margin-left: 15px;
+  margin-left: 50px;
 }
 
 span.circle {
@@ -129,13 +170,14 @@ span.circle {
 
 .content-claim {
   width: 80%;
-  margin-top: 40px;
   margin-bottom: 40px;
+  padding-top: 0px;
 }
 
 .cia-info {
   margin-top: 66px;
   margin-bottom: 62px;
+  width: 1440px;
 }
 
 .block-one {
@@ -186,22 +228,40 @@ span.circle {
 }
 
 .claim-process p {
-  width: 507px;
   float: left;
   text-align: left;
 }
 
 .claim-process .options {
   margin-top: 20px;
-  text-align: left;
+  text-align: right;
+}
+
+.process-info {
+  margin-top: 54px;
+  margin-bottom: 30px;
+  width: 1440px;
 }
 
 .save {
   width: 227px;
   height: 60px;
+  margin-left: 40px;
 }
 
 .cancel {
   width: 82px;
   height: 40px;
+}
+
+.Form.Check.Label {
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.form-check-input.is-valid:checked {
+  background-color: black !important;
 }

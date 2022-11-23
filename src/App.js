@@ -13,12 +13,13 @@ import { createContext } from "react";
 import PageContainer from "../src/Layouts/PageContainer/Page";
 import bilblioteca from "./Components/Biblioteca/Bilblioteca";
 import LandingCiclo from "./Components/LandingCiclo/LandingCiclo";
+import Home from "./Components/Home/Home";
 
 const LandingPage = () => {
   return (
     <PageContainer>
       <Switch>
-        <Route exact path="/" component={LandingCiclo} />
+        <Route exact path="/" component={Home} />
         <Route
           exact
           path="/libroreclamaciones"
@@ -31,7 +32,7 @@ const LandingPage = () => {
         />
         <Route exact path="/biblioteca" component={bilblioteca} />
         <Route exact path="/sedes" component={Sedes} />
-        <Route exact path="/explora" component={Explora} />
+        <Route exact path="/explora" component={LandingCiclo} />
         <Route exact path="/contactus" component={ContactUs} />
       </Switch>
     </PageContainer>

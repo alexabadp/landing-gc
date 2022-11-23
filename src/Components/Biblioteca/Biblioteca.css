@@ -1,6 +1,18 @@
+@media (min-width: 280px) and (max-width: 540px) {
+}
+@media (min-width: 541px) and (max-width: 1439px) {
+}
+@media (min-width: 1440px) {
+  .container-biblioteca {
+    background-color: #262626;
+    padding-bottom: 107px;
+    width: 100%;
+  }
+}
 .container-biblioteca {
   background-color: #262626;
   padding-bottom: 107px;
+  width: 100%;
 }
 
 .title-biblioteca {

@@ -92,7 +92,7 @@ function LandingCiclo() {
             <div className="col-lg-5 info">
               <div className="duration-detail">
                 <div className="row duration">
-                  <div className="col-lg-8 subtitle">
+                  <div className="col-lg-8 col-7 subtitle">
                     <BsFillStopwatchFill
                       style={{
                         marginRight: "10px",
@@ -101,10 +101,10 @@ function LandingCiclo() {
                     />
                     Duración :
                   </div>
-                  <div className="col-lg-4 value">10 meses</div>
+                  <div className="col-lg-4 col-5 value">10 meses</div>
                 </div>
                 <div className="row duration">
-                  <div className="col-lg-8 subtitle">
+                  <div className="col-lg-8 col-7 subtitle">
                     <AiFillThunderbolt
                       style={{
                         marginRight: "10px",
@@ -113,7 +113,7 @@ function LandingCiclo() {
                     />
                     Modalidad :
                   </div>
-                  <div className="col-lg-4 value">híbrido</div>
+                  <div className="col-lg-4 col-5 value">híbrido</div>
                 </div>
                 <div className="row duration">
                   <div className="col-lg-12 subtitle">
@@ -199,14 +199,14 @@ function LandingCiclo() {
                 También preparamos a nuestros alumnos para ingresar a estas
                 universidades:
               </div>
-              <div className="row">
-                <div className="col-lg-4 uni1">
+              <div className="row ">
+                <div className="col-lg-4 col-10 uni1">
                   <Image src={university} className="navbar-logo" style={{}} />
                 </div>
-                <div className="col-lg-4 uni2">
+                <div className="col-lg-4 col-10 uni2">
                   <Image src={university} className="navbar-logo" style={{}} />
                 </div>
-                <div className="col-lg-4 uni3">
+                <div className="col-lg-4 col-10 uni3">
                   <Image src={university} className="navbar-logo" style={{}} />
                 </div>
               </div>

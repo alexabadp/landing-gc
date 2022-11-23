@@ -8,11 +8,11 @@ function Sedes() {
   return (
     <>
       <div className="container sede-container">
-        <div className="row">
+        <div className="row sede-row">
           <div className="col-lg-5">
             <div className="sedes-title">Sedes</div>
             <div className="col-lg-6">
-              <Form.Select aria-label="Default select example">
+              <Form.Select aria-label="Default select example" size="lg">
                 <option value="1">Sede 1</option>
                 <option value="2">Sede 2</option>
                 <option value="3">Sede 3</option>

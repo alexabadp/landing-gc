@@ -48,7 +48,7 @@
 
   .header-politica .img,
   svg {
-    margin-left: 0px !important;
+    margin-left: 20px !important;
     stroke-width: "1px" !important;
   }
 }
@@ -92,8 +92,8 @@
   }
 
   .container-politica .row {
-    margin-right: 155px;
-    margin-left: 155px;
+    margin-right: 250px;
+    margin-left: 250px;
   }
 
   .content-subtitle {
@@ -144,6 +144,10 @@
   font-size: 18px;
   line-height: 23px;
   color: white;
+}
+
+.cursor {
+  cursor: pointer;
 }
 
 .body-title {

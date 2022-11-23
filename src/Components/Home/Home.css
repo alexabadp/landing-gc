@@ -1,0 +1,184 @@
+@media (min-width: 280px) and (max-width: 540px) {
+  .container-home {
+    display: none;
+  }
+  .container-shome {
+    display: block;
+  }
+}
+
+@media (min-width: 541px) and (max-width: 1439px) {
+  .container-home {
+    display: block;
+  }
+
+  .container-shome {
+    display: none;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container-home {
+    display: block;
+  }
+
+  .container-shome {
+    display: none;
+  }
+}
+
+.container-home {
+  width: 100%;
+  max-width: none;
+  padding: 0;
+}
+
+.main-home-fblock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d8f0f8;
+  width: 100%;
+}
+
+.home-fblock {
+  height: 712px;
+  width: 1440px;
+}
+
+.home-fblock-title {
+  margin-top: 108px;
+  padding-left: 139px;
+}
+
+.access-university {
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 60px;
+  color: #2d2a26;
+}
+
+.explore-button {
+  background-color: white;
+  color: black;
+  width: 241px;
+  height: 60px;
+  border-radius: 0px;
+}
+
+.main-home-sblock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
+}
+
+.home-sblock {
+  height: 812px;
+  width: 1440px;
+}
+
+.home-sblock-title {
+  padding-top: 113px;
+  padding-left: 280px;
+}
+
+.home-sblock-title p {
+  padding-top: 32px;
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  color: rgba(45, 42, 38, 0.75);
+}
+
+.who-we-are {
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 51px;
+}
+
+.home-sblock-video {
+  margin-top: 80px;
+  width: 434px;
+  height: 253.97px;
+}
+
+.main-home-tblock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(231, 0, 49, 0.08);
+  width: 100%;
+}
+
+.home-tblock {
+  height: 440px;
+  width: 1440px;
+}
+
+.home-tblock-title {
+  padding-top: 80px;
+  width: 493px;
+  padding-left: 130px;
+}
+
+.home-tblock-title p {
+  margin-top: 20px;
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.free-classes {
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.free-button {
+  background-color: white;
+  color: black;
+  width: 241px;
+  height: 60px;
+  border-radius: 0px;
+}
+
+.brain-image {
+  padding-left: 200px;
+  padding-top: 30px;
+}
+
+.main-home-foblock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  width: 100%;
+}
+
+.home-foblock {
+  height: 940px;
+  width: 1440px;
+}
+
+.all-cicles {
+  margin-top: 50px;
+  margin-bottom: 56px;
+  text-align: center;
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 51px;
+}

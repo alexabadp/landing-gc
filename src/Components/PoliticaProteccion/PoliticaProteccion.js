@@ -1,9 +1,16 @@
+import { useRef } from "react";
+import { Cursor } from "react-bootstrap-icons";
 import { BsChevronDown } from "react-icons/bs";
 import { FaAngleDown } from "react-icons/fa";
 import { withRouter } from "react-router-dom";
 import "./PoliticaProteccion.css";
 
 function PoliticaProteccion() {
+  const bottomRef = useRef();
+  const onClick = () => {
+    bottomRef.current.scrollIntoView();
+  };
+
   const style = {
     color: "#FFFFFF",
     fontSize: "1.5em",
@@ -27,8 +34,8 @@ function PoliticaProteccion() {
                 </h4>
               </div>
             </div>
-            <div className="row">
-              <BsChevronDown style={style} />
+            <div className="cursor">
+              <BsChevronDown style={style} onClick={onClick} />
             </div>
           </div>
         </div>
@@ -91,7 +98,10 @@ function PoliticaProteccion() {
                 responsabilidad de Trilce.
               </li>
             </ol>
-            <h1 className="content-subtitle">Medidas de Seguridad</h1>
+            <div ref={bottomRef}>
+              <h1 className="content-subtitle">Medidas de Seguridad</h1>
+            </div>
+
             <p>
               Trilce se compromete a brindar todas las medidas técnicas, legales
               y administrativas necesarias para garantizar la seguridad y

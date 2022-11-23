@@ -1,6 +1,54 @@
+@media (min-width: 280px) and (max-width: 540px) {
+  .sede-card {
+    margin-bottom: 60px;
+  }
+
+  .sede {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .sede-content {
+    font-weight: 400;
+    font-size: 14px !important;
+    line-height: 16px;
+  }
+
+  .copy-tag {
+    font-family: "Marlin Geo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px !important;
+    line-height: 16px;
+  }
+
+  .sede-card .img,
+  svg {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-top: 0px !important;
+    background-color: #e70031 !important;
+    font-size: 2.5rem;
+  }
+
+  .sede-row {
+    width: 358px !important;
+  }
+}
+@media (min-width: 541px) and (max-width: 1440px) {
+}
+@media (min-width: 1440px) {
+}
+
 .sede-container {
   margin-bottom: 20px;
 }
+
+.sede-row {
+  width: 1440px;
+}
+
 .sedes-title {
   font-family: "Marlin Geo";
   font-style: normal;
@@ -66,4 +114,5 @@
 .map-container {
   width: 100%;
   height: 829px;
+  padding: auto;
 }
