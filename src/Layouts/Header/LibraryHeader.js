@@ -64,7 +64,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 }));
 
 const drawerWidth = 240;
-const navItems = ["Videoclases", "Materiales", "Admisiones", "Estadistica"];
+const navItems = ["Videoclases", "Admisiones"];
 
 export default function LibraryHeader() {
   const styleButton = {

@@ -25,3 +25,13 @@ a {
   border: none !important;
   outline: none !important;
 }
+
+#main-header-bar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.dropdown-menu {
+  margin-top: -10px !important;
+}

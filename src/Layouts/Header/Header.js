@@ -1,6 +1,13 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useContext } from "react";
-import { Container, Image, Nav, Navbar, Row } from "react-bootstrap";
+import {
+  Container,
+  Image,
+  Nav,
+  Navbar,
+  NavDropdown,
+  Row,
+} from "react-bootstrap";
 import { Binoculars, Display } from "react-bootstrap-icons";
 import { HeaderContext } from "../../App";
 import logo from "../../Assets/Images/logo-small.png";
@@ -12,6 +19,7 @@ function Header() {
     <Navbar
       bg="light"
       expand="lg"
+      id="main-header-bar"
       style={{
         paddingTop: "0px",
         paddingBottom: "0px",
@@ -31,14 +39,38 @@ function Header() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="justify-content-end" style={{ width: "100%" }}>
           <Nav.Link href="/">Inicio</Nav.Link>
-          <Nav.Link
-            href="/explora"
-            style={{ color: "#e70031", fontWeight: "bold" }}
+          <NavDropdown
+            title={
+              <span style={{ color: "#e70031", fontWeight: "bold" }}>
+                Nuestros Ciclos
+              </span>
+            }
+            id="navbarScrollingDropdown"
           >
-            Explora
-          </Nav.Link>
-          <Nav.Link href="/biblioteca">Biblioteca</Nav.Link>
-          <Nav.Link href="/contactus">Contactanos</Nav.Link>
+            <NavDropdown.Item href="/ciclos/verano-san-marcos">
+              Ciclo Verano San Marcos
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.2">
+              Ciclo Verano UNI
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.3">
+              Ciclo Repaso San Marcos
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.4">
+              Ciclo Repaso UNI
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.4">
+              Ciclo Semestral San Marcos
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.4">
+              Ciclo Semestral UNI
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.4">
+              Ciclo Anual San Marcos
+            </NavDropdown.Item>
+          </NavDropdown>
+          <Nav.Link href="/videoclases">Biblioteca</Nav.Link>
+          <Nav.Link href="/contactus">Contáctanos</Nav.Link>
           <Nav.Link href="/sedes">Sedes</Nav.Link>
           <div
             className="intranet-button"
@@ -49,10 +81,12 @@ function Header() {
               display: "flex",
               alignItems: "center",
               paddingLeft: "70px",
+              width: "210px",
+              textAlign: "center",
             }}
           >
             <Display color="white" size={22} className="align-top" />
-            Intranet para alumnos
+            Intranet
           </div>
         </Nav>
       </Navbar.Collapse>

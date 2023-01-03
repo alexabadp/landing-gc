@@ -192,26 +192,6 @@ function LandingCiclo() {
               />
             </div>
           </div>
-
-          <div className="row fifth-block">
-            <div className="col-lg-12">
-              <div className="title-university">
-                También preparamos a nuestros alumnos para ingresar a estas
-                universidades:
-              </div>
-              <div className="row ">
-                <div className="col-lg-4 col-10 uni1">
-                  <Image src={university} className="navbar-logo" style={{}} />
-                </div>
-                <div className="col-lg-4 col-10 uni2">
-                  <Image src={university} className="navbar-logo" style={{}} />
-                </div>
-                <div className="col-lg-4 col-10 uni3">
-                  <Image src={university} className="navbar-logo" style={{}} />
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </>

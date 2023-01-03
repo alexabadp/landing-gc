@@ -14,6 +14,11 @@ import PageContainer from "../src/Layouts/PageContainer/Page";
 import bilblioteca from "./Components/Biblioteca/Bilblioteca";
 import LandingCiclo from "./Components/LandingCiclo/LandingCiclo";
 import Home from "./Components/Home/Home";
+import Catalogo from "./Components/Catalogo/Catalogo";
+import VideoClases from "./Components/VideoClases/VideoClases";
+import VideoClasesDos from "./Components/VideoClases/VideoClasesDos";
+import VideoClasesTres from "./Components/VideoClases/VideoClasesTres";
+import VeranoSanMarcos from "./Components/Ciclos/Verano San Marcos/VeranoSanmarcos";
 
 const LandingPage = () => {
   return (
@@ -30,10 +35,17 @@ const LandingPage = () => {
           path="/politicaproteccion"
           component={PoliticaProteccion}
         />
-        <Route exact path="/biblioteca" component={bilblioteca} />
+        <Route exact path="/videoclases-dos" component={VideoClasesDos} />
+        <Route exact path="/videoclases-tres" component={VideoClasesTres} />
+        <Route exact path="/videoclases" component={VideoClases} />
         <Route exact path="/sedes" component={Sedes} />
         <Route exact path="/explora" component={LandingCiclo} />
         <Route exact path="/contactus" component={ContactUs} />
+        <Route
+          exact
+          path="/ciclos/verano-san-marcos"
+          component={VeranoSanMarcos}
+        />
       </Switch>
     </PageContainer>
   );

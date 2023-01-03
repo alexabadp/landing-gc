@@ -14,6 +14,9 @@ import { AiFillThunderbolt } from "react-icons/ai";
 import { Player } from "video-react";
 import "../../../node_modules/video-react/dist/video-react.css";
 import Homeview from "./Homeview";
+import Comunicado from "../Comunicado/Comunicado";
+import { useState } from "react";
+import ReactPlayer from "react-player";
 function Home() {
   return (
     <>
@@ -29,8 +32,12 @@ function Home() {
                 ahora mismo y logra tus metas
               </p>
               <div className="enroll-div">
-                <Button variant="danger" className="explore-button">
-                  Explora nuestros ciclos
+                <Button
+                  variant="danger"
+                  className="explore-button"
+                  style={{ borderRadius: "15px" }}
+                >
+                  Conoce nuestros ciclos
                 </Button>
               </div>
             </div>
@@ -70,17 +77,18 @@ function Home() {
             <div className="col-lg-8 home-sblock-title">
               <div className="who-we-are">¿Quiénes somos?</div>
               <p>
-                Somos una institución educativa consolidada en el mundo
-                preuniversitario con el objetivo de formar estudiantes con un
-                alto nivel académico y acorde al mundo actual, cultivando
-                habilidades que les permitan afrontar con éxito los retos de su
-                vida profesional y personal
+                Somos una academia consolidada en el mundo preuniversitario que
+                tiene por objetivo formar estudiantes de alto nivel y cultivar
+                habilidades que les permitan afrontar con éxito el examen de
+                admisión de San Marcos y UNI.
               </p>
               <div className="home-sblock-video">
-                <Player
-                  playsInline
-                  poster="/assets/poster.png"
-                  src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+                <ReactPlayer
+                  url="https://youtu.be/84Ab2z-MUWw"
+                  className="react-player"
+                  playing
+                  width="100%"
+                  height="100%"
                 />
               </div>
             </div>
@@ -91,15 +99,19 @@ function Home() {
           <div className="row home-tblock">
             <div className="col-lg-6 home-tblock-title">
               <div className="free-classes">
-                Videoclases gratuitas en nuestra plataforma
+                La academia peruana más grande de YouTube
               </div>
               <p>
-                Nuestra plataforma con todos los recursos disponibles de las
-                universidades mas prestigiosas del paìs esperan a que le eches
-                un ojo! No esperes màs
+                Clases en vivo, materiales en PDF, repasos, maratones,
+                solucionarios, exámenes de admisión escaneados y mucho más; Todo
+                esto gratis y a un sólo click
               </p>
-              <Button variant="danger" className="free-button">
-                Ir a Biblioteca FREE
+              <Button
+                variant="danger"
+                className="free-button"
+                style={{ borderRadius: "15px" }}
+              >
+                Biblioteca FREE
               </Button>
             </div>
             <div className="col-lg-6">
@@ -122,7 +134,7 @@ function Home() {
         <div className="main-home-foblock">
           <div className="row home-foblock">
             <div className="col-lg-12 home-foblock-title">
-              <div className="all-cicles">Todos nuestros ciclos</div>
+              <div className="all-cicles">Nuestros ciclos</div>
               <div className="row">
                 <div className="col-lg-4">
                   <Image src={cicloVerano} className="navbar-logo" style={{}} />
@@ -167,6 +179,7 @@ function Home() {
         </div>
       </div>
       <Homeview />
+      <Comunicado />
     </>
   );
 }

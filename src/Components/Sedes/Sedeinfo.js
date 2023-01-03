@@ -1,6 +1,7 @@
-import { Button, Form } from "react-bootstrap";
+import { Button, Form, Image } from "react-bootstrap";
 import { FaCopy } from "react-icons/fa";
 import { withRouter } from "react-router-dom";
+import sede1 from "../../Assets/Images/sede.jpg";
 import "./Sedes.css";
 
 function SedeInfo() {
@@ -15,8 +16,6 @@ function SedeInfo() {
           <div className="col-lg-1 col-1 icon-tag">
             <FaCopy
               style={{
-                marginLeft: "10px",
-                marginRight: "10px",
                 marginTop: "-6px",
                 fontSize: "0.8rem",
               }}
@@ -27,6 +26,16 @@ function SedeInfo() {
         </div>
         <div className="sede-content">Tel: 01 655 9088</div>
         <div className="sede-content">Whatsapp: 966381384</div>
+        <div className="image-sede">
+          <Image
+            src={sede1}
+            className="navbar-logo"
+            style={{
+              marginLeft: "90px",
+              marginTop: "42px",
+            }}
+          />
+        </div>
         <div className="sede-button">
           <Button className="sede-look" variant="danger">
             Ver sede

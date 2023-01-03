@@ -1,1 +1,3 @@
-export const SECOND_HEADER = "/biblioteca";
+export const VIDEOCLASES = "/videoclases";
+export const VIDEOCLASES_TWO = "/videoclases-dos";
+export const VIDEOCLASES_THREE = "/videoclases-tres";

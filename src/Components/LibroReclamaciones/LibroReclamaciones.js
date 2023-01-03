@@ -136,33 +136,14 @@ function LibroReclamaciones() {
 
                 <Form.Group className="mb-3">
                   <Row className="g-2">
-                    <Col sm="12">
-                      <Form.Label>
-                        Selecciona el tipo de reclamo que deseas realizar
-                      </Form.Label>
-
-                      <Form.Check type={"checkbox"} size="lg">
-                        <Form.Check.Input type={"checkbox"} isValid />
-                        <Form.Check.Label>Reclamo</Form.Check.Label>
-                      </Form.Check>
-                      <Form.Check type={"checkbox"}>
-                        <Form.Check.Input type={"checkbox"} isValid size="lg" />
-                        <Form.Check.Label>Queja</Form.Check.Label>
-                      </Form.Check>
-                    </Col>
-                  </Row>
-                </Form.Group>
-
-                <Form.Group className="mb-3">
-                  <Row className="g-2">
                     <Col sm="6">
                       <Form.Label>Selecciona la sede</Form.Label>
                       <Form.Select
                         aria-label="Default select example"
                         size="lg"
                       >
-                        <option value="1">Sede 1</option>
-                        <option value="2">Sede 2</option>
+                        <option value="1">Sede Comas</option>
+                        <option value="2">Sede SJL</option>
                       </Form.Select>
                     </Col>
                     <Col sm="6">
@@ -173,8 +154,13 @@ function LibroReclamaciones() {
                         aria-label="Default select example"
                         size="lg"
                       >
-                        <option value="1">Ciclo 1</option>
-                        <option value="2">Ciclo 2</option>
+                        <option value="1">Ciclo Verano San Marcos</option>
+                        <option value="2">Ciclo Verano UNI</option>
+                        <option value="1">Ciclo Repaso San Marcos</option>
+                        <option value="2">Ciclo Repaso UNI</option>
+                        <option value="1">Ciclo Semestral San Marcos</option>
+                        <option value="2">Ciclo Semestral UNI</option>
+                        <option value="1">Ciclo Anual San Marcos</option>
                       </Form.Select>
                     </Col>
                   </Row>
@@ -182,9 +168,7 @@ function LibroReclamaciones() {
 
                 <Form.Group className="mb-3">
                   <Row className="g-2">
-                    <Form.Label>
-                      Reclamo (¿Cuéntanos qué ha sucedido?)
-                    </Form.Label>
+                    <Form.Label>Cuéntanos qué ha sucedido</Form.Label>
                     <Form.Control as="textarea" rows={3} size="lg" />
                   </Row>
                 </Form.Group>
@@ -192,8 +176,7 @@ function LibroReclamaciones() {
                 <Form.Group className="mb-3">
                   <Row className="g-2">
                     <Form.Label>
-                      Resolución del reclamo (¿Cómo te gustaría que solucionemos
-                      este problema?)
+                      Cuál es su solicitud para solucionar el problema
                     </Form.Label>
                     <Form.Control as="textarea" rows={3} size="lg" />
                   </Row>

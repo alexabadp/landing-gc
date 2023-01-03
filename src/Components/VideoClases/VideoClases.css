@@ -1,0 +1,56 @@
+.videoclases-container {
+  width: 100%;
+  height: 2650px;
+  max-width: none;
+  padding: 0;
+}
+
+.main-videoclases-fblock {
+  display: flex;
+  justify-content: center;
+  background-color: #2d2a26;
+  width: 100%;
+  height: 100%;
+}
+
+.videoclases-fblock {
+  margin-top: 10px;
+  width: 1440px;
+  height: 600px;
+  margin-bottom: 85px;
+}
+
+.courses-explore {
+  margin-bottom: -20px;
+  font-family: "Marlin Geo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.div-slider {
+  margin-left: -50px;
+}
+
+.down-bar {
+  position: relative;
+  z-index: 0;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.arrow-right {
+  padding-top: 20px;
+  text-align: right;
+  padding-right: 0px;
+}
+
+.arrow-left {
+  padding-top: 20px;
+  text-align: left;
+  padding-left: 50px;
+}
