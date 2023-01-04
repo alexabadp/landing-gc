@@ -7,20 +7,25 @@ import "../../LandingCiclo/LandingCiclo.css";
 import { BsDownload, BsFillStopwatchFill } from "react-icons/bs";
 import { FaChrome } from "react-icons/fa";
 import { AiFillThunderbolt } from "react-icons/ai";
+import { useParams } from "react-router-dom";
+import { CicloInfo } from "./CicloInfo";
 
-function VeranoSanMarcos() {
+function CicloPage() {
+  const { idCiclo } = useParams();
+
+  const ciclo = CicloInfo.find((obj) => {
+    return obj.id == idCiclo;
+  });
+
   return (
     <>
       <div className="container landing-container">
         <div className="row">
           <div className="row first-block">
             <div className="col-lg-4">
-              <div className="ciclo">San Marcos</div>
-              <div className="verano">Ciclo Verano</div>
-              <p>
-                Inicia el camino a San Marcos conociendo el sistema
-                preuniversitario y las bases de cada curso.
-              </p>
+              <div className="ciclo">{ciclo.subtitle}</div>
+              <div className="verano">{ciclo.title}</div>
+              <p>{ciclo.titleresume}</p>
               <div className="enroll-div">
                 <Button
                   variant="danger"
@@ -61,12 +66,7 @@ function VeranoSanMarcos() {
             <div className="col-lg-7">
               <div className="row resume-info">
                 <div className="resume">Resumen</div>
-                <p>
-                  Ciclo introductorio para chicos que inician su preparación o
-                  que están terminando la secundaria, pero tienen el objetivo de
-                  ingresar a la Universidad Nacional de Ingeniería, conocerán el
-                  sistema UNI desde cero y con los temas base de cada curso.
-                </p>
+                <p>{ciclo.resumen}</p>
               </div>
               <div className="about">Acerca del ciclo</div>
               <div className="ciclo-detail">
@@ -172,9 +172,7 @@ function VeranoSanMarcos() {
 
           <div className="row fourth-block">
             <div className="col-lg-5">
-              <div className="title-enjoy">
-                Disfruta del formato virtual del ciclo
-              </div>
+              <div className="title-enjoy">Disfruta del formato virtual</div>
               <div className="subtitle-enjoy">
                 Prepárate con nosotros desde la comodidad de tu hogar
               </div>
@@ -183,7 +181,7 @@ function VeranoSanMarcos() {
                   <li>Clases en vivo en HD con todos nuestros docentes.</li>
                   <li>Los profesores usan pizarras y tizas.</li>
                   <li>Grabación de las clases para repasar contenidos.</li>
-                  <li>Simulacros cada 2 semanas.</li>
+                  <li>Simulacros tipo examen de admisión</li>
                   <li>Materiales prácticos en PDF para descargar.</li>
                 </ul>
               </div>
@@ -202,4 +200,4 @@ function VeranoSanMarcos() {
   );
 }
 
-export default VeranoSanMarcos;
+export default CicloPage;

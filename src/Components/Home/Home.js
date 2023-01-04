@@ -35,7 +35,7 @@ function Home() {
                 <Button
                   variant="danger"
                   className="explore-button"
-                  style={{ borderRadius: "15px" }}
+                  style={{ borderRadius: "50px" }}
                 >
                   Conoce nuestros ciclos
                 </Button>
@@ -109,7 +109,7 @@ function Home() {
               <Button
                 variant="danger"
                 className="free-button"
-                style={{ borderRadius: "15px" }}
+                style={{ borderRadius: "50px" }}
               >
                 Biblioteca FREE
               </Button>

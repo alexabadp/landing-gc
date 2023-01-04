@@ -47,25 +47,25 @@ function Header() {
             }
             id="navbarScrollingDropdown"
           >
-            <NavDropdown.Item href="/ciclos/verano-san-marcos">
+            <NavDropdown.Item href="/ciclos/1">
               Ciclo Verano San Marcos
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
+            <NavDropdown.Item href="/ciclos/2">
               Ciclo Verano UNI
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">
+            <NavDropdown.Item href="/ciclos/3">
               Ciclo Repaso San Marcos
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.4">
+            <NavDropdown.Item href="/ciclos/4">
               Ciclo Repaso UNI
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.4">
+            <NavDropdown.Item href="/ciclos/5">
               Ciclo Semestral San Marcos
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.4">
+            <NavDropdown.Item href="/ciclos/6">
               Ciclo Semestral UNI
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.4">
+            <NavDropdown.Item href="/ciclos/7">
               Ciclo Anual San Marcos
             </NavDropdown.Item>
           </NavDropdown>

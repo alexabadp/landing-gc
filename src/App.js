@@ -18,7 +18,7 @@ import Catalogo from "./Components/Catalogo/Catalogo";
 import VideoClases from "./Components/VideoClases/VideoClases";
 import VideoClasesDos from "./Components/VideoClases/VideoClasesDos";
 import VideoClasesTres from "./Components/VideoClases/VideoClasesTres";
-import VeranoSanMarcos from "./Components/Ciclos/Verano San Marcos/VeranoSanmarcos";
+import CicloPage from "./Components/Ciclos/Verano San Marcos/CicloPage";
 
 const LandingPage = () => {
   return (
@@ -41,11 +41,7 @@ const LandingPage = () => {
         <Route exact path="/sedes" component={Sedes} />
         <Route exact path="/explora" component={LandingCiclo} />
         <Route exact path="/contactus" component={ContactUs} />
-        <Route
-          exact
-          path="/ciclos/verano-san-marcos"
-          component={VeranoSanMarcos}
-        />
+        <Route exact path="/ciclos/:idCiclo" component={CicloPage} />
       </Switch>
     </PageContainer>
   );
