@@ -17,13 +17,32 @@ import Homeview from "./Homeview";
 import Comunicado from "../Comunicado/Comunicado";
 import { useState } from "react";
 import ReactPlayer from "react-player";
+import ContactForm from "../ContactUs/ContactForm";
+import ImageSlider from "./Imageslider";
+import Heroslider from "./Heroslider";
+const slides = [
+  { url: "http://localhost:3000/slides/image-1.png", title: "beach" },
+  { url: "http://localhost:3000/slides/image-2.png", title: "boat" },
+  { url: "http://localhost:3000//slides/image-3.png", title: "forest" },
+  { url: "http://localhost:3000/slides/image-4.png", title: "city" },
+  { url: "http://localhost:3000/slides/image-5.png", title: "italy" },
+];
+const containerStyles = {
+  width: "1440px",
+  height: "712px",
+  margin: "0 auto",
+};
 function Home() {
   return (
     <>
       <div className="container-fluid container-home">
         <div className="main-home-fblock">
           <div className="row home-fblock">
-            <div className="col-lg-4 home-fblock-title">
+            <Heroslider />
+            {/* <div style={containerStyles}>
+              <ImageSlider slides={slides} />
+            </div> */}
+            {/* <div className="col-lg-4 home-fblock-title">
               <div className="access-university">
                 ¡Ingresa a la universidad que quieres!
               </div>
@@ -54,7 +73,7 @@ function Home() {
                   />
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -63,14 +82,16 @@ function Home() {
             <div className="col-lg-4 image-container">
               <div className="row">
                 <div className="col-lg-12">
-                  <Image
-                    src={girlNotes}
-                    className="navbar-logo"
-                    style={{
-                      marginLeft: "90px",
-                      marginTop: "42px",
-                    }}
-                  />
+                  <div className="home-sblock-video">
+                    <ReactPlayer
+                      url="https://youtu.be/84Ab2z-MUWw"
+                      className="react-player"
+                      playing
+                      width="100%"
+                      height="100%"
+                      controls={true}
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -82,15 +103,6 @@ function Home() {
                 habilidades que les permitan afrontar con éxito el examen de
                 admisión de San Marcos y UNI.
               </p>
-              <div className="home-sblock-video">
-                <ReactPlayer
-                  url="https://youtu.be/84Ab2z-MUWw"
-                  className="react-player"
-                  playing
-                  width="100%"
-                  height="100%"
-                />
-              </div>
             </div>
           </div>
         </div>
@@ -174,6 +186,15 @@ function Home() {
                   />
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="main-home-fiblock">
+          <div className="row home-fiblock">
+            <div className="col-lg-12">
+              <div className="title-signnow">Inscríbete ahora</div>
+              <ContactForm />
             </div>
           </div>
         </div>

@@ -13,6 +13,7 @@ import { FaChrome } from "react-icons/fa";
 import { AiFillThunderbolt } from "react-icons/ai";
 import { Player } from "video-react";
 import "../../../node_modules/video-react/dist/video-react.css";
+import Heroslider from "./Heroslider";
 function Homeview() {
   return (
     <>
@@ -20,7 +21,8 @@ function Homeview() {
         <div className="main-shome-fblock">
           <div className="row">
             <div className="col-lg-12">
-              <div className="access-suniversity">
+              <Heroslider />
+              {/* <div className="access-suniversity">
                 ¡Ingresa a la universidad que quieres!
               </div>
               <p>
@@ -38,7 +40,7 @@ function Homeview() {
                 <Button variant="danger" className="explore-button">
                   Explora nuestros ciclos
                 </Button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

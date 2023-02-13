@@ -5,9 +5,7 @@
 }
 
 .main-shome-fblock {
-  display: flex;
   justify-content: center;
-  background-color: #d8f0f8;
   width: 100%;
   height: 804px;
 }

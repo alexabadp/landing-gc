@@ -1,10 +1,16 @@
+import { useState } from "react";
 import { Form } from "react-bootstrap";
 import { withRouter } from "react-router-dom";
-import Sedeinfo from "./Sedeinfo";
+import Sede from "./Sede";
+import { SedeInfo } from "./SedeInfo";
 import SedeMap from "./SedeMap";
 import "./Sedes.css";
 
 function Sedes() {
+  const [position, setPosition] = useState({
+    lat: -11.9475,
+    lng: -77.0607,
+  });
   return (
     <>
       <div className="container sede-container">
@@ -13,12 +19,18 @@ function Sedes() {
             <div className="sedes-title">Sedes</div>
 
             <div className="col-lg-8">
-              <Sedeinfo />
-              <Sedeinfo />
+              {SedeInfo.map((sedeinfo) => (
+                <Sede
+                  key={sedeinfo.id}
+                  sedeinfo={sedeinfo}
+                  position={position}
+                  setPosition={setPosition}
+                />
+              ))}
             </div>
           </div>
           <div className="col-lg-7">
-            <SedeMap />
+            <SedeMap position={position} />
           </div>
         </div>
       </div>

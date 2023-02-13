@@ -21,14 +21,6 @@ const Content = ({ course, onClose }) => (
             Abrir aqui
           </a>
         </di>
-        <div className="content__video">
-          <Player
-            playsInline
-            poster="/assets/poster.png"
-            src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
-            // src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
-          />
-        </div>
       </div>
       <button className="content__close" onClick={onClose}>
         <IconCross />

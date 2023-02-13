@@ -18,7 +18,7 @@ import Catalogo from "./Components/Catalogo/Catalogo";
 import VideoClases from "./Components/VideoClases/VideoClases";
 import VideoClasesDos from "./Components/VideoClases/VideoClasesDos";
 import VideoClasesTres from "./Components/VideoClases/VideoClasesTres";
-import CicloPage from "./Components/Ciclos/Verano San Marcos/CicloPage";
+import CicloPage from "./Components/Ciclos/CicloPage";
 
 const LandingPage = () => {
   return (

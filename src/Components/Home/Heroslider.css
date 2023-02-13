@@ -1,0 +1,14 @@
+.index-module_Button__Xnq8E {
+  border-bottom: 4px solid white !important;
+}
+
+@media (min-width: 280px) and (max-width: 540px) {
+  .index-module_Button__Xnq8E {
+    border-bottom: 0px solid white !important;
+  }
+}
+
+/* .mySlides {
+  background-size: cover;
+  height: 500px;
+} */

@@ -1,0 +1,13 @@
+.Container {
+  margin: 0 auto;
+  padding: 0;
+  text-transform: uppercase;
+  width: 90%;
+  text-align: center;
+  font-size: 3.5rem;
+  color: white;
+  cursor: pointer;
+}
+.Container:hover {
+  color: white;
+}

@@ -34,16 +34,15 @@
 }
 
 .main-home-fblock {
-  display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #d8f0f8;
   width: 100%;
+  background-color: red;
+  overflow: hidden;
 }
 
 .home-fblock {
-  height: 712px;
-  width: 1440px;
+  height: 90vh;
 }
 
 .home-fblock-title {
@@ -77,7 +76,7 @@
 }
 
 .home-sblock {
-  height: 812px;
+  height: 545px;
   width: 1440px;
 }
 
@@ -106,8 +105,8 @@
 
 .home-sblock-video {
   margin-top: 80px;
-  width: 434px;
-  height: 253.97px;
+  width: 584px;
+  height: 383.97px;
 }
 
 .main-home-tblock {
@@ -181,4 +180,17 @@
   font-weight: 800;
   font-size: 40px;
   line-height: 51px;
+}
+
+.main-home-fiblock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  width: 100%;
+}
+
+.home-fiblock {
+  height: 740px;
+  width: 1240px;
 }

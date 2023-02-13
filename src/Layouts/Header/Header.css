@@ -35,3 +35,15 @@ a {
 .dropdown-menu {
   margin-top: -10px !important;
 }
+
+.nav-links {
+  width: 120px;
+  text-align: center;
+}
+
+.nav-links:hover {
+  background-color: #e70031; /*will change background-color of element on hover */
+  color: white !important; /*will change color of text within the element on hover */
+  width: 120px;
+  font-weight: 500;
+}

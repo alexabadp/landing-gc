@@ -38,7 +38,9 @@ function Header() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="justify-content-end" style={{ width: "100%" }}>
-          <Nav.Link href="/">Inicio</Nav.Link>
+          <Nav.Link href="/" className="nav-links">
+            Inicio
+          </Nav.Link>
           <NavDropdown
             title={
               <span style={{ color: "#e70031", fontWeight: "bold" }}>
@@ -63,15 +65,27 @@ function Header() {
               Ciclo Semestral San Marcos
             </NavDropdown.Item>
             <NavDropdown.Item href="/ciclos/6">
-              Ciclo Semestral UNI
+              Ciclo Semestral Básico UNI
             </NavDropdown.Item>
             <NavDropdown.Item href="/ciclos/7">
+              Ciclo Semestral Intensivo UNI
+            </NavDropdown.Item>
+            <NavDropdown.Item href="/ciclos/8">
               Ciclo Anual San Marcos
             </NavDropdown.Item>
+            <NavDropdown.Item href="/ciclos/9">
+              Ciclo Semianual San Marcos
+            </NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link href="/videoclases">Biblioteca</Nav.Link>
-          <Nav.Link href="/contactus">Contáctanos</Nav.Link>
-          <Nav.Link href="/sedes">Sedes</Nav.Link>
+          <Nav.Link href="/videoclases" className="nav-links">
+            Biblioteca
+          </Nav.Link>
+          <Nav.Link href="/contactus" className="nav-links">
+            Contáctanos
+          </Nav.Link>
+          <Nav.Link href="/sedes" className="nav-links">
+            Sedes
+          </Nav.Link>
           <div
             className="intranet-button"
             onClick={() =>
@@ -80,7 +94,7 @@ function Header() {
             style={{
               display: "flex",
               alignItems: "center",
-              paddingLeft: "70px",
+              paddingLeft: "95px",
               width: "210px",
               textAlign: "center",
             }}

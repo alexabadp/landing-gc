@@ -11,9 +11,8 @@ function ContactForm() {
             <Form.Label>Universidad que deseas postular</Form.Label>
             <Col sm="12">
               <Form.Select aria-label="Default select example" size="lg">
-                <option value="1">Universidad1</option>
-                <option value="2">Universidad2</option>
-                <option value="3">Universidad3</option>
+                <option value="1">San Marcos</option>
+                <option value="2">UNI</option>
               </Form.Select>
             </Col>
           </Row>
@@ -24,9 +23,15 @@ function ContactForm() {
             <Form.Label>Elije el ciclo que te interesa</Form.Label>
             <Col sm="12">
               <Form.Select aria-label="Default select example" size="lg">
-                <option value="1">Ciclo1</option>
-                <option value="2">Ciclo2</option>
-                <option value="3">Ciclo3</option>
+                <option value="1">Ciclo Verano San Marcos</option>
+                <option value="2">Ciclo Verano UNI</option>
+                <option value="3">Ciclo Repaso San Marcos</option>
+                <option value="4">Ciclo Repaso UNI</option>
+                <option value="5">Ciclo Semestral San Marcos</option>
+                <option value="6">Ciclo Semestral Básico UNI</option>
+                <option value="7">Ciclo Semestral Intensivo UNI</option>
+                <option value="8">Ciclo Anual San Marcos</option>
+                <option value="9">Ciclo Semianual San Marcos</option>
               </Form.Select>
             </Col>
           </Row>

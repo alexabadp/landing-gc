@@ -1,0 +1,146 @@
+export const CicloInfo = [
+  {
+    id: 1,
+    subtitle: "San Marcos",
+    title: "Ciclo Verano",
+    Image: "vsm",
+    titleresume:
+      "Inicia el camino a San Marcos conociendo el sistema pre y desarrollando tus habilidades.",
+    resumen:
+      "Ciclo introductorio, ideal para estudiantes que inician su preparación. Conocerás los cursos desde lo básico con profesores didácticos, desarrollarás los cursos del prospecto y tendrás un simulacro tipo admisión cada 2 semanas. ",
+    horario: "8am a 2pm",
+    inicio: "26 de Diciembre",
+    fin: "25 de febrero",
+    duracion: "9 Semanas",
+    schedule_Image: [{ url: "svsm" }],
+    temario: "Temario Verano UNMSM",
+  },
+  {
+    id: 2,
+    subtitle: "UNI",
+    title: "Ciclo Verano",
+    Image: "vuni",
+    titleresume:
+      "Conoce el sistema de preparación UNI con profesores especialistas.",
+    resumen:
+      "Ciclo introductorio, ideal para estudiantes que inician el camino a la Universidad Nacional de Ingeniería. Tendrán clases con profesores especialistas y enfocadas en matemáticas y ciencias.",
+    horario: "8am a 2pm",
+    inicio: "26 de Diciembre",
+    fin: "25 de febrero",
+    duracion: "9 Semanas",
+    schedule_Image: [{ url: "svuni" }],
+    temario: "Temario Verano UNI 2023",
+  },
+  {
+    id: 3,
+    subtitle: "San Marcos",
+    title: "Ciclo Repaso",
+    Image: "rsm",
+    titleresume:
+      "Ciclo de full práctica con ejercicios DECO y la exigencia que necesitas para convertirte en cachimbo.",
+    resumen:
+      "Ciclo enfocado en resolver ejercicios DECO (exclusivos de San Marcos), los profesores desarrollan de 2 a 4 temas en cada clase en un horario extendido con el objetivo de alcanzar el mayor nivel académico. Tendrás aulas y horarios especializados por áreas (ABC y DE).",
+    horario: "8am a 5:30pm",
+    inicio: "26 de Diciembre",
+    fin: "10 de Marzo",
+    duracion: "11 Semanas",
+    schedule_Image: [{ url: "srsm_1" }, { url: "srsm_2" }],
+    temario: "Temario Repaso UNMSM",
+  },
+  {
+    id: 4,
+    subtitle: "UNI",
+    title: "Ciclo Repaso",
+    Image: "runi",
+    titleresume:
+      "El máximo nivel de exigencia con full ejercicios nivel admisión UNI.",
+    resumen:
+      "Exclusivo para estudiantes que cuenten con preparación UNI. Los docentes especialistas se enfocan en la práctica y la exigencia, desarrollan de 2 a 4 temas en cada clase en un horario extendido, tendrás simulacros tipo admisión (aptitud y humanidades, matemáticas y ciencias).",
+    horario: "8am a 5pm",
+    inicio: "26 de Diciembre",
+    fin: "11 de Febrero",
+    duracion: "7 Semanas",
+    schedule_Image: [{ url: "sruni" }],
+    temario: "Temario Repaso UNI 2023",
+  },
+  {
+    id: 5,
+    subtitle: "San Marcos",
+    title: "Ciclo Semestral",
+    Image: "ssm",
+    titleresume:
+      "Ciclo 50% teórico y 50% práctico para postulantes con experiencia en preparación San Marcos.",
+    resumen:
+      "Ciclo dirigido a estudiantes con preparación San Marcos. Los profesores desarrollan una teoría breve y resumida para enfocarse en resolver ejercicios, se ven 2 o 3 temas en cada clase, trabajamos con el sistema DECO y docentes especialistas. Tendrás aulas y horarios especializados por áreas (ABC y DE).",
+    horario: "8am a 5:30pm",
+    inicio: "Enero 2023",
+    fin: "Septiembre 2023",
+    duracion: "6 Meses",
+    schedule_Image: [{ url: "sssm_1" }, { url: "sssm_2" }],
+    temario: "Temario Semestral UNMSM",
+  },
+  {
+    id: 6,
+    subtitle: "UNI",
+    title: "Ciclo Semestral Basico",
+    Image: "sbuni",
+    titleresume:
+      "Ciclo base para UNI, aprende paso a paso desde lo básico hasta lo avanzado.",
+    resumen:
+      "Ciclo de preparación más completo para todo postulante a UNI, profesores te guiarán desde lo elemental hasta lo avanzado en cada clase, conocerás la teoría a profundidad y tendrás un dominio completo en matemáticas, física y química (6 horas diarias por curso).",
+    horario: "8am a 5pm",
+    inicio: "20 de febrero",
+    fin: "Agosto 2023",
+    duracion: "6 Meses",
+    schedule_Image: [{ url: "ssbuni" }],
+    temario: "Temario Semestral básico UNI",
+  },
+  {
+    id: 7,
+    subtitle: "UNI",
+    title: "Ciclo Semestral Intensivo",
+    Image: "siuni",
+    titleresume:
+      "Pensado en alumnos que desean centrarse en la resolución de ejercicios tipo admisión UNI.",
+    resumen:
+      "Ciclo balanceado entre teoría y práctica, centrado en los cursos de matemática, física y química (6 horas diarias por curso), además tendrás clases complementarias de aptitud y letras con profesores especialistas en el sistema UNI.",
+    horario: "8am a 5pm",
+    inicio: "Febrero 2023",
+    fin: "Agosto 2023",
+    duracion: "6 Meses",
+    schedule_Image: [{ url: "ssiuni" }],
+    temario: "Temario Semestral intensivo UNI",
+  },
+  {
+    id: 8,
+    subtitle: "San Marcos",
+    title: "Ciclo Anual",
+    Image: "asm",
+    titleresume:
+      "Ciclo base para San Marcos, aprende paso a paso desde lo básico hasta lo avanzado.",
+    resumen:
+      "Ciclo de preparación más completo para todo postulante a San Marcos, profesores te guiarán desde lo elemental hasta lo avanzado un tema por cada clase, conocerás la teoría a profundidad y tendrás un dominio completo en cada curso.",
+    horario: "8am a 4:30pm",
+    inicio: "Marzo 2023",
+    fin: "Diciembre 2023",
+    duracion: "10 Meses",
+    schedule_Image: [{ url: "sasm" }],
+    temario: "Temario Anual UNMSM",
+  },
+  {
+    id: 9,
+    subtitle: "San Marcos",
+    title: "Ciclo Semianual",
+    Image: "sasm",
+    titleresume:
+      "Ciclo base para San Marcos, aprende paso a paso los temas fijos.",
+    resumen:
+      "Ciclo de preparación base para todo postulante a San Marcos, profesores te guiarán desde lo elemental hasta lo avanzado un tema por cada clase, conocerás la teoría a profundidad en los temas fijos de cada curso.",
+    horario: "8am a 4:30pm",
+    inicio: "Septiembre 2023",
+    fin: "Marzo 2024",
+    duracion: "8 Meses",
+    schedule_Image: [{ url: "ssasm" }],
+    temario: "Temario Semianual UNMSM",
+  },
+];
