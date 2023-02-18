@@ -1,11 +1,11 @@
 .Container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: baseline;
+  align-items: start;
   flex-flow: column;
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin: 40px 0 0 40px;
   padding: 0;
   pointer-events: none;
 }

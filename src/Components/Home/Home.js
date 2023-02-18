@@ -20,6 +20,9 @@ import ReactPlayer from "react-player";
 import ContactForm from "../ContactUs/ContactForm";
 import ImageSlider from "./Imageslider";
 import Heroslider from "./Heroslider";
+import styled from "styled-components";
+import ProjectsSlide from "./Projects";
+
 const slides = [
   { url: "http://localhost:3000/slides/image-1.png", title: "beach" },
   { url: "http://localhost:3000/slides/image-2.png", title: "boat" },
@@ -27,11 +30,7 @@ const slides = [
   { url: "http://localhost:3000/slides/image-4.png", title: "city" },
   { url: "http://localhost:3000/slides/image-5.png", title: "italy" },
 ];
-const containerStyles = {
-  width: "1440px",
-  height: "712px",
-  margin: "0 auto",
-};
+
 function Home() {
   return (
     <>
@@ -39,41 +38,6 @@ function Home() {
         <div className="main-home-fblock">
           <div className="row home-fblock">
             <Heroslider />
-            {/* <div style={containerStyles}>
-              <ImageSlider slides={slides} />
-            </div> */}
-            {/* <div className="col-lg-4 home-fblock-title">
-              <div className="access-university">
-                ¡Ingresa a la universidad que quieres!
-              </div>
-              <p>
-                Matricúlate en nuestros programas y ciclos preuniversitarios
-                ahora mismo y logra tus metas
-              </p>
-              <div className="enroll-div">
-                <Button
-                  variant="danger"
-                  className="explore-button"
-                  style={{ borderRadius: "50px" }}
-                >
-                  Conoce nuestros ciclos
-                </Button>
-              </div>
-            </div>
-            <div className="col-lg-8 image-container">
-              <div className="row">
-                <div className="col-lg-12">
-                  <Image
-                    src={home}
-                    className="navbar-logo"
-                    style={{
-                      marginLeft: "90px",
-                      marginTop: "42px",
-                    }}
-                  />
-                </div>
-              </div>
-            </div> */}
           </div>
         </div>
 
@@ -142,6 +106,8 @@ function Home() {
             </div>
           </div>
         </div>
+
+        <ProjectsSlide />
 
         <div className="main-home-foblock">
           <div className="row home-foblock">

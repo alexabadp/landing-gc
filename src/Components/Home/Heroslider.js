@@ -1,8 +1,10 @@
 import HeroSlider, { Overlay, Slide, MenuNav, Nav } from "hero-slider";
 import Wrapper from "./Wrapper";
 import "./Heroslider.css";
-import Title from "./Title";
-import Subtitle from "./Subtitle";
+import { Button, IconButton } from "@mui/material";
+import { FaAccessibleIcon } from "react-icons/fa";
+import DeleteIcon from "@mui/icons-material/Delete";
+import styled from "styled-components";
 
 const image1 = "http://localhost:3000/slides/image-1.png";
 
@@ -16,15 +18,51 @@ const countyClare = "https://i.imgur.com/idjXzVQ.jpg";
 const craterRock = "https://i.imgur.com/8DYumaY.jpg";
 const giauPass = "https://i.imgur.com/8IuucQZ.jpg";
 
+const BootstrapButton = styled(Button)({
+  boxShadow: "none",
+  textTransform: "none",
+  fontSize: 16,
+  padding: "6px 12px",
+  border: "1px solid",
+  lineHeight: 1.5,
+  backgroundColor: "#0063cc",
+  borderColor: "#0063cc",
+  fontFamily: [
+    "-apple-system",
+    "BlinkMacSystemFont",
+    '"Segoe UI"',
+    "Roboto",
+    '"Helvetica Neue"',
+    "Arial",
+    "sans-serif",
+    '"Apple Color Emoji"',
+    '"Segoe UI Emoji"',
+    '"Segoe UI Symbol"',
+  ].join(","),
+  "&:hover": {
+    backgroundColor: "#e70031",
+    borderColor: "#e70031",
+    boxShadow: "none",
+  },
+  "&:active": {
+    boxShadow: "none",
+    backgroundColor: "#0062cc",
+    borderColor: "#005cbf",
+  },
+  "&:focus": {
+    boxShadow: "0 0 0 0.2rem rgba(0,123,255,.5)",
+  },
+});
+
 const Heroslider = () => {
   return (
     <HeroSlider
-      height={"100vh"}
+      // height={"880px"}
       autoplay
       controller={{
         initialSlide: 1,
         slidingDuration: 500,
-        slidingDelay: 50,
+        slidingDelay: 30,
         onSliding: (nextSlide) =>
           console.debug("onSliding(nextSlide): ", nextSlide),
         onBeforeSliding: (previousSlide, nextSlide) =>
@@ -39,6 +77,10 @@ const Heroslider = () => {
     >
       <Overlay>
         <Wrapper>
+          <BootstrapButton variant="contained" color="success">
+            <FaAccessibleIcon />
+            &nbsp;Revisa nuestros Ciclos
+          </BootstrapButton>
           {/* <Title>Basic Setup</Title>
           <Subtitle>Testing purposes only</Subtitle> */}
         </Wrapper>
