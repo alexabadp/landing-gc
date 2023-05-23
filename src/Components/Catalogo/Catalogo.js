@@ -1,11 +1,10 @@
-import { BsArrowLeftShort, BsChevronDown } from "react-icons/bs";
-import { FaAngleDoubleUp, FaAngleDown, FaAngleUp } from "react-icons/fa";
-import { withRouter } from "react-router-dom";
-import "./Catalogo.css";
-import cicloVerano from "../../Assets/Images/ciclo-verano.png";
-import repasoVerano from "../../Assets/Images/repaso-verano.png";
-import repasoVeranoUni from "../../Assets/Images/repaso-verano-uni.png";
 import { Button, Form, Image } from "react-bootstrap";
+import { FaAngleUp } from "react-icons/fa";
+import { withRouter } from "react-router-dom";
+import cicloVerano from "../../Assets/Images/ciclo-verano.png";
+import repasoVeranoUni from "../../Assets/Images/repaso-verano-uni.png";
+import repasoVerano from "../../Assets/Images/repaso-verano.png";
+import "./Catalogo.css";
 
 function Catalogo() {
   return (

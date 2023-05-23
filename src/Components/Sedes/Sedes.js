@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Form } from "react-bootstrap";
 import { withRouter } from "react-router-dom";
 import Sede from "./Sede";
 import { SedeInfo } from "./SedeInfo";
@@ -8,8 +7,8 @@ import "./Sedes.css";
 
 function Sedes() {
   const [position, setPosition] = useState({
-    lat: -11.9475,
-    lng: -77.0607,
+    lat: -11.940829826159977,
+    lng: -77.05933774548336,
   });
   return (
     <>

@@ -1,9 +1,8 @@
 import { useState } from "react";
-import { Button, Form, Image } from "react-bootstrap";
+import { Button } from "react-bootstrap";
+import { CopyToClipboard } from "react-copy-to-clipboard";
 import { FaCopy } from "react-icons/fa";
 import { withRouter } from "react-router-dom";
-import sede1 from "../../Assets/Images/sede.jpg";
-import { CopyToClipboard } from "react-copy-to-clipboard";
 import "./Sedes.css";
 
 function Sede({ sedeinfo, position, setPosition }) {
@@ -37,8 +36,8 @@ function Sede({ sedeinfo, position, setPosition }) {
         <div className="sede-content">Whatsapp: {sedeinfo.mobile}</div>
         {hideImage && (
           <div className="image-sede">
-            <Image
-              src={sede1}
+            <img
+              src={require(`../Sedes/Images/${sedeinfo.img}.png`)}
               className="navbar-logo"
               style={{
                 marginLeft: "90px",

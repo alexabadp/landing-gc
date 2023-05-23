@@ -1,15 +1,16 @@
+import { useState } from "react";
 import { Button, Image } from "react-bootstrap";
-import yape from "../../Assets/Images/yape.png";
-import bcp from "../../Assets/Images/bcp.png";
-import notebook from "../../Assets/Images/notebook.png";
-import "./CicloPage.css";
+import { AiFillThunderbolt } from "react-icons/ai";
 import { BsDownload, BsFillStopwatchFill } from "react-icons/bs";
 import { FaChrome } from "react-icons/fa";
-import { AiFillThunderbolt } from "react-icons/ai";
 import { useParams } from "react-router-dom";
-import { CicloInfo } from "./CicloInfo";
+import bbva from "../../Assets/Images/bbva.png";
+import bcp from "../../Assets/Images/bcp.png";
+import scotia from "../../Assets/Images/scotia.png";
+import yape from "../../Assets/Images/yape.png";
 import ContactForm from "../ContactUs/ContactForm";
-import { useState } from "react";
+import { CicloInfo } from "./CicloInfo";
+import "./CicloPage.css";
 import Horario from "./Horario";
 
 function CicloPage() {
@@ -21,7 +22,7 @@ function CicloPage() {
   }
 
   const ciclo = CicloInfo.find((obj) => {
-    return obj.id == idCiclo;
+    return obj.id === idCiclo;
   });
 
   console.log(ciclo.temario);
@@ -153,7 +154,7 @@ function CicloPage() {
             <div className="col-lg-4 payment-type">
               Paga con tarjeta en un agente o tu aplicativo
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-2">
               <Image
                 src={bcp}
                 className="navbar-logo"
@@ -162,9 +163,27 @@ function CicloPage() {
                 }}
               />
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-1">
+              <Image
+                src={bbva}
+                className="navbar-logo"
+                style={{
+                  marginLeft: "10px",
+                }}
+              />
+            </div>
+            <div className="col-lg-1">
               <Image
                 src={yape}
+                className="navbar-logo"
+                style={{
+                  marginLeft: "30px",
+                }}
+              />
+            </div>
+            <div className="col-lg-2">
+              <Image
+                src={scotia}
                 className="navbar-logo"
                 style={{
                   marginLeft: "10px",
@@ -191,9 +210,9 @@ function CicloPage() {
             </div>
             <div className="col-lg-7 notebook-div">
               <Image
-                src={notebook}
+                src={require(`../Ciclos/Images/Bottom/${ciclo.imageBottom}.png`)}
                 className="navbar-logo"
-                style={{ marginTop: "45px", marginLeft: "10px" }}
+                style={{ marginTop: "-20px", marginLeft: "40px" }}
               />
             </div>
           </div>

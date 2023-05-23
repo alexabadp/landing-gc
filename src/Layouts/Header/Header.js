@@ -1,17 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { useContext } from "react";
-import {
-  Container,
-  Image,
-  Nav,
-  Navbar,
-  NavDropdown,
-  Row,
-} from "react-bootstrap";
-import { Binoculars, Display } from "react-bootstrap-icons";
-import { HeaderContext } from "../../App";
+import { Image, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Display } from "react-bootstrap-icons";
 import logo from "../../Assets/Images/logo-small.png";
-import { SECOND_HEADER } from "../../Components/Shared/Constants";
 import "./Header.css";
 
 function Header() {

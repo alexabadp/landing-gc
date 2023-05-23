@@ -3,7 +3,6 @@ import yape from "../../Assets/Images/yape.png";
 import bcp from "../../Assets/Images/bcp.png";
 import landing from "../../Assets/Images/landing-image.png";
 import notebook from "../../Assets/Images/notebook.png";
-import university from "../../Assets/Images/university.png";
 import "./LandingCiclo.css";
 import { BsDownload, BsFillStopwatchFill } from "react-icons/bs";
 import { FaChrome } from "react-icons/fa";
@@ -142,11 +141,11 @@ function LandingCiclo() {
           </div>
 
           <div className="row third-block">
-            <div className="col-lg-2 payment-method">Medios de Pago</div>
-            <div className="col-lg-4 payment-type">
+            <div className="col-lg-1 payment-method">Medios de Pago</div>
+            <div className="col-lg-3 payment-type">
               Paga con tarjeta en un agente o tu aplicativo
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-2">
               <Image
                 src={bcp}
                 className="navbar-logo"
@@ -155,7 +154,25 @@ function LandingCiclo() {
                 }}
               />
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-2">
+              <Image
+                src={yape}
+                className="navbar-logo"
+                style={{
+                  marginLeft: "10px",
+                }}
+              />
+            </div>
+            <div className="col-lg-2">
+              <Image
+                src={bcp}
+                className="navbar-logo"
+                style={{
+                  marginLeft: "10px",
+                }}
+              />
+            </div>
+            <div className="col-lg-2">
               <Image
                 src={yape}
                 className="navbar-logo"

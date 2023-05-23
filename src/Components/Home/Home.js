@@ -1,27 +1,18 @@
 import { Button, Image } from "react-bootstrap";
-import yape from "../../Assets/Images/yape.png";
-import bcp from "../../Assets/Images/bcp.png";
-import home from "../../Assets/Images/home-image.png";
-import girlNotes from "../../Assets/Images/girl-notes.png";
-import brain from "../../Assets/Images/brain.png";
-import cicloVerano from "../../Assets/Images/ciclo-verano.png";
-import repasoVerano from "../../Assets/Images/repaso-verano.png";
-import repasoVeranoUni from "../../Assets/Images/repaso-verano-uni.png";
-import "./Home.css";
-import { BsDownload, BsFillStopwatchFill } from "react-icons/bs";
-import { FaChrome } from "react-icons/fa";
-import { AiFillThunderbolt } from "react-icons/ai";
-import { Player } from "video-react";
-import "../../../node_modules/video-react/dist/video-react.css";
-import Homeview from "./Homeview";
-import Comunicado from "../Comunicado/Comunicado";
-import { useState } from "react";
 import ReactPlayer from "react-player";
+import "../../../node_modules/video-react/dist/video-react.css";
+import anualSM from "../../Assets/Images/ANUAL UNMSM.png";
+import repasoSM from "../../Assets/Images/REPASO UNMSM.png";
+import semestralSM from "../../Assets/Images/SEMESTRAL ABC.png";
+import semestralUNI from "../../Assets/Images/SEMESTRAL BASICO UNI.png";
+import semestralSM2 from "../../Assets/Images/SEMESTRAL DE.png";
+import semestralIUNI from "../../Assets/Images/SEMESTRAL INTENSIVO UNI.png";
+import brain from "../../Assets/Images/brain2.png";
+import Comunicado from "../Comunicado/Comunicado";
 import ContactForm from "../ContactUs/ContactForm";
-import ImageSlider from "./Imageslider";
 import Heroslider from "./Heroslider";
-import styled from "styled-components";
-import ProjectsSlide from "./Projects";
+import "./Home.css";
+import Homeview from "./Homeview";
 
 const slides = [
   { url: "http://localhost:3000/slides/image-1.png", title: "beach" },
@@ -54,6 +45,7 @@ function Home() {
                       width="100%"
                       height="100%"
                       controls={true}
+                      muted={true}
                     />
                   </div>
                 </div>
@@ -93,7 +85,7 @@ function Home() {
             <div className="col-lg-6">
               <div className="row">
                 <div className="col-lg-12 brain-image">
-                  <Image
+                  <img
                     src={brain}
                     className="navbar-logo"
                     style={{
@@ -107,49 +99,120 @@ function Home() {
           </div>
         </div>
 
-        <ProjectsSlide />
-
         <div className="main-home-foblock">
           <div className="row home-foblock">
             <div className="col-lg-12 home-foblock-title">
               <div className="all-cicles">Nuestros ciclos</div>
               <div className="row">
                 <div className="col-lg-4">
-                  <Image src={cicloVerano} className="navbar-logo" style={{}} />
+                  <a href="/ciclos/8">
+                    <Image src={anualSM} className="navbar-logo" style={{}} />
+                  </a>
                 </div>
                 <div className="col-lg-4">
-                  <Image
-                    src={repasoVerano}
-                    className="navbar-logo"
-                    style={{}}
-                  />
+                  <a href="/ciclos/3">
+                    <Image src={repasoSM} className="navbar-logo" style={{}} />
+                  </a>
                 </div>
                 <div className="col-lg-4">
-                  <Image
-                    src={repasoVeranoUni}
-                    className="navbar-logo"
-                    style={{}}
-                  />
+                  <a href="/ciclos/5">
+                    <Image
+                      src={semestralSM}
+                      className="navbar-logo"
+                      style={{}}
+                    />
+                  </a>
                 </div>
               </div>
               <br />
               <div className="row">
                 <div className="col-lg-4">
-                  <Image src={cicloVerano} className="navbar-logo" style={{}} />
+                  <a href="/ciclos/6">
+                    <Image
+                      src={semestralUNI}
+                      className="navbar-logo"
+                      style={{}}
+                    />
+                  </a>
                 </div>
                 <div className="col-lg-4">
-                  <Image
-                    src={repasoVeranoUni}
-                    className="navbar-logo"
-                    style={{}}
-                  />
+                  <a href="/ciclos/1">
+                    <Image
+                      src={semestralSM2}
+                      className="navbar-logo"
+                      style={{}}
+                    />
+                  </a>
                 </div>
                 <div className="col-lg-4">
-                  <Image
-                    src={repasoVeranoUni}
-                    className="navbar-logo"
-                    style={{}}
-                  />
+                  <a href="/ciclos/7">
+                    <Image
+                      src={semestralIUNI}
+                      className="navbar-logo"
+                      style={{}}
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="main-home-siblock">
+          <div className="row home-siblock">
+            <div className="col-lg-12 home-foblock-title">
+              <div className="new-students">Nuestros Cachimbos</div>
+              <div className="row">
+                <div className="col-lg-6 new-video">
+                  <div className="home-sblock-video">
+                    <ReactPlayer
+                      url="https://youtu.be/4uZyWhs6nz0"
+                      className="react-player"
+                      width="100%"
+                      height="100%"
+                      controls={true}
+                      muted={true}
+                    />
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="home-sblock-video">
+                    <ReactPlayer
+                      url="https://youtu.be/sG9XBStT_AU"
+                      className="react-player"
+                      width="100%"
+                      height="100%"
+                      controls={true}
+                      muted={true}
+                    />
+                  </div>
+                </div>
+              </div>
+              <br />
+              <div className="row">
+                <div className="col-lg-6">
+                  <div className="home-sblock-video">
+                    <ReactPlayer
+                      url="https://youtu.be/VC5txt6vYfc"
+                      className="react-player"
+                      width="100%"
+                      height="100%"
+                      controls={true}
+                      muted={true}
+                    />
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="home-sblock-video">
+                    <ReactPlayer
+                      url="https://youtu.be/e55FLh9b74M"
+                      className="react-player"
+                      width="100%"
+                      height="100%"
+                      controls={true}
+                      muted={true}
+                    />
+                  </div>
                 </div>
               </div>
             </div>

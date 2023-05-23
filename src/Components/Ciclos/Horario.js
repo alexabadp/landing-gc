@@ -12,7 +12,7 @@ const Horario = (props) => {
   const image_name = schedule_Images[0].url;
   let [imageNumber, setImageNumber] = useState(1);
   var file_name =
-    images_cant == 1
+    images_cant === 1
       ? image_name
       : image_name.substring(0, image_name.indexOf("_")) + "_" + imageNumber;
 
@@ -28,8 +28,6 @@ const Horario = (props) => {
     }
   };
 
-  console.log(imageNumber);
-  console.log(file_name);
   return (
     <>
       <Modal

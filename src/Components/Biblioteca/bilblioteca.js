@@ -1,9 +1,8 @@
-import { BsArrowLeftShort, BsChevronDown } from "react-icons/bs";
-import { FaAngleDown } from "react-icons/fa";
-import { withRouter } from "react-router-dom";
-import "./Biblioteca.css";
-import image from "../../Assets/Images/course.png";
 import { Button, Image } from "react-bootstrap";
+import { BsArrowLeftShort } from "react-icons/bs";
+import { withRouter } from "react-router-dom";
+import image from "../../Assets/Images/course.png";
+import "./Biblioteca.css";
 
 function Biblioteca() {
   return (

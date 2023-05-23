@@ -1,6 +1,5 @@
-import "./Footer.css";
-import logo from "../../Assets/Images/footer-logo.png";
 import { Image } from "react-bootstrap";
+import { AiFillMail, AiFillSchedule } from "react-icons/ai";
 import {
   FaBookOpen,
   FaFacebook,
@@ -10,8 +9,8 @@ import {
   FaWhatsapp,
   FaYoutube,
 } from "react-icons/fa";
-import { AiFillMail, AiFillPhone, AiFillSchedule } from "react-icons/ai";
-import { VerticalAlignTop } from "@mui/icons-material";
+import logo from "../../Assets/Images/footer-logo.png";
+import "./Footer.css";
 
 function FooterMax() {
   const style = { fontSize: "0.5em", marginRight: "20px" };

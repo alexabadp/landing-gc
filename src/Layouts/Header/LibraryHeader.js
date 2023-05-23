@@ -1,16 +1,17 @@
-import * as React from "react";
-import { styled, alpha } from "@mui/material/styles";
-import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
-import IconButton from "@mui/material/IconButton";
-import InputBase from "@mui/material/InputBase";
 import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
+import { Button } from "@mui/material";
+import AppBar from "@mui/material/AppBar";
+import Box from "@mui/material/Box";
+import IconButton from "@mui/material/IconButton";
+import InputBase from "@mui/material/InputBase";
+import Toolbar from "@mui/material/Toolbar";
+import { alpha, styled } from "@mui/material/styles";
+import * as React from "react";
+import { useState } from "react";
+import { Image } from "react-bootstrap";
 import biblioteca from "../../Assets/Images/biblioteca-free.png";
 import logo from "../../Assets/Images/logo-white.png";
-import { Image } from "react-bootstrap";
-import { Button } from "@mui/material";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -63,10 +64,17 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
-const drawerWidth = 240;
-const navItems = ["Videoclases", "Admisiones"];
+const navItems = [
+  { id: 1, name: "Videoclases", path: "/videoclases", active: true },
+  { id: 2, name: "Admisiones", path: "/admision", active: false },
+  { id: 3, name: "Materiales", path: "", active: false },
+];
 
 export default function LibraryHeader() {
+  const [active, setActive] = useState(false);
+  const reviewsHandler = () => {
+    setActive(false);
+  };
   const styleButton = {
     marginRight: "10px",
     fontFamily: "Marlin Geo",
@@ -76,9 +84,10 @@ export default function LibraryHeader() {
     lineHeight: "19px",
   };
   const AdditionalStyle = {
-    borderRadius: "30px",
-    backgroundColor: "#1F1D1B",
+    // borderRadius: "30px",
+    // backgroundColor: "#1F1D1B",
   };
+
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" style={{ backgroundColor: "#262626" }}>
@@ -116,12 +125,14 @@ export default function LibraryHeader() {
                 key={item}
                 sx={{ color: "#fff" }}
                 style={
-                  item === "Videoclases"
+                  item.active
                     ? { ...styleButton, ...AdditionalStyle }
                     : styleButton
                 }
+                onClick={reviewsHandler}
+                href={item.path}
               >
-                {item}
+                {item.name}
               </Button>
             ))}
           </Box>

@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useLocation } from "react-router-dom";
 import {
+  ADMISION,
   VIDEOCLASES,
   VIDEOCLASES_THREE,
   VIDEOCLASES_TWO,
@@ -12,6 +13,7 @@ import LibraryHeader from "./LibraryHeader";
 function HeaderContainer() {
   var location = useLocation();
   var secondHeader =
+    location.pathname === ADMISION ||
     location.pathname === VIDEOCLASES ||
     location.pathname === VIDEOCLASES_TWO ||
     location.pathname === VIDEOCLASES_THREE;

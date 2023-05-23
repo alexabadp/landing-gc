@@ -1,17 +1,15 @@
-import { withRouter } from "react-router-dom";
-import "./VideoClases.css";
-import Slider from "../../Layouts/NetflixSlider";
 import ReactPlayer from "react-player";
+import { withRouter } from "react-router-dom";
 import { Anatomia } from "../../Assets/Courses-Slide/Anatomia";
-import { Psicologia } from "../../Assets/Courses-Slide/Psicologia";
 import { Civica } from "../../Assets/Courses-Slide/Civica";
 import { Ingles } from "../../Assets/Courses-Slide/Ingles";
+import { Psicologia } from "../../Assets/Courses-Slide/Psicologia";
 import { RazonamientoVerbal } from "../../Assets/Courses-Slide/Razonamiento-verbal";
 import { Trigonometria } from "../../Assets/Courses-Slide/trigonometria";
+import Slider from "../../Layouts/NetflixSlider";
+import "./VideoClases.css";
 
-import { Aritmetica } from "../../Assets/Courses-Slide/Aritmetica";
-
-import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
+import { FaArrowAltCircleLeft } from "react-icons/fa";
 
 function VideoClasesTres() {
   return (

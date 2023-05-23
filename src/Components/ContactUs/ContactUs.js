@@ -1,5 +1,5 @@
 import { withRouter } from "react-router-dom";
-import logo from "../../Assets/Images/girl-making-notes.png";
+import logo from "../../Assets/Images/contactanos.png";
 import ContactForm from "./ContactForm";
 import "./ContactUs.css";
 

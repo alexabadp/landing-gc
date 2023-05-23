@@ -1,19 +1,10 @@
 import { Button, Image } from "react-bootstrap";
-import yape from "../../Assets/Images/yape.png";
-import bcp from "../../Assets/Images/bcp.png";
-import home from "../../Assets/Images/home-image.png";
-import girlNotes from "../../Assets/Images/girl-notes.png";
-import brain from "../../Assets/Images/brain.png";
-import cicloVerano from "../../Assets/Images/ciclo-verano.png";
-import repasoVerano from "../../Assets/Images/repaso-verano.png";
-import repasoVeranoUni from "../../Assets/Images/repaso-verano-uni.png";
-import "./Homeview.css";
-import { BsDownload, BsFillStopwatchFill } from "react-icons/bs";
-import { FaChrome } from "react-icons/fa";
-import { AiFillThunderbolt } from "react-icons/ai";
 import { Player } from "video-react";
 import "../../../node_modules/video-react/dist/video-react.css";
+import brain from "../../Assets/Images/brain.png";
+import repasoVerano from "../../Assets/Images/repaso-verano.png";
 import Heroslider from "./Heroslider";
+import "./Homeview.css";
 
 function Homeview() {
   return (

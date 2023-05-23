@@ -1,7 +1,5 @@
 import { useRef } from "react";
-import { Cursor } from "react-bootstrap-icons";
 import { BsChevronDown } from "react-icons/bs";
-import { FaAngleDown } from "react-icons/fa";
 import { withRouter } from "react-router-dom";
 import "./PoliticaProteccion.css";
 

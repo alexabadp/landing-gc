@@ -14,6 +14,7 @@ export const CicloInfo = [
     duracion: "9 Semanas",
     schedule_Image: [{ url: "svsm" }],
     temario: "Temario Verano UNMSM",
+    imageBottom: "1",
   },
   {
     id: 2,
@@ -30,6 +31,7 @@ export const CicloInfo = [
     duracion: "9 Semanas",
     schedule_Image: [{ url: "svuni" }],
     temario: "Temario Verano UNI 2023",
+    imageBottom: "2",
   },
   {
     id: 3,
@@ -46,6 +48,7 @@ export const CicloInfo = [
     duracion: "11 Semanas",
     schedule_Image: [{ url: "srsm_1" }, { url: "srsm_2" }],
     temario: "Temario Repaso UNMSM",
+    imageBottom: "3",
   },
   {
     id: 4,
@@ -62,6 +65,7 @@ export const CicloInfo = [
     duracion: "7 Semanas",
     schedule_Image: [{ url: "sruni" }],
     temario: "Temario Repaso UNI 2023",
+    imageBottom: "4",
   },
   {
     id: 5,
@@ -78,6 +82,7 @@ export const CicloInfo = [
     duracion: "6 Meses",
     schedule_Image: [{ url: "sssm_1" }, { url: "sssm_2" }],
     temario: "Temario Semestral UNMSM",
+    imageBottom: "5",
   },
   {
     id: 6,
@@ -94,6 +99,7 @@ export const CicloInfo = [
     duracion: "6 Meses",
     schedule_Image: [{ url: "ssbuni" }],
     temario: "Temario Semestral básico UNI",
+    imageBottom: "6",
   },
   {
     id: 7,
@@ -110,6 +116,7 @@ export const CicloInfo = [
     duracion: "6 Meses",
     schedule_Image: [{ url: "ssiuni" }],
     temario: "Temario Semestral intensivo UNI",
+    imageBottom: "7",
   },
   {
     id: 8,
@@ -126,6 +133,7 @@ export const CicloInfo = [
     duracion: "10 Meses",
     schedule_Image: [{ url: "sasm" }],
     temario: "Temario Anual UNMSM",
+    imageBottom: "8",
   },
   {
     id: 9,
@@ -142,5 +150,6 @@ export const CicloInfo = [
     duracion: "8 Meses",
     schedule_Image: [{ url: "ssasm" }],
     temario: "Temario Semianual UNMSM",
+    imageBottom: "9",
   },
 ];

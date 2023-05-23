@@ -1,16 +1,14 @@
-import "./Footer.css";
-import logo from "../../Assets/Images/footer-logo.png";
 import { Image } from "react-bootstrap";
 import {
   FaBookOpen,
   FaFacebook,
   FaInstagram,
-  FaTelegramPlane,
   FaTiktok,
   FaWhatsapp,
   FaYoutube,
 } from "react-icons/fa";
-import { AiFillMail, AiFillPhone } from "react-icons/ai";
+import logo from "../../Assets/Images/footer-logo.png";
+import "./Footer.css";
 
 function FooterMin() {
   const style = { fontSize: "1.5em", marginRight: "20px" };

@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Button, Modal } from "react-bootstrap";
-import { Display } from "react-bootstrap-icons";
+import { Button, Modal, Image } from "react-bootstrap";
 import "./Comunicado.css";
+import comunicado from "../../Assets/Images/comunicado.png";
 
 function Comunicado() {
   const [show, setShow] = useState(true);
@@ -27,15 +27,11 @@ function Comunicado() {
           <Modal.Title id="example-custom-modal-styling-title"></Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <h4>Estudie desde cualquier parte del mundo</h4>
-          <p>
-            En nuestros 12 campus a nivel nacional y tambien de manera virtual
-          </p>
-          <div className="center">
-            <Button variant="outline-danger" size="lg" id="modal-button">
-              Explora nuestros ciclos
-            </Button>
-          </div>
+          <Image
+            src={comunicado}
+            className="navbar-logo"
+            style={{ width: "100%" }}
+          />
         </Modal.Body>
       </Modal>
     </>
