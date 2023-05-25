@@ -1,4 +1,4 @@
-.intranet-button {
+/* .intranet-button {
   background-color: #e70031 !important;
 
   height: 60px;
@@ -11,6 +11,7 @@
   margin-left: -45px;
   margin-right: 15px;
 }
+
 .navbar-toggler {
   margin: 5px 5px 5px 5px;
 }
@@ -42,8 +43,8 @@ a {
 }
 
 .nav-links:hover {
-  background-color: #e70031; /*will change background-color of element on hover */
-  color: white !important; /*will change color of text within the element on hover */
+  background-color: #e70031; 
+  color: white !important; 
   width: 120px;
   font-weight: 500;
-}
+} */

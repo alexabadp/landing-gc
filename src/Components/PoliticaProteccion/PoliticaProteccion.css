@@ -46,8 +46,9 @@
     margin-left: 2px !important;
   }
 
-  .header-politica .img,
-  svg {
+  /* .header-politica .img,
+  svg { */
+    .header-politica .img {
     margin-left: 20px !important;
     stroke-width: "1px" !important;
   }

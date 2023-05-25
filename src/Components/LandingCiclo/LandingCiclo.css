@@ -86,8 +86,9 @@
     text-align: center;
   }
 
-  .fourth-block img,
-  svg {
+  /* .fourth-block img,
+  svg { */
+  .fourth-block img{
     width: 80%;
     height: 80%;
   }

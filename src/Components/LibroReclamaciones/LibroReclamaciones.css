@@ -19,8 +19,9 @@
     margin-left: 35px;
   }
 
-  .claim-process .img,
-  svg {
+  /* .claim-process .img,
+  svg { */
+  .claim-process .img {
     display: none !important;
   }
 
