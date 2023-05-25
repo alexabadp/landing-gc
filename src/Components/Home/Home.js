@@ -19,17 +19,12 @@ function Home() {
   return (
     <>
       <Heroslider />
-      <Container maxWidth="xl">
+      <Container
+        maxWidth="xl"
+        sx={{ paddingBottom: "50px", paddingTop: "50px" }}
+      >
         <Grid container margin="auto" alignItems="center">
-          <Grid
-            item
-            xs={12}
-            lg={6}
-            sx={{
-              marginBottom: "30px",
-              paddingRight: { xs: "5px", sm: "15px", lg: "50px" },
-            }}
-          >
+          <Grid item xs={12} lg={6} paddingBottom="20px">
             <Box maxWidth="600px" maxHeight="500px" margin="auto">
               <ReactPlayer
                 url="https://youtu.be/84Ab2z-MUWw"
@@ -50,37 +45,95 @@ function Home() {
               paddingLeft: { xs: "5px", sm: "15px", lg: "50px" },
             }}
           >
-            <Typography
-              component="h2"
-              fontWeight="700"
-              sx={{
-                paddingBottom: { xs: "10px", lg: "30px" },
-                fontSize: { xs: "28px", lg: "38px" },
-                textAlign: { xs: "center", lg: "left" },
-              }}
-            >
-              ¿Quiénes somos?
-            </Typography>
-            <Typography
-              component="p"
-              fontWeight="300"
-              maxWidth="500px"
-              sx={{
-                margin: { xs: "auto", lg: "0" },
-                fontSize: { xs: "18px", lg: "24px" },
-                // textAlign: { xs: "center", lg: "left" },
-                textAlign: { xs: "justify", lg: "justify" },
-              }}
-            >
-              Somos una academia consolidada en el mundo preuniversitario que
-              tiene por objetivo formar estudiantes de alto nivel y cultivar
-              habilidades que les permitan afrontar con éxito el examen de
-              admisión de San Marcos y UNI.
-            </Typography>
+            <Box maxWidth="600px" margin="auto">
+              <Typography
+                component="h2"
+                fontWeight="700"
+                sx={{
+                  paddingBottom: { xs: "10px", lg: "30px" },
+                  fontSize: { xs: "28px", lg: "38px" },
+                  textAlign: { xs: "center", lg: "left" },
+                }}
+              >
+                ¿Quiénes somos?
+              </Typography>
+              <Typography
+                component="p"
+                fontWeight="300"
+                maxWidth="500px"
+                sx={{
+                  margin: { xs: "auto", lg: "0" },
+                  fontSize: { xs: "18px", lg: "24px" },
+                  // textAlign: { xs: "center", lg: "left" },
+                  textAlign: { xs: "justify", lg: "justify" },
+                }}
+              >
+                Somos una academia consolidada en el mundo preuniversitario que
+                tiene por objetivo formar estudiantes de alto nivel y cultivar
+                habilidades que les permitan afrontar con éxito el examen de
+                admisión de San Marcos y UNI.
+              </Typography>
+            </Box>
           </Grid>
         </Grid>
       </Container>
 
+      <Box sx={{ background: "rgba(231, 0, 49, 0.08)", padding: "50px 0" }}>
+        <Container maxWidth="xl">
+          <Grid container margin="auto" alignItems="center">
+            <Grid
+              xs={12}
+              lg={6}
+              sx={{
+                marginBottom: "30px",
+                paddingRight: { xs: "5px", sm: "15px", lg: "50px" },
+              }}
+            >
+              <Box maxWidth="600px" margin="auto">
+                <Typography
+                  component="h2"
+                  fontWeight="700"
+                  sx={{
+                    paddingBottom: { xs: "10px", lg: "30px" },
+                    fontSize: { xs: "28px", lg: "38px" },
+                    textAlign: { xs: "center", lg: "left" },
+                  }}
+                >
+                  La academia peruana más grande de YouTube
+                </Typography>
+                <Typography
+                  component="p"
+                  fontWeight="300"
+                  maxWidth="500px"
+                  sx={{
+                    margin: { xs: "auto", lg: "0" },
+                    fontSize: { xs: "18px", lg: "24px" },
+                    // textAlign: { xs: "center", lg: "left" },
+                    textAlign: { xs: "justify", lg: "justify" },
+                  }}
+                >
+                  Clases en vivo, materiales en PDF, repasos, maratones,
+                  solucionarios, exámenes de admisión escaneados y mucho más.
+                  Todo esto gratis y a un sólo click
+                </Typography>
+              </Box>
+            </Grid>
+            <Grid
+              item
+              xs={12}
+              lg={6}
+              sx={{
+                marginBottom: "30px",
+                paddingLeft: { xs: "5px", sm: "15px", lg: "50px" },
+              }}
+            >
+              <Box maxWidth="600px" margin="auto">
+                <img src={brain} width="100%" alt="logo" />
+              </Box>
+            </Grid>
+          </Grid>
+        </Container>
+      </Box>
       <div className="container-fluid container-home">
         <div className="main-home-fblock">
           <div className="row home-fblock">{/* <Heroslider /> */}</div>
@@ -117,7 +170,7 @@ function Home() {
           </div>
         </div> */}
 
-        <div className="main-home-tblock">
+        {/* <div className="main-home-tblock">
           <div className="row home-tblock">
             <div className="col-lg-6 home-tblock-title">
               <div className="free-classes">
@@ -152,7 +205,7 @@ function Home() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="main-home-foblock">
           <div className="row home-foblock">
