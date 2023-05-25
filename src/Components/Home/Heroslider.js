@@ -1,50 +1,6 @@
-import { Button } from "@mui/material";
 import HeroSlider, { Nav, Overlay, Slide } from "hero-slider";
-import styled from "styled-components";
 import "./Heroslider.css";
 import Wrapper from "./Wrapper";
-
-const image1 = "http://localhost:3000/slides/image-1.png";
-const bogliasco = "https://i.imgur.com/Gu5Cznz.jpg";
-const countyClare = "https://i.imgur.com/idjXzVQ.jpg";
-const craterRock = "https://i.imgur.com/8DYumaY.jpg";
-const giauPass = "https://i.imgur.com/8IuucQZ.jpg";
-
-const BootstrapButton = styled(Button)({
-  boxShadow: "none",
-  textTransform: "none",
-  fontSize: 16,
-  padding: "6px 12px",
-  border: "1px solid",
-  lineHeight: 1.5,
-  backgroundColor: "#0063cc",
-  borderColor: "#0063cc",
-  fontFamily: [
-    "-apple-system",
-    "BlinkMacSystemFont",
-    '"Segoe UI"',
-    "Roboto",
-    '"Helvetica Neue"',
-    "Arial",
-    "sans-serif",
-    '"Apple Color Emoji"',
-    '"Segoe UI Emoji"',
-    '"Segoe UI Symbol"',
-  ].join(","),
-  "&:hover": {
-    backgroundColor: "#e70031",
-    borderColor: "#e70031",
-    boxShadow: "none",
-  },
-  "&:active": {
-    boxShadow: "none",
-    backgroundColor: "#0062cc",
-    borderColor: "#005cbf",
-  },
-  "&:focus": {
-    boxShadow: "0 0 0 0.2rem rgba(0,123,255,.5)",
-  },
-});
 
 const Heroslider = () => {
   return (
@@ -74,7 +30,9 @@ const Heroslider = () => {
       <Slide
         label="Giau Pass - Italy"
         background={{
-          backgroundImageSrc: require(`../Home/Images/Slider/portada_1.png`),
+          // backgroundImageSrc: require(`../Home/Images/Slider/portada_1.png`),
+          backgroundImageSrc:
+            "https://firebasestorage.googleapis.com/v0/b/landing-e2e41.appspot.com/o/portada_1.png?alt=media&token=7715ef11-78cf-4131-bec7-c3d7c2a0ed19",
           backgroundAttachment: "fixed",
           backgroundPosition: "center center",
         }}
@@ -126,7 +84,6 @@ const Heroslider = () => {
       />
 
       <Nav color="red" />
-      {/* <MenuNav /> */}
     </HeroSlider>
   );
 };

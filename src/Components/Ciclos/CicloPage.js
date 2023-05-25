@@ -22,10 +22,8 @@ function CicloPage() {
   }
 
   const ciclo = CicloInfo.find((obj) => {
-    return obj.id === idCiclo;
+    return obj.id == idCiclo;
   });
-
-  console.log(ciclo.temario);
 
   return (
     <>

@@ -14,25 +14,6 @@ function Homeview() {
           <div className="row">
             <div className="col-lg-12">
               <Heroslider />
-              {/* <div className="access-suniversity">
-                ¡Ingresa a la universidad que quieres!
-              </div>
-              <p>
-                Matricúlate en nuestros programas y ciclos preuniversitarios
-                ahora mismo y logra tus metas
-              </p>
-              <div className="shome-fblock-image">
-                <Image
-                  src={home}
-                  className="navbar-logo"
-                  style={{ width: "400px", height: "500px" }}
-                />
-              </div>
-              <div className="shome-fblock-button">
-                <Button variant="danger" className="explore-button">
-                  Explora nuestros ciclos
-                </Button>
-              </div> */}
             </div>
           </div>
         </div>

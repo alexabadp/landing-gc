@@ -1,7 +1,6 @@
+import { GoogleMap, Marker, useLoadScript } from "@react-google-maps/api";
 import { withRouter } from "react-router-dom";
-import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 import "./Sedes.css";
-import { useMemo } from "react";
 
 function SedeMap({ position }) {
   const { isLoaded } = useLoadScript({

@@ -14,14 +14,6 @@ import Heroslider from "./Heroslider";
 import "./Home.css";
 import Homeview from "./Homeview";
 
-const slides = [
-  { url: "http://localhost:3000/slides/image-1.png", title: "beach" },
-  { url: "http://localhost:3000/slides/image-2.png", title: "boat" },
-  { url: "http://localhost:3000//slides/image-3.png", title: "forest" },
-  { url: "http://localhost:3000/slides/image-4.png", title: "city" },
-  { url: "http://localhost:3000/slides/image-5.png", title: "italy" },
-];
-
 function Home() {
   return (
     <>
@@ -92,6 +84,7 @@ function Home() {
                       marginLeft: "90px",
                       marginTop: "42px",
                     }}
+                    alt="logo"
                   />
                 </div>
               </div>
