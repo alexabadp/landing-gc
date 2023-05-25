@@ -13,18 +13,80 @@ import ContactForm from "../ContactUs/ContactForm";
 import Heroslider from "./Heroslider";
 import "./Home.css";
 import Homeview from "./Homeview";
+import { Box, Container, Grid, Typography } from "@mui/material";
 
 function Home() {
   return (
     <>
+      <Heroslider />
+      <Container maxWidth="xl">
+        <Grid container margin="auto" alignItems="center">
+          <Grid
+            item
+            xs={12}
+            lg={6}
+            sx={{
+              marginBottom: "30px",
+              paddingRight: { xs: "5px", sm: "15px", lg: "50px" },
+            }}
+          >
+            <Box maxWidth="600px" maxHeight="500px" margin="auto">
+              <ReactPlayer
+                url="https://youtu.be/84Ab2z-MUWw"
+                className="react-player"
+                playing
+                width="100%"
+                // height="100%"
+                controls={true}
+                muted={true}
+              />
+            </Box>
+          </Grid>
+          <Grid
+            xs={12}
+            lg={6}
+            sx={{
+              marginBottom: "30px",
+              paddingLeft: { xs: "5px", sm: "15px", lg: "50px" },
+            }}
+          >
+            <Typography
+              component="h2"
+              fontWeight="700"
+              sx={{
+                paddingBottom: { xs: "10px", lg: "30px" },
+                fontSize: { xs: "28px", lg: "38px" },
+                textAlign: { xs: "center", lg: "left" },
+              }}
+            >
+              ¿Quiénes somos?
+            </Typography>
+            <Typography
+              component="p"
+              fontWeight="300"
+              maxWidth="500px"
+              sx={{
+                margin: { xs: "auto", lg: "0" },
+                fontSize: { xs: "18px", lg: "24px" },
+                // textAlign: { xs: "center", lg: "left" },
+                textAlign: { xs: "justify", lg: "justify" },
+              }}
+            >
+              Somos una academia consolidada en el mundo preuniversitario que
+              tiene por objetivo formar estudiantes de alto nivel y cultivar
+              habilidades que les permitan afrontar con éxito el examen de
+              admisión de San Marcos y UNI.
+            </Typography>
+          </Grid>
+        </Grid>
+      </Container>
+
       <div className="container-fluid container-home">
         <div className="main-home-fblock">
-          <div className="row home-fblock">
-            <Heroslider />
-          </div>
+          <div className="row home-fblock">{/* <Heroslider /> */}</div>
         </div>
 
-        <div className="main-home-sblock">
+        {/* <div className="main-home-sblock">
           <div className="row home-sblock">
             <div className="col-lg-4 image-container">
               <div className="row">
@@ -53,7 +115,7 @@ function Home() {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="main-home-tblock">
           <div className="row home-tblock">
@@ -221,7 +283,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <Homeview />
+      {/* <Homeview /> */}
       <Comunicado />
     </>
   );

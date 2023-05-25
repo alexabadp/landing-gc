@@ -36,13 +36,8 @@
 .main-home-fblock {
   align-items: center;
   justify-content: center;
-  /* width: 100%; */
   background-color: red;
   overflow: hidden;
-}
-
-.home-fblock {
-  /* height: "880px"; */
 }
 
 .home-fblock-title {
