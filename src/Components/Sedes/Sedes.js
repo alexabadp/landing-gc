@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { withRouter } from "react-router-dom";
 import Sede from "./Sede";
-import { SedeInfo } from "./SedeInfo";
+import { SedeInfo } from "./Sedeinfo";
 import SedeMap from "./SedeMap";
 import "./Sedes.css";
 
