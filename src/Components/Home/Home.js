@@ -14,6 +14,7 @@ import Heroslider from "./Heroslider";
 import "./Home.css";
 import Homeview from "./Homeview";
 import { Box, Container, Grid, Typography } from "@mui/material";
+import SeccionCiclos from "./Secciones/SeccionCiclos";
 
 function Home() {
   return (
@@ -21,7 +22,10 @@ function Home() {
       <Heroslider />
       <Container
         maxWidth="xl"
-        sx={{ paddingBottom: "50px", paddingTop: "50px" }}
+        sx={{
+          paddingBottom: { xs: "10px", lg: "50px" },
+          paddingTop: { xs: "10px", lg: "50px" },
+        }}
       >
         <Grid container margin="auto" alignItems="center">
           <Grid item xs={12} lg={6} paddingBottom="20px">
@@ -78,7 +82,13 @@ function Home() {
         </Grid>
       </Container>
 
-      <Box sx={{ background: "rgba(231, 0, 49, 0.08)", padding: "50px 0" }}>
+      <Box
+        sx={{
+          background: "rgba(231, 0, 49, 0.08)",
+          paddingBottom: { xs: "10px", lg: "50px" },
+          paddingTop: { xs: "10px", lg: "50px" },
+        }}
+      >
         <Container maxWidth="xl">
           <Grid container margin="auto" alignItems="center">
             <Grid
@@ -134,6 +144,9 @@ function Home() {
           </Grid>
         </Container>
       </Box>
+
+      <SeccionCiclos />
+
       <div className="container-fluid container-home">
         <div className="main-home-fblock">
           <div className="row home-fblock">{/* <Heroslider /> */}</div>
@@ -207,7 +220,7 @@ function Home() {
           </div>
         </div> */}
 
-        <div className="main-home-foblock">
+        {/* <div className="main-home-foblock">
           <div className="row home-foblock">
             <div className="col-lg-12 home-foblock-title">
               <div className="all-cicles">Nuestros ciclos</div>
@@ -264,7 +277,7 @@ function Home() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="main-home-siblock">
           <div className="row home-siblock">
