@@ -119,13 +119,13 @@
   line-height: 21px;
 }
 
-li {
+/* li {
   font-size: 18px;
   font-weight: 700;
   line-height: 23px;
   letter-spacing: 0em;
   padding-bottom: 30px;
-}
+} */
 
 .copy {
   text-align: left;

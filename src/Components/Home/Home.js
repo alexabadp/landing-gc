@@ -15,6 +15,9 @@ import "./Home.css";
 import Homeview from "./Homeview";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import SeccionCiclos from "./Secciones/SeccionCiclos";
+import SeccionCachimbos from "./Secciones/SeccionCachimbos";
+import SeccionContactanos from "./Secciones/SeccionContactanos";
+import SeccionFooter from "./Secciones/SeccionFooter";
 
 function Home() {
   return (
@@ -85,8 +88,8 @@ function Home() {
       <Box
         sx={{
           background: "rgba(231, 0, 49, 0.08)",
-          paddingBottom: { xs: "10px", lg: "50px" },
-          paddingTop: { xs: "10px", lg: "50px" },
+          paddingBottom: { xs: "20px", lg: "50px" },
+          paddingTop: { xs: "20px", lg: "50px" },
         }}
       >
         <Container maxWidth="xl">
@@ -146,6 +149,10 @@ function Home() {
       </Box>
 
       <SeccionCiclos />
+
+      <SeccionCachimbos />
+
+      <SeccionContactanos />
 
       <div className="container-fluid container-home">
         <div className="main-home-fblock">
@@ -279,7 +286,7 @@ function Home() {
           </div>
         </div> */}
 
-        <div className="main-home-siblock">
+        {/* <div className="main-home-siblock">
           <div className="row home-siblock">
             <div className="col-lg-12 home-foblock-title">
               <div className="new-students">Nuestros Cachimbos</div>
@@ -338,16 +345,16 @@ function Home() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className="main-home-fiblock">
+        {/* <div className="main-home-fiblock">
           <div className="row home-fiblock">
             <div className="col-lg-12">
               <div className="title-signnow">Inscríbete ahora</div>
               <ContactForm />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       {/* <Homeview /> */}
       <Comunicado />
