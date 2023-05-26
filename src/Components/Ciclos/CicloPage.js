@@ -47,10 +47,7 @@ function CicloPage() {
             <div className="col-lg-8">
               <div className="row image-ciclo">
                 <div className="col-lg-6">
-                  <img
-                    src={require(`../Ciclos/Images/Header/${ciclo.Image}.jpg`)}
-                    alt=""
-                  />
+                  <img src={ciclo.Image} alt="" />
                 </div>
               </div>
             </div>
@@ -120,10 +117,7 @@ function CicloPage() {
                         color: "#E70031",
                       }}
                     />
-                    <a
-                      href={require(`../Ciclos/Images/Temarios/${ciclo.temario}.pdf`)}
-                      target="_blank"
-                    >
+                    <a href={ciclo.temario} target="_blank">
                       Descargar temario
                     </a>
                   </div>
@@ -208,7 +202,7 @@ function CicloPage() {
             </div>
             <div className="col-lg-7 notebook-div">
               <Image
-                src={require(`../Ciclos/Images/Bottom/${ciclo.imageBottom}.png`)}
+                src={ciclo.imageBottom}
                 className="navbar-logo"
                 style={{ marginTop: "-20px", marginLeft: "40px" }}
               />

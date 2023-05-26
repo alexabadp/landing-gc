@@ -1,5 +1,4 @@
 import { withRouter } from "react-router-dom";
-import logo from "../../Assets/Images/contactanos.png";
 import ContactForm from "./ContactForm";
 import "./ContactUs.css";
 
@@ -19,7 +18,9 @@ function ContactUs() {
               <div className="image-container">
                 <img
                   className="img-fluid"
-                  src={logo}
+                  src={
+                    "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FContactanos%2Fcontactanos.png?alt=media&token=ea3be39a-9ecf-4975-89ae-dceba7870cb1"
+                  }
                   alt="alternative"
                   style={{ marginRight: "0px" }}
                 />
