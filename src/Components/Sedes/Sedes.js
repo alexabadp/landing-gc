@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { withRouter } from "react-router-dom";
 import Sede from "./Sede";
-import { SedeInfo } from "./Sedeinfo";
+import { Sedeinfo } from "./Sedeinfo";
 import SedeMap from "./SedeMap";
 import "./Sedes.css";
 
@@ -18,7 +18,7 @@ function Sedes() {
             <div className="sedes-title">Sedes</div>
 
             <div className="col-lg-8">
-              {SedeInfo.map((sedeinfo) => (
+              {Sedeinfo.map((sedeinfo) => (
                 <Sede
                   key={sedeinfo.id}
                   sedeinfo={sedeinfo}

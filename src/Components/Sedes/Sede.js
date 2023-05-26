@@ -37,7 +37,7 @@ function Sede({ sedeinfo, position, setPosition }) {
         {hideImage && (
           <div className="image-sede">
             <img
-              src={require(`../Sedes/Images/${sedeinfo.img}.png`)}
+              src={sedeinfo.img}
               className="navbar-logo"
               style={{
                 marginLeft: "90px",
