@@ -1,4 +1,4 @@
-export const SedeInfo = [
+export const Sedeinfo = [
   {
     id: 1,
     title: "SEDE SAN JUAN DE LURIGANCHO",
@@ -7,7 +7,7 @@ export const SedeInfo = [
     mobile: "933883733",
     lat: -12.001751787243018,
     lng: -77.00891953694138,
-    img: "sede_3",
+    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FSedes%2Fsede_3.png?alt=media&token=eb27f033-2504-464b-8974-2615f476d118",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const SedeInfo = [
     mobile: " 933883733",
     lat: -11.947633725983142,
     lng: -77.06077687142245,
-    img: "sede_1",
+    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FSedes%2Fsede_1.png?alt=media&token=8c701df7-3f86-4c97-916d-30f011267008",
   },
   {
     id: 3,
@@ -27,6 +27,6 @@ export const SedeInfo = [
     mobile: " 933883733",
     lat: -11.940829826159977,
     lng: -77.05933774548336,
-    img: "sede_2",
+    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FSedes%2Fsede_2.png?alt=media&token=26422099-f871-46f9-be71-f42aa469ada1",
   },
 ];
