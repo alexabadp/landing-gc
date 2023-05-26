@@ -1,4 +1,4 @@
-@media (min-width: 280px) and (max-width: 540px) {
+/* @media (min-width: 280px) and (max-width: 540px) {
   .copy {
     text-align: center !important;
     font-weight: 500 !important;
@@ -119,13 +119,13 @@
   line-height: 21px;
 }
 
-/* li {
+li {
   font-size: 18px;
   font-weight: 700;
   line-height: 23px;
   letter-spacing: 0em;
   padding-bottom: 30px;
-} */
+}
 
 .copy {
   text-align: left;
@@ -184,4 +184,4 @@
 
 .data-protect {
   text-align: right;
-}
+} */

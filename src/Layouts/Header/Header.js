@@ -216,6 +216,9 @@ function Header() {
                 sx={{
                   fontWeight: "700",
                   color: "red",
+                  "& .MuiSelect-icon": {
+                    color: "red",
+                  },
                 }}
               >
                 <MenuItem value="opcion1" disabled>
@@ -301,6 +304,9 @@ function Header() {
                 sx={{
                   fontWeight: "700",
                   color: "red",
+                  "& .MuiSelect-icon": {
+                    color: "red",
+                  },
                 }}
               >
                 <MenuItem value="opcion1" disabled>

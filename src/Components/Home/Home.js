@@ -23,6 +23,8 @@ function Home() {
   return (
     <>
       <Heroslider />
+
+      {/* //Quienes somos */}
       <Container
         maxWidth="xl"
         sx={{
@@ -85,6 +87,7 @@ function Home() {
         </Grid>
       </Container>
 
+      {/* //Presencia en Yuotube */}
       <Box
         sx={{
           background: "rgba(231, 0, 49, 0.08)",
@@ -154,12 +157,14 @@ function Home() {
 
       <SeccionContactanos />
 
-      <div className="container-fluid container-home">
+      {/* <div className="container-fluid container-home">
         <div className="main-home-fblock">
-          <div className="row home-fblock">{/* <Heroslider /> */}</div>
+          <div className="row home-fblock">
+            <Heroslider />
+            </div>
         </div>
 
-        {/* <div className="main-home-sblock">
+        <div className="main-home-sblock">
           <div className="row home-sblock">
             <div className="col-lg-4 image-container">
               <div className="row">
@@ -188,9 +193,9 @@ function Home() {
               </p>
             </div>
           </div>
-        </div> */}
+        </div>
 
-        {/* <div className="main-home-tblock">
+        <div className="main-home-tblock">
           <div className="row home-tblock">
             <div className="col-lg-6 home-tblock-title">
               <div className="free-classes">
@@ -225,9 +230,9 @@ function Home() {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
 
-        {/* <div className="main-home-foblock">
+        <div className="main-home-foblock">
           <div className="row home-foblock">
             <div className="col-lg-12 home-foblock-title">
               <div className="all-cicles">Nuestros ciclos</div>
@@ -284,9 +289,9 @@ function Home() {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
 
-        {/* <div className="main-home-siblock">
+        <div className="main-home-siblock">
           <div className="row home-siblock">
             <div className="col-lg-12 home-foblock-title">
               <div className="new-students">Nuestros Cachimbos</div>
@@ -345,17 +350,17 @@ function Home() {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
 
-        {/* <div className="main-home-fiblock">
+        <div className="main-home-fiblock">
           <div className="row home-fiblock">
             <div className="col-lg-12">
               <div className="title-signnow">Inscríbete ahora</div>
               <ContactForm />
             </div>
           </div>
-        </div> */}
-      </div>
+        </div>
+      </div> */}
       {/* <Homeview /> */}
       <Comunicado />
     </>

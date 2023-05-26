@@ -113,7 +113,8 @@ const SeccionCiclos = () => {
       <ImageList
         sx={{
           width: "100%",
-          height: 600,
+
+          height: { xs: 450, md: 600 },
         }}
         cols={numColumns}
         gap={20}

@@ -9,10 +9,6 @@ import {
 import { useFormik } from "formik";
 import { useEffect, useState } from "react";
 import * as Yup from "yup";
-// import { MuiFileInput } from "mui-file-input";
-
-// Firebase
-// import { uploadFile } from "../../firebase/config";
 
 const options = [
   { value: "", label: "Seleccione una opción", disabled: true },
@@ -140,7 +136,7 @@ const SeccionContactanos = () => {
         </TextField>
 
         <Grid container columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} md={8}>
             <TextField
               label="Ingresa tu nombre y apellido"
               fullWidth
@@ -153,7 +149,7 @@ const SeccionContactanos = () => {
               helperText={(showErrors || touched.nombre) && errors.nombre}
             />
           </Grid>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} md={4}>
             <TextField
               label="DNI"
               fullWidth
@@ -168,7 +164,7 @@ const SeccionContactanos = () => {
           </Grid>
         </Grid>
         <Grid container columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} md={8}>
             <TextField
               label="Ingresa tu correo electrónico"
               fullWidth
@@ -181,7 +177,7 @@ const SeccionContactanos = () => {
               helperText={(showErrors || touched.email) && errors.email}
             />
           </Grid>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} md={4}>
             <TextField
               label="Celular"
               fullWidth
