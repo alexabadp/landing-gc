@@ -13,6 +13,7 @@ import { CicloInfo } from "./CicloInfo";
 import "./CicloPage.css";
 import Horario from "./Horario";
 import { Box, Button, Container, Grid, Typography } from "@mui/material";
+import PagoSlider from "./PagoSlider";
 
 function CicloPage() {
   const { idCiclo } = useParams();
@@ -338,7 +339,7 @@ function CicloPage() {
               </Grid>
             </Grid>
           </Box>
-          <div className="row third-block">
+          {/* <div className="row third-block">
             <div className="col-lg-2 payment-method">Medios de Pago</div>
             <div className="col-lg-4 payment-type">
               Paga con tarjeta en un agente o tu aplicativo
@@ -379,7 +380,8 @@ function CicloPage() {
                 }}
               />
             </div>
-          </div>
+          </div> */}
+          <PagoSlider />
           <Box sx={{ padding: { xs: "0px", md: "50px" } }}>
             <Grid container>
               <Grid
@@ -627,7 +629,10 @@ function CicloPage() {
           </div> */}
         </div>
       </div>
-      <Horario show={show} close={() => setShow(false)} ciclo={ciclo} />
+
+      <Box marginTop="50px">
+        <Horario show={show} close={() => setShow(false)} ciclo={ciclo} />
+      </Box>
     </>
   );
 }

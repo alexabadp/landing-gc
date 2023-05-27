@@ -5,6 +5,7 @@ import {
   BsFillArrowRightCircleFill,
 } from "react-icons/bs";
 import "./Horario.css";
+import { Box, Container } from "@mui/material";
 
 const Horario = (props) => {
   const schedule_Images = props.ciclo.schedule_Image;
@@ -38,42 +39,57 @@ const Horario = (props) => {
         centered
         size="xl"
         className="my-schedule-modal"
+        style={{
+          marginTop: "50px",
+          // display: "flex",
+          // alignItems: "center",
+          // justifyContent: "center",
+          // width: "100%",
+        }}
       >
         <Modal.Header closeButton>
           <Modal.Title id="example-custom-modal-styling-title"></Modal.Title>
         </Modal.Header>
-        <Modal.Body>
-          {images_cant > 1 && (
-            <div class="row image-arrows">
-              <div class="col-md-6 centered">
-                <BsFillArrowLeftCircleFill
-                  size={"2.5rem"}
-                  style={{ marginRight: "20px", cursor: "pointer" }}
-                  onClick={() => {
-                    removeNumberImage();
-                  }}
-                />
-                <BsFillArrowRightCircleFill
-                  size={"2.5rem"}
-                  style={{ cursor: "pointer" }}
-                  onClick={() => {
-                    addNumberImage();
-                  }}
-                />
+
+        <Box>
+          <Modal.Body>
+            {images_cant > 1 && (
+              // <Box>
+              <div class="row image-arrows">
+                <div class="col-md-6 centered">
+                  <BsFillArrowLeftCircleFill
+                    size={"2.5rem"}
+                    style={{ marginRight: "20px", cursor: "pointer" }}
+                    onClick={() => {
+                      removeNumberImage();
+                    }}
+                  />
+                  <BsFillArrowRightCircleFill
+                    size={"2.5rem"}
+                    style={{ cursor: "pointer" }}
+                    onClick={() => {
+                      addNumberImage();
+                    }}
+                  />
+                </div>
               </div>
-            </div>
-          )}
-          <div class="row">
-            <div class="col-md-6 col-md-offset-3">
+              // </Box>
+            )}
+            <Box>
+              {/* <div class="row">
+                <div class="col-md-6 col-md-offset-3"> */}
               <img
                 src={require(`../Ciclos/Images/Schedule/${file_name}.png`)}
                 alt=""
-                width={"980px"}
+                // width={"980px"}
+                width="100%"
                 className="img-responsive"
               />
-            </div>
-          </div>
-        </Modal.Body>
+              {/* </div>
+              </div> */}
+            </Box>
+          </Modal.Body>
+        </Box>
       </Modal>
     </>
   );

@@ -1,8 +1,8 @@
 .my-schedule-modal .modal-body {
-  height: 1035px;
+  /* height: 1035px; */
   background-color: white;
   border-radius: 0px 0px 7px 7px;
-  padding: 0px 90px 0px 90px;
+  /* padding: 0px 90px 0px 90px; */
 }
 
 .my-schedule-modal .modal-header {
@@ -35,3 +35,5 @@ a {
   width: 15%;
   margin: 0 auto;
 }
+
+
