@@ -1,20 +1,19 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 
-import portada1 from "./Images/pagos/Medios de pago.PNG";
-import portada2 from "./Images/pagos/2.PNG";
-import portada3 from "./Images/pagos/3.PNG";
-import portada4 from "./Images/pagos/4.PNG";
-import portada5 from "./Images/pagos/5.PNG";
-import portada6 from "./Images/pagos/6.PNG";
+import bbva from "../../Assets/Images/bbva.png";
+import bcp from "../../Assets/Images/bcp.png";
+import scotia from "../../Assets/Images/scotia.png";
+import yape from "../../Assets/Images/yape.png";
+
 const PagoSlider = () => {
   return (
     <Box sx={{ margin: { xs: "50px 0", md: "20px 0" } }}>
       <Carousel
         additionalTransfrom={0}
-        arrows
+        arrows={false}
         autoPlay
         autoPlaySpeed={3000}
         centerMode={false}
@@ -60,29 +59,99 @@ const PagoSlider = () => {
         rewindWithAnimation={false}
         rtl={false}
         shouldResetAutoplay
-        showDots={false}
+        showDots={true}
         sliderClass=""
         slidesToSlide={1}
         swipeable
       >
-        <div>
-          <img width="100%" height="100%" src={portada3} alt="" />
-        </div>
-        <div>
-          <img width="100%" height="100%" src={portada3} alt="" />
-        </div>
-        <div>
-          <img width="100%" height="100%" src={portada3} alt="" />
-        </div>
-        <div>
-          <img width="100%" height="100%" src={portada3} alt="" />
-        </div>
-        <div>
-          <img width="100%" height="100%" src={portada3} alt="" />
-        </div>
-        <div>
-          <img width="100%" height="100%" src={portada3} alt="" />
-        </div>
+        <Box
+          sx={{
+            maxHeight: "200px",
+            height: "100%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            padding: "0px 20px",
+            background: "#f8faff",
+          }}
+        >
+          <Typography textAlign="center" fontSize="20px" fontWeight="700">
+            Paga con Tarjeta en un agente o tu aplicativo
+          </Typography>
+        </Box>
+        <Box
+          sx={{
+            maxHeight: "200px",
+            height: "100%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            padding: "0px 20px",
+            background: "#f8faff",
+          }}
+        >
+          <Typography fontSize="20px" fontWeight="700">
+            Medios de Pago
+          </Typography>
+        </Box>
+        <Box
+          sx={{
+            maxHeight: "200px",
+            height: "100%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            padding: "70px 50px",
+            background: "#f8faff",
+          }}
+        >
+          <Box maxWidth="130px" width="100%">
+            <img width="100%" height="100%" src={bbva} alt="" />
+          </Box>
+        </Box>
+        <Box
+          sx={{
+            maxHeight: "200px",
+            height: "100%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            padding: "70px 50px",
+            background: "#f8faff",
+          }}
+        >
+          <Box maxWidth="130px" width="100%">
+            <img width="100%" height="100%" src={bcp} alt="" />
+          </Box>
+        </Box>
+        <Box
+          sx={{
+            maxHeight: "200px",
+            height: "100%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            background: "#f8faff",
+          }}
+        >
+          <Box maxWidth="80px" width="100%">
+            <img width="100%" height="100%" src={yape} alt="" />
+          </Box>
+        </Box>
+        <Box
+          sx={{
+            maxHeight: "200px",
+            height: "100%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            background: "#f8faff",
+          }}
+        >
+          <Box maxWidth="200px" width="100%">
+            <img width="100%" height="100%" src={scotia} alt="" />
+          </Box>
+        </Box>
       </Carousel>
     </Box>
   );

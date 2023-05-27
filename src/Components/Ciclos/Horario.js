@@ -41,10 +41,6 @@ const Horario = (props) => {
         className="my-schedule-modal"
         style={{
           marginTop: "50px",
-          // display: "flex",
-          // alignItems: "center",
-          // justifyContent: "center",
-          // width: "100%",
         }}
       >
         <Modal.Header closeButton>
@@ -52,32 +48,37 @@ const Horario = (props) => {
         </Modal.Header>
 
         <Box>
-          <Modal.Body>
+          <Modal.Body
+            style={{
+              marginTop: "0px",
+              paddingTop: "0px",
+            }}
+          >
             {images_cant > 1 && (
-              // <Box>
-              <div class="row image-arrows">
-                <div class="col-md-6 centered">
-                  <BsFillArrowLeftCircleFill
-                    size={"2.5rem"}
-                    style={{ marginRight: "20px", cursor: "pointer" }}
-                    onClick={() => {
-                      removeNumberImage();
-                    }}
-                  />
-                  <BsFillArrowRightCircleFill
-                    size={"2.5rem"}
-                    style={{ cursor: "pointer" }}
-                    onClick={() => {
-                      addNumberImage();
-                    }}
-                  />
-                </div>
-              </div>
-              // </Box>
+              <Box
+                sx={{
+                  display: "flex",
+                  justifyContent: "center",
+                  padding: "10px",
+                }}
+              >
+                <BsFillArrowLeftCircleFill
+                  size={"2.5rem"}
+                  style={{ marginRight: "20px", cursor: "pointer" }}
+                  onClick={() => {
+                    removeNumberImage();
+                  }}
+                />
+                <BsFillArrowRightCircleFill
+                  size={"2.5rem"}
+                  style={{ cursor: "pointer" }}
+                  onClick={() => {
+                    addNumberImage();
+                  }}
+                />
+              </Box>
             )}
             <Box>
-              {/* <div class="row">
-                <div class="col-md-6 col-md-offset-3"> */}
               <img
                 src={require(`../Ciclos/Images/Schedule/${file_name}.png`)}
                 alt=""
@@ -85,8 +86,6 @@ const Horario = (props) => {
                 width="100%"
                 className="img-responsive"
               />
-              {/* </div>
-              </div> */}
             </Box>
           </Modal.Body>
         </Box>
@@ -96,3 +95,52 @@ const Horario = (props) => {
 };
 
 export default Horario;
+
+// import { useEffect, useState } from "react";
+// import comunicado from "../../Assets/Images/comunicado.png";
+
+// import Box from "@mui/material/Box";
+// import Button from "@mui/material/Button";
+// import Typography from "@mui/material/Typography";
+// import Modal from "@mui/material/Modal";
+
+// const Horario = () => {
+//   const [open, setOpen] = useState(true);
+
+//   return (
+//     <div>
+//       <Button
+//         variant="primary"
+//         sx={{ display: "none" }}
+//         onClick={() => setOpen(true)}
+//       >
+//         Open modal
+//       </Button>
+//       <Modal
+//         open={open}
+//         onClose={() => setOpen(false)}
+//         aria-labelledby="modal-modal-title"
+//         aria-describedby="modal-modal-description"
+//       >
+//         <Box
+//           sx={{
+//             position: "absolute",
+//             top: "50%",
+//             left: "50%",
+//             transform: "translate(-50%, -50%)",
+
+//             width: { xs: "300px", sm: "600px", md: "800px", lg: "1000px" },
+//             bgcolor: "background.paper",
+//             border: "2px solid #000",
+//             boxShadow: 24,
+//             p: 4,
+//           }}
+//         >
+//           <img width="100%" src={comunicado} alt="Imagen de modal" />
+//         </Box>
+//       </Modal>
+//     </div>
+//   );
+// };
+
+// export default Horario;
