@@ -15,6 +15,7 @@ function Map({ position }) {
   const position1 = { lat: -11.9475, lng: -77.0607 };
   const position2 = { lat: -12.00173, lng: -77.00902 };
   const position3 = { lat: 40.712775, lng: -74.005973 };
+  // const position3 = { lat: -12.00173, lng: -77.00902 };
 
   return (
     <GoogleMap

@@ -3,12 +3,15 @@ import "react-multi-carousel/lib/styles.css";
 
 import { Box, Typography } from "@mui/material";
 
-import bbva from "../../Assets/Images/bbva.png";
-import bcp from "../../Assets/Images/bcp.png";
-import scotia from "../../Assets/Images/scotia.png";
-import yape from "../../Assets/Images/yape.png";
-
 const PagoSlider = () => {
+  const bbva =
+    "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FPagos%2Fwebp%2Fbbva.webp?alt=media&token=750de4b4-b22b-4ccb-97ec-9fb2e44d773c";
+  const bcp =
+    "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FPagos%2Fwebp%2Fbcp.webp?alt=media&token=ca75864a-8d03-4a37-8fee-319b01d4608d";
+  const scotia =
+    "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FPagos%2Fwebp%2Fscotia.webp?alt=media&token=1cccc93d-6c25-4d34-8703-5c064f3c7414";
+  const yape =
+    "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FPagos%2Fwebp%2Fyape.webp?alt=media&token=6947cd76-50fb-419e-a31e-204ec4c69967";
   return (
     <Box sx={{ margin: { xs: "50px 0", md: "20px 0" } }}>
       <Carousel

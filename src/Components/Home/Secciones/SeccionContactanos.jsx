@@ -137,7 +137,7 @@ const SeccionContactanos = () => {
         <form onSubmit={handleInputSubmit}>
           <TextField
             select
-            label="Universidad a la que deseas postular"
+            label="A que universidad deseas postular"
             fullWidth
             margin="normal"
             name="universidad"

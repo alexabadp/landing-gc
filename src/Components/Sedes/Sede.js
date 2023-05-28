@@ -1,76 +1,11 @@
-// import { useState } from "react";
-// import { Button } from "react-bootstrap";
-// import { CopyToClipboard } from "react-copy-to-clipboard";
-// import { FaCopy } from "react-icons/fa";
-// import { withRouter } from "react-router-dom";
-// import "./Sedes.css";
-
-// function Sede({ sedeinfo, position, setPosition }) {
-//   const [hideImage, setHideImage] = useState(false);
-//   const ShowSede = (currentlat, currentlng) => {
-//     setHideImage(!hideImage);
-//     setPosition({ ...position, lat: currentlat, lng: currentlng });
-//   };
-
-//   return (
-//     <>
-//       <div className="row sede-card">
-//         <div className="sede">{sedeinfo.title}</div>
-//         <CopyToClipboard>
-//           <div className="row">
-//             <div className="col-lg-10 col-10 sede-content">
-//               {sedeinfo.address}
-//             </div>
-//             <div className="col-lg-1 col-1 icon-tag">
-//               <FaCopy
-//                 style={{
-//                   marginTop: "-6px",
-//                   fontSize: "0.8rem",
-//                 }}
-//               />
-//             </div>
-//             <div className="col-lg-1 col-1 copy-tag">copiar</div>
-//           </div>
-//         </CopyToClipboard>
-//         <div className="sede-content">Tel: {sedeinfo.phone}</div>
-//         <div className="sede-content">Whatsapp: {sedeinfo.mobile}</div>
-//         {hideImage && (
-//           <div className="image-sede">
-//             <img
-//               src={sedeinfo.img}
-//               className="navbar-logo"
-//               style={{
-//                 marginLeft: "90px",
-//                 marginTop: "42px",
-//               }}
-//               alt="navbar-logo"
-//             />
-//           </div>
-//         )}
-
-//         <div className="sede-button">
-//           <Button
-//             className="sede-look"
-//             variant="danger"
-//             onClick={() => ShowSede(sedeinfo.lat, sedeinfo.lng)}
-//           >
-//             Ver sede
-//           </Button>
-//         </div>
-//       </div>
-//     </>
-//   );
-// }
-
-// export default withRouter(Sede);
-
 import { useState } from "react";
-import { Button } from "react-bootstrap";
+// import { Button } from "react-bootstrap";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { FaCopy } from "react-icons/fa";
 import { withRouter } from "react-router-dom";
 import "./Sedes.css";
-import { Box, Container, Grid, Typography } from "@mui/material";
+import { Box, Button, Container, Grid, Typography } from "@mui/material";
+import CopyTextButton from "./CopyTextButton";
 
 function Sede({ sedeinfo, position, setPosition }) {
   const [hideImage, setHideImage] = useState(false);
@@ -83,14 +18,15 @@ function Sede({ sedeinfo, position, setPosition }) {
     <>
       {/* <div className="row sede-card"> */}
       <Container maxWidth="xl">
-        <Box padding="20px">
+        <Box padding="20px 0px">
           <div className="sede">{sedeinfo.title}</div>
-          <CopyToClipboard>
-            <Grid container>
-              <Grid item xs={8}>
+          <CopyTextButton text={sedeinfo.address}>
+            {/* <CopyToClipboard> */}
+            <Grid container sx={{ color: "#000", padding: "0px 0 10px 0" }}>
+              <Grid item xs={9} textAlign="left">
                 {sedeinfo.address}
               </Grid>
-              <Grid item xs={2} textAlign="right">
+              <Grid item xs={1} textAlign="right" sx={{ margin: "auto" }}>
                 <FaCopy
                   style={{
                     marginRight: "5px",
@@ -98,13 +34,17 @@ function Sede({ sedeinfo, position, setPosition }) {
                   }}
                 />
               </Grid>
-              <Grid item xs={2}>
-                <Typography textAlign="left">copiar</Typography>
+              <Grid item xs={2} sx={{ margin: "auto" }}>
+                <Typography textTransform="none" textAlign="left">
+                  copiar
+                </Typography>
               </Grid>
             </Grid>
-          </CopyToClipboard>
-          <div className="sede-content">Tel: {sedeinfo.phone}</div>
-          <div className="sede-content">Whatsapp: {sedeinfo.mobile}</div>
+            {/* </CopyToClipboard> */}
+          </CopyTextButton>
+
+          <Typography>Tel: {sedeinfo.phone}</Typography>
+          <Typography>Whatsapp: {sedeinfo.mobile}</Typography>
           {hideImage && (
             // <div className="image-sede">
             <img
@@ -125,7 +65,16 @@ function Sede({ sedeinfo, position, setPosition }) {
           <div className="sede-button">
             <Button
               className="sede-look"
-              variant="danger"
+              variant="contained"
+              sx={{
+                backgroundColor: "rgba(255,0,0,0.85)",
+                color: "rgba(255,255,255,0.85)",
+                "&:hover": {
+                  backgroundColor: "red",
+                  color: "white",
+                },
+              }}
+              textAlign="center"
               onClick={() => ShowSede(sedeinfo.lat, sedeinfo.lng)}
             >
               Ver sede

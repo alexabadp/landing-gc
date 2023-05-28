@@ -1,232 +1,3 @@
-// //IMPORTACIONES REACT
-// import { useFormik } from "formik";
-// import { useEffect, useState } from "react";
-// import { withRouter } from "react-router-dom";
-
-// //IMPORTACIONES MATERIALUI
-// import {
-//   Button,
-//   Container,
-//   Grid,
-//   MenuItem,
-//   TextField,
-//   Typography,
-// } from "@mui/material";
-
-// import * as Yup from "yup";
-
-// const options = [
-//   { value: "", label: "Seleccione una opción", disabled: true },
-//   {
-//     value: "San Marcos",
-//     label: "San Marcos",
-//   },
-//   { value: "UNI", label: "UNI" },
-//   { value: "VILLA REAL", label: "VILLA REAL" },
-// ];
-// const ContactForm = () => {
-//   const [showErrors, setShowErrors] = useState(false);
-//   const [isSubmitting, setIsSubmitting] = useState(false);
-
-//   const {
-//     handleChange,
-//     values,
-//     errors,
-//     handleBlur,
-//     touched,
-//     validateForm,
-//     isValid,
-//     handleSubmit,
-//   } = useFormik({
-//     initialValues: {
-//       universidad: "",
-//       ciclo: "",
-//       nombre: "",
-//       dni: "",
-//       email: "",
-//       celular: "",
-//     },
-//     validationSchema: Yup.object().shape({
-//       universidad: Yup.string()
-//         .min(3, "Debe tener mas de 3 caracteres")
-//         .required("Debes ingresar un Título"),
-//       ciclo: Yup.string().required("Debes ingresa un link de video"),
-//       nombre: Yup.string().required("Debes elegir una nombre"),
-//       dni: Yup.string().required("Debes ingresar una dni"),
-//       celular: Yup.string().required("Debes ingresar una dni"),
-//       email: Yup.string()
-//         .min(3, "Debe tener mas de 3 caracteres")
-//         .required("Debes ingresar un código"),
-//     }),
-
-//     onSubmit: (data) => {
-//       setIsSubmitting(true);
-//       console.log(data);
-//       setTimeout(() => {
-//         setIsSubmitting(false);
-//       }, 2000);
-//     },
-//   });
-
-//   const handleInputSubmit = (event) => {
-//     event.preventDefault();
-//     setShowErrors(true);
-
-//     validateForm().then(() => {
-//       if (isValid) {
-//         handleSubmit();
-//       }
-//     });
-//   };
-
-//   useEffect(() => {
-//     if (showErrors) {
-//       // eslint-disable-next-line no-unused-expressions
-//       validateForm;
-//     }
-//   }, [showErrors, validateForm]);
-
-//   return (
-//     <Container
-//       maxWidth="lg"
-//       sx={{
-//         paddingBottom: { xs: "10px", md: "50px" },
-//         paddingTop: { xs: "10px", sm: "50px" },
-//       }}
-//     >
-//       <Typography component="h1" fontSize="38px" fontWeight="700">
-//         Inscríbete ahora
-//       </Typography>
-//       <form onSubmit={handleInputSubmit}>
-//         <TextField
-//           sx={{ backgroundColor: "#fff" }}
-//           select
-//           label="Universidad a la que deseas postular"
-//           fullWidth
-//           margin="normal"
-//           name="universidad"
-//           defaultValue={values.universidad}
-//           value={values.universidad}
-//           onChange={handleChange}
-//           onBlur={handleBlur}
-//           error={
-//             (showErrors || touched.universidad) && Boolean(errors.universidad)
-//           }
-//           helperText={(showErrors || touched.universidad) && errors.universidad}
-//         >
-//           {options.map((e) => (
-//             <MenuItem key={e.value} value={e.value}>
-//               {e.label}
-//             </MenuItem>
-//           ))}
-//         </TextField>
-
-//         <TextField
-//           sx={{ backgroundColor: "#fff" }}
-//           select
-//           label="Elije el ciclo que te interesa"
-//           fullWidth
-//           margin="normal"
-//           name="ciclo"
-//           defaultValue={values.ciclo}
-//           value={values.ciclo}
-//           onChange={handleChange}
-//           onBlur={handleBlur}
-//           error={(showErrors || touched.ciclo) && Boolean(errors.ciclo)}
-//           helperText={(showErrors || touched.ciclo) && errors.ciclo}
-//         >
-//           {options.map((e) => (
-//             <MenuItem key={e.value} value={e.value}>
-//               {e.label}
-//             </MenuItem>
-//           ))}
-//         </TextField>
-
-//         <Grid container columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-//           <Grid item xs={12} md={8}>
-//             <TextField
-//               sx={{ backgroundColor: "#fff" }}
-//               label="Ingresa tu nombre y apellido"
-//               fullWidth
-//               margin="normal"
-//               name="nombre"
-//               value={values.nombre}
-//               onChange={handleChange}
-//               onBlur={handleBlur}
-//               error={(showErrors || touched.nombre) && Boolean(errors.nombre)}
-//               helperText={(showErrors || touched.nombre) && errors.nombre}
-//             />
-//           </Grid>
-//           <Grid item xs={12} md={4}>
-//             <TextField
-//               sx={{ backgroundColor: "#fff" }}
-//               label="DNI"
-//               fullWidth
-//               margin="normal"
-//               name="dni"
-//               value={values.dni}
-//               onChange={handleChange}
-//               onBlur={handleBlur}
-//               error={(showErrors || touched.dni) && Boolean(errors.dni)}
-//               helperText={(showErrors || touched.dni) && errors.dni}
-//             />
-//           </Grid>
-//         </Grid>
-//         <Grid container columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-//           <Grid item xs={12} md={8}>
-//             <TextField
-//               sx={{ backgroundColor: "#fff" }}
-//               label="Ingresa tu correo electrónico"
-//               fullWidth
-//               margin="normal"
-//               name="email"
-//               value={values.email}
-//               onChange={handleChange}
-//               onBlur={handleBlur}
-//               error={(showErrors || touched.email) && Boolean(errors.email)}
-//               helperText={(showErrors || touched.email) && errors.email}
-//             />
-//           </Grid>
-//           <Grid item xs={12} md={4}>
-//             <TextField
-//               sx={{ backgroundColor: "#fff" }}
-//               label="Celular"
-//               fullWidth
-//               margin="normal"
-//               name="celular"
-//               value={values.celular}
-//               onChange={handleChange}
-//               onBlur={handleBlur}
-//               error={(showErrors || touched.celular) && Boolean(errors.celular)}
-//               helperText={(showErrors || touched.celular) && errors.celular}
-//             />
-//           </Grid>
-//         </Grid>
-
-//         <Button
-//           sx={{
-//             background: "red",
-//             margin: "20px 0",
-//             fontSize: "20px",
-//             color: "rgba(255,255,255,0.85)",
-//             "&:hover": {
-//               backgroundColor: "red",
-//               color: "white",
-//             },
-//           }}
-//           variant="contained"
-//           type="submit"
-//           disabled={isSubmitting}
-//         >
-//           {isSubmitting ? "Enviando" : "Enviar"}
-//         </Button>
-//       </form>
-//     </Container>
-//   );
-// };
-
-// export default withRouter(ContactForm);
-
 import {
   Alert,
   Button,
@@ -241,15 +12,32 @@ import { useFormik } from "formik";
 import { useEffect, useState } from "react";
 import * as Yup from "yup";
 
-const options = [
-  { value: "", label: "Seleccione una opción", disabled: true },
+const opcionesUniversidades = [
   {
     value: "San Marcos",
     label: "San Marcos",
   },
   { value: "UNI", label: "UNI" },
-  { value: "VILLA REAL", label: "VILLA REAL" },
 ];
+
+const opcionesCiclos = [
+  {
+    value: "Ciclo Verano San Marcos",
+    label: "Ciclo Verano San Marcos",
+  },
+  { value: "Ciclo Verano UNI", label: "Ciclo Verano UNI" },
+  { value: "Ciclo Repaso San Marcos", label: "Ciclo Repaso San Marcos" },
+  { value: "Ciclo Repaso UNI", label: "Ciclo Repaso UNI" },
+  { value: "Ciclo Semestral San Marcos", label: "Ciclo Semestral San Marcos" },
+  { value: "Ciclo Semestral Básico UNI", label: "Ciclo Semestral Básico UNI" },
+  {
+    value: "Ciclo Semestral Intensivo UNI",
+    label: "Ciclo Semestral Intensivo UNI",
+  },
+  { value: "Ciclo Anual San Marcos", label: "Ciclo Anual San Marcos" },
+  { value: "Ciclo Semianual San Marcos", label: "Ciclo Semianual San Marcos" },
+];
+
 const SeccionContactanos = () => {
   const [showErrors, setShowErrors] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -275,16 +63,22 @@ const SeccionContactanos = () => {
       celular: "",
     },
     validationSchema: Yup.object().shape({
-      universidad: Yup.string()
-        .min(3, "Debe tener mas de 3 caracteres")
-        .required("Debes ingresar un Título"),
-      ciclo: Yup.string().required("Debes ingresa un link de video"),
-      nombre: Yup.string().required("Debes elegir una nombre"),
-      dni: Yup.string().required("Debes ingresar una dni"),
-      celular: Yup.string().required("Debes ingresar una dni"),
+      universidad: Yup.string().required("Selecciona una universidad"),
+      ciclo: Yup.string().required("Selecciona un ciclo"),
+      nombre: Yup.string().required("Ingresa tu nombre"),
+      dni: Yup.string()
+        .test("is-nine-digits", "Ingresa un número de 8 dígitos", (value) =>
+          /^\d{8}$/.test(value)
+        )
+        .required("Ingresa tu dni"),
+      celular: Yup.string()
+        .test("is-nine-digits", "Ingresa un número de 9 dígitos", (value) =>
+          /^\d{9}$/.test(value)
+        )
+        .required("Ingresa tu numero de celular"),
       email: Yup.string()
-        .min(3, "Debe tener mas de 3 caracteres")
-        .required("Debes ingresar un código"),
+        .email("Debes ingresar un correo electrónico válido")
+        .required("Ingresa tu email"),
     }),
 
     onSubmit: (data) => {
@@ -328,17 +122,22 @@ const SeccionContactanos = () => {
       <Container
         maxWidth="lg"
         sx={{
-          paddingBottom: { xs: "0px", lg: "50px" },
-          paddingTop: { xs: "20px", lg: "50px" },
+          paddingTop: { xs: "30px", lg: "0px" },
+          paddingBottom: { xs: "10px", lg: "0px" },
         }}
       >
-        <Typography component="h1" fontSize="38px" fontWeight="700">
+        <Typography
+          component="h1"
+          fontSize="38px"
+          fontWeight="700"
+          sx={{ textAlign: { xs: "center", sm: "left" } }}
+        >
           Inscríbete ahora
         </Typography>
         <form onSubmit={handleInputSubmit}>
           <TextField
             select
-            label="Universidad a la que deseas postular"
+            label="A que universidad deseas postular"
             fullWidth
             margin="normal"
             name="universidad"
@@ -353,7 +152,10 @@ const SeccionContactanos = () => {
               (showErrors || touched.universidad) && errors.universidad
             }
           >
-            {options.map((e) => (
+            <MenuItem value="opcion1" disabled>
+              Selecciona una universidad
+            </MenuItem>
+            {opcionesUniversidades.map((e) => (
               <MenuItem key={e.value} value={e.value}>
                 {e.label}
               </MenuItem>
@@ -373,7 +175,10 @@ const SeccionContactanos = () => {
             error={(showErrors || touched.ciclo) && Boolean(errors.ciclo)}
             helperText={(showErrors || touched.ciclo) && errors.ciclo}
           >
-            {options.map((e) => (
+            <MenuItem value="opcion1" disabled>
+              Selecciona un Ciclo
+            </MenuItem>
+            {opcionesCiclos.map((e) => (
               <MenuItem key={e.value} value={e.value}>
                 {e.label}
               </MenuItem>
@@ -396,6 +201,7 @@ const SeccionContactanos = () => {
             </Grid>
             <Grid item xs={12} md={4}>
               <TextField
+                type="number"
                 label="DNI"
                 fullWidth
                 margin="normal"
@@ -424,6 +230,7 @@ const SeccionContactanos = () => {
             </Grid>
             <Grid item xs={12} md={4}>
               <TextField
+                type="number"
                 label="Celular"
                 fullWidth
                 margin="normal"
@@ -439,9 +246,17 @@ const SeccionContactanos = () => {
             </Grid>
           </Grid>
 
-          {/* Aplicar grid a los botones */}
           <Button
-            sx={{ background: "red", margin: "20px 0", fontSize: "20px" }}
+            sx={{
+              margin: "20px 0",
+              fontSize: "20px",
+              backgroundColor: "rgba(255,0,0,0.85)",
+              color: "rgba(255,255,255,0.85)",
+              "&:hover": {
+                backgroundColor: "red",
+                color: "white",
+              },
+            }}
             variant="contained"
             type="submit"
             disabled={isSubmitting}

@@ -71,21 +71,21 @@ function CicloPage() {
                   <Typography sx={{ fontSize: { xs: "16px", md: "22px" } }}>
                     {ciclo.titleresume}
                   </Typography>
-                  <Button
-                    // variant="danger"
-                    // className="enroll"
-                    sx={{
-                      borderRadius: "50px",
-                      color: "#fff",
-                      width: "200px",
-                      background: "red",
-                      padding: "15px 0",
-                      margin: { xs: "20px auto ", md: "20px 0" },
-                      "&:hover": { background: " #E70031" },
-                    }}
-                  >
-                    Matricúlate ahora
-                  </Button>
+                  <a href="#formulario">
+                    <Button
+                      sx={{
+                        borderRadius: "50px",
+                        color: "#fff",
+                        width: "200px",
+                        background: "red",
+                        padding: "15px 0",
+                        margin: { xs: "20px auto ", md: "20px 0" },
+                        "&:hover": { background: " #E70031" },
+                      }}
+                    >
+                      Matricúlate ahora
+                    </Button>
+                  </a>
                 </Box>
               </Grid>
               <Grid
@@ -401,7 +401,9 @@ function CicloPage() {
             </Grid>
           </Box>
 
-          <ContactForm />
+          <div id="formulario">
+            <ContactForm />
+          </div>
         </Container>
       </Box>
 
