@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { BsChevronDown } from "react-icons/bs";
 import { withRouter } from "react-router-dom";
 import "./PoliticaProteccion.css";
+import { Box, Container } from "@mui/material";
 
 function PoliticaProteccion() {
   const bottomRef = useRef();
@@ -17,27 +18,27 @@ function PoliticaProteccion() {
   };
   return (
     <>
-      <div className="container container-politica">
+      <Container maxWidth="xl">
+        {/* <Box> */}
         <div className="header-content col-lg-12">
           <div className="header-politica">
             <div className="row">
               <div className="col-12 col-xl-12">
                 <h1 className="header-title">Protección de Datos Personales</h1>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-12 col-xs-12">
                 <h4 className="header-subtitle">
                   Conoce nuestros Términos y Condiciones
                 </h4>
               </div>
             </div>
+
             <div className="cursor">
               <BsChevronDown style={style} onClick={onClick} />
             </div>
           </div>
         </div>
-
+        {/* </Box> */}
+      </Container>
+      <div className="container container-politica">
         <div className="row">
           <div className="col-lg-12">
             <h1 className="body-title">
