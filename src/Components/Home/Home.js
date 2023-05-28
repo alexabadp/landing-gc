@@ -1,46 +1,39 @@
-import { Button, Image } from "react-bootstrap";
 import ReactPlayer from "react-player";
 import "../../../node_modules/video-react/dist/video-react.css";
-import anualSM from "../../Assets/Images/ANUAL UNMSM.png";
-import repasoSM from "../../Assets/Images/REPASO UNMSM.png";
-import semestralSM from "../../Assets/Images/SEMESTRAL ABC.png";
-import semestralUNI from "../../Assets/Images/SEMESTRAL BASICO UNI.png";
-import semestralSM2 from "../../Assets/Images/SEMESTRAL DE.png";
-import semestralIUNI from "../../Assets/Images/SEMESTRAL INTENSIVO UNI.png";
-import brain from "../../Assets/Images/brain2.png";
+
 import Comunicado from "../Comunicado/Comunicado";
-import ContactForm from "../ContactUs/ContactForm";
 import Heroslider from "./Heroslider";
 import "./Home.css";
-import Homeview from "./Homeview";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import SeccionCiclos from "./Secciones/SeccionCiclos";
 import SeccionCachimbos from "./Secciones/SeccionCachimbos";
 import SeccionContactanos from "./Secciones/SeccionContactanos";
-import SeccionFooter from "./Secciones/SeccionFooter";
 
 function Home() {
   return (
     <>
       <Heroslider />
 
-      {/* //Quienes somos */}
       <Container
         maxWidth="xl"
         sx={{
-          paddingBottom: { xs: "10px", lg: "50px" },
-          paddingTop: { xs: "10px", lg: "50px" },
+          paddingBottom: { xs: "20px", lg: "50px" },
+          paddingTop: { xs: "20px", lg: "50px" },
         }}
       >
         <Grid container margin="auto" alignItems="center">
           <Grid item xs={12} lg={6} paddingBottom="20px">
-            <Box maxWidth="600px" maxHeight="500px" margin="auto">
+            <Box
+              sx={{ height: { xs: "280px", sm: "400px" } }}
+              maxWidth="600px"
+              margin="auto"
+            >
               <ReactPlayer
                 url="https://youtu.be/84Ab2z-MUWw"
                 className="react-player"
                 playing
                 width="100%"
-                // height="100%"
+                height="100%"
                 controls={true}
                 muted={true}
               />
@@ -87,7 +80,6 @@ function Home() {
         </Grid>
       </Container>
 
-      {/* //Presencia en Yuotube */}
       <Box
         sx={{
           background: "rgba(231, 0, 49, 0.08)",
@@ -144,7 +136,11 @@ function Home() {
               }}
             >
               <Box maxWidth="600px" margin="auto">
-                <img src={brain} width="100%" alt="logo" />
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FDescripcion%2Fwebp%2Fbrain2.webp?alt=media&token=f091facd-959b-47ba-a65f-3e5e59627f72"
+                  width="100%"
+                  alt="logo"
+                />
               </Box>
             </Grid>
           </Grid>

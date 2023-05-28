@@ -1,9 +1,8 @@
-import { useEffect, useState } from "react";
-import comunicado from "../../Assets/Images/comunicado.png";
+import { useState } from "react";
 
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
+
 import Modal from "@mui/material/Modal";
 
 const Comunicado = () => {
@@ -31,14 +30,28 @@ const Comunicado = () => {
             left: "50%",
             transform: "translate(-50%, -50%)",
 
-            width: { xs: "300px", sm: "600px", md: "800px", lg: "1000px" },
+            width: { xs: "350px", sm: "600px", md: "800px", lg: "1000px" },
             bgcolor: "background.paper",
             border: "2px solid #000",
             boxShadow: 24,
-            p: 4,
+
+            // p: 4,
           }}
         >
-          <img width="100%" src={comunicado} alt="Imagen de modal" />
+          <Box sx={{ display: { xs: "none", sm: "block" } }}>
+            <img
+              width="100%"
+              src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FModal%2Fwebp%2FcomunicadoXL.webp?alt=media&token=d7a0162d-2922-4702-a666-9322b9fd890d"
+              alt="Imagen de modal"
+            />
+          </Box>
+          <Box sx={{ display: { xs: "block", sm: "none" } }}>
+            <img
+              width="100%"
+              src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FModal%2Fwebp%2FcomunicadoXS.webp?alt=media&token=6224007d-a6fc-444b-836a-f3960763b9e4"
+              alt="Imagen de modal"
+            />
+          </Box>
         </Box>
       </Modal>
     </div>

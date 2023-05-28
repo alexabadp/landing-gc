@@ -1,28 +1,5 @@
-// import FooterMax from "./FooterMax";
-// import FooterMin from "./FooterMin";
-
-// function Footer() {
-//   return (
-//     <>
-//       <FooterMax />
-//       <FooterMin />
-//     </>
-//   );
-// }
-
-// export default Footer;
-
 //MaterialUI
-import {
-  Box,
-  Container,
-  Grid,
-  MenuItem,
-  Select,
-  Toolbar,
-  Typography,
-} from "@mui/material";
-import { AiFillMail, AiFillSchedule } from "react-icons/ai";
+import { Box, Container, Grid, Typography } from "@mui/material";
 
 //React
 import {
@@ -34,11 +11,11 @@ import {
   FaWhatsapp,
   FaYoutube,
 } from "react-icons/fa";
+import { AiFillMail, AiFillSchedule } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import ListaDesplegable from "./ListaDesplegable";
 
 function Footer() {
-  const style = { fontSize: "0.5em", marginRight: "20px" };
   return (
     <Box
       sx={{
@@ -68,7 +45,7 @@ function Footer() {
               <img
                 width="100%"
                 height="100%"
-                src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FFooter%2Ffooter-logo.png?alt=media&token=66cbfcae-a162-42da-953c-3b3b9e0b7097"
+                src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FFooter%2Fwebp%2Ffooter-logo.webp?alt=media&token=1f9de167-138a-4b84-92ea-3ff2260d538a"
                 alt=""
               />
             </Box>
@@ -209,22 +186,33 @@ function Footer() {
         />
         <ListaDesplegable
           elemento={"Universidades"}
-          opciones={["opcion1", "opcion2"]}
+          opciones={[
+            "Universidad Nacional de Ingeniería (UNI)",
+            "Universidad Nacional Mayor de San Marcos (UNMSM)",
+          ]}
         />
         <ListaDesplegable
           elemento={"Biblioteca"}
-          opciones={["opcion1", "opcion2"]}
+          opciones={["Videoclases", "Materiales", "Admisión", "Estadísticas"]}
         />
         <ListaDesplegable
           elemento={"Cuenta con nosotros"}
-          opciones={["opcion1", "opcion2"]}
+          opciones={[
+            "informes@grupociencias.edu.pe",
+            "Sede San Juan de Lurigancho (01) 6221103",
+            "Sede Comas (01) 6330205",
+          ]}
+        />
+        <ListaDesplegable
+          elemento={"Horarios"}
+          opciones={["Lunes a viernes de 8am a 5pm", "Sábados de 9am a 12pm"]}
         />
 
         <Box maxWidth="200px" maxHeight="80px" margin="30px auto 10px auto">
           <img
             width="100%"
             height="100%"
-            src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FFooter%2Ffooter-logo.png?alt=media&token=66cbfcae-a162-42da-953c-3b3b9e0b7097"
+            src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FFooter%2Fwebp%2Ffooter-logo.webp?alt=media&token=1f9de167-138a-4b84-92ea-3ff2260d538a"
             alt=""
           />
         </Box>
@@ -264,7 +252,7 @@ function Footer() {
             component={Link}
             to="/libroreclamaciones"
             sx={{
-              color: "#fff",
+              color: "rgba(0, 128, 255, 1)",
               fontSize: "20px",
               "&:hover": { color: "red" },
             }}
@@ -277,7 +265,7 @@ function Footer() {
             component={Link}
             to="/politicaproteccion"
             sx={{
-              color: "#fff",
+              color: "rgba(0, 128, 255, 1)",
               fontSize: "20px",
               "&:hover": { color: "red" },
             }}

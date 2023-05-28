@@ -4,17 +4,12 @@ import { AiFillThunderbolt } from "react-icons/ai";
 import { BsDownload, BsFillStopwatchFill } from "react-icons/bs";
 import { FaChrome } from "react-icons/fa";
 import { useParams } from "react-router-dom";
-import bbva from "../../Assets/Images/bbva.png";
-import bcp from "../../Assets/Images/bcp.png";
-import scotia from "../../Assets/Images/scotia.png";
-import yape from "../../Assets/Images/yape.png";
 import ContactForm from "../ContactUs/ContactForm";
 import { CicloInfo } from "./CicloInfo";
 import "./CicloPage.css";
 import Horario from "./Horario";
 import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import PagoSlider from "./PagoSlider";
-import SnackBars from "./SnackBar";
 
 function CicloPage() {
   const { idCiclo } = useParams();
@@ -57,7 +52,7 @@ function CicloPage() {
                 >
                   <Typography
                     sx={{
-                      fontSize: { xs: "12px", md: "22px" },
+                      fontSize: { xs: "20px", md: "22px" },
                       paddingTop: "20px",
                       fontWeight: "700",
                       color: "#e70031",
@@ -126,7 +121,7 @@ function CicloPage() {
                   </Typography>
                   <Typography
                     sx={{
-                      textAlign: { xs: "justify", md: "left" },
+                      textAlign: { xs: "center", md: "left" },
                       lineHeight: "36px",
                       fontSize: { xs: "20px" },
                     }}
@@ -300,7 +295,11 @@ function CicloPage() {
                             color: "#E70031",
                           }}
                         />
-                        <a href={ciclo.temario} target="_blank">
+                        <a
+                          href={ciclo.temario}
+                          rel="noreferrer"
+                          target="_blank"
+                        >
                           Descargar temario
                         </a>
                       </Typography>
@@ -370,10 +369,10 @@ function CicloPage() {
                   >
                     Disfruta del formato virtual
                   </Typography>
-                  <Typography fontSize="20px" padding="20px">
+                  <Typography fontSize="20px" padding="20px" fontWeight="500">
                     Prepárate con nosotros desde la comodidad de tu hogar:
                   </Typography>
-                  <Typography fontSize="20px">
+                  <Typography sx={{ fontSize: { xs: "17px", sm: "20px" } }}>
                     <ul>
                       <li>Clases en vivo en HD con todos nuestros docentes.</li>
                       <li>Los profesores usan pizarras y tizas.</li>

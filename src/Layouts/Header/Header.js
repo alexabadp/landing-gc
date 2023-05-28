@@ -1,105 +1,3 @@
-// import "bootstrap/dist/css/bootstrap.min.css";
-// import { Image, Nav, Navbar, NavDropdown } from "react-bootstrap";
-// import { Display } from "react-bootstrap-icons";
-// import logo from "../../Assets/Images/logo-small.png";
-// import "./Header.css";
-
-// function Header() {
-//   return (
-//     <Navbar
-//       bg="light"
-//       expand="lg"
-//       id="main-header-bar"
-//       style={{
-//         paddingTop: "0px",
-//         paddingBottom: "0px",
-//         paddingLeft: "0px",
-//         paddingRight: "0px",
-//         backgroundColor: "#FFFFFF",
-//       }}
-//     >
-//       <Image
-//         src={logo}
-//         className="navbar-logo"
-//         style={{
-//           marginLeft: "10px",
-//         }}
-//       />
-//       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-//       <Navbar.Collapse id="basic-navbar-nav">
-//         <Nav className="justify-content-end" style={{ width: "100%" }}>
-//           <Nav.Link href="/" className="nav-links">
-//             Inicio
-//           </Nav.Link>
-//           <NavDropdown
-//             title={
-//               <span style={{ color: "#e70031", fontWeight: "bold" }}>
-//                 Nuestros Ciclos
-//               </span>
-//             }
-//             id="navbarScrollingDropdown"
-//           >
-//             <NavDropdown.Item href="/ciclos/1">
-//               Ciclo Verano San Marcos
-//             </NavDropdown.Item>
-//             <NavDropdown.Item href="/ciclos/2">
-//               Ciclo Verano UNI
-//             </NavDropdown.Item>
-//             <NavDropdown.Item href="/ciclos/3">
-//               Ciclo Repaso San Marcos
-//             </NavDropdown.Item>
-//             <NavDropdown.Item href="/ciclos/4">
-//               Ciclo Repaso UNI
-//             </NavDropdown.Item>
-//             <NavDropdown.Item href="/ciclos/5">
-//               Ciclo Semestral San Marcos
-//             </NavDropdown.Item>
-//             <NavDropdown.Item href="/ciclos/6">
-//               Ciclo Semestral Básico UNI
-//             </NavDropdown.Item>
-//             <NavDropdown.Item href="/ciclos/7">
-//               Ciclo Semestral Intensivo UNI
-//             </NavDropdown.Item>
-//             <NavDropdown.Item href="/ciclos/8">
-//               Ciclo Anual San Marcos
-//             </NavDropdown.Item>
-//             <NavDropdown.Item href="/ciclos/9">
-//               Ciclo Semianual San Marcos
-//             </NavDropdown.Item>
-//           </NavDropdown>
-//           <Nav.Link href="/videoclases" className="nav-links">
-//             Biblioteca
-//           </Nav.Link>
-//           <Nav.Link href="/contactus" className="nav-links">
-//             Contáctanos
-//           </Nav.Link>
-//           <Nav.Link href="/sedes" className="nav-links">
-//             Sedes
-//           </Nav.Link>
-//           <div
-//             className="intranet-button"
-//             onClick={() =>
-//               window.open("https://grupociencias.edu.pe/intranet/#/login")
-//             }
-//             style={{
-//               display: "flex",
-//               alignItems: "center",
-//               paddingLeft: "95px",
-//               width: "210px",
-//               textAlign: "center",
-//             }}
-//           >
-//             <Display color="white" size={22} className="align-top" />
-//             Intranet
-//           </div>
-//         </Nav>
-//       </Navbar.Collapse>
-//     </Navbar>
-//   );
-// }
-
-// export default Header;
-
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -111,24 +9,11 @@ import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
-import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
-import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
-import { Select, TextField } from "@mui/material";
+import { Select } from "@mui/material";
 import { makeStyles } from "@material-ui/core/styles";
 import ConnectedTvIcon from "@mui/icons-material/ConnectedTv";
-
-import logo from "../../Assets/Images/logo-small.png";
-const pages = [
-  "Inicio",
-  "Nuestro Ciclos",
-  "Biblioteca",
-  "Contáctanos",
-  "Sedes",
-];
-const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -150,22 +35,14 @@ const useStyles = makeStyles((theme) => ({
 
 function Header() {
   const [anchorElNav, setAnchorElNav] = useState(null);
-  // const [anchorElUser, setAnchorElUser] = useState(null);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
-  // const handleOpenUserMenu = (event) => {
-  //   setAnchorElUser(event.currentTarget);
-  // };
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
-
-  // const handleCloseUserMenu = () => {
-  //   setAnchorElUser(null);
-  // };
 
   const classes = useStyles();
 
@@ -225,31 +102,67 @@ function Header() {
                   Nuestro Ciclos
                 </MenuItem>
 
-                <MenuItem component={Link} to="/ciclos/1">
+                <MenuItem
+                  component={Link}
+                  to="/ciclos/1"
+                  onClick={handleCloseNavMenu}
+                >
                   Ciclo Verano San Marcos
                 </MenuItem>
-                <MenuItem component={Link} to="/ciclos/2">
+                <MenuItem
+                  component={Link}
+                  to="/ciclos/2"
+                  onClick={handleCloseNavMenu}
+                >
                   Ciclo Verano UNI
                 </MenuItem>
-                <MenuItem component={Link} to="/ciclos/3">
+                <MenuItem
+                  component={Link}
+                  to="/ciclos/3"
+                  onClick={handleCloseNavMenu}
+                >
                   Ciclo Repaso San Marcos
                 </MenuItem>
-                <MenuItem component={Link} to="/ciclos/4">
+                <MenuItem
+                  component={Link}
+                  to="/ciclos/4"
+                  onClick={handleCloseNavMenu}
+                >
                   Ciclo Repaso UNI
                 </MenuItem>
-                <MenuItem component={Link} to="/ciclos/5">
+                <MenuItem
+                  component={Link}
+                  to="/ciclos/5"
+                  onClick={handleCloseNavMenu}
+                >
                   Ciclo Semestral San Marcos
                 </MenuItem>
-                <MenuItem component={Link} to="/ciclos/6">
+                <MenuItem
+                  component={Link}
+                  to="/ciclos/6"
+                  onClick={handleCloseNavMenu}
+                >
                   Ciclo Semestral Básico UNI
                 </MenuItem>
-                <MenuItem component={Link} to="/ciclos/7">
+                <MenuItem
+                  component={Link}
+                  to="/ciclos/7"
+                  onClick={handleCloseNavMenu}
+                >
                   Ciclo Semestral Intensivo UNI
                 </MenuItem>
-                <MenuItem component={Link} to="/ciclos/8">
+                <MenuItem
+                  component={Link}
+                  to="/ciclos/8"
+                  onClick={handleCloseNavMenu}
+                >
                   Ciclo Anual San Marcos
                 </MenuItem>
-                <MenuItem component={Link} to="/ciclos/9">
+                <MenuItem
+                  component={Link}
+                  to="/ciclos/9"
+                  onClick={handleCloseNavMenu}
+                >
                   Ciclo Semianual San Marcos
                 </MenuItem>
               </Select>
@@ -278,8 +191,14 @@ function Header() {
           </Box>
 
           <Button component={Link} to="/" color="inherit">
-            <img width="100%" height="40px" src={logo} alt="" />
+            <img
+              width="100%"
+              height="40px"
+              src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FHeader%2Fwebp%2Flogo-small.webp?alt=media&token=9b00a52e-4f75-40d2-aa34-35ba358bf35c"
+              alt=""
+            />
           </Button>
+
           <Box sx={{ flexGrow: 0, display: "flex", alignItems: "center" }}>
             <Box
               sx={{
@@ -309,35 +228,35 @@ function Header() {
                   },
                 }}
               >
-                <MenuItem value="opcion1" disabled>
+                <MenuItem key="option1" value="opcion1" disabled>
                   Nuestro Ciclos
                 </MenuItem>
 
-                <MenuItem component={Link} to="/ciclos/1">
+                <MenuItem key="option2" component={Link} to="/ciclos/1">
                   Ciclo Verano San Marcos
                 </MenuItem>
-                <MenuItem component={Link} to="/ciclos/2">
+                <MenuItem key="option3" component={Link} to="/ciclos/2">
                   Ciclo Verano UNI
                 </MenuItem>
-                <MenuItem component={Link} to="/ciclos/3">
+                <MenuItem key="option4" component={Link} to="/ciclos/3">
                   Ciclo Repaso San Marcos
                 </MenuItem>
-                <MenuItem component={Link} to="/ciclos/4">
+                <MenuItem key="option5" component={Link} to="/ciclos/4">
                   Ciclo Repaso UNI
                 </MenuItem>
-                <MenuItem component={Link} to="/ciclos/5">
+                <MenuItem key="option6" component={Link} to="/ciclos/5">
                   Ciclo Semestral San Marcos
                 </MenuItem>
-                <MenuItem component={Link} to="/ciclos/6">
+                <MenuItem key="option7" component={Link} to="/ciclos/6">
                   Ciclo Semestral Básico UNI
                 </MenuItem>
-                <MenuItem component={Link} to="/ciclos/7">
+                <MenuItem key="option8" component={Link} to="/ciclos/7">
                   Ciclo Semestral Intensivo UNI
                 </MenuItem>
-                <MenuItem component={Link} to="/ciclos/8">
+                <MenuItem key="option9" component={Link} to="/ciclos/8">
                   Ciclo Anual San Marcos
                 </MenuItem>
-                <MenuItem component={Link} to="/ciclos/9">
+                <MenuItem key="option1" component={Link} to="/ciclos/9">
                   Ciclo Semianual San Marcos
                 </MenuItem>
               </Select>
@@ -369,8 +288,8 @@ function Header() {
             <Box sx={{ flexGrow: 0 }}>
               <Button
                 sx={{
-                  backgroundColor: "rgba(255,0,0,0.85)",
                   padding: { xs: "8px", md: "12px" },
+                  backgroundColor: "rgba(255,0,0,0.85)",
                   color: "rgba(255,255,255,0.85)",
                   "&:hover": {
                     backgroundColor: "red",
