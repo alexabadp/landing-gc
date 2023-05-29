@@ -60,20 +60,25 @@ function Footer() {
                 alignItems: "center",
               }}
             >
-              <Typography
-                sx={{
-                  fontSize: { xs: "24px", md: "30px" },
-                  background: "rgb(37, 211, 102)",
-                  borderRadius: "50%",
-                  width: "45px",
-                  height: "45px",
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
+              <a
+                target="_blanck"
+                href="https://api.whatsapp.com/send?phone=+51 933 883 733&amp;text=Hola&nbsp;vengo&nbsp;de&nbsp;la&nbsp;web&nbsp;y&nbsp;tengo&nbsp;una&nbsp;consulta&nbsp;"
               >
-                <FaWhatsapp />
-              </Typography>
+                <Typography
+                  sx={{
+                    fontSize: { xs: "24px", md: "30px" },
+                    background: "rgb(37, 211, 102)",
+                    borderRadius: "50%",
+                    width: "45px",
+                    height: "45px",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <FaWhatsapp color="rgba(255, 255, 255, 1)" />
+                </Typography>
+              </a>
               <a
                 href="https://www.youtube.com/@GrupoCiencias"
                 target="_blank"
@@ -320,49 +325,67 @@ function Footer() {
             alignItems: "center",
           }}
         >
-          <Typography
-            sx={{
-              fontSize: { xs: "24px", md: "30px" },
-              background: "rgb(37, 211, 102)",
-              borderRadius: "50%",
-              width: "40px",
-              height: "40px",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
+          <a
+            target="_blanck"
+            href="https://api.whatsapp.com/send?phone=+51 933 883 733&amp;text=Hola&nbsp;vengo&nbsp;de&nbsp;la&nbsp;web&nbsp;y&nbsp;tengo&nbsp;una&nbsp;consulta&nbsp;"
           >
-            <FaWhatsapp />
-          </Typography>
-          <Typography
-            sx={{
-              fontSize: { xs: "24px", md: "30px" },
-              background: "#E70031",
-              borderRadius: "50%",
-              width: "40px",
-              height: "40px",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
+            <Typography
+              sx={{
+                fontSize: { xs: "24px", md: "30px" },
+                background: "rgb(37, 211, 102)",
+                borderRadius: "50%",
+                width: "40px",
+                height: "40px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <FaWhatsapp color="rgba(255, 255, 255, 1)" />
+            </Typography>
+          </a>
+          <a
+            href="https://www.youtube.com/@GrupoCiencias"
+            target="_blank"
+            rel="noreferrer"
           >
-            <FaYoutube />
-          </Typography>
-          <Typography
-            sx={{
-              fontSize: { xs: "24px", md: "30px" },
-              background:
-                "radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)",
-              borderRadius: "50%",
-              width: "40px",
-              height: "40px",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
+            <Typography
+              sx={{
+                fontSize: { xs: "24px", md: "30px" },
+
+                background: "#E70031",
+                borderRadius: "50%",
+                width: "40px",
+                height: "40px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <FaYoutube color="rgba(255, 255, 255, 1)" />
+            </Typography>
+          </a>
+          <a
+            href="https://www.instagram.com/cienciasgrupo/"
+            target="_blank"
+            rel="noreferrer"
           >
-            <FaInstagram />
-          </Typography>
+            <Typography
+              sx={{
+                fontSize: { xs: "24px", md: "30px" },
+                background:
+                  "radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)",
+                borderRadius: "50%",
+                width: "40px",
+                height: "40px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <FaInstagram color="rgba(255, 255, 255, 1)" />
+            </Typography>
+          </a>
           <Typography
             sx={{
               fontSize: { xs: "34px", sm: "60px" },
@@ -378,34 +401,46 @@ function Footer() {
               alignItems: "center",
             }}
           >
+            <a
+              href="https://www.facebook.com/GCiencias"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Typography
+                sx={{
+                  fontSize: { xs: "54px", sm: "60px" },
+                  position: "absoluta",
+                  width: "54px",
+                  height: "54px",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <FaFacebook color="rgba(59, 89, 152, 1)" />
+              </Typography>
+            </a>
+          </Typography>
+          <a
+            href="https://www.tiktok.com/@grupociencias"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Typography
               sx={{
-                fontSize: { xs: "54px", sm: "60px" },
-                position: "absoluta",
-                width: "54px",
-                height: "54px",
+                fontSize: { xs: "24px", md: "30px" },
+                background: "#000",
+                borderRadius: "50%",
+                width: "40px",
+                height: "40px",
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
               }}
             >
-              <FaFacebook color="rgba(59, 89, 152, 1)" />
+              <FaTiktok color="rgba(255, 255, 255, 1)" />
             </Typography>
-          </Typography>
-          <Typography
-            sx={{
-              fontSize: { xs: "24px", md: "30px" },
-              background: "#000",
-              borderRadius: "50%",
-              width: "40px",
-              height: "40px",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            <FaTiktok />
-          </Typography>
+          </a>
           {/* <Typography sx={{ fontSize: { xs: "30px" } }}>
             <FaWhatsapp />
           </Typography>

@@ -1,10 +1,11 @@
 import ReactPlayer from "react-player";
 import "../../../node_modules/video-react/dist/video-react.css";
+import { Link } from "react-router-dom";
 
 import Comunicado from "../Comunicado/Comunicado";
 import Heroslider from "./Heroslider";
 import "./Home.css";
-import { Box, Container, Grid, Typography } from "@mui/material";
+import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import SeccionCiclos from "./Secciones/SeccionCiclos";
 import SeccionCachimbos from "./Secciones/SeccionCachimbos";
 import SeccionContactanos from "./Secciones/SeccionContactanos";
@@ -124,6 +125,32 @@ function Home() {
                   solucionarios, exámenes de admisión escaneados y mucho más.
                   Todo esto gratis y a un sólo click
                 </Typography>
+
+                <Box
+                  sx={{
+                    display: "flex",
+                    justifyContent: { xs: "center", lg: "flex-start" },
+                  }}
+                >
+                  <Typography component={Link} to="/videoClases">
+                    <Button
+                      variant="contained"
+                      sx={{
+                        margin: "20px 0 0 0",
+                        padding: "10px",
+                        borderRadius: "20px",
+                        backgroundColor: "rgba(255,0,0,0.85)",
+                        color: "rgba(255,255,255,0.85)",
+                        "&:hover": {
+                          backgroundColor: "red",
+                          color: "white",
+                        },
+                      }}
+                    >
+                      Ir a Biblioteca FREE
+                    </Button>
+                  </Typography>
+                </Box>
               </Box>
             </Grid>
             <Grid

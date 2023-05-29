@@ -9,65 +9,49 @@ import { Container, Typography, useMediaQuery } from "@mui/material";
 
 const itemData = [
   {
-    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fwebp%2FANUAL%20UNMSM.webp?alt=media&token=4c8251a2-9590-4335-bc4e-eab76d23198d",
+    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fjpeg%2FANUAL%20UNMSM.jpeg?alt=media&token=cbe9f9f3-166c-4109-b8f9-1ae9b0b5537e",
     title: "Ciclo Anual San Marcos",
     author: "@grupoCiencias",
     link: "/ciclos/1",
   },
   {
-    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fwebp%2FREPASO%20UNMSM.webp?alt=media&token=1ddb7dc8-d66b-431e-a6c4-b7e094090881",
+    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fjpeg%2FREPASO%20UNMSM.jpeg?alt=media&token=e1bc8de4-2d3c-4a14-be2d-794f76567681",
     title: "Ciclo Repaso San Marcos",
     author: "@grupoCiencias",
     link: "/ciclos/2",
   },
   {
-    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fwebp%2FSEMESTRAL%20ABC.webp?alt=media&token=f1a858f6-6095-4837-9ec0-89e39bafa848",
-    title: "Ciclo Semestral San Marcos",
+    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fjpeg%2FSEMESTRAL%20ABC.jpeg?alt=media&token=12e1d552-f7f5-4452-a865-a531a21cd77d",
+    title: "Ciclo Semestral ABC San Marcos",
     author: "@grupoCiencias",
     link: "/ciclos/3",
   },
+
   {
-    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fwebp%2FSEMESTRAL%20BASICO%20UNI.webp?alt=media&token=f77c7277-4eef-45a9-9163-3381619a4803",
-    title: "Ciclo Semestral UNI",
-    author: "@grupoCiencias",
-    link: "/ciclos/4",
-  },
-  {
-    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fwebp%2FSEMESTRAL%20DE.webp?alt=media&token=578e6e48-db31-4048-bfe4-f5bed245670c",
-    title: "Ciclo Semestral San Marcos II",
+    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fjpeg%2FSEMESTRAL%20DE.jpeg?alt=media&token=c16bc270-7e90-409f-9af4-59389b35459d",
+    title: "Ciclo Semestral DE San Marcos",
     author: "@grupoCiencias",
     link: "/ciclos/5",
   },
   {
-    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fwebp%2FSEMESTRAL%20INTENSIVO%20UNI.webp?alt=media&token=8c467bea-c702-4c24-a238-532cd88cfb7f",
-    title: "Ciclo Semestral UNI",
+    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fjpeg%2FSEMESTRAL%20BASICO%20UNI.jpeg?alt=media&token=ae948e73-8c12-4069-b7da-554be1653259",
+    title: "Ciclo Semestral Básico UNI",
+    author: "@grupoCiencias",
+    link: "/ciclos/4",
+  },
+  {
+    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fjpeg%2FSEMESTRAL%20INTENSIVO%20UNI.jpeg?alt=media&token=2dc55828-bb9a-4d1d-86ab-be0c22f2732e",
+    title: "Ciclo Semestral Intensivo UNI",
     author: "@grupoCiencias",
     link: "/ciclos/6",
   },
-  // {
-  //   img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fwebp%2FANUAL%20UNMSM.webp?alt=media&token=4c8251a2-9590-4335-bc4e-eab76d23198d",
-  //   title: "Ciclo Repaso San Marcos",
-  //   author: "@grupoCiencias",
-  //   link: "/ciclos/7",
-  // },
-  // {
-  //   img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fwebp%2FREPASO%20UNMSM.webp?alt=media&token=1ddb7dc8-d66b-431e-a6c4-b7e094090881",
-  //   title: "Ciclo Semestral San Marcos",
-  //   author: "@grupoCiencias",
-  //   link: "/ciclos/8",
-  // },
-  // {
-  //   img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fwebp%2FSEMESTRAL%20ABC.webp?alt=media&token=f1a858f6-6095-4837-9ec0-89e39bafa848",
-  //   title: "Ciclo Semestral UNI",
-  //   author: "@grupoCiencias",
-  //   link: "/ciclos/9",
-  // },
 ];
 
 const SeccionCiclos = () => {
   const isSmallScreen = useMediaQuery("(max-width: 600px)");
   const isMediumScreen = useMediaQuery("(max-width: 1200px)");
   const numColumns = isSmallScreen ? 1 : isMediumScreen ? 2 : 3;
+
   return (
     <Container
       maxWidth="xl"
@@ -87,6 +71,7 @@ const SeccionCiclos = () => {
       >
         Nuestros Ciclos
       </Typography>
+
       <ImageList
         sx={{
           width: "100%",
