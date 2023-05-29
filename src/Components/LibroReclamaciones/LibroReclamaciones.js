@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Col, Form, Row } from "react-bootstrap";
 // import Button from "react-bootstrap/Button";
 import { BsChevronDown, BsQuestionOctagonFill } from "react-icons/bs";
@@ -13,13 +13,111 @@ import {
   MenuItem,
   TextField,
   Typography,
+  Snackbar,
+  Alert,
+  FormGroup,
+  FormHelperText,
 } from "@mui/material";
 
+import { ErrorMessage, useFormik } from "formik";
+import * as Yup from "yup";
+
 function LibroReclamaciones() {
+  const [showErrors, setShowErrors] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const [snackbar, setSnackbar] = useState(false);
+
+  const {
+    handleChange,
+    values,
+    errors,
+    handleBlur,
+    touched,
+    validateForm,
+    isValid,
+    handleSubmit,
+  } = useFormik({
+    initialValues: {
+      tipoDocumento: "",
+      documento: "",
+      nombres: "",
+      apellidos: "",
+      email: "",
+      telefono: "",
+      tipoDireccion: "",
+      direccion: "",
+      sede: "",
+      ciclo: "",
+      comentario: "",
+      solicitud: "",
+      aceptoTerminos: false,
+      confirmacionReclamo: false,
+    },
+    validationSchema: Yup.object().shape({
+      tipoDocumento: Yup.string().required("Selecciona el tipo de documento"),
+      documento: Yup.string().required("Ingresa tu número de documento"),
+      nombres: Yup.string().required("Ingresa tus nombres"),
+      apellidos: Yup.string().required("Ingresa tus apellidos"),
+      email: Yup.string()
+        .email("Debes ingresar un correo electrónico válido")
+        .required("Ingresa tu correo electrónico"),
+      telefono: Yup.string().required("Ingresa tu teléfono"),
+      tipoDireccion: Yup.string().required("Seleccion una opción"),
+      direccion: Yup.string().required("Ingresa tu dirección"),
+      sede: Yup.string().required("Selecciona la sede"),
+      ciclo: Yup.string().required("Selecciona el ciclo"),
+      comentario: Yup.string().required("Ingresa un comentario de lo sucedido"),
+      solicitud: Yup.string().required("Ingresa tu solicitud"),
+      aceptoTerminos: Yup.boolean()
+        .oneOf([true], "Debes aceptar los términos y condiciones")
+        .required("Debes aceptar los términos y condiciones"),
+      confirmacionReclamo: Yup.boolean()
+        .oneOf([true], "Debes confirmar tu reclamo")
+        .required("Debes confirmar tu reclamo"),
+    }),
+
+    onSubmit: (data) => {
+      setIsSubmitting(true);
+      console.log(data);
+      setTimeout(() => {
+        setIsSubmitting(false);
+        setSnackbar(true);
+      }, 2000);
+    },
+  });
+
+  const handleInputSubmit = (event) => {
+    event.preventDefault();
+    setShowErrors(true);
+
+    validateForm().then(() => {
+      if (isValid) {
+        handleSubmit();
+      }
+    });
+  };
+
+  const handleCloseSnackbar = (event, reason) => {
+    if (reason === "clickaway") {
+      return;
+    }
+    setSnackbar(false);
+  };
+
+  useEffect(() => {
+    if (showErrors) {
+      validateForm();
+    }
+  }, [showErrors, validateForm]);
+
+  // Desplazamiento
   const bottomRef = useRef();
   const onClick = () => {
     bottomRef.current.scrollIntoView();
   };
+  /////////////////////////////////
+
   return (
     <>
       <Box
@@ -108,7 +206,7 @@ function LibroReclamaciones() {
             background: "#f9faff",
           }}
         >
-          <form>
+          <form onSubmit={handleInputSubmit}>
             <Box ref={bottomRef}>
               <Typography
                 sx={{
@@ -143,22 +241,22 @@ function LibroReclamaciones() {
               <Grid item xs={12} sm={3}>
                 <TextField
                   select
-                  label="DNI"
+                  label="Tipo de Documento"
                   fullWidth
                   margin="normal"
-                  name="universidad"
-                  defaultValue="opcion1"
-                  value="opcion1"
-                  // defaultValue={values.universidad}
-                  // value={values.universidad}
-                  // onChange={handleChange}
-                  // onBlur={handleBlur}
-                  // error={
-                  //   (showErrors || touched.universidad) && Boolean(errors.universidad)
-                  // }
-                  // helperText={
-                  //   (showErrors || touched.universidad) && errors.universidad
-                  // }
+                  name="tipoDocumento"
+                  defaultValue={values.tipoDocumento}
+                  value={values.tipoDocumento}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  error={
+                    (showErrors || touched.tipoDocumento) &&
+                    Boolean(errors.tipoDocumento)
+                  }
+                  helperText={
+                    (showErrors || touched.tipoDocumento) &&
+                    errors.tipoDocumento
+                  }
                 >
                   <MenuItem value="opcion1" disabled>
                     Selecciona un documento
@@ -170,15 +268,21 @@ function LibroReclamaciones() {
               </Grid>
               <Grid item xs={12} sm={4}>
                 <TextField
-                  label="Ingresa tu identificador"
+                  type="number"
+                  label="Ingresa tu número de documento"
                   fullWidth
                   margin="normal"
-                  name="nombre"
-                  // value={values.nombre}
-                  // onChange={handleChange}
-                  // onBlur={handleBlur}
-                  // error={(showErrors || touched.nombre) && Boolean(errors.nombre)}
-                  // helperText={(showErrors || touched.nombre) && errors.nombre}
+                  name="documento"
+                  value={values.documento}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  error={
+                    (showErrors || touched.documento) &&
+                    Boolean(errors.documento)
+                  }
+                  helperText={
+                    (showErrors || touched.documento) && errors.documento
+                  }
                 ></TextField>
               </Grid>
               <Grid item xs={12} sm={6}>
@@ -186,12 +290,14 @@ function LibroReclamaciones() {
                   label="Ingresa tus nombres completos"
                   fullWidth
                   margin="normal"
-                  name="nombre"
-                  // value={values.nombre}
-                  // onChange={handleChange}
-                  // onBlur={handleBlur}
-                  // error={(showErrors || touched.nombre) && Boolean(errors.nombre)}
-                  // helperText={(showErrors || touched.nombre) && errors.nombre}
+                  name="nombres"
+                  value={values.nombres}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  error={
+                    (showErrors || touched.nombres) && Boolean(errors.nombres)
+                  }
+                  helperText={(showErrors || touched.nombres) && errors.nombres}
                 ></TextField>
               </Grid>
               <Grid item xs={12} sm={6}>
@@ -199,12 +305,17 @@ function LibroReclamaciones() {
                   label="Ingresa tus apellidos completos"
                   fullWidth
                   margin="normal"
-                  name="nombre"
-                  // value={values.nombre}
-                  // onChange={handleChange}
-                  // onBlur={handleBlur}
-                  // error={(showErrors || touched.nombre) && Boolean(errors.nombre)}
-                  // helperText={(showErrors || touched.nombre) && errors.nombre}
+                  name="apellidos"
+                  value={values.apellidos}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  error={
+                    (showErrors || touched.apellidos) &&
+                    Boolean(errors.apellidos)
+                  }
+                  helperText={
+                    (showErrors || touched.apellidos) && errors.apellidos
+                  }
                 ></TextField>
               </Grid>
               <Grid item xs={12} sm={6}>
@@ -212,25 +323,30 @@ function LibroReclamaciones() {
                   label="Ingresa tu correo electrónico"
                   fullWidth
                   margin="normal"
-                  name="nombre"
-                  // value={values.nombre}
-                  // onChange={handleChange}
-                  // onBlur={handleBlur}
-                  // error={(showErrors || touched.nombre) && Boolean(errors.nombre)}
-                  // helperText={(showErrors || touched.nombre) && errors.nombre}
+                  name="email"
+                  value={values.email}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  error={(showErrors || touched.email) && Boolean(errors.email)}
+                  helperText={(showErrors || touched.email) && errors.email}
                 ></TextField>
               </Grid>
               <Grid item xs={12} sm={6}>
                 <TextField
+                  type="number"
                   label="Ingresa tu número de telefono"
                   fullWidth
                   margin="normal"
-                  name="nombre"
-                  // value={values.nombre}
-                  // onChange={handleChange}
-                  // onBlur={handleBlur}
-                  // error={(showErrors || touched.nombre) && Boolean(errors.nombre)}
-                  // helperText={(showErrors || touched.nombre) && errors.nombre}
+                  name="telefono"
+                  value={values.telefono}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  error={
+                    (showErrors || touched.telefono) && Boolean(errors.telefono)
+                  }
+                  helperText={
+                    (showErrors || touched.telefono) && errors.telefono
+                  }
                 ></TextField>
               </Grid>
               <Grid item xs={12} sm={7} md={7}>
@@ -239,19 +355,19 @@ function LibroReclamaciones() {
                   label="Departamento, Provincia, Distrito"
                   fullWidth
                   margin="normal"
-                  name="universidad"
-                  defaultValue="opcion1"
-                  value="opcion1"
-                  // defaultValue={values.universidad}
-                  // value={values.universidad}
-                  // onChange={handleChange}
-                  // onBlur={handleBlur}
-                  // error={
-                  //   (showErrors || touched.universidad) && Boolean(errors.universidad)
-                  // }
-                  // helperText={
-                  //   (showErrors || touched.universidad) && errors.universidad
-                  // }
+                  name="tipoDireccion"
+                  defaultValue={values.tipoDireccion}
+                  value={values.tipoDireccion}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  error={
+                    (showErrors || touched.tipoDireccion) &&
+                    Boolean(errors.tipoDireccion)
+                  }
+                  helperText={
+                    (showErrors || touched.tipoDireccion) &&
+                    errors.tipoDireccion
+                  }
                 >
                   <MenuItem value="opcion1" disabled>
                     Selecciona una opcion
@@ -265,12 +381,17 @@ function LibroReclamaciones() {
                   label="Ingresa tu direccion"
                   fullWidth
                   margin="normal"
-                  name="nombre"
-                  // value={values.nombre}
-                  // onChange={handleChange}
-                  // onBlur={handleBlur}
-                  // error={(showErrors || touched.nombre) && Boolean(errors.nombre)}
-                  // helperText={(showErrors || touched.nombre) && errors.nombre}
+                  name="direccion"
+                  value={values.direccion}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  error={
+                    (showErrors || touched.direccion) &&
+                    Boolean(errors.direccion)
+                  }
+                  helperText={
+                    (showErrors || touched.direccion) && errors.direccion
+                  }
                 ></TextField>
               </Grid>
             </Grid>
@@ -312,19 +433,13 @@ function LibroReclamaciones() {
                   label="Selecciona la Sede"
                   fullWidth
                   margin="normal"
-                  name="universidad"
-                  defaultValue="opcion1"
-                  value="opcion1"
-                  // defaultValue={values.universidad}
-                  // value={values.universidad}
-                  // onChange={handleChange}
-                  // onBlur={handleBlur}
-                  // error={
-                  //   (showErrors || touched.universidad) && Boolean(errors.universidad)
-                  // }
-                  // helperText={
-                  //   (showErrors || touched.universidad) && errors.universidad
-                  // }
+                  name="sede"
+                  defaultValue={values.sede}
+                  value={values.sede}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  error={(showErrors || touched.sede) && Boolean(errors.sede)}
+                  helperText={(showErrors || touched.sede) && errors.sede}
                 >
                   <MenuItem value="opcion1" disabled>
                     Selecciona la Sede
@@ -339,19 +454,13 @@ function LibroReclamaciones() {
                   label="Selecciona el ciclo que deseas reportar"
                   fullWidth
                   margin="normal"
-                  name="universidad"
-                  defaultValue="opcion1"
-                  value="opcion1"
-                  // defaultValue={values.universidad}
-                  // value={values.universidad}
-                  // onChange={handleChange}
-                  // onBlur={handleBlur}
-                  // error={
-                  //   (showErrors || touched.universidad) && Boolean(errors.universidad)
-                  // }
-                  // helperText={
-                  //   (showErrors || touched.universidad) && errors.universidad
-                  // }
+                  name="ciclo"
+                  defaultValue={values.ciclo}
+                  value={values.ciclo}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  error={(showErrors || touched.ciclo) && Boolean(errors.ciclo)}
+                  helperText={(showErrors || touched.ciclo) && errors.ciclo}
                 >
                   <MenuItem value="opcion1" disabled>
                     Selecciona el ciclo que deseas reportar
@@ -382,12 +491,17 @@ function LibroReclamaciones() {
                   label="Cuentanos que ha sucedido"
                   fullWidth
                   margin="normal"
-                  name="nombre"
-                  // value={values.nombre}
-                  // onChange={handleChange}
-                  // onBlur={handleBlur}
-                  // error={(showErrors || touched.nombre) && Boolean(errors.nombre)}
-                  // helperText={(showErrors || touched.nombre) && errors.nombre}
+                  name="comentario"
+                  value={values.comentario}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  error={
+                    (showErrors || touched.comentario) &&
+                    Boolean(errors.comentario)
+                  }
+                  helperText={
+                    (showErrors || touched.comentario) && errors.comentario
+                  }
                 ></TextField>
               </Grid>
               <Grid item xs={12} sm={12}>
@@ -397,25 +511,57 @@ function LibroReclamaciones() {
                   label="Cual es tu solicitud para Solucionar el problema"
                   fullWidth
                   margin="normal"
-                  name="nombre"
-                  // value={values.nombre}
-                  // onChange={handleChange}
-                  // onBlur={handleBlur}
-                  // error={(showErrors || touched.nombre) && Boolean(errors.nombre)}
-                  // helperText={(showErrors || touched.nombre) && errors.nombre}
+                  name="solicitud"
+                  value={values.solicitud}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  error={
+                    (showErrors || touched.solicitud) &&
+                    Boolean(errors.solicitud)
+                  }
+                  helperText={
+                    (showErrors || touched.solicitud) && errors.solicitud
+                  }
                 ></TextField>
               </Grid>
             </Grid>
-            <FormControlLabel
-              sx={{ padding: "10px 0" }}
-              control={<Checkbox defaultChecked />}
-              label="Al enviar este formulario acepto el flujo transfronterizo de mis datos personales, según la Ley de Protección de Datos Personales."
-            />
+            <FormGroup>
+              <FormControlLabel
+                sx={{ padding: "10px 0" }}
+                label="Al enviar este formulario acepto el flujo transfronterizo de mis datos personales, según la Ley de Protección de Datos Personales."
+                control={
+                  <Checkbox
+                    defaultChecked
+                    name="aceptoTerminos"
+                    checked={values.aceptoTerminos}
+                    onChange={handleChange}
+                    onBlur={handleBlur}
+                  />
+                }
+              />
+              {touched.aceptoTerminos && errors.aceptoTerminos && (
+                <FormHelperText error>{errors.aceptoTerminos}</FormHelperText>
+              )}
 
-            <FormControlLabel
-              control={<Checkbox />}
-              label="He leído y estoy de acuerdo con toda la información descrita en estre reclamo *"
-            />
+              <FormControlLabel
+                sx={{ padding: "10px 0" }}
+                label="He leído y estoy de acuerdo con toda la información descrita en estre reclamo *"
+                control={
+                  <Checkbox
+                    defaultChecked
+                    name="confirmacionReclamo"
+                    checked={values.confirmacionReclamo}
+                    onChange={handleChange}
+                    onBlur={handleBlur}
+                  />
+                }
+              />
+              {touched.confirmacionReclamo && errors.confirmacionReclamo && (
+                <FormHelperText error>
+                  {errors.confirmacionReclamo}
+                </FormHelperText>
+              )}
+            </FormGroup>
 
             <Box
               sx={{
@@ -438,10 +584,9 @@ function LibroReclamaciones() {
                 }}
                 variant="contained"
                 type="submit"
-                // disabled={isSubmitting}
+                disabled={isSubmitting}
               >
-                {/* {isSubmitting ? "Enviando" : "Enviar"} */}
-                Generar reclamo
+                {isSubmitting ? "Enviando" : "Generar reclamo"}
               </Button>
               <Box
                 sx={{
@@ -470,255 +615,21 @@ function LibroReclamaciones() {
             </Box>
           </form>
         </Box>
+
+        <Snackbar
+          open={snackbar}
+          autoHideDuration={3000}
+          onClose={handleCloseSnackbar}
+        >
+          <Alert
+            onClose={handleCloseSnackbar}
+            severity="success"
+            variant="filled"
+          >
+            Reclamo Enviado
+          </Alert>
+        </Snackbar>
       </Box>
-      <div className="container container-claim">
-        {/* <div className="col-lg-12 header-content">
-          <div className="header-claim">
-            <h1 className="header-title">Libro de Reclamaciones</h1>
-            <h4>
-              Completa el formulario para hacernos llegar tus quejas y/o
-              sugerencias
-            </h4>
-            <div className="cursor">
-              <BsChevronDown
-                style={{
-                  color: "#FFFFFF",
-                  fontSize: "1.5em",
-                  marginTop: "40px",
-                  strokeWidth: "2",
-                }}
-                onClick={onClick}
-              />
-            </div>
-          </div>
-        </div> */}
-
-        {/* <div className="col-lg-12 header-one">
-          <div className="row cia-info">
-            <div className="block-one col-lg-6 col-12">
-              <div className="block-title">
-                Grupo de Estudio Ciencias E.I.R.L.
-              </div>
-              <div className="block-ruc">RUC 20607260169</div>
-            </div>
-            <div className="block-two col-lg-6 col-12">
-              <div className="block-claim">
-                Hoja de reclamación: 000000326-2022
-              </div>
-              <div className="block-date">29-10-2022 15:38:21</div>
-            </div>
-          </div>
-        </div> */}
-
-        {/* <div className="col-lg-12 form-claim">
-          <div className="content-claim">
-            <div className="row">
-              <Form>
-                <h2 className="claim-subtitle">
-                  <span className="circle">1</span>
-                  Datos de la persona que presenta el reclamo
-                </h2>
-
-                <Form.Group className="mb-3">
-                  <Row className="g-2">
-                    <Form.Label>Documento de Identidad</Form.Label>
-                    <Col sm="2">
-                      <Form.Select
-                        aria-label="Default select example"
-                        size="lg"
-                      >
-                        <option value="1">DNI</option>
-                        <option value="2">Pasaporte</option>
-                        <option value="3">Carne Extranjeria</option>
-                      </Form.Select>
-                    </Col>
-                    <Col sm="3">
-                      <Form.Control type="documentId" size="lg" />
-                    </Col>
-                  </Row>
-                </Form.Group>
-
-                <Form.Group className="mb-3">
-                  <Row className="g-2">
-                    <Col sm="6">
-                      <Form.Label>Nombres completos</Form.Label>
-                      <Form.Control type="name" size="lg" />
-                    </Col>
-                    <Col sm="6">
-                      <Form.Label>Apellidos completos</Form.Label>
-                      <Form.Control type="lastName" size="lg" />
-                    </Col>
-                  </Row>
-                </Form.Group>
-
-                <Form.Group className="mb-3">
-                  <Row className="g-2">
-                    <Col sm="6">
-                      <Form.Label>Correo electrónico</Form.Label>
-                      <Form.Control type="name" size="lg" />
-                    </Col>
-                    <Col sm="6">
-                      <Form.Label>Celular</Form.Label>
-                      <Form.Control type="lastName" size="lg" />
-                    </Col>
-                  </Row>
-                </Form.Group>
-
-                <Form.Group className="mb-3">
-                  <Row className="g-2">
-                    <Col sm="6">
-                      <Form.Label>Departamento, Provicia, Distrito</Form.Label>
-                      <Form.Select
-                        aria-label="Default select example"
-                        size="lg"
-                      >
-                        <option value="1">Lima</option>
-                        <option value="2">Callao</option>
-                      </Form.Select>
-                    </Col>
-                  </Row>
-                </Form.Group>
-
-                <Form.Group className="mb-3">
-                  <Row className="g-2">
-                    <Col sm="12">
-                      <Form.Label>Dirección</Form.Label>
-                      <Form.Control type="lastName" size="lg" />
-                    </Col>
-                  </Row>
-                </Form.Group>
-
-                <h2 className="claim-subtitle">
-                  <span className="circle">2</span>
-                  Datos del reclamo
-                </h2>
-
-                <Form.Group className="mb-3">
-                  <Row className="g-2">
-                    <Col sm="6">
-                      <Form.Label>Selecciona la sede</Form.Label>
-                      <Form.Select
-                        aria-label="Default select example"
-                        size="lg"
-                      >
-                        <option value="1">Sede Comas</option>
-                        <option value="2">Sede SJL</option>
-                      </Form.Select>
-                    </Col>
-                    <Col sm="6">
-                      <Form.Label>
-                        Selecciona el ciclo que desea reportar
-                      </Form.Label>
-                      <Form.Select
-                        aria-label="Default select example"
-                        size="lg"
-                      >
-                        <option value="1">Ciclo Verano San Marcos</option>
-                        <option value="2">Ciclo Verano UNI</option>
-                        <option value="1">Ciclo Repaso San Marcos</option>
-                        <option value="2">Ciclo Repaso UNI</option>
-                        <option value="1">Ciclo Semestral San Marcos</option>
-                        <option value="2">Ciclo Semestral UNI</option>
-                        <option value="1">Ciclo Anual San Marcos</option>
-                      </Form.Select>
-                    </Col>
-                  </Row>
-                </Form.Group>
-
-                <Form.Group className="mb-3">
-                  <Row className="g-2">
-                    <Form.Label>Cuéntanos qué ha sucedido</Form.Label>
-                    <Form.Control as="textarea" rows={3} size="lg" />
-                  </Row>
-                </Form.Group>
-
-                <Form.Group className="mb-3">
-                  <Row className="g-2">
-                    <Form.Label>
-                      Cuál es su solicitud para solucionar el problema
-                    </Form.Label>
-                    <Form.Control as="textarea" rows={3} size="lg" />
-                  </Row>
-                </Form.Group>
-
-                <Form.Group className="mb-3">
-                  <Row className="g-2">
-                    <Col sm="12">
-                      <Form.Check type={"checkbox"}>
-                        <Form.Check.Input
-                          type={"checkbox"}
-                          isValid
-                          size="lg"
-                          className="mr-4"
-                        />
-                        <Form.Check.Label
-                          className="check-text"
-                          style={{
-                            color: "rgba(45, 42, 38, 0.75)",
-                            marginLeft: "20px",
-                          }}
-                        >
-                          Al enviar este formulario acepto el flujo
-                          transfronterizo de mis datos personales, según la Ley
-                          de Protección de Datos Personales.
-                        </Form.Check.Label>
-                      </Form.Check>
-                      <Form.Check type={"checkbox"}>
-                        <Form.Check.Input
-                          type={"checkbox"}
-                          isValid
-                          style={{ color: "black" }}
-                        />
-                        <Form.Check.Label
-                          className="check-text"
-                          style={{
-                            color: "rgba(45, 42, 38, 0.75)",
-                            marginLeft: "20px",
-                          }}
-                        >
-                          He leído y estoy de acuerdo con toda la información
-                          descrita en estre reclamo
-                        </Form.Check.Label>
-                      </Form.Check>
-                    </Col>
-                  </Row>
-                </Form.Group>
-              </Form>
-            </div>
-          </div>
-        </div> */}
-
-        {/* <div className="col-lg-12 claim-process" ref={bottomRef}>
-          <div className="row process-info">
-            <div className="col-lg-1 ">
-              <BsQuestionOctagonFill
-                style={{
-                  fontSize: "2.5em",
-                  marginLeft: "10px",
-                  marginTop: "20px",
-                  color: "red",
-                }}
-              />
-            </div>
-            <div className="col-lg-5">
-              <p>
-                Tu reclamo o queja será asignado a un asesor y te brindaremos
-                una respuesta en el plazo que estipula la (Ley de Protección de
-                Consumidor), el cual es improrrogable. Te pedimos estar atento a
-                tu correo.
-              </p>
-            </div>
-            <div className="col-lg-6 options">
-              <Button variant="light" className="cancel">
-                Cancelar
-              </Button>
-              <Button variant="danger" className="save">
-                Generar reclamo
-              </Button>
-            </div>
-          </div>
-        </div> */}
-      </div>
     </>
   );
 }

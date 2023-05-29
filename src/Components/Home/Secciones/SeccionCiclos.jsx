@@ -44,24 +44,24 @@ const itemData = [
     author: "@grupoCiencias",
     link: "/ciclos/6",
   },
-  {
-    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fwebp%2FANUAL%20UNMSM.webp?alt=media&token=4c8251a2-9590-4335-bc4e-eab76d23198d",
-    title: "Ciclo Repaso San Marcos",
-    author: "@grupoCiencias",
-    link: "/ciclos/7",
-  },
-  {
-    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fwebp%2FREPASO%20UNMSM.webp?alt=media&token=1ddb7dc8-d66b-431e-a6c4-b7e094090881",
-    title: "Ciclo Semestral San Marcos",
-    author: "@grupoCiencias",
-    link: "/ciclos/8",
-  },
-  {
-    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fwebp%2FSEMESTRAL%20ABC.webp?alt=media&token=f1a858f6-6095-4837-9ec0-89e39bafa848",
-    title: "Ciclo Semestral UNI",
-    author: "@grupoCiencias",
-    link: "/ciclos/9",
-  },
+  // {
+  //   img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fwebp%2FANUAL%20UNMSM.webp?alt=media&token=4c8251a2-9590-4335-bc4e-eab76d23198d",
+  //   title: "Ciclo Repaso San Marcos",
+  //   author: "@grupoCiencias",
+  //   link: "/ciclos/7",
+  // },
+  // {
+  //   img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fwebp%2FREPASO%20UNMSM.webp?alt=media&token=1ddb7dc8-d66b-431e-a6c4-b7e094090881",
+  //   title: "Ciclo Semestral San Marcos",
+  //   author: "@grupoCiencias",
+  //   link: "/ciclos/8",
+  // },
+  // {
+  //   img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fwebp%2FSEMESTRAL%20ABC.webp?alt=media&token=f1a858f6-6095-4837-9ec0-89e39bafa848",
+  //   title: "Ciclo Semestral UNI",
+  //   author: "@grupoCiencias",
+  //   link: "/ciclos/9",
+  // },
 ];
 
 const SeccionCiclos = () => {

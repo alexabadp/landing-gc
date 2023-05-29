@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+
 import {
   Alert,
   Button,
@@ -8,8 +10,8 @@ import {
   TextField,
   Typography,
 } from "@mui/material";
+
 import { useFormik } from "formik";
-import { useEffect, useState } from "react";
 import * as Yup from "yup";
 
 const opcionesUniversidades = [
@@ -86,9 +88,8 @@ const SeccionContactanos = () => {
       console.log(data);
       setTimeout(() => {
         setIsSubmitting(false);
+        setSnackbar(true);
       }, 2000);
-
-      setSnackbar(true);
     },
   });
 
