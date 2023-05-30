@@ -125,11 +125,11 @@ function Footer() {
               </a>
               <Typography
                 sx={{
-                  fontSize: { xs: "34px", sm: "60px" },
+                  fontSize: { xs: "44px", sm: "60px" },
                   position: "relative",
-                  maxWidth: "55px",
+                  maxWidth: "44px",
                   width: "100%",
-                  height: "55px",
+                  height: "44px",
                   borderRadius: "50%",
                   background: "#fff",
 
@@ -145,10 +145,10 @@ function Footer() {
                 >
                   <Typography
                     sx={{
-                      fontSize: { xs: "34px", sm: "60px" },
+                      fontSize: { xs: "48px", sm: "60px" },
                       position: "absoluta",
-                      width: "60px",
-                      height: "60px",
+                      width: "48px",
+                      height: "48px",
                       display: "flex",
                       justifyContent: "center",
                       alignItems: "center",
@@ -210,13 +210,7 @@ function Footer() {
             >
               Materiales
             </Typography>
-            <Typography
-              component={Link}
-              to="/libroreclamaciones"
-              sx={{ fontSize: { xs: "17px" } }}
-            >
-              Admisión
-            </Typography>
+            <Typography sx={{ fontSize: { xs: "17px" } }}>Admisión</Typography>
             {/* <Typography
               sx={{ fontSize: { xs: "17px" }, padding: { xs: "15px 0" } }}
             >
@@ -240,12 +234,12 @@ function Footer() {
                 <FaTelegramPlane style={{ marginRight: "10px" }} />
                 Sede Comas (01) 6330205
               </li>
-              <li>
+              <li style={{ marginTop: "20px" }}>
                 <AiFillSchedule style={{ marginRight: "10px" }} />
                 Horario de atención:
-                <ul className="mt-4">
-                  <li>lunes a viernes de 8am a 5pm</li>
-                  <li>sábados de 9am a 12m</li>
+                <ul>
+                  <li>Lunes a Viernes de 8am a 5pm</li>
+                  <li>Sábados de 9am a 12m</li>
                 </ul>
               </li>
             </ul>
@@ -326,6 +320,7 @@ function Footer() {
             justifyContent: "center",
             gap: "20px",
             alignItems: "center",
+            paddingTop: "20px",
           }}
         >
           <a
@@ -394,8 +389,8 @@ function Footer() {
               fontSize: { xs: "34px", sm: "60px" },
               position: "relative",
 
-              width: "50px",
-              height: "50px",
+              width: "40px",
+              height: "40px",
               borderRadius: "50%",
               background: "#fff",
 
@@ -411,10 +406,10 @@ function Footer() {
             >
               <Typography
                 sx={{
-                  fontSize: { xs: "54px", sm: "60px" },
+                  fontSize: { xs: "44px", sm: "60px" },
                   position: "absoluta",
-                  width: "54px",
-                  height: "54px",
+                  width: "44px",
+                  height: "44px",
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",

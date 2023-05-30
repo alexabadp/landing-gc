@@ -277,7 +277,11 @@ function Header() {
                 to="/"
                 onClick={handleCloseNavMenu}
               >
-                <Typography textTransform="none" textAlign="center">
+                <Typography
+                  color="#000"
+                  textTransform="none"
+                  textAlign="center"
+                >
                   Inicio
                 </Typography>
               </Button>
@@ -424,7 +428,11 @@ function Header() {
                 to="/videoClases"
                 onClick={handleCloseNavMenu}
               >
-                <Typography textTransform="none" textAlign="center">
+                <Typography
+                  color="#000"
+                  textTransform="none"
+                  textAlign="center"
+                >
                   Biblioteca
                 </Typography>
               </Button>
@@ -434,7 +442,11 @@ function Header() {
                 to="/contactus"
                 onClick={handleCloseNavMenu}
               >
-                <Typography textTransform="none" textAlign="center">
+                <Typography
+                  color="#000"
+                  textTransform="none"
+                  textAlign="center"
+                >
                   Contáctanos
                 </Typography>
               </Button>
@@ -444,7 +456,11 @@ function Header() {
                 to="/sedes"
                 onClick={handleCloseNavMenu}
               >
-                <Typography textTransform="none" textAlign="center">
+                <Typography
+                  color="#000"
+                  textTransform="none"
+                  textAlign="center"
+                >
                   Sedes
                 </Typography>
               </Button>

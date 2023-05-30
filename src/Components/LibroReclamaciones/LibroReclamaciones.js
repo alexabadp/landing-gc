@@ -41,6 +41,7 @@ function LibroReclamaciones() {
     validateForm,
     isValid,
     handleSubmit,
+    resetForm,
   } = useFormik({
     initialValues: {
       tipoDocumento: "",
@@ -86,6 +87,7 @@ function LibroReclamaciones() {
       console.log(data);
       setTimeout(() => {
         setIsSubmitting(false);
+        resetForm();
         setSnackbar(true);
       }, 2000);
     },

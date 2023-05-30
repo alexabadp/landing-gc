@@ -53,6 +53,7 @@ const SeccionContactanos = () => {
     validateForm,
     isValid,
     handleSubmit,
+    resetForm,
   } = useFormik({
     initialValues: {
       // universidad: "",
@@ -86,6 +87,7 @@ const SeccionContactanos = () => {
       console.log(data);
       setTimeout(() => {
         setIsSubmitting(false);
+        resetForm();
         setSnackbar(true);
       }, 2000);
     },
