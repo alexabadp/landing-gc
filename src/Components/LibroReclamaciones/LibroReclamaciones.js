@@ -549,7 +549,7 @@ function LibroReclamaciones() {
 
               <FormControlLabel
                 sx={{ padding: "10px 0" }}
-                label="He leído y estoy de acuerdo con toda la información descrita en estre reclamo *"
+                label="He leído y estoy de acuerdo con toda la información descrita en este reclamo *"
                 control={
                   <Checkbox
                     defaultChecked
