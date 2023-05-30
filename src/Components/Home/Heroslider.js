@@ -3,17 +3,30 @@ import "react-multi-carousel/lib/styles.css";
 
 import { Box, useMediaQuery } from "@mui/material";
 
-// import portada1 from "../Home/Images/Slider/portada_1.png";
-// import portada2 from "../Home/Images/Slider/portada_2.png";
-// import portada3 from "../Home/Images/Slider/portada_3.png";
-// import portada4 from "../Home/Images/Slider/portada_4.png";
-// import portada5 from "../Home/Images/Slider/portada_5.png";
-// import portada6 from "../Home/Images/Slider/portada_6.png";
-
 const Heroslider = () => {
   const isSmallScreen = useMediaQuery("(max-width: 600px)");
   const isMediumScreen = useMediaQuery("(max-width: 1200px)");
   const arrowDots = isSmallScreen ? true : isMediumScreen ? false : false;
+
+  const dotStyles = {
+    display: "inline-block",
+    width: "20px" /* Ancho de la línea */,
+    height: "5px" /* Alto de la línea */,
+    borderRadius: "2px",
+    border: "1px solid gray",
+    backgroundColor: "#fff" /* Color de la línea */,
+    margin: "5px 5px" /* Espacio entre las líneas */,
+  };
+
+  const activeDotStyles = {
+    ...dotStyles,
+    backgroundColor: "black" /* Color de la línea activa */,
+  };
+
+  const CustomDot = ({ active }) => (
+    <span style={active ? activeDotStyles : dotStyles} />
+  );
+
   return (
     <Box sx={{ marginTop: { xs: "50px", md: "20px" } }}>
       <Carousel
@@ -60,6 +73,7 @@ const Heroslider = () => {
         rtl={false}
         shouldResetAutoplay
         showDots={arrowDots}
+        customDot={<CustomDot />}
         sliderClass=""
         slidesToSlide={1}
         swipeable
