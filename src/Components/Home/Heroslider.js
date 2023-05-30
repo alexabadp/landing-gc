@@ -18,7 +18,7 @@ const Heroslider = () => {
     <Box sx={{ marginTop: { xs: "50px", md: "20px" } }}>
       <Carousel
         additionalTransfrom={0}
-        customTransition="transform 4000ms ease-in-out" // Transición personalizada de 500ms
+        customTransition="transform 500ms ease-in-out" // Transición personalizada de 500ms
         arrows={!arrowDots}
         autoPlay
         autoPlaySpeed={6000}
@@ -100,7 +100,7 @@ const Heroslider = () => {
           <img
             width="100%"
             height="100%"
-            src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FHeroSlider%2Fwebp%2Fportada_5.webp?alt=media&token=f65d4134-837a-446b-a0d6-324b656d1681"
+            src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FHeroSlider%2Fwebp%2FPORTADA%20YT.webp?alt=media&token=3e13d6e3-9061-4cb8-87fc-6aebaa50797a&_gl=1*kyvmn1*_ga*Njk4NjE0MDA1LjE2ODQ3MDg2NTU.*_ga_CW55HF8NVT*MTY4NTQyNzI3My4xNy4xLjE2ODU0Mjg3NjUuMC4wLjA."
             alt=""
           />
         </div>

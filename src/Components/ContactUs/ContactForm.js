@@ -55,7 +55,7 @@ const SeccionContactanos = () => {
     handleSubmit,
   } = useFormik({
     initialValues: {
-      universidad: "",
+      // universidad: "",
       ciclo: "",
       nombre: "",
       dni: "",
@@ -63,7 +63,7 @@ const SeccionContactanos = () => {
       celular: "",
     },
     validationSchema: Yup.object().shape({
-      universidad: Yup.string().required("Selecciona una universidad"),
+      // universidad: Yup.string().required("Selecciona una universidad"),
       ciclo: Yup.string().required("Selecciona un ciclo"),
       nombre: Yup.string().required("Ingresa tu nombre"),
       dni: Yup.string()
@@ -86,9 +86,8 @@ const SeccionContactanos = () => {
       console.log(data);
       setTimeout(() => {
         setIsSubmitting(false);
+        setSnackbar(true);
       }, 2000);
-
-      setSnackbar(true);
     },
   });
 
@@ -135,7 +134,7 @@ const SeccionContactanos = () => {
           Inscríbete ahora
         </Typography>
         <form onSubmit={handleInputSubmit}>
-          <TextField
+          {/* <TextField
             select
             label="A que universidad deseas postular"
             fullWidth
@@ -160,7 +159,7 @@ const SeccionContactanos = () => {
                 {e.label}
               </MenuItem>
             ))}
-          </TextField>
+          </TextField> */}
 
           <TextField
             select
@@ -188,7 +187,7 @@ const SeccionContactanos = () => {
           <Grid container columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
             <Grid item xs={12} md={8}>
               <TextField
-                label="Ingresa tu nombre y apellido"
+                label="Ingresa tus nombres y apellidos"
                 fullWidth
                 margin="normal"
                 name="nombre"
@@ -267,7 +266,7 @@ const SeccionContactanos = () => {
 
         <Snackbar
           open={snackbar}
-          autoHideDuration={3000}
+          autoHideDuration={5000}
           onClose={handleCloseSnackbar}
         >
           <Alert
@@ -275,7 +274,8 @@ const SeccionContactanos = () => {
             severity="success"
             variant="filled"
           >
-            Mensaje enviado correctamente
+            Muchas gracias, en breve te enviaremos más detalles del ciclo a tu
+            correo
           </Alert>
         </Snackbar>
       </Container>

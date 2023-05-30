@@ -299,7 +299,7 @@ function Footer() {
           opciones={["Videoclases", "Materiales", "Admisión"]}
         />
         <ListaDesplegable
-          elemento={"Cuenta con nosotros"}
+          elemento={"Contacta con nosotros"}
           opciones={[
             "informes@grupociencias.edu.pe",
             "Sede San Juan de Lurigancho (01) 6221103",
@@ -307,7 +307,7 @@ function Footer() {
           ]}
         />
         <ListaDesplegable
-          elemento={"Horarios"}
+          elemento={"Horarios de atención"}
           opciones={["Lunes a viernes de 8am a 5pm", "Sábados de 9am a 12pm"]}
         />
 

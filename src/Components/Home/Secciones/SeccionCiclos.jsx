@@ -9,38 +9,38 @@ import { Container, Typography, useMediaQuery } from "@mui/material";
 
 const itemData = [
   {
-    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fjpeg%2FANUAL%20UNMSM.jpeg?alt=media&token=cbe9f9f3-166c-4109-b8f9-1ae9b0b5537e",
+    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fwebp%2FANUAL%20UNMSM.webp?alt=media&token=4c8251a2-9590-4335-bc4e-eab76d23198d&_gl=1*9wj5n2*_ga*Njk4NjE0MDA1LjE2ODQ3MDg2NTU.*_ga_CW55HF8NVT*MTY4NTQyMjM5Mi4xNi4xLjE2ODU0MjI0MjMuMC4wLjA.",
     title: "Ciclo Anual San Marcos",
     author: "@grupoCiencias",
     link: "/ciclos/1",
   },
   {
-    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fjpeg%2FREPASO%20UNMSM.jpeg?alt=media&token=e1bc8de4-2d3c-4a14-be2d-794f76567681",
+    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fwebp%2FREPASO%20UNMSM.webp?alt=media&token=1ddb7dc8-d66b-431e-a6c4-b7e094090881&_gl=1*bbqrth*_ga*Njk4NjE0MDA1LjE2ODQ3MDg2NTU.*_ga_CW55HF8NVT*MTY4NTQyMjM5Mi4xNi4xLjE2ODU0MjI0MzkuMC4wLjA.",
     title: "Ciclo Repaso San Marcos",
     author: "@grupoCiencias",
     link: "/ciclos/2",
   },
   {
-    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fjpeg%2FSEMESTRAL%20ABC.jpeg?alt=media&token=12e1d552-f7f5-4452-a865-a531a21cd77d",
+    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fwebp%2FSEMESTRAL%20ABC.webp?alt=media&token=f1a858f6-6095-4837-9ec0-89e39bafa848&_gl=1*usg9ci*_ga*Njk4NjE0MDA1LjE2ODQ3MDg2NTU.*_ga_CW55HF8NVT*MTY4NTQyMjM5Mi4xNi4xLjE2ODU0MjI0NDIuMC4wLjA.",
     title: "Ciclo Semestral ABC San Marcos",
     author: "@grupoCiencias",
     link: "/ciclos/3",
   },
 
   {
-    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fjpeg%2FSEMESTRAL%20DE.jpeg?alt=media&token=c16bc270-7e90-409f-9af4-59389b35459d",
+    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fwebp%2FSEMESTRAL%20DE.webp?alt=media&token=578e6e48-db31-4048-bfe4-f5bed245670c&_gl=1*hlil2p*_ga*Njk4NjE0MDA1LjE2ODQ3MDg2NTU.*_ga_CW55HF8NVT*MTY4NTQyMjM5Mi4xNi4xLjE2ODU0MjI0NDguMC4wLjA.",
     title: "Ciclo Semestral DE San Marcos",
     author: "@grupoCiencias",
     link: "/ciclos/5",
   },
   {
-    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fjpeg%2FSEMESTRAL%20BASICO%20UNI.jpeg?alt=media&token=ae948e73-8c12-4069-b7da-554be1653259",
+    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fwebp%2FSEMESTRAL%20BASICO%20UNI.webp?alt=media&token=f77c7277-4eef-45a9-9163-3381619a4803&_gl=1*n5786s*_ga*Njk4NjE0MDA1LjE2ODQ3MDg2NTU.*_ga_CW55HF8NVT*MTY4NTQyMjM5Mi4xNi4xLjE2ODU0MjI0NDUuMC4wLjA.",
     title: "Ciclo Semestral Básico UNI",
     author: "@grupoCiencias",
     link: "/ciclos/4",
   },
   {
-    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fjpeg%2FSEMESTRAL%20INTENSIVO%20UNI.jpeg?alt=media&token=2dc55828-bb9a-4d1d-86ab-be0c22f2732e",
+    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FCiclos%2Fwebp%2FSEMESTRAL%20INTENSIVO%20UNI.webp?alt=media&token=8c467bea-c702-4c24-a238-532cd88cfb7f&_gl=1*1haelqx*_ga*Njk4NjE0MDA1LjE2ODQ3MDg2NTU.*_ga_CW55HF8NVT*MTY4NTQyMjM5Mi4xNi4xLjE2ODU0MjI0NTIuMC4wLjA.",
     title: "Ciclo Semestral Intensivo UNI",
     author: "@grupoCiencias",
     link: "/ciclos/6",
@@ -91,7 +91,7 @@ const SeccionCiclos = () => {
                 alt={item.title}
                 loading="lazy"
               />
-              <ImageListItemBar
+              {/* <ImageListItemBar
                 title={item.title}
                 subtitle={item.author}
                 actionIcon={
@@ -102,7 +102,7 @@ const SeccionCiclos = () => {
                     <InfoIcon />
                   </IconButton>
                 }
-              />
+              /> */}
             </Typography>
           </ImageListItem>
         ))}

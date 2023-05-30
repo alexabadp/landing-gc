@@ -53,7 +53,7 @@ function Home() {
               paddingLeft: { xs: "5px", sm: "15px", lg: "50px" },
             }}
           >
-            <Box maxWidth="600px" margin="auto" sx={{ padding: "0px 10px" }}>
+            <Box maxWidth="600px" margin="auto" sx={{ padding: "0px 15px" }}>
               <Typography
                 component="h2"
                 fontWeight="700"
@@ -73,7 +73,7 @@ function Home() {
                   margin: { xs: "auto", lg: "0" },
                   fontSize: { xs: "18px", lg: "24px" },
                   // textAlign: { xs: "center", lg: "left" },
-                  textAlign: { xs: "justify", lg: "justify" },
+                  textAlign: { xs: "left", lg: "left" },
                 }}
               >
                 Somos una academia consolidada en el mundo preuniversitario que
@@ -103,13 +103,13 @@ function Home() {
                 paddingRight: { xs: "5px", sm: "15px", lg: "50px" },
               }}
             >
-              <Box maxWidth="600px" margin="auto">
+              <Box maxWidth="600px" margin="auto" sx={{ padding: "0 15px" }}>
                 <Typography
                   component="h2"
                   fontWeight="700"
                   sx={{
                     paddingBottom: { xs: "10px", lg: "30px" },
-                    fontSize: { xs: "28px", lg: "38px" },
+                    fontSize: { xs: "24px", lg: "38px" },
                     textAlign: { xs: "center", lg: "left" },
                   }}
                 >
@@ -123,7 +123,7 @@ function Home() {
                     margin: { xs: "auto", lg: "0" },
                     fontSize: { xs: "18px", lg: "24px" },
                     // textAlign: { xs: "center", lg: "left" },
-                    textAlign: { xs: "justify", lg: "justify" },
+                    textAlign: { xs: "left", lg: "left" },
                   }}
                 >
                   Clases en vivo, materiales en PDF, repasos, maratones,

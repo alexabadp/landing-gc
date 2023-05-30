@@ -7,7 +7,7 @@ const SeccionCachimbos = () => {
   const isSmallScreen = useMediaQuery("(max-width: 600px)");
   const isMediumScreen = useMediaQuery("(max-width: 1200px)");
   const numColumns = isSmallScreen ? 1 : isMediumScreen ? 2 : 2;
-  const sizeGap = isSmallScreen ? 15 : isMediumScreen ? 35 : 50;
+  const sizeGap = isSmallScreen ? 15 : isMediumScreen ? 35 : 30;
   return (
     <Box
       sx={{
@@ -33,7 +33,11 @@ const SeccionCachimbos = () => {
           Nuestros Cachimbos
         </Typography>
         <ImageList
-          sx={{ overflowY: "hidden", width: "100%", height: 700 }}
+          sx={{
+            overflowY: "hidden",
+            width: "100%",
+            height: { xs: "780px", md: "850px" },
+          }}
           cols={numColumns}
           gap={sizeGap}
         >
