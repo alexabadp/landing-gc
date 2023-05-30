@@ -272,16 +272,15 @@ function Header() {
               }}
             >
               <Button
-                sx={{ "&:hover": { backgroundColor: "red", color: "#fff" } }}
+                sx={{
+                  color: "#000",
+                  "&:hover": { backgroundColor: "red", color: "#fff" },
+                }}
                 component={Link}
                 to="/"
                 onClick={handleCloseNavMenu}
               >
-                <Typography
-                  color="#000"
-                  textTransform="none"
-                  textAlign="center"
-                >
+                <Typography textTransform="none" textAlign="center">
                   Inicio
                 </Typography>
               </Button>
@@ -423,44 +422,41 @@ function Header() {
                 </MenuItem>
               </Select>
               <Button
-                sx={{ "&:hover": { backgroundColor: "red", color: "#fff" } }}
+                sx={{
+                  color: "#000",
+                  "&:hover": { backgroundColor: "red", color: "#fff" },
+                }}
                 component={Link}
                 to="/videoClases"
                 onClick={handleCloseNavMenu}
               >
-                <Typography
-                  color="#000"
-                  textTransform="none"
-                  textAlign="center"
-                >
+                <Typography textTransform="none" textAlign="center">
                   Biblioteca
                 </Typography>
               </Button>
               <Button
-                sx={{ "&:hover": { backgroundColor: "red", color: "#fff" } }}
+                sx={{
+                  color: "#000",
+                  "&:hover": { backgroundColor: "red", color: "#fff" },
+                }}
                 component={Link}
                 to="/contactus"
                 onClick={handleCloseNavMenu}
               >
-                <Typography
-                  color="#000"
-                  textTransform="none"
-                  textAlign="center"
-                >
+                <Typography textTransform="none" textAlign="center">
                   Contáctanos
                 </Typography>
               </Button>
               <Button
-                sx={{ "&:hover": { backgroundColor: "red", color: "#fff" } }}
+                sx={{
+                  color: "#000",
+                  "&:hover": { backgroundColor: "red", color: "#fff" },
+                }}
                 component={Link}
                 to="/sedes"
                 onClick={handleCloseNavMenu}
               >
-                <Typography
-                  color="#000"
-                  textTransform="none"
-                  textAlign="center"
-                >
+                <Typography textTransform="none" textAlign="center">
                   Sedes
                 </Typography>
               </Button>
