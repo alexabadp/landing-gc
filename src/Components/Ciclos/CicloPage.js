@@ -126,9 +126,10 @@ function CicloPage() {
                   </Typography>
                   <Typography
                     sx={{
-                      textAlign: { xs: "center", md: "left" },
+                      textAlign: { xs: "left", md: "left" },
                       lineHeight: "36px",
                       fontSize: { xs: "20px" },
+                      padding: "10px",
                     }}
                   >
                     {ciclo.resumen}
