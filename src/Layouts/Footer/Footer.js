@@ -49,7 +49,10 @@ function Footer() {
                 alt=""
               />
             </Box>
-            <Typography component="h6" sx={{ paddingTop: { xs: "25px" } }}>
+            <Typography
+              component="h6"
+              sx={{ padding: { xs: "25px 0 10px 0" } }}
+            >
               Educación sin límites
             </Typography>
             <Box

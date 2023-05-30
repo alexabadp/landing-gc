@@ -1,16 +1,21 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { withRouter } from "react-router-dom";
 import Sede from "./Sede";
 import { Sedeinfo } from "./Sedeinfo";
 import SedeMap from "./SedeMap";
 import "./Sedes.css";
-import { Box, Container, Grid, Typography } from "@mui/material";
+import { Container, Grid, Typography } from "@mui/material";
 
 function Sedes() {
   const [position, setPosition] = useState({
     lat: -11.940829826159977,
     lng: -77.05933774548336,
   });
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Container maxWidth="xl">

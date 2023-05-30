@@ -9,8 +9,13 @@ import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import SeccionCiclos from "./Secciones/SeccionCiclos";
 import SeccionCachimbos from "./Secciones/SeccionCachimbos";
 import SeccionContactanos from "./Secciones/SeccionContactanos";
+import { useEffect } from "react";
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Heroslider />

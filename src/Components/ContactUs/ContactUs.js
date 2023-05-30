@@ -2,8 +2,12 @@ import { withRouter } from "react-router-dom";
 import ContactForm from "./ContactForm";
 import "./ContactUs.css";
 import { Box, Container, Grid } from "@mui/material";
+import { useEffect } from "react";
 
 function ContactUs() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Box sx={{ background: "#f9faff" }}>

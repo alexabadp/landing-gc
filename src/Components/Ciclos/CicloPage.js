@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { Image } from "react-bootstrap";
+import { useEffect, useState } from "react";
 import { AiFillThunderbolt } from "react-icons/ai";
 import { BsDownload, BsFillStopwatchFill } from "react-icons/bs";
 import { FaChrome } from "react-icons/fa";
@@ -12,6 +11,12 @@ import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import PagoSlider from "./PagoSlider";
 
 function CicloPage() {
+  const url = useState(window.location.href);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    console.log(url);
+  }, [url]);
+
   const { idCiclo } = useParams();
   const [show, setShow] = useState(false);
 
@@ -139,7 +144,7 @@ function CicloPage() {
                   >
                     Acerca del ciclo
                   </Typography>
-                  <Typography
+                  {/* <Typography
                     sx={{
                       textAlign: { xs: "center", md: "left" },
                       lineHeight: { xs: "31px", md: "31px" },
@@ -158,8 +163,8 @@ function CicloPage() {
                     }}
                   >
                     {ciclo.inicio}
-                  </Typography>
-                  <Typography
+                  </Typography> */}
+                  {/* <Typography
                     sx={{
                       textAlign: { xs: "center", md: "left" },
                       lineHeight: { xs: "31px", md: "31px" },
@@ -178,7 +183,7 @@ function CicloPage() {
                     }}
                   >
                     {ciclo.fin}
-                  </Typography>
+                  </Typography> */}
                   <Typography
                     sx={{
                       textAlign: { xs: "center", md: "left" },
