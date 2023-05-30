@@ -21,7 +21,7 @@ function Sede({ sedeinfo, position, setPosition }) {
       <Container maxWidth="xl">
         <Box padding="20px 0px">
           <div className="sede">{sedeinfo.title}</div>
-          {/* <CopyTextButton text={sedeinfo.address}>
+          <CopyTextButton text={sedeinfo.address}>
             <Grid container sx={{ color: "#000", padding: "0px 0 10px 0" }}>
               <Grid item xs={9} textAlign="left">
                 {sedeinfo.address}
@@ -43,7 +43,7 @@ function Sede({ sedeinfo, position, setPosition }) {
           </CopyTextButton>
 
           <Typography>Tel: {sedeinfo.phone}</Typography>
-          <Typography>Whatsapp: {sedeinfo.mobile}</Typography> */}
+          <Typography>Whatsapp: {sedeinfo.mobile}</Typography>
           {hideImage && (
             <>
               {/* <CopyTextButton text={sedeinfo.address}>
@@ -68,8 +68,8 @@ function Sede({ sedeinfo, position, setPosition }) {
               </CopyTextButton>
 
               <Typography>Tel: {sedeinfo.phone}</Typography>
-              <Typography>Whatsapp: {sedeinfo.mobile}</Typography>
-              <img
+              <Typography>Whatsapp: {sedeinfo.mobile}</Typography> */}
+              {/* <img
                 src={sedeinfo.img}
                 className="navbar-logo"
                 style={{
@@ -103,7 +103,7 @@ function Sede({ sedeinfo, position, setPosition }) {
             </Button>
             {hideImage ? (
               <Box padding="10px 0px">
-                <CopyTextButton text={sedeinfo.address}>
+                {/* <CopyTextButton text={sedeinfo.address}>
                   <Grid
                     container
                     sx={{ color: "#000", padding: "0px 0 10px 0" }}
@@ -128,7 +128,7 @@ function Sede({ sedeinfo, position, setPosition }) {
                 </CopyTextButton>
 
                 <Typography>Tel: {sedeinfo.phone}</Typography>
-                <Typography>Whatsapp: {sedeinfo.mobile}</Typography>
+                <Typography>Whatsapp: {sedeinfo.mobile}</Typography> */}
                 <img
                   src={sedeinfo.img}
                   className="navbar-logo"

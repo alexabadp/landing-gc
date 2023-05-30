@@ -238,7 +238,7 @@ function Footer() {
                 <AiFillSchedule style={{ marginRight: "10px" }} />
                 Horario de atención:
                 <ul>
-                  <li>Lunes a Viernes de 8am a 5pm</li>
+                  <li>Lunes a viernes de 8am a 5pm</li>
                   <li>Sábados de 9am a 12m</li>
                 </ul>
               </li>
