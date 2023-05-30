@@ -1,16 +1,14 @@
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import { BsChevronDown } from "react-icons/bs";
 import { withRouter } from "react-router-dom";
 import "./PoliticaProteccion.css";
-import { Box, Container } from "@mui/material";
+import { Container } from "@mui/material";
 
 function PoliticaProteccion() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-  function LibroReclamaciones() {
-    useEffect(() => {
-      window.scrollTo(0, 0);
-    }, []);
-    
   const bottomRef = useRef();
   const onClick = () => {
     bottomRef.current.scrollIntoView();
