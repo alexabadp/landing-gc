@@ -217,11 +217,11 @@ function Footer() {
             >
               Admisión
             </Typography>
-            <Typography
+            {/* <Typography
               sx={{ fontSize: { xs: "17px" }, padding: { xs: "15px 0" } }}
             >
               Estadísticas
-            </Typography>
+            </Typography> */}
           </Grid>
           <Grid item xl={3} lg={4} md={6}>
             <Typography sx={{ fontSize: { xs: "24px" } }}>
@@ -296,7 +296,7 @@ function Footer() {
         />
         <ListaDesplegable
           elemento={"Biblioteca"}
-          opciones={["Videoclases", "Materiales", "Admisión", "Estadísticas"]}
+          opciones={["Videoclases", "Materiales", "Admisión"]}
         />
         <ListaDesplegable
           elemento={"Cuenta con nosotros"}
