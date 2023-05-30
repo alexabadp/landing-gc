@@ -53,7 +53,7 @@ function Home() {
               paddingLeft: { xs: "5px", sm: "15px", lg: "50px" },
             }}
           >
-            <Box maxWidth="600px" margin="auto">
+            <Box maxWidth="600px" margin="auto" sx={{ padding: "0px 10px" }}>
               <Typography
                 component="h2"
                 fontWeight="700"
