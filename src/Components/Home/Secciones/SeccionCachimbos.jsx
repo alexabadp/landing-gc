@@ -1,13 +1,27 @@
 import { Box, Container, Typography, useMediaQuery } from "@mui/material";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
+import { useState } from "react";
 import ReactPlayer from "react-player";
+import YouTube from "react-youtube";
 
 const SeccionCachimbos = () => {
   const isSmallScreen = useMediaQuery("(max-width: 600px)");
   const isMediumScreen = useMediaQuery("(max-width: 1200px)");
   const numColumns = isSmallScreen ? 1 : isMediumScreen ? 2 : 2;
   const sizeGap = isSmallScreen ? 15 : isMediumScreen ? 35 : 30;
+
+  const opts = {
+    height: "100%",
+    width: "100%",
+    playerVars: {
+      // https://developers.google.com/youtube/player_parameters
+      autoplay: 0,
+      modestbranding: 1,
+      showinfo: 0,
+    },
+  };
+
   return (
     <Box
       sx={{
@@ -45,11 +59,19 @@ const SeccionCachimbos = () => {
             <ImageListItem key={item.img}>
               <ReactPlayer
                 url={item.img}
-                className="react-player"
+                // className="react-player"
                 width="100%"
                 height="100%"
-                controls={true}
+                controls
                 muted={true}
+                config={{
+                  youtube: {
+                    playerVars: {
+                      //modestbranding: 1, // Ocultar el logotipo de YouTube
+                      showinfo: 1, // Ocultar la información del video}
+                    },
+                  },
+                }}
               />
             </ImageListItem>
           ))}

@@ -184,21 +184,39 @@ function LibroReclamaciones() {
           }}
         >
           <Box sx={{ flex: "1" }}>
-            <Typography sx={{ fontSize: { xs: "14px", md: "24px" } }}>
+            <Typography
+              sx={{
+                fontSize: { xs: "14px", md: "24px" },
+                padding: "0 0 5px 5px",
+              }}
+            >
               Grupo de estudio Ciencias E.I.R.L.
             </Typography>
-            <Typography sx={{ fontSize: { xs: "14px", md: "20px" } }}>
+            <Typography
+              sx={{
+                fontSize: { xs: "14px", md: "20px" },
+                padding: "5px 0 5px 5px",
+              }}
+            >
               RUC 20607260169
             </Typography>
           </Box>
           <Box sx={{ flex: "1" }}>
             <Typography
-              sx={{ fontSize: { xs: "14px", md: "24px" }, textAlign: "right" }}
+              sx={{
+                fontSize: { xs: "14px", md: "24px" },
+                textAlign: "right",
+                padding: "0 5px 5px 0",
+              }}
             >
               Hoja de reclamación: 000000326-2022
             </Typography>
             <Typography
-              sx={{ fontSize: { xs: "14px", md: "20px" }, textAlign: "right" }}
+              sx={{
+                fontSize: { xs: "14px", md: "20px" },
+                textAlign: "right",
+                padding: "5px 5px 5px 0px",
+              }}
             >
               29-10-2022 15:38:21
             </Typography>

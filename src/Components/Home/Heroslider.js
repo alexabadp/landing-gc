@@ -1,7 +1,7 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-import { Box, useMediaQuery } from "@mui/material";
+import { Box, Button, useMediaQuery } from "@mui/material";
 
 const Heroslider = () => {
   const isSmallScreen = useMediaQuery("(max-width: 600px)");
@@ -23,8 +23,11 @@ const Heroslider = () => {
     backgroundColor: "black" /* Color de la línea activa */,
   };
 
-  const CustomDot = ({ active }) => (
-    <span style={active ? activeDotStyles : dotStyles} />
+  const CustomDot = ({ onClick, active }) => (
+    <span
+      onClick={() => onClick()}
+      style={active ? activeDotStyles : dotStyles}
+    />
   );
 
   return (

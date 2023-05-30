@@ -74,6 +74,7 @@ function Home() {
                   fontSize: { xs: "18px", lg: "24px" },
                   // textAlign: { xs: "center", lg: "left" },
                   textAlign: { xs: "left", lg: "left" },
+                  padding: { xs: "0px 5px" },
                 }}
               >
                 Somos una academia consolidada en el mundo preuniversitario que
@@ -124,6 +125,7 @@ function Home() {
                     fontSize: { xs: "18px", lg: "24px" },
                     // textAlign: { xs: "center", lg: "left" },
                     textAlign: { xs: "left", lg: "left" },
+                    padding: { xs: "0 5px" },
                   }}
                 >
                   Clases en vivo, materiales en PDF, repasos, maratones,

@@ -12,6 +12,7 @@ const PagoSlider = () => {
     "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FPagos%2Fwebp%2Fscotia.webp?alt=media&token=1cccc93d-6c25-4d34-8703-5c064f3c7414";
   const yape =
     "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FPagos%2Fwebp%2Fyape.webp?alt=media&token=6947cd76-50fb-419e-a31e-204ec4c69967";
+
   return (
     <Box sx={{ margin: { xs: "50px 0", md: "20px 0" } }}>
       <Carousel
@@ -63,6 +64,7 @@ const PagoSlider = () => {
         rtl={false}
         shouldResetAutoplay
         showDots={true}
+        // customDot={<CustomDot />}
         sliderClass=""
         slidesToSlide={1}
         swipeable
