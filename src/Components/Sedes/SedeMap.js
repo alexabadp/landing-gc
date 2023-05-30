@@ -3,6 +3,8 @@ import { withRouter } from "react-router-dom";
 import "./Sedes.css";
 
 function SedeMap({ position }) {
+  console.log(position);
+
   const { isLoaded } = useLoadScript({
     googleMapsApiKey: "AIzaSyC78fsXg01rMBapBJ_6Fs4IR6bzfw9F8Mo",
   });
@@ -15,7 +17,6 @@ function Map({ position }) {
   const position1 = { lat: -11.9475, lng: -77.0607 };
   const position2 = { lat: -12.00173, lng: -77.00902 };
   const position3 = { lat: 40.712775, lng: -74.005973 };
-  // const position3 = { lat: -12.00173, lng: -77.00902 };
 
   return (
     <GoogleMap

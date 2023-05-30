@@ -1,27 +1,27 @@
 import { useState } from "react";
-// import { Button } from "react-bootstrap";
-import { CopyToClipboard } from "react-copy-to-clipboard";
 import { FaCopy } from "react-icons/fa";
 import { withRouter } from "react-router-dom";
 import "./Sedes.css";
 import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import CopyTextButton from "./CopyTextButton";
+import SedeMap from "./SedeMap";
 
 function Sede({ sedeinfo, position, setPosition }) {
   const [hideImage, setHideImage] = useState(false);
+
   const ShowSede = (currentlat, currentlng) => {
     setHideImage(!hideImage);
     setPosition({ ...position, lat: currentlat, lng: currentlng });
   };
 
+  const [verSede, setVerSede] = useState(false);
+
   return (
     <>
-      {/* <div className="row sede-card"> */}
       <Container maxWidth="xl">
         <Box padding="20px 0px">
           <div className="sede">{sedeinfo.title}</div>
           <CopyTextButton text={sedeinfo.address}>
-            {/* <CopyToClipboard> */}
             <Grid container sx={{ color: "#000", padding: "0px 0 10px 0" }}>
               <Grid item xs={9} textAlign="left">
                 {sedeinfo.address}
@@ -40,26 +40,20 @@ function Sede({ sedeinfo, position, setPosition }) {
                 </Typography>
               </Grid>
             </Grid>
-            {/* </CopyToClipboard> */}
           </CopyTextButton>
 
           <Typography>Tel: {sedeinfo.phone}</Typography>
           <Typography>Whatsapp: {sedeinfo.mobile}</Typography>
           {hideImage && (
-            // <div className="image-sede">
             <img
               src={sedeinfo.img}
               className="navbar-logo"
               style={{
-                // marginLeft: "90px",
-                // marginTop: "42px",
-
                 width: "100%",
                 height: "100%",
               }}
               alt="navbar-logo"
             />
-            // </div>
           )}
 
           <div className="sede-button">
@@ -75,14 +69,33 @@ function Sede({ sedeinfo, position, setPosition }) {
                 },
               }}
               textAlign="center"
-              onClick={() => ShowSede(sedeinfo.lat, sedeinfo.lng)}
+              onClick={() => {
+                ShowSede(sedeinfo.lat, sedeinfo.lng);
+                setVerSede(!verSede);
+              }}
             >
-              Ver sede
+              {verSede ? "Ocultar" : "Ver Sede"}
             </Button>
+            {hideImage ? (
+              <Grid container>
+                <Grid
+                  item
+                  xs={12}
+                  minHeight="500px"
+                  sx={{
+                    padding: { xs: "20px 0 15px 0", md: "50px 0 15px 0" },
+                    display: { xs: "inline-block", md: "none" },
+                  }}
+                >
+                  <SedeMap position={position} />
+                </Grid>
+              </Grid>
+            ) : (
+              <Box></Box>
+            )}
           </div>
         </Box>
       </Container>
-      {/* </div> */}
     </>
   );
 }

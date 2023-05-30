@@ -16,12 +16,13 @@ function Sedes() {
     window.scrollTo(0, 0);
   }, []);
 
+  console.log(position);
+
   return (
     <>
       <Container maxWidth="xl">
         <Grid
           container
-          // marginTop="60px"
           sx={{ margin: { xs: "60px 0 0px 0", sm: "60px 0 20px 0" } }}
         >
           <Grid item xs={12} md={6}>
@@ -33,12 +34,14 @@ function Sedes() {
               </Grid>
               <Grid item>
                 {Sedeinfo.map((sedeinfo) => (
-                  <Sede
-                    key={sedeinfo.id}
-                    sedeinfo={sedeinfo}
-                    position={position}
-                    setPosition={setPosition}
-                  />
+                  <>
+                    <Sede
+                      key={sedeinfo.id}
+                      sedeinfo={sedeinfo}
+                      position={position}
+                      setPosition={setPosition}
+                    />
+                  </>
                 ))}
               </Grid>
             </Grid>
@@ -47,10 +50,11 @@ function Sedes() {
             item
             xs={12}
             md={6}
-            // padding="50px 0"
             minHeight="500px"
-            sx={{ padding: { xs: "20px 0 15px 0", md: "50px 0 15px 0" } }}
-            // maxHeight="800px"
+            sx={{
+              padding: { xs: "20px 0 15px 0", md: "50px 0 15px 0" },
+              display: { xs: "none", md: "inline-block" },
+            }}
           >
             <SedeMap position={position} />
           </Grid>
