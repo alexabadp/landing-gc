@@ -5,6 +5,12 @@ import "./PoliticaProteccion.css";
 import { Box, Container } from "@mui/material";
 
 function PoliticaProteccion() {
+
+  function LibroReclamaciones() {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+    
   const bottomRef = useRef();
   const onClick = () => {
     bottomRef.current.scrollIntoView();

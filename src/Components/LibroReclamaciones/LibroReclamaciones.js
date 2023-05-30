@@ -23,6 +23,10 @@ import { ErrorMessage, useFormik } from "formik";
 import * as Yup from "yup";
 
 function LibroReclamaciones() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const [showErrors, setShowErrors] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
