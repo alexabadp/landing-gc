@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { FaCopy } from "react-icons/fa";
 import { withRouter } from "react-router-dom";
 import "./Sedes.css";
@@ -13,7 +13,6 @@ function Sede({
   imagen,
   botonClick,
   imagenVisible,
-  // valorBoton,
 }) {
   const [hideImage, setHideImage] = useState(false);
 
@@ -27,7 +26,6 @@ function Sede({
 
   useEffect(() => {
     if (imagenVisible === imagen) {
-      // setVerSede(true);
       setHideImage(true);
       setVerSede(true);
     } else {
@@ -36,16 +34,15 @@ function Sede({
     }
   }, [imagenVisible, imagen]);
 
-  // console.log(valorBoton, "El valor");
-
   const handleClick = () => {
     !hideImage ? botonClick(imagen) : botonClick("");
-    // botonClick(imagen);
   };
+
+  const elementRef = useRef(null);
 
   return (
     <>
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" ref={elementRef}>
         <Box padding="20px 0px">
           <div className="sede">{sedeinfo.title}</div>
           <CopyTextButton text={sedeinfo.address}>
@@ -83,16 +80,44 @@ function Sede({
                   backgroundColor: "red",
                   color: "white",
                 },
+                display: { sm: "none", xs: "inline-block" },
               }}
               textAlign="center"
               onClick={() => {
                 ShowSede(sedeinfo.lat, sedeinfo.lng);
-                // setVerSede(verSede);
               }}
             >
               {verSede ? "Ocultar" : "Ver Sede"}
             </Button>
-            {/* {hideImage ? ( */}
+            {/* <Button
+              className="sede-look"
+              variant="contained"
+              sx={{
+                backgroundColor: "rgba(255,0,0,0.85)",
+                color: "rgba(255,255,255,0.85)",
+                "&:hover": {
+                  backgroundColor: "red",
+                  color: "white",
+                },
+                display: { xs: "none", sm: "inline-block" },
+              }}
+              textAlign="center"
+              onClick={() => {
+                ShowSede(sedeinfo.lat, sedeinfo.lng);
+                // const yOffset = -60; // Ajuste de 20 píxeles hacia arriba
+                // const element = elementRef.current;
+                // const y =
+                //   element.getBoundingClientRect().top +
+                //   window.pageYOffset +
+                //   yOffset;
+                // window.scrollTo({ top: y, behavior: "smooth" });
+                // elementRef.current.scrollIntoView({ behavior: "smooth" });
+                // setVerSede(verSede);
+              }}
+            >
+              {verSede ? "Ocultar" : "Ver Sede"}
+            </Button> */}
+
             {imagenVisible === imagen ? (
               <Box padding="10px 0px">
                 <img
