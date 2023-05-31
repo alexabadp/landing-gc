@@ -149,7 +149,7 @@ function Footer() {
                     <Button
                       variant="contained"
                       sx={{
-                        backgroundColor: "rgba(5, 42, 38,1)",
+                        backgroundColor: "#2D2A26",
                         color: "rgba(255,255,255,1)",
                         "&:hover": {
                           backgroundColor: "red",
@@ -168,7 +168,7 @@ function Footer() {
                   >
                     <Button
                       sx={{
-                        backgroundColor: "rgba(5, 42, 38,1)",
+                        backgroundColor: "#2D2A26",
                         color: "rgba(255,255,255,0.85)",
                         "&:hover": {
                           backgroundColor: "red",
@@ -467,7 +467,7 @@ function Footer() {
                 <Button
                   variant="contained"
                   sx={{
-                    backgroundColor: "rgba(5, 42, 38,1)",
+                    backgroundColor: "#2D2A26",
                     color: "rgba(255,255,255,1)",
                     "&:hover": {
                       backgroundColor: "red",
@@ -486,7 +486,7 @@ function Footer() {
               >
                 <Button
                   sx={{
-                    backgroundColor: "rgba(5, 42, 38,1)",
+                    backgroundColor: "#2D2A26",
                     color: "rgba(255,255,255,0.85)",
                     "&:hover": {
                       backgroundColor: "red",
