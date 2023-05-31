@@ -567,7 +567,7 @@ function LibroReclamaciones() {
                         },
                       }}
                     >
-                      Ley de Protección de Datos Personales."
+                      Ley de Protección de Datos Personales.
                     </Link>
                   </Typography>
                 }
