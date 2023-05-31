@@ -81,7 +81,7 @@ const Heroslider = () => {
         slidesToSlide={1}
         swipeable
       >
-        <Box sx={{ maxHeight: "1000px", height: "100%" }}>
+        <Box sx={{ maxHeight: "900px", height: "100%" }}>
           <img
             width="100%"
             // maxHeight="700px"
@@ -90,7 +90,7 @@ const Heroslider = () => {
             alt=""
           />
         </Box>
-        <Box sx={{ maxHeight: "1000px", height: "100%" }}>
+        <Box sx={{ maxHeight: "900px", height: "100%" }}>
           <img
             width="100%"
             height="100%"
@@ -98,7 +98,7 @@ const Heroslider = () => {
             alt=""
           />
         </Box>
-        <Box sx={{ maxHeight: "1000px", height: "100%" }}>
+        <Box sx={{ maxHeight: "900px", height: "100%" }}>
           <img
             width="100%"
             height="100%"
@@ -106,7 +106,7 @@ const Heroslider = () => {
             alt=""
           />
         </Box>
-        <Box sx={{ maxHeight: "1000px", height: "100%" }}>
+        <Box sx={{ maxHeight: "900px", height: "100%" }}>
           <img
             width="100%"
             height="100%"
@@ -114,7 +114,7 @@ const Heroslider = () => {
             alt=""
           />
         </Box>
-        <Box sx={{ maxHeight: "1000px", height: "100%" }}>
+        <Box sx={{ maxHeight: "900px", height: "100%" }}>
           <img
             width="100%"
             height="100%"
@@ -122,7 +122,7 @@ const Heroslider = () => {
             alt=""
           />
         </Box>
-        <Box sx={{ maxHeight: "1000px", height: "100%" }}>
+        <Box sx={{ maxHeight: "900px", height: "100%" }}>
           <img
             width="100%"
             height="100%"
