@@ -98,7 +98,7 @@ const Heroslider = () => {
           justifyContent="center"
           alignItems="center"
           // height="100vh"
-          maxHeight="calc(100vh - 30px)"
+          maxHeight="calc(100vh - 10px)"
           overflow="hidden"
         >
           <img
@@ -111,7 +111,7 @@ const Heroslider = () => {
           display="flex"
           justifyContent="center"
           alignItems="center"
-          maxHeight="calc(100vh - 30px)"
+          maxHeight="calc(100vh - 10px)"
           overflow="hidden"
         >
           <img
@@ -124,7 +124,7 @@ const Heroslider = () => {
           display="flex"
           justifyContent="center"
           alignItems="center"
-          maxHeight="calc(100vh - 30px)"
+          maxHeight="calc(100vh - 10px)"
           overflow="hidden"
         >
           <img
@@ -137,7 +137,7 @@ const Heroslider = () => {
           display="flex"
           justifyContent="center"
           alignItems="center"
-          maxHeight="calc(100vh - 30px)"
+          maxHeight="calc(100vh - 10px)"
           overflow="hidden"
         >
           <img
@@ -150,7 +150,7 @@ const Heroslider = () => {
           display="flex"
           justifyContent="center"
           alignItems="center"
-          maxHeight="calc(100vh - 30px)"
+          maxHeight="calc(100vh - 10px)"
           overflow="hidden"
         >
           <img
@@ -163,7 +163,7 @@ const Heroslider = () => {
           display="flex"
           justifyContent="center"
           alignItems="center"
-          maxHeight="calc(100vh - 30px)"
+          maxHeight="calc(100vh - 10px)"
           overflow="hidden"
         >
           <img
