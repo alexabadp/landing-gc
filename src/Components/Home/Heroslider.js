@@ -102,7 +102,7 @@ const Heroslider = () => {
           overflow="hidden"
         >
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FHeroSlider%2Factualizadas%2FPORTADA%201.webp?alt=media&token=bcd1bf9d-c1db-4ed5-a1e2-5c931eed4f60&_gl=1*degbzb*_ga*Njk4NjE0MDA1LjE2ODQ3MDg2NTU.*_ga_CW55HF8NVT*MTY4NTU2NzYzOC4yMi4wLjE2ODU1Njc2MzguMC4wLjA."
+            src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FHeroSlider%2Factualizadas%2FPORTADA%201.webp?alt=media&token=6e607e12-8e45-4ac0-982e-40daa89c9e97&_gl=1*pp18jp*_ga*Njk4NjE0MDA1LjE2ODQ3MDg2NTU.*_ga_CW55HF8NVT*MTY4NTU2OTYzNC4yMy4xLjE2ODU1Njk2NTguMC4wLjA."
             alt="Descripción de la imagen"
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           />
