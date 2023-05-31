@@ -1,5 +1,12 @@
 //MaterialUI
-import { Box, Container, Grid, Typography } from "@mui/material";
+import {
+  Box,
+  Button,
+  Container,
+  Grid,
+  Popover,
+  Typography,
+} from "@mui/material";
 
 //React
 import {
@@ -14,8 +21,25 @@ import {
 import { AiFillMail, AiFillSchedule } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import ListaDesplegable from "./ListaDesplegable";
+import { useState } from "react";
+
+import uni from "./img/UNI.png";
+import unmsm from "./img/UNMSM.png";
 
 function Footer() {
+  const [anchorEl, setAnchorEl] = useState(null);
+
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+  const open = Boolean(anchorEl);
+  const id = open ? "simple-popover" : undefined;
+
   return (
     <Box
       sx={{
@@ -82,8 +106,10 @@ function Footer() {
                   <FaWhatsapp color="rgba(255, 255, 255, 1)" />
                 </Typography>
               </a>
-              <a
-                href="https://www.youtube.com/@GrupoCiencias"
+              <Typography
+                type="button"
+                onClick={handleClick}
+                // href="https://www.youtube.com/@GrupoCiencias"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -101,7 +127,60 @@ function Footer() {
                 >
                   <FaYoutube color="rgba(255, 255, 255, 1)" />
                 </Typography>
-              </a>
+              </Typography>
+              <Popover
+                id={id}
+                open={open}
+                anchorEl={anchorEl}
+                onClose={handleClose}
+                anchorOrigin={{
+                  vertical: "bottom",
+                  horizontal: "left",
+                }}
+                margin="10px"
+              >
+                <Typography sx={{ p: 1, display: "flex", gap: "10px" }}>
+                  <a
+                    href="https://www.youtube.com/@GrupoCienciasUNI"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Button
+                      variant="contained"
+                      sx={{
+                        backgroundColor: "rgba(5, 42, 38,.85)",
+                        color: "rgba(255,255,255,0.85)",
+                        "&:hover": {
+                          backgroundColor: "red",
+                          color: "white",
+                        },
+                      }}
+                    >
+                      UNI
+                    </Button>
+                    {/* <img width="50px" height="50px" src={uni} alt="uni" /> */}
+                  </a>
+                  <a
+                    href="https://www.youtube.com/@GrupoCiencias"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Button
+                      sx={{
+                        backgroundColor: "rgba(5, 42, 38,.85)",
+                        color: "rgba(255,255,255,0.85)",
+                        "&:hover": {
+                          backgroundColor: "red",
+                          color: "white",
+                        },
+                      }}
+                    >
+                      UNMSM
+                    </Button>
+                    {/* <img width="50px" height="50px" src={unmsm} alt="unmsm" /> */}
+                  </a>
+                </Typography>
+              </Popover>
               <a
                 href="https://www.instagram.com/cienciasgrupo/"
                 target="_blank"
@@ -276,6 +355,8 @@ function Footer() {
           </Grid>
         </Grid>
       </Container>
+
+      {/* DISEÑO MOBIL */}
       <Grid container sx={{ display: { xs: "block", sm: "none" } }}>
         {/* <ListaDesplegable
           elemento={"Acerca del ciclo"}
@@ -342,15 +423,16 @@ function Footer() {
               <FaWhatsapp color="rgba(255, 255, 255, 1)" />
             </Typography>
           </a>
-          <a
-            href="https://www.youtube.com/@GrupoCiencias"
+          <Typography
+            type="button"
+            onClick={handleClick}
+            // href="https://www.youtube.com/@GrupoCiencias"
             target="_blank"
             rel="noreferrer"
           >
             <Typography
               sx={{
                 fontSize: { xs: "24px", md: "30px" },
-
                 background: "#E70031",
                 borderRadius: "50%",
                 width: "40px",
@@ -362,7 +444,60 @@ function Footer() {
             >
               <FaYoutube color="rgba(255, 255, 255, 1)" />
             </Typography>
-          </a>
+          </Typography>
+          <Popover
+            id={id}
+            open={open}
+            anchorEl={anchorEl}
+            onClose={handleClose}
+            anchorOrigin={{
+              vertical: "bottom",
+              horizontal: "left",
+            }}
+            margin="10px"
+          >
+            <Typography sx={{ p: 1, display: "flex", gap: "10px" }}>
+              <a
+                href="https://www.youtube.com/@GrupoCienciasUNI"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="contained"
+                  sx={{
+                    backgroundColor: "rgba(5, 42, 38,.85)",
+                    color: "rgba(255,255,255,0.85)",
+                    "&:hover": {
+                      backgroundColor: "red",
+                      color: "white",
+                    },
+                  }}
+                >
+                  UNI
+                </Button>
+                {/* <img width="50px" height="50px" src={uni} alt="uni" /> */}
+              </a>
+              <a
+                href="https://www.youtube.com/@GrupoCiencias"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  sx={{
+                    backgroundColor: "rgba(5, 42, 38,.85)",
+                    color: "rgba(255,255,255,0.85)",
+                    "&:hover": {
+                      backgroundColor: "red",
+                      color: "white",
+                    },
+                  }}
+                >
+                  UNMSM
+                </Button>
+                {/* <img width="50px" height="50px" src={unmsm} alt="unmsm" /> */}
+              </a>
+            </Typography>
+          </Popover>
           <a
             href="https://www.instagram.com/cienciasgrupo/"
             target="_blank"
@@ -439,21 +574,6 @@ function Footer() {
               <FaTiktok color="rgba(255, 255, 255, 1)" />
             </Typography>
           </a>
-          {/* <Typography sx={{ fontSize: { xs: "30px" } }}>
-            <FaWhatsapp />
-          </Typography>
-          <Typography sx={{ fontSize: { xs: "30px" } }}>
-            <FaYoutube />
-          </Typography>
-          <Typography sx={{ fontSize: { xs: "30px" } }}>
-            <FaInstagram />
-          </Typography>
-          <Typography sx={{ fontSize: { xs: "50px" } }}>
-            <FaFacebook color="#E70031" />
-          </Typography>
-          <Typography sx={{ fontSize: { xs: "30px" } }}>
-            <FaTiktok />
-          </Typography> */}
         </Box>
 
         <Box padding="30px" textAlign="center">

@@ -5,6 +5,7 @@ import { Sedeinfo } from "./Sedeinfo";
 import SedeMap from "./SedeMap";
 import "./Sedes.css";
 import { Container, Grid, Typography } from "@mui/material";
+import SedeMobil from "./SedeMobil";
 
 function Sedes() {
   const [position, setPosition] = useState({
@@ -81,6 +82,18 @@ function Sedes() {
                   </>
                 ))} */}
               </Grid>
+              {/* <Grid item sx={{ display: { xs: "inline-block", md: "none" } }}>
+                {Sedeinfo.map((sedeinfo) => (
+                  <>
+                    <SedeMobil
+                      key={sedeinfo.id}
+                      sedeinfo={sedeinfo}
+                      position={position}
+                      setPosition={setPosition}
+                    />
+                  </>
+                ))}
+              </Grid> */}
             </Grid>
           </Grid>
           <Grid
