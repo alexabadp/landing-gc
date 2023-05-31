@@ -231,7 +231,7 @@ function Header() {
                 to="/videoClases"
                 onClick={handleCloseNavMenu}
               >
-                <Typography textAlign="center">Biblioteca</Typography>
+                <Typography textAlign="center">Biblioteca Free</Typography>
               </MenuItem>
               <MenuItem
                 sx={{ "&:hover": { backgroundColor: "red", color: "#fff" } }}
@@ -431,7 +431,7 @@ function Header() {
                 onClick={handleCloseNavMenu}
               >
                 <Typography textTransform="none" textAlign="center">
-                  Biblioteca
+                  Biblioteca Free
                 </Typography>
               </Button>
               <Button

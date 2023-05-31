@@ -52,7 +52,7 @@ export const CicloInfo = [
     horario: "8am a 5:30pm",
     inicio: "26 de Diciembre",
     fin: "10 de Marzo",
-    duracion: "11 Semanas",
+    duracion: "4 Semanas - 8 Semanas",
     schedule_Image: [{ url: "srsm_1" }, { url: "srsm_2" }],
     temario:
       "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Repaso%20UNMSM.pdf?alt=media&token=b51084b8-32eb-429c-a920-5c72ff4f5475",
@@ -72,7 +72,7 @@ export const CicloInfo = [
     horario: "8am a 5pm",
     inicio: "26 de Diciembre",
     fin: "11 de Febrero",
-    duracion: "7 Semanas",
+    duracion: "4 Semanas - 8 Semanas",
     schedule_Image: [{ url: "sruni" }],
     temario:
       "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Repaso%20UNI%202023.pdf?alt=media&token=387f22a8-c46b-42b9-b28a-528993a30aaa",

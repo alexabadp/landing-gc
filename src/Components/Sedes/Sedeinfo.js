@@ -25,8 +25,8 @@ export const Sedeinfo = [
     address: "Av. Universitaria 6958 Urb. Santa Luzmila",
     phone: "(01) 6330205",
     mobile: " 933883733",
-    lat: -11.940829826159977,
-    lng: -77.05933774548336,
-    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FSedes%2Fsede_2.png?alt=media&token=26422099-f871-46f9-be71-f42aa469ada1",
+    lat: -11.940978133991393,
+    lng: -77.05940104295071,
+    img: "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FSedes%2Fsede%20los%20angeles%20comas%202.png?alt=media&token=fe72ef24-732f-47ca-9a37-a6a8b8b82ae1&_gl=1*16pqx0g*_ga*Njk4NjE0MDA1LjE2ODQ3MDg2NTU.*_ga_CW55HF8NVT*MTY4NTU1MzgwMy4xOS4xLjE2ODU1NTM4NDkuMC4wLjA.",
   },
 ];
