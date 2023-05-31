@@ -3,7 +3,11 @@ import { useEffect, useState } from "react";
 import {
   Alert,
   Button,
+  Checkbox,
   Container,
+  FormControlLabel,
+  FormGroup,
+  FormHelperText,
   Grid,
   MenuItem,
   Snackbar,
@@ -64,6 +68,8 @@ const SeccionContactanos = () => {
       dni: "",
       email: "",
       celular: "",
+      aceptoTerminos: false,
+      confirmacionDatos: false,
     },
     validationSchema: Yup.object().shape({
       // universidad: Yup.string().required("Selecciona una universidad"),
@@ -82,6 +88,12 @@ const SeccionContactanos = () => {
       email: Yup.string()
         .email("Debes ingresar un correo electrónico válido")
         .required("Ingresa tu email"),
+      aceptoTerminos: Yup.boolean()
+        .oneOf([true], "Debes confirmar este campo")
+        .required("Debes confirmar este campo"),
+      confirmacionDatos: Yup.boolean()
+        .oneOf([true], "Debes confirmar este campo")
+        .required("Debes confirmar este campo"),
     }),
 
     onSubmit: (data) => {
@@ -249,6 +261,42 @@ const SeccionContactanos = () => {
             </Grid>
           </Grid>
 
+          <FormGroup>
+            <FormControlLabel
+              sx={{ padding: "10px 0" }}
+              label="Acepto el uso de mis datos personales con fines comerciales."
+              control={
+                <Checkbox
+                  defaultChecked
+                  name="aceptoTerminos"
+                  checked={values.aceptoTerminos}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                />
+              }
+            />
+            {/* {touched.aceptoTerminos && errors.aceptoTerminos && (
+              <FormHelperText error>{errors.aceptoTerminos}</FormHelperText>
+            )} */}
+
+            <FormControlLabel
+              sx={{ padding: "10px 0" }}
+              label="Estoy de acuerdo con la política de uso de datos de Grupo Ciencias"
+              control={
+                <Checkbox
+                  defaultChecked
+                  name="confirmacionDatos"
+                  checked={values.confirmacionDatos}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                />
+              }
+            />
+            {/* {touched.confirmacionDatos && errors.confirmacionDatos && (
+              <FormHelperText error>{errors.confirmacionDatos}</FormHelperText>
+            )} */}
+          </FormGroup>
+
           <Button
             sx={{
               margin: "20px 0",
@@ -262,7 +310,11 @@ const SeccionContactanos = () => {
             }}
             variant="contained"
             type="submit"
-            disabled={isSubmitting}
+            disabled={
+              isSubmitting ||
+              !values.confirmacionDatos ||
+              !values.aceptoTerminos
+            }
           >
             {isSubmitting ? "Enviando" : "Enviar"}
           </Button>

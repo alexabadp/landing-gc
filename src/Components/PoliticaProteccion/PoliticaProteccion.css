@@ -21,6 +21,7 @@
     font-weight: 800 !important;
     font-size: 20px !important;
     line-height: 26px !important;
+    margin-left:  0px !important;
   }
 
   .content-subtitle {
@@ -152,13 +153,14 @@
 }
 
 .body-title {
-  text-align: center;
+  /* text-align: center; */
+  text-align: left;
   font-style: normal;
   font-weight: 800;
   font-size: 32px;
   line-height: 41px;
-  margin-top: 96px;
-  margin-bottom: 48px;
+  margin-top: 38px;
+  /* margin-bottom: 38px; */
 }
 
 .container-politica p {
@@ -167,7 +169,8 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  text-align: justify;
+  /* text-align: justify; */
+  text-align: left;
 }
 
 .content-subtitle {
@@ -192,7 +195,8 @@ ol li {
   font-size: 18px;
   line-height: 28px;
   counter-increment: my-awesome-counter;
-  text-align: justify;
+  /* text-align: justify; */
+  text-align: left;
 }
 
 ol li::before {
