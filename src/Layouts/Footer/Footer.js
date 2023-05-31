@@ -168,7 +168,7 @@ function Footer() {
                   >
                     <Button
                       sx={{
-                        backgroundColor: "rgba(5, 42, 38,.85)",
+                        backgroundColor: "rgba(5, 42, 38,1)",
                         color: "rgba(255,255,255,0.85)",
                         "&:hover": {
                           backgroundColor: "red",
@@ -486,7 +486,7 @@ function Footer() {
               >
                 <Button
                   sx={{
-                    backgroundColor: "rgba(5, 42, 38,.85)",
+                    backgroundColor: "rgba(5, 42, 38,1)",
                     color: "rgba(255,255,255,0.85)",
                     "&:hover": {
                       backgroundColor: "red",
