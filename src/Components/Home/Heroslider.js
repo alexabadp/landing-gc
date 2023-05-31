@@ -98,7 +98,7 @@ const Heroslider = () => {
           justifyContent="center"
           alignItems="center"
           // height="100vh"
-          maxHeight="calc(100vh)"
+          maxHeight="calc(100vh - 60px)"
           overflow="hidden"
         >
           <img
