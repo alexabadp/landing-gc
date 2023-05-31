@@ -45,7 +45,6 @@ function Sedes() {
                   imagen="imagen1" //comentario
                   botonClick={handleBotonClick} //comentario
                   imagenVisible={imagenVisible}
-                  // valorBoton={imagenVisible === "imagen1" ? true : false}
                 />
 
                 <Sede

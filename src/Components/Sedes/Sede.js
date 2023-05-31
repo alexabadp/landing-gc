@@ -89,34 +89,6 @@ function Sede({
             >
               {verSede ? "Ocultar" : "Ver Sede"}
             </Button>
-            {/* <Button
-              className="sede-look"
-              variant="contained"
-              sx={{
-                backgroundColor: "rgba(255,0,0,0.85)",
-                color: "rgba(255,255,255,0.85)",
-                "&:hover": {
-                  backgroundColor: "red",
-                  color: "white",
-                },
-                display: { xs: "none", sm: "inline-block" },
-              }}
-              textAlign="center"
-              onClick={() => {
-                ShowSede(sedeinfo.lat, sedeinfo.lng);
-                // const yOffset = -60; // Ajuste de 20 píxeles hacia arriba
-                // const element = elementRef.current;
-                // const y =
-                //   element.getBoundingClientRect().top +
-                //   window.pageYOffset +
-                //   yOffset;
-                // window.scrollTo({ top: y, behavior: "smooth" });
-                // elementRef.current.scrollIntoView({ behavior: "smooth" });
-                // setVerSede(verSede);
-              }}
-            >
-              {verSede ? "Ocultar" : "Ver Sede"}
-            </Button> */}
 
             {imagenVisible === imagen ? (
               <Box padding="10px 0px">
@@ -146,6 +118,65 @@ function Sede({
             ) : (
               <Box></Box>
             )}
+            {/* {hideImage ? (
+              <Box
+                padding="10px 0px"
+                sx={{
+                  display: { xs: "inline-block", md: "none" },
+                }}
+              >
+                <CopyTextButton text={sedeinfo.address}>
+                  <Grid
+                    container
+                    sx={{ color: "#000", padding: "0px 0 10px 0" }}
+                  >
+                    <Grid item xs={9} textAlign="left">
+                      {sedeinfo.address}
+                    </Grid>
+                    <Grid item xs={1} textAlign="right" sx={{ margin: "auto" }}>
+                      <FaCopy
+                        style={{
+                          marginRight: "5px",
+                          fontSize: "0.8rem",
+                        }}
+                      />
+                    </Grid>
+                    <Grid item xs={2} sx={{ margin: "auto" }}>
+                      <Typography textTransform="none" textAlign="left">
+                        copiar
+                      </Typography>
+                    </Grid>
+                  </Grid>
+                </CopyTextButton>
+
+                <Typography>Tel: {sedeinfo.phone}</Typography>
+                <Typography>Whatsapp: {sedeinfo.mobile}</Typography>
+                <img
+                  src={sedeinfo.img}
+                  className="navbar-logo"
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                  }}
+                  alt="navbar-logo"
+                />
+                <Grid container>
+                  <Grid
+                    item
+                    xs={12}
+                    minHeight="500px"
+                    sx={{
+                      padding: { xs: "20px 0 15px 0", md: "50px 0 15px 0" },
+                      display: { xs: "inline-block", md: "none" },
+                    }}
+                  >
+                    <SedeMap position={position} />
+                  </Grid>
+                </Grid>
+              </Box>
+            ) : (
+              <Box></Box>
+            )} */}
           </div>
         </Box>
       </Container>
