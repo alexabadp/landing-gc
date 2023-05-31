@@ -281,17 +281,19 @@ const SeccionContactanos = () => {
 
             <FormControlLabel
               sx={{ padding: "10px 0" }}
-              label="Estoy de acuerdo con la política de uso de datos de Grupo Ciencias"
+              label={`Estoy de acuerdo con la política de uso de datos de Grupo Ciencias`}
               control={
                 <Checkbox
                   defaultChecked
                   name="confirmacionDatos"
                   checked={values.confirmacionDatos}
                   onChange={handleChange}
-                  onBlur={handleBlur}
+                  // onBlur={handleBlur}
                 />
               }
-            />
+            >
+              <a href="https://www.google.com">askdfbksadbkjasbkjd</a>
+            </FormControlLabel>
             {/* {touched.confirmacionDatos && errors.confirmacionDatos && (
               <FormHelperText error>{errors.confirmacionDatos}</FormHelperText>
             )} */}
