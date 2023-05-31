@@ -17,6 +17,7 @@ import {
   Alert,
   FormGroup,
   FormHelperText,
+  Link,
 } from "@mui/material";
 
 import { useFormik } from "formik";
@@ -552,7 +553,24 @@ function LibroReclamaciones() {
             <FormGroup>
               <FormControlLabel
                 sx={{ padding: "10px 0" }}
-                label="Al enviar este formulario acepto el flujo transfronterizo de mis datos personales, según la Ley de Protección de Datos Personales."
+                label={
+                  <Typography>
+                    Al enviar este formulario acepto el flujo transfronterizo de
+                    mis datos personales, según la
+                    <Link
+                      href="/politicaproteccion"
+                      sx={{
+                        color: "red",
+                        paddingLeft: "5px",
+                        "&:hover": {
+                          color: "red",
+                        },
+                      }}
+                    >
+                      Ley de Protección de Datos Personales."
+                    </Link>
+                  </Typography>
+                }
                 control={
                   <Checkbox
                     defaultChecked
@@ -562,6 +580,7 @@ function LibroReclamaciones() {
                     onBlur={handleBlur}
                   />
                 }
+                onClick={(event) => event.stopPropagation()}
               />
               {touched.aceptoTerminos && errors.aceptoTerminos && (
                 <FormHelperText error>{errors.aceptoTerminos}</FormHelperText>
