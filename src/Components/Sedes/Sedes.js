@@ -12,11 +12,15 @@ function Sedes() {
     lng: -77.05933774548336,
   });
 
+  const [imagenVisible, setImagenVisible] = useState(null);
+
+  const handleBotonClick = (imagen) => {
+    setImagenVisible(imagen);
+  };
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
-  console.log(position);
 
   return (
     <>
@@ -33,6 +37,40 @@ function Sedes() {
                 </Typography>
               </Grid>
               <Grid item>
+                <Sede
+                  key={Sedeinfo[0].id}
+                  sedeinfo={Sedeinfo[0]}
+                  position={position}
+                  setPosition={setPosition}
+                  imagen="imagen1" //comentario
+                  botonClick={handleBotonClick} //comentario
+                  imagenVisible={imagenVisible}
+                  // valorBoton={imagenVisible === "imagen1" ? true : false}
+                />
+
+                <Sede
+                  key={Sedeinfo[1].id}
+                  sedeinfo={Sedeinfo[1]}
+                  position={position}
+                  setPosition={setPosition}
+                  imagen="imagen2" //comentario
+                  botonClick={handleBotonClick} //comentario
+                  imagenVisible={imagenVisible}
+                  // valorBoton={imagenVisible === "imagen2" ? true : false}
+                />
+
+                <Sede
+                  key={Sedeinfo[2].id}
+                  sedeinfo={Sedeinfo[2]}
+                  position={position}
+                  setPosition={setPosition}
+                  imagen="imagen3" //comentario
+                  botonClick={handleBotonClick} //comentario
+                  imagenVisible={imagenVisible}
+                  // valorBoton={imagenVisible === "imagen3" ? true : false}
+                />
+
+                {/* {console.log(Sedeinfo)}
                 {Sedeinfo.map((sedeinfo) => (
                   <>
                     <Sede
@@ -42,7 +80,7 @@ function Sedes() {
                       setPosition={setPosition}
                     />
                   </>
-                ))}
+                ))} */}
               </Grid>
             </Grid>
           </Grid>

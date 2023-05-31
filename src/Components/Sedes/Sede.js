@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaCopy } from "react-icons/fa";
 import { withRouter } from "react-router-dom";
 import "./Sedes.css";
@@ -6,15 +6,42 @@ import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import CopyTextButton from "./CopyTextButton";
 import SedeMap from "./SedeMap";
 
-function Sede({ sedeinfo, position, setPosition }) {
+function Sede({
+  sedeinfo,
+  position,
+  setPosition,
+  imagen,
+  botonClick,
+  imagenVisible,
+  // valorBoton,
+}) {
   const [hideImage, setHideImage] = useState(false);
 
   const ShowSede = (currentlat, currentlng) => {
     setHideImage(!hideImage);
     setPosition({ ...position, lat: currentlat, lng: currentlng });
+    handleClick();
   };
 
   const [verSede, setVerSede] = useState(false);
+
+  useEffect(() => {
+    if (imagenVisible === imagen) {
+      // setVerSede(true);
+      setHideImage(true);
+      setVerSede(true);
+    } else {
+      setHideImage(false);
+      setVerSede(false);
+    }
+  }, [imagenVisible, imagen]);
+
+  // console.log(valorBoton, "El valor");
+
+  const handleClick = () => {
+    !hideImage ? botonClick(imagen) : botonClick("");
+    // botonClick(imagen);
+  };
 
   return (
     <>
@@ -44,42 +71,6 @@ function Sede({ sedeinfo, position, setPosition }) {
 
           <Typography>Tel: {sedeinfo.phone}</Typography>
           <Typography>Whatsapp: {sedeinfo.mobile}</Typography>
-          {hideImage && (
-            <>
-              {/* <CopyTextButton text={sedeinfo.address}>
-                <Grid container sx={{ color: "#000", padding: "0px 0 10px 0" }}>
-                  <Grid item xs={9} textAlign="left">
-                    {sedeinfo.address}
-                  </Grid>
-                  <Grid item xs={1} textAlign="right" sx={{ margin: "auto" }}>
-                    <FaCopy
-                      style={{
-                        marginRight: "5px",
-                        fontSize: "0.8rem",
-                      }}
-                    />
-                  </Grid>
-                  <Grid item xs={2} sx={{ margin: "auto" }}>
-                    <Typography textTransform="none" textAlign="left">
-                      copiar
-                    </Typography>
-                  </Grid>
-                </Grid>
-              </CopyTextButton>
-
-              <Typography>Tel: {sedeinfo.phone}</Typography>
-              <Typography>Whatsapp: {sedeinfo.mobile}</Typography> */}
-              {/* <img
-                src={sedeinfo.img}
-                className="navbar-logo"
-                style={{
-                  width: "100%",
-                  height: "100%",
-                }}
-                alt="navbar-logo"
-              /> */}
-            </>
-          )}
 
           <div className="sede-button">
             <Button
@@ -96,39 +87,14 @@ function Sede({ sedeinfo, position, setPosition }) {
               textAlign="center"
               onClick={() => {
                 ShowSede(sedeinfo.lat, sedeinfo.lng);
-                setVerSede(!verSede);
+                // setVerSede(verSede);
               }}
             >
               {verSede ? "Ocultar" : "Ver Sede"}
             </Button>
-            {hideImage ? (
+            {/* {hideImage ? ( */}
+            {imagenVisible === imagen ? (
               <Box padding="10px 0px">
-                {/* <CopyTextButton text={sedeinfo.address}>
-                  <Grid
-                    container
-                    sx={{ color: "#000", padding: "0px 0 10px 0" }}
-                  >
-                    <Grid item xs={9} textAlign="left">
-                      {sedeinfo.address}
-                    </Grid>
-                    <Grid item xs={1} textAlign="right" sx={{ margin: "auto" }}>
-                      <FaCopy
-                        style={{
-                          marginRight: "5px",
-                          fontSize: "0.8rem",
-                        }}
-                      />
-                    </Grid>
-                    <Grid item xs={2} sx={{ margin: "auto" }}>
-                      <Typography textTransform="none" textAlign="left">
-                        copiar
-                      </Typography>
-                    </Grid>
-                  </Grid>
-                </CopyTextButton>
-
-                <Typography>Tel: {sedeinfo.phone}</Typography>
-                <Typography>Whatsapp: {sedeinfo.mobile}</Typography> */}
                 <img
                   src={sedeinfo.img}
                   className="navbar-logo"
