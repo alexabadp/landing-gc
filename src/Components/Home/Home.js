@@ -18,9 +18,7 @@ function Home() {
 
   return (
     <>
-      <Box>
-        <Heroslider />
-      </Box>
+      <Heroslider />
 
       <Container
         maxWidth="xl"
