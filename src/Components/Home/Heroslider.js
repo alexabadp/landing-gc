@@ -81,54 +81,55 @@ const Heroslider = () => {
         slidesToSlide={1}
         swipeable
       >
-        <div>
+        <Box sx={{ maxHeight: "1000px", height: "100%" }}>
           <img
             width="100%"
+            // maxHeight="700px"
             height="100%"
             src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FHeroSlider%2Fwebp%2Fportada_1.webp?alt=media&token=2ad61a4e-2a1d-4062-aaa0-ac8ca28a8331"
             alt=""
           />
-        </div>
-        <div>
+        </Box>
+        <Box sx={{ maxHeight: "1000px", height: "100%" }}>
           <img
             width="100%"
             height="100%"
             src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FHeroSlider%2Fwebp%2Fportada_2.webp?alt=media&token=87790123-c5ab-4081-9ec9-8591598f7583"
             alt=""
           />
-        </div>
-        <div>
+        </Box>
+        <Box sx={{ maxHeight: "1000px", height: "100%" }}>
           <img
             width="100%"
             height="100%"
             src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FHeroSlider%2Fwebp%2Fportada_3.webp?alt=media&token=68883d8a-8fce-4477-99f3-c8dbdfe8673e"
             alt=""
           />
-        </div>
-        <div>
+        </Box>
+        <Box sx={{ maxHeight: "1000px", height: "100%" }}>
           <img
             width="100%"
             height="100%"
             src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FHeroSlider%2Fwebp%2Fportada_4.webp?alt=media&token=8f0f51d2-1fce-42de-996e-bd47ce059e34"
             alt=""
           />
-        </div>
-        <div>
+        </Box>
+        <Box sx={{ maxHeight: "1000px", height: "100%" }}>
           <img
             width="100%"
             height="100%"
             src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FHeroSlider%2Fwebp%2FPORTADA%20YT.webp?alt=media&token=3e13d6e3-9061-4cb8-87fc-6aebaa50797a&_gl=1*kyvmn1*_ga*Njk4NjE0MDA1LjE2ODQ3MDg2NTU.*_ga_CW55HF8NVT*MTY4NTQyNzI3My4xNy4xLjE2ODU0Mjg3NjUuMC4wLjA."
             alt=""
           />
-        </div>
-        <div>
+        </Box>
+        <Box sx={{ maxHeight: "1000px", height: "100%" }}>
           <img
             width="100%"
             height="100%"
             src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FHeroSlider%2Fwebp%2Fportada_6.webp?alt=media&token=483ee553-677a-46ec-95a5-4bb0205d480a"
             alt=""
           />
-        </div>
+        </Box>
       </Carousel>
     </Box>
   );

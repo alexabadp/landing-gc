@@ -94,6 +94,7 @@ function Footer() {
                 <Typography
                   sx={{
                     fontSize: { xs: "24px", md: "30px" },
+
                     background: "rgb(37, 211, 102)",
                     borderRadius: "50%",
                     width: "45px",
@@ -411,6 +412,7 @@ function Footer() {
             <Typography
               sx={{
                 fontSize: { xs: "24px", md: "30px" },
+
                 background: "rgb(37, 211, 102)",
                 borderRadius: "50%",
                 width: "40px",
