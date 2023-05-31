@@ -6,6 +6,7 @@ import {
   FormControlLabel,
   FormGroup,
   Grid,
+  Link,
   MenuItem,
   Snackbar,
   TextField,
@@ -277,7 +278,23 @@ const SeccionContactanos = () => {
 
             <FormControlLabel
               sx={{ padding: "10px 0" }}
-              label="Estoy de acuerdo con la política de uso de datos de Grupo Ciencias"
+              label={
+                <Typography>
+                  Estoy de acuerdo con la
+                  <Link
+                    href="/politicaproteccion"
+                    sx={{
+                      color: "red",
+                      paddingLeft: "5px",
+                      "&:hover": {
+                        color: "red",
+                      },
+                    }}
+                  >
+                    política de uso de datos de Grupo Ciencias
+                  </Link>
+                </Typography>
+              }
               control={
                 <Checkbox
                   defaultChecked
@@ -287,6 +304,7 @@ const SeccionContactanos = () => {
                   onBlur={handleBlur}
                 />
               }
+              onClick={(event) => event.stopPropagation()}
             />
             {/* {touched.confirmacionDatos && errors.confirmacionDatos && (
               <FormHelperText error>{errors.confirmacionDatos}</FormHelperText>
