@@ -23,18 +23,33 @@ import {
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
+import moment from "moment/moment";
 
 function LibroReclamaciones() {
+  const [numeroLibro, setNumeroLibro] = useState(0);
+  const [currentTime, setCurrentTime] = useState("");
+  const currentYear = new Date().getFullYear();
+  const currentDate = moment().format("YYYY-MM-DD");
+
   useEffect(() => {
     window.scrollTo(0, 0);
+
     axios
       .get("https://localhost:5001/api/Landing/UltimoRegistro")
       .then((response) => {
         console.log(response.data.Data);
+        setNumeroLibro(response.data.Data);
       })
       .catch((error) => {
         console.error(error);
       });
+
+    const interval = setInterval(() => {
+      const date = new Date();
+      const time = date.toLocaleTimeString();
+      setCurrentTime(time);
+    }, 1000);
+    return () => clearInterval(interval);
   }, []);
 
   const [showErrors, setShowErrors] = useState(false);
@@ -55,12 +70,12 @@ function LibroReclamaciones() {
   } = useFormik({
     initialValues: {
       tipoDocumento: "",
-      documento: "",
+      numerodocumento: "",
       nombres: "",
       apellidos: "",
       email: "",
       telefono: "",
-      tipoDireccion: "",
+      provincia: "",
       direccion: "",
       sede: "",
       ciclo: "",
@@ -71,14 +86,14 @@ function LibroReclamaciones() {
     },
     validationSchema: Yup.object().shape({
       tipoDocumento: Yup.string().required("Selecciona el tipo de documento"),
-      documento: Yup.string().required("Ingresa tu número de documento"),
+      numerodocumento: Yup.string().required("Ingresa tu número de documento"),
       nombres: Yup.string().required("Ingresa tus nombres"),
       apellidos: Yup.string().required("Ingresa tus apellidos"),
       email: Yup.string()
         .email("Debes ingresar un correo electrónico válido")
         .required("Ingresa tu correo electrónico"),
       telefono: Yup.string().required("Ingresa tu teléfono"),
-      tipoDireccion: Yup.string().required("Seleccion una opción"),
+      provincia: Yup.string().required("Seleccion una opción"),
       direccion: Yup.string().required("Ingresa tu dirección"),
       sede: Yup.string().required("Selecciona la sede"),
       ciclo: Yup.string().required("Selecciona el ciclo"),
@@ -229,7 +244,7 @@ function LibroReclamaciones() {
                 padding: "0 5px 5px 0",
               }}
             >
-              Hoja de reclamación: 000000326-2022
+              Hoja de reclamación: 000000{numeroLibro + 1}-{currentYear}
             </Typography>
             <Typography
               sx={{
@@ -238,7 +253,7 @@ function LibroReclamaciones() {
                 padding: "5px 5px 5px 0px",
               }}
             >
-              29-10-2022 15:38:21
+              {currentDate} {currentTime}
             </Typography>
           </Box>
         </Box>
@@ -301,11 +316,13 @@ function LibroReclamaciones() {
                   }
                 >
                   <MenuItem value="opcion1" disabled>
-                    Selecciona un documento
+                    Selecciona un numerodocumento
                   </MenuItem>
-                  <MenuItem value="opcion2">Dni</MenuItem>
-                  <MenuItem value="opcion3">Pasaporte</MenuItem>
-                  <MenuItem value="opcion4">Carné de Extranjeria</MenuItem>
+                  <MenuItem value="dni">Dni</MenuItem>
+                  <MenuItem value="pasaporte">Pasaporte</MenuItem>
+                  <MenuItem value="carné de extranjería">
+                    Carné de Extranjería
+                  </MenuItem>
                 </TextField>
               </Grid>
               <Grid item xs={12} sm={4}>
@@ -314,16 +331,17 @@ function LibroReclamaciones() {
                   label="Ingresa tu número de documento"
                   fullWidth
                   margin="normal"
-                  name="documento"
-                  value={values.documento}
+                  name="numerodocumento"
+                  value={values.numerodocumento}
                   onChange={handleChange}
                   onBlur={handleBlur}
                   error={
-                    (showErrors || touched.documento) &&
-                    Boolean(errors.documento)
+                    (showErrors || touched.numerodocumento) &&
+                    Boolean(errors.numerodocumento)
                   }
                   helperText={
-                    (showErrors || touched.documento) && errors.documento
+                    (showErrors || touched.numerodocumento) &&
+                    errors.numerodocumento
                   }
                 ></TextField>
               </Grid>
@@ -397,25 +415,24 @@ function LibroReclamaciones() {
                   label="Departamento, Provincia, Distrito"
                   fullWidth
                   margin="normal"
-                  name="tipoDireccion"
-                  defaultValue={values.tipoDireccion}
-                  value={values.tipoDireccion}
+                  name="provincia"
+                  defaultValue={values.provincia}
+                  value={values.provincia}
                   onChange={handleChange}
                   onBlur={handleBlur}
                   error={
-                    (showErrors || touched.tipoDireccion) &&
-                    Boolean(errors.tipoDireccion)
+                    (showErrors || touched.provincia) &&
+                    Boolean(errors.provincia)
                   }
                   helperText={
-                    (showErrors || touched.tipoDireccion) &&
-                    errors.tipoDireccion
+                    (showErrors || touched.provincia) && errors.provincia
                   }
                 >
                   <MenuItem value="opcion1" disabled>
                     Selecciona una opcion
                   </MenuItem>
-                  <MenuItem value="opcion2">Lima</MenuItem>
-                  <MenuItem value="opcion3">Callao</MenuItem>
+                  <MenuItem value="Lima">Lima</MenuItem>
+                  <MenuItem value="Callao">Callao</MenuItem>
                 </TextField>
               </Grid>
               <Grid item xs={12} sm={12} md={12}>
@@ -486,8 +503,8 @@ function LibroReclamaciones() {
                   <MenuItem value="opcion1" disabled>
                     Selecciona la Sede
                   </MenuItem>
-                  <MenuItem value="opcion2">Sede Comas</MenuItem>
-                  <MenuItem value="opcion3">Sede SJL</MenuItem>
+                  <MenuItem value="Sede Comas">Sede Comas</MenuItem>
+                  <MenuItem value=">Sede SJL">Sede SJL</MenuItem>
                 </TextField>
               </Grid>
               <Grid item xs={12} sm={6}>
@@ -507,21 +524,27 @@ function LibroReclamaciones() {
                   <MenuItem value="opcion1" disabled>
                     Selecciona el ciclo que deseas reportar
                   </MenuItem>
-                  <MenuItem value="opcion2">Ciclo Verano San Marcos</MenuItem>
-                  <MenuItem value="opcion3">Ciclo Verano UNI</MenuItem>
-                  <MenuItem value="opcion4">Ciclo Repaso San Marcos</MenuItem>
-                  <MenuItem value="opcion4">Ciclo Repaso UNI</MenuItem>
-                  <MenuItem value="opcion4">
+                  <MenuItem value="Ciclo Verano San Marcos">
+                    Ciclo Verano San Marcos
+                  </MenuItem>
+                  <MenuItem value="Ciclo Verano UNI">Ciclo Verano UNI</MenuItem>
+                  <MenuItem value="Ciclo Repaso San Marcos">
+                    Ciclo Repaso San Marcos
+                  </MenuItem>
+                  <MenuItem value="Ciclo Repaso UNI">Ciclo Repaso UNI</MenuItem>
+                  <MenuItem value="Ciclo Semestral San Marcos">
                     Ciclo Semestral San Marcos
                   </MenuItem>
-                  <MenuItem value="opcion4">
+                  <MenuItem value="Ciclo Semestral Báscio UNI">
                     Ciclo Semestral Báscio UNI
                   </MenuItem>
-                  <MenuItem value="opcion4">
+                  <MenuItem value="Ciclo Semestral Intensivo UNI">
                     Ciclo Semestral Intensivo UNI
                   </MenuItem>
-                  <MenuItem value="opcion4">Ciclo Anual San Marcos</MenuItem>
-                  <MenuItem value="opcion4">
+                  <MenuItem value="Ciclo Anual San Marcos">
+                    Ciclo Anual San Marcos
+                  </MenuItem>
+                  <MenuItem value="Ciclo Semianual San Marcos">
                     Ciclo Semianual San Marcos
                   </MenuItem>
                 </TextField>
@@ -644,7 +667,11 @@ function LibroReclamaciones() {
                 }}
                 variant="contained"
                 type="submit"
-                disabled={isSubmitting}
+                disabled={
+                  isSubmitting ||
+                  !values.aceptoTerminos ||
+                  !values.confirmacionReclamo
+                }
               >
                 {isSubmitting ? "Enviando" : "Generar reclamo"}
               </Button>
