@@ -22,10 +22,19 @@ import {
 
 import { useFormik } from "formik";
 import * as Yup from "yup";
+import axios from "axios";
 
 function LibroReclamaciones() {
   useEffect(() => {
     window.scrollTo(0, 0);
+    axios
+      .get("https://localhost:5001/api/Landing/UltimoRegistro")
+      .then((response) => {
+        console.log(response.data.Data);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
   }, []);
 
   const [showErrors, setShowErrors] = useState(false);
@@ -86,6 +95,14 @@ function LibroReclamaciones() {
     onSubmit: (data) => {
       setIsSubmitting(true);
       console.log(data);
+      axios
+        .post("https://localhost:5001/api/Landing/ComplaintUser", data)
+        .then((response) => {
+          console.log(response.data);
+        })
+        .catch((error) => {
+          console.error(error);
+        });
       setTimeout(() => {
         setIsSubmitting(false);
         resetForm();

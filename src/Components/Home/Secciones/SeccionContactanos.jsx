@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import axios from "axios";
 
 import {
   Alert,
@@ -63,9 +64,8 @@ const SeccionContactanos = () => {
     resetForm,
   } = useFormik({
     initialValues: {
-      // universidad: "",
       ciclo: "",
-      nombre: "",
+      nombreapellido: "",
       dni: "",
       email: "",
       celular: "",
@@ -73,9 +73,8 @@ const SeccionContactanos = () => {
       confirmacionDatos: false,
     },
     validationSchema: Yup.object().shape({
-      // universidad: Yup.string().required("Selecciona una universidad"),
       ciclo: Yup.string().required("Selecciona un ciclo"),
-      nombre: Yup.string().required("Ingresa tu nombre"),
+      nombreapellido: Yup.string().required("Ingresa tus nombres y apellidos"),
       dni: Yup.string()
         .test("is-nine-digits", "Ingresa un número de 8 dígitos", (value) =>
           /^\d{8}$/.test(value)
@@ -100,6 +99,14 @@ const SeccionContactanos = () => {
     onSubmit: (data) => {
       setIsSubmitting(true);
       console.log(data);
+      axios
+        .post("https://localhost:5001/api/Landing/RegisterUser", data)
+        .then((response) => {
+          console.log(response.data);
+        })
+        .catch((error) => {
+          console.error(error);
+        });
       setTimeout(() => {
         setIsSubmitting(false);
         resetForm();
@@ -207,12 +214,18 @@ const SeccionContactanos = () => {
                 label="Ingresa tus nombres y apellidos"
                 fullWidth
                 margin="normal"
-                name="nombre"
-                value={values.nombre}
+                name="nombreapellido"
+                value={values.nombreapellido}
                 onChange={handleChange}
                 onBlur={handleBlur}
-                error={(showErrors || touched.nombre) && Boolean(errors.nombre)}
-                helperText={(showErrors || touched.nombre) && errors.nombre}
+                error={
+                  (showErrors || touched.nombreapellido) &&
+                  Boolean(errors.nombreapellido)
+                }
+                helperText={
+                  (showErrors || touched.nombreapellido) &&
+                  errors.nombreapellido
+                }
               />
             </Grid>
             <Grid item xs={12} md={4}>
