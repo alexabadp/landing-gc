@@ -91,7 +91,6 @@ function Sede({
                   color: "white",
                 },
               }}
-              textAlign="center"
               onClick={() => {
                 ShowSede(sedeinfo.lat, sedeinfo.lng);
               }}

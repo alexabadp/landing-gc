@@ -3,8 +3,6 @@ import { withRouter } from "react-router-dom";
 import "./Sedes.css";
 
 function SedeMap({ position }) {
-  console.log(position);
-
   const { isLoaded } = useLoadScript({
     googleMapsApiKey: "AIzaSyC78fsXg01rMBapBJ_6Fs4IR6bzfw9F8Mo",
   });

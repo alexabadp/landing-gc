@@ -1,5 +1,6 @@
 {
   "name": "landing-page-gc",
+  "homepage": "https://www.grupociencias.edu.pe/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

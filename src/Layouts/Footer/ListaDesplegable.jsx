@@ -33,7 +33,7 @@ const ListaDesplegable = ({ elemento, opciones }) => {
       </ListItemButton>
       <Collapse in={open} timeout="auto" unmountOnExit>
         {opciones.map((e) => (
-          <List component="div" disablePadding>
+          <List key={e} component="div" disablePadding>
             <ListItemButton sx={{ pl: 4 }}>
               <ListItemText primary={e} />
             </ListItemButton>

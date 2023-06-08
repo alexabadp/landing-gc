@@ -91,7 +91,8 @@ function Header() {
               <Select
                 label="Nuestro Ciclos"
                 className={classes.select}
-                margin="normal"
+                margin="dense"
+                // margin="normal"
                 defaultValue=""
                 value="opcion1"
                 variant="standard"
@@ -103,11 +104,12 @@ function Header() {
                   },
                 }}
               >
-                <MenuItem value="opcion1" disabled>
+                <MenuItem key="option1" value="opcion1" disabled>
                   Nuestro Ciclos
                 </MenuItem>
 
                 <MenuItem
+                  key="option2"
                   sx={{
                     "&:hover": {
                       backgroundColor: "red",
@@ -121,6 +123,7 @@ function Header() {
                   Ciclo Verano San Marcos
                 </MenuItem>
                 <MenuItem
+                  key="option3"
                   sx={{
                     "&:hover": {
                       backgroundColor: "red",
@@ -134,6 +137,7 @@ function Header() {
                   Ciclo Verano UNI
                 </MenuItem>
                 <MenuItem
+                  key="option4"
                   sx={{
                     "&:hover": {
                       backgroundColor: "red",
@@ -147,6 +151,7 @@ function Header() {
                   Ciclo Repaso San Marcos
                 </MenuItem>
                 <MenuItem
+                  key="option5"
                   sx={{
                     "&:hover": {
                       backgroundColor: "red",
@@ -160,6 +165,7 @@ function Header() {
                   Ciclo Repaso UNI
                 </MenuItem>
                 <MenuItem
+                  key="option6"
                   sx={{
                     "&:hover": {
                       backgroundColor: "red",
@@ -173,6 +179,7 @@ function Header() {
                   Ciclo Semestral San Marcos
                 </MenuItem>
                 <MenuItem
+                  key="option7"
                   sx={{
                     "&:hover": {
                       backgroundColor: "red",
@@ -186,6 +193,7 @@ function Header() {
                   Ciclo Semestral Básico UNI
                 </MenuItem>
                 <MenuItem
+                  key="option8"
                   sx={{
                     "&:hover": {
                       backgroundColor: "red",
@@ -199,6 +207,7 @@ function Header() {
                   Ciclo Semestral Intensivo UNI
                 </MenuItem>
                 <MenuItem
+                  key="option9"
                   sx={{
                     "&:hover": {
                       backgroundColor: "red",
@@ -212,6 +221,7 @@ function Header() {
                   Ciclo Anual San Marcos
                 </MenuItem>
                 <MenuItem
+                  key="option10"
                   sx={{
                     "&:hover": {
                       backgroundColor: "red",
@@ -225,14 +235,14 @@ function Header() {
                   Ciclo Semianual San Marcos
                 </MenuItem>
               </Select>
-              <MenuItem
+              {/* <MenuItem
                 sx={{ "&:hover": { backgroundColor: "red", color: "#fff" } }}
                 component={Link}
                 to="/videoClases"
                 onClick={handleCloseNavMenu}
               >
                 <Typography textAlign="center">Biblioteca Free</Typography>
-              </MenuItem>
+              </MenuItem> */}
               <MenuItem
                 sx={{ "&:hover": { backgroundColor: "red", color: "#fff" } }}
                 component={Link}
@@ -286,8 +296,8 @@ function Header() {
               </Button>
               <Select
                 label="Nuestro Ciclos"
-                // className={classes.select}
-                margin="normal"
+                margin="dense"
+                // margin="normal"
                 defaultValue=""
                 value="opcion1"
                 variant="standard"
@@ -414,14 +424,14 @@ function Header() {
                       color: "#fff",
                     },
                   }}
-                  key="option1"
+                  key="option10"
                   component={Link}
                   to="/ciclos/9"
                 >
                   Ciclo Semianual San Marcos
                 </MenuItem>
               </Select>
-              <Button
+              {/* <Button
                 sx={{
                   color: "#000",
                   "&:hover": { backgroundColor: "red", color: "#fff" },
@@ -433,7 +443,7 @@ function Header() {
                 <Typography textTransform="none" textAlign="center">
                   Biblioteca Free
                 </Typography>
-              </Button>
+              </Button> */}
               <Button
                 sx={{
                   color: "#000",

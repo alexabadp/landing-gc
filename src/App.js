@@ -33,7 +33,7 @@ const LandingPage = () => {
         <Route exact path="/videoclases-tres" component={VideoClasesTres} />
         <Route exact path="/videoclases" component={VideoClases} />
         <Route exact path="/sedes" component={Sedes} />
-        <Route exact path="/explora" component={LandingCiclo} />
+        {/* <Route exact path="/explora" component={LandingCiclo} /> */}
         <Route exact path="/admision" component={Admision} />
         <Route exact path="/contactus" component={ContactUs} />
         <Route exact path="/ciclos/:idCiclo" component={CicloPage} />

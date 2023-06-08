@@ -17,7 +17,7 @@ const Content = ({ course, onClose }) => (
         <div className="content__title">{course.title}</div>
         <div className="content__description">{course.description}</div>
         <di>
-          <a href={course.youtubeLink} target="_blank">
+          <a href={course.youtubeLink} target="_blank" rel="noreferrer">
             Abrir aqui
           </a>
         </di>

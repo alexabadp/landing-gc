@@ -69,8 +69,8 @@ const SeccionContactanos = () => {
       dni: "",
       email: "",
       celular: "",
-      aceptoTerminos: false,
-      confirmacionDatos: false,
+      aceptoTerminos: true,
+      confirmacionDatos: true,
     },
     validationSchema: Yup.object().shape({
       ciclo: Yup.string().required("Selecciona un ciclo"),
@@ -281,7 +281,6 @@ const SeccionContactanos = () => {
               label="Acepto el uso de mis datos personales con fines comerciales."
               control={
                 <Checkbox
-                  defaultChecked
                   name="aceptoTerminos"
                   checked={values.aceptoTerminos}
                   onChange={handleChange}
@@ -314,7 +313,6 @@ const SeccionContactanos = () => {
               }
               control={
                 <Checkbox
-                  defaultChecked
                   name="confirmacionDatos"
                   checked={values.confirmacionDatos}
                   onChange={handleChange}

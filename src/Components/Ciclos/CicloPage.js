@@ -14,7 +14,6 @@ function CicloPage() {
   const url = useState(window.location.href);
   useEffect(() => {
     window.scrollTo(0, 0);
-    console.log(url);
   }, [url]);
 
   const { idCiclo } = useParams();
@@ -375,10 +374,14 @@ function CicloPage() {
                   >
                     Disfruta del formato virtual
                   </Typography>
-                  <Typography fontSize="20px" padding="20px" fontWeight="500">
+                  <Typography
+                    fontSize="20px"
+                    padding="20px 10px"
+                    fontWeight="500"
+                  >
                     Prepárate con nosotros desde la comodidad de tu hogar:
                   </Typography>
-                  <Typography sx={{ fontSize: { xs: "17px", sm: "20px" } }}>
+                  <Box sx={{ fontSize: { xs: "17px", sm: "20px" } }}>
                     <ul>
                       <li>Clases en vivo en HD con todos nuestros docentes.</li>
                       <li>Los profesores usan pizarras y tizas.</li>
@@ -386,7 +389,7 @@ function CicloPage() {
                       <li>Simulacros tipo examen de admisión</li>
                       <li>Materiales prácticos en PDF para descargar.</li>
                     </ul>
-                  </Typography>
+                  </Box>
                 </Box>
               </Grid>
               <Grid

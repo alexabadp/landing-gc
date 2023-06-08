@@ -81,8 +81,8 @@ function LibroReclamaciones() {
       ciclo: "",
       comentario: "",
       solicitud: "",
-      aceptoTerminos: false,
-      confirmacionReclamo: false,
+      aceptoTerminos: true,
+      confirmacionReclamo: true,
     },
     validationSchema: Yup.object().shape({
       tipoDocumento: Yup.string().required("Selecciona el tipo de documento"),
@@ -265,7 +265,7 @@ function LibroReclamaciones() {
         >
           <form onSubmit={handleInputSubmit}>
             <Box ref={bottomRef}>
-              <Typography
+              <Box
                 sx={{
                   display: "flex",
                   justifyContent: "flex-start",
@@ -292,7 +292,7 @@ function LibroReclamaciones() {
                   1
                 </Typography>
                 <Box>Datos de la persona que presenta el reclamo</Box>
-              </Typography>
+              </Box>
             </Box>
             <Grid container columnSpacing={2}>
               <Grid item xs={12} sm={3}>
@@ -456,7 +456,7 @@ function LibroReclamaciones() {
             </Grid>
             <hr />
             <Box>
-              <Typography
+              <Box
                 sx={{
                   display: "flex",
                   justifyContent: "flex-start",
@@ -483,7 +483,7 @@ function LibroReclamaciones() {
                   2
                 </Typography>
                 <Box>Datos del reclamo</Box>
-              </Typography>
+              </Box>
             </Box>
             <Grid container columnSpacing={2}>
               <Grid item xs={12} sm={6}>
@@ -613,7 +613,6 @@ function LibroReclamaciones() {
                 }
                 control={
                   <Checkbox
-                    defaultChecked
                     name="aceptoTerminos"
                     checked={values.aceptoTerminos}
                     onChange={handleChange}
@@ -631,7 +630,6 @@ function LibroReclamaciones() {
                 label="He leído y estoy de acuerdo con toda la información descrita en este reclamo *"
                 control={
                   <Checkbox
-                    defaultChecked
                     name="confirmacionReclamo"
                     checked={values.confirmacionReclamo}
                     onChange={handleChange}

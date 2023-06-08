@@ -46,6 +46,7 @@ function Home() {
             </Box>
           </Grid>
           <Grid
+            item
             xs={12}
             lg={6}
             sx={{
@@ -97,6 +98,7 @@ function Home() {
         <Container maxWidth="xl">
           <Grid container margin="auto" alignItems="center">
             <Grid
+              item
               xs={12}
               lg={6}
               sx={{
@@ -139,7 +141,7 @@ function Home() {
                     justifyContent: { xs: "center", lg: "flex-start" },
                   }}
                 >
-                  <Typography component={Link} to="/videoClases">
+                  <Typography component={Link} to="/">
                     <Button
                       variant="contained"
                       sx={{

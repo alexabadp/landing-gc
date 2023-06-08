@@ -94,7 +94,6 @@ function Footer() {
                 <Typography
                   sx={{
                     fontSize: { xs: "24px", md: "30px" },
-
                     background: "rgb(37, 211, 102)",
                     borderRadius: "50%",
                     width: "45px",
@@ -107,10 +106,9 @@ function Footer() {
                   <FaWhatsapp color="rgba(255, 255, 255, 1)" />
                 </Typography>
               </a>
-              <Typography
+              <Box
                 type="button"
                 onClick={handleClick}
-                // href="https://www.youtube.com/@GrupoCiencias"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -128,7 +126,7 @@ function Footer() {
                 >
                   <FaYoutube color="rgba(255, 255, 255, 1)" />
                 </Typography>
-              </Typography>
+              </Box>
               <Popover
                 id={id}
                 open={open}
@@ -159,7 +157,6 @@ function Footer() {
                     >
                       UNI
                     </Button>
-                    {/* <img width="50px" height="50px" src={uni} alt="uni" /> */}
                   </a>
                   <a
                     href="https://www.youtube.com/@GrupoCiencias"
@@ -178,7 +175,6 @@ function Footer() {
                     >
                       UNMSM
                     </Button>
-                    {/* <img width="50px" height="50px" src={unmsm} alt="unmsm" /> */}
                   </a>
                 </Typography>
               </Popover>
@@ -203,7 +199,7 @@ function Footer() {
                   <FaInstagram color="rgba(255, 255, 255, 1)" />
                 </Typography>
               </a>
-              <Typography
+              <Box
                 sx={{
                   fontSize: { xs: "44px", sm: "60px" },
                   position: "relative",
@@ -237,7 +233,7 @@ function Footer() {
                     <FaFacebook color="rgba(59, 89, 152, 1)" />
                   </Typography>
                 </a>
-              </Typography>
+              </Box>
               <a
                 href="https://www.tiktok.com/@grupociencias"
                 target="_blank"
@@ -291,11 +287,6 @@ function Footer() {
               Materiales
             </Typography>
             <Typography sx={{ fontSize: { xs: "17px" } }}>Admisión</Typography>
-            {/* <Typography
-              sx={{ fontSize: { xs: "17px" }, padding: { xs: "15px 0" } }}
-            >
-              Estadísticas
-            </Typography> */}
           </Grid>
           <Grid item xl={3} lg={4} md={6}>
             <Typography sx={{ fontSize: { xs: "24px" } }}>
@@ -357,12 +348,7 @@ function Footer() {
         </Grid>
       </Container>
 
-      {/* DISEÑO MOBIL */}
       <Grid container sx={{ display: { xs: "block", sm: "none" } }}>
-        {/* <ListaDesplegable
-          elemento={"Acerca del ciclo"}
-          opciones={["opcion1", "opcion2"]}
-        /> */}
         <ListaDesplegable
           elemento={"Universidades"}
           opciones={[
@@ -425,10 +411,9 @@ function Footer() {
               <FaWhatsapp color="rgba(255, 255, 255, 1)" />
             </Typography>
           </a>
-          <Typography
+          <Box
             type="button"
             onClick={handleClick}
-            // href="https://www.youtube.com/@GrupoCiencias"
             target="_blank"
             rel="noreferrer"
           >
@@ -446,7 +431,7 @@ function Footer() {
             >
               <FaYoutube color="rgba(255, 255, 255, 1)" />
             </Typography>
-          </Typography>
+          </Box>
           <Popover
             id={id}
             open={open}
@@ -477,7 +462,6 @@ function Footer() {
                 >
                   UNI
                 </Button>
-                {/* <img width="50px" height="50px" src={uni} alt="uni" /> */}
               </a>
               <a
                 href="https://www.youtube.com/@GrupoCiencias"
@@ -496,7 +480,6 @@ function Footer() {
                 >
                   UNMSM
                 </Button>
-                {/* <img width="50px" height="50px" src={unmsm} alt="unmsm" /> */}
               </a>
             </Typography>
           </Popover>
@@ -521,7 +504,7 @@ function Footer() {
               <FaInstagram color="rgba(255, 255, 255, 1)" />
             </Typography>
           </a>
-          <Typography
+          <Box
             sx={{
               fontSize: { xs: "34px", sm: "60px" },
               position: "relative",
@@ -555,7 +538,7 @@ function Footer() {
                 <FaFacebook color="rgba(59, 89, 152, 1)" />
               </Typography>
             </a>
-          </Typography>
+          </Box>
           <a
             href="https://www.tiktok.com/@grupociencias"
             target="_blank"

@@ -11,6 +11,7 @@ import { RazonamientoMat } from "../../Assets/Courses-Slide/Razonamiento-mat";
 import escaneos from "../../Assets/Images/escaneos.png";
 import Slider from "../../Layouts/NetflixSlider";
 import "./VideoClases.css";
+import Videos from "./Responsive/Videos";
 
 function VideoClases() {
   return (
@@ -143,6 +144,7 @@ function VideoClases() {
                 </Slider>
               </div>
             </div>
+
             <div className="col-lg-12 col-12">
               <div className="courses-explore">Lenguaje</div>
               <div className="div-slider">
@@ -218,6 +220,7 @@ function VideoClases() {
           </div>
         </div>
       </div>
+      <Videos />
     </>
   );
 }

@@ -37,6 +37,7 @@ function Sedes() {
                   Sedes
                 </Typography>
               </Grid>
+
               <Grid item>
                 <Sede
                   key={Sedeinfo[0].id}
@@ -69,33 +70,10 @@ function Sedes() {
                   imagenVisible={imagenVisible}
                   // valorBoton={imagenVisible === "imagen3" ? true : false}
                 />
-
-                {/* {console.log(Sedeinfo)}
-                {Sedeinfo.map((sedeinfo) => (
-                  <>
-                    <Sede
-                      key={sedeinfo.id}
-                      sedeinfo={sedeinfo}
-                      position={position}
-                      setPosition={setPosition}
-                    />
-                  </>
-                ))} */}
               </Grid>
-              {/* <Grid item sx={{ display: { xs: "inline-block", md: "none" } }}>
-                {Sedeinfo.map((sedeinfo) => (
-                  <>
-                    <SedeMobil
-                      key={sedeinfo.id}
-                      sedeinfo={sedeinfo}
-                      position={position}
-                      setPosition={setPosition}
-                    />
-                  </>
-                ))}
-              </Grid> */}
             </Grid>
           </Grid>
+
           <Grid
             item
             xs={12}
