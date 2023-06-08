@@ -69,8 +69,8 @@ const SeccionContactanos = () => {
       dni: "",
       email: "",
       celular: "",
-      aceptoTerminos: true,
-      confirmacionDatos: true,
+      aceptoTerminos: false,
+      confirmacionDatos: false,
     },
     validationSchema: Yup.object().shape({
       ciclo: Yup.string().required("Selecciona un ciclo"),

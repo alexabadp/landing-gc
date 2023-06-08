@@ -81,8 +81,8 @@ function LibroReclamaciones() {
       ciclo: "",
       comentario: "",
       solicitud: "",
-      aceptoTerminos: true,
-      confirmacionReclamo: true,
+      aceptoTerminos: false,
+      confirmacionReclamo: false,
     },
     validationSchema: Yup.object().shape({
       tipoDocumento: Yup.string().required("Selecciona el tipo de documento"),
