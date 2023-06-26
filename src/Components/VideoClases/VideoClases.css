@@ -1,6 +1,6 @@
 .videoclases-container {
   width: 100%;
-  height: 3150px;
+  /* height: 3150px; */
   max-width: none;
   padding: 0;
 }
@@ -17,7 +17,7 @@
 .videoclases-fblock {
   margin-top: 10px;
   width: 1440px;
-  height: 600px;
+  /* height: 600px; */
   margin-bottom: 85px;
 }
 
