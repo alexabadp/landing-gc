@@ -74,6 +74,8 @@ function Sedes() {
             </Grid>
           </Grid>
 
+          {/* SOLO PARA DESKTOP */}
+
           <Grid
             item
             xs={12}

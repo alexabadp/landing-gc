@@ -98,6 +98,8 @@ function Sede({
               <Box> {verSede ? "Ocultar" : "Ver Sede"}</Box>
             </Button>
 
+            {/* SOLO PARA MOBILE */}
+
             {imagenVisible === imagen ? (
               <Box padding="10px 0px">
                 <img
