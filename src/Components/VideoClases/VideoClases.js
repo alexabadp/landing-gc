@@ -2,7 +2,8 @@
 // import axios from "axios";
 
 // const API_KEY = "AIzaSyAflrT6KQlmEkn0BlWzmC7294stcdo6mfw";
-// const CHANNEL_ID = "UC9nDi1geQRdTneZFZaktmSw";
+// // const CHANNEL_ID = "UC9nDi1geQRdTneZFZaktmSw";
+// const CHANNEL_ID = "UCyBmnBXGoJ8KHJAOd3KlQaQ";
 
 // const VideoClases = () => {
 //   const [playlists, setPlaylists] = useState([]);
@@ -32,7 +33,7 @@
 //                   part: "snippet",
 //                   playlistId: playlistId,
 //                   key: API_KEY,
-//                   maxResults: 50,
+//                   maxResults: 60,
 //                 },
 //               }
 //             );
@@ -104,6 +105,7 @@ import { universities } from "./data";
 import {
   Box,
   Grid,
+  InputLabel,
   MenuItem,
   Select,
   TextField,
@@ -199,7 +201,13 @@ function VideoClases() {
 
             <Grid container spacing={2}>
               <Grid item xs={12} md={4}>
-                <TextField
+                <InputLabel
+                  id="demo-simple-select-label"
+                  sx={{ color: "#fff", padding: "5px 0", fontSize: "18px" }}
+                >
+                  Elije una Universidad
+                </InputLabel>
+                <Select
                   select
                   label="Elije una Universidad"
                   fullWidth
@@ -211,6 +219,16 @@ function VideoClases() {
                   //         // error={(showErrors || touched.ciclo) && Boolean(errors.ciclo)}
                   //         // helperText={(showErrors || touched.ciclo) && errors.ciclo}
                   style={textFieldStyle}
+                  // sx={textFieldStyle}
+                  MenuProps={{
+                    PaperProps: {
+                      style: {
+                        maxHeight: "300px",
+                        textAlign: "left",
+                        color: "#000",
+                      },
+                    },
+                  }}
                 >
                   <MenuItem value="opcion1" disabled>
                     Selecciona una universidad
@@ -220,11 +238,16 @@ function VideoClases() {
                       {e.name}
                     </MenuItem>
                   ))}
-                </TextField>
+                </Select>
               </Grid>
               <Grid item xs={12} md={4}>
-                <TextField
-                  select
+                <InputLabel
+                  id="demo-simple-select-label"
+                  sx={{ color: "#fff", padding: "5px 0", fontSize: "18px" }}
+                >
+                  Elije un Curso
+                </InputLabel>
+                <Select
                   label="Elije un curso"
                   fullWidth
                   margin="normal"
@@ -238,6 +261,16 @@ function VideoClases() {
                   //         // error={(showErrors || touched.ciclo) && Boolean(errors.ciclo)}
                   //         // helperText={(showErrors || touched.ciclo) && errors.ciclo}
                   style={textFieldStyle}
+                  // sx={textFieldStyle}
+                  MenuProps={{
+                    PaperProps: {
+                      style: {
+                        maxHeight: "300px",
+                        textAlign: "left",
+                        color: "#000",
+                      },
+                    },
+                  }}
                 >
                   {optionCourse?.length !== 0 ? (
                     <MenuItem value={university}>Ver Todos los Cursos</MenuItem>
@@ -251,11 +284,17 @@ function VideoClases() {
                       {e.name}
                     </MenuItem>
                   ))}
-                </TextField>
+                </Select>
               </Grid>
               <Grid item xs={12} md={4}>
-                <TextField
-                  select
+                <InputLabel
+                  id="demo-simple-select-label"
+                  sx={{ color: "#fff", padding: "5px 0", fontSize: "18px" }}
+                >
+                  Elije un Tema
+                </InputLabel>
+                <Select
+                  // select
                   label="Elije un Tema"
                   fullWidth
                   margin="normal"
@@ -274,6 +313,7 @@ function VideoClases() {
                     PaperProps: {
                       style: {
                         maxHeight: "300px",
+                        textAlign: "left",
                         color: "#000",
                       },
                     },
@@ -282,7 +322,7 @@ function VideoClases() {
                   {optionSubject?.length !== 0 ? (
                     <MenuItem value={course}>Ver Todos los Temas</MenuItem>
                   ) : (
-                    <MenuItem value={course} disabled>
+                    <MenuItem value="opcion1" disabled>
                       Elija un Curso
                     </MenuItem>
                   )}
@@ -291,7 +331,7 @@ function VideoClases() {
                       {e.title}
                     </MenuItem>
                   ))}
-                </TextField>
+                </Select>
               </Grid>
             </Grid>
 
@@ -320,7 +360,7 @@ function VideoClases() {
 
             {subject.length !== 0 ? (
               <>
-                <img src={subject.imageBg} alt="" />
+                <img src={subject.imageBg} alt="" sx={{ marginTop: "10px" }} />
               </>
             ) : (
               <>
