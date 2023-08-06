@@ -1,6 +1,6 @@
-import escaneos from "../../Assets/escaneos.png";
-import prospectos from "../../Assets/prospectos.png";
-import solucionarios from "../../Assets/solucionarios.png";
+import escaneos from "../../assets/escaneos.png";
+import prospectos from "../../assets/prospectos.png";
+import solucionarios from "../../assets/solucionarios.png";
 import "./Admision.css";
 import { Link } from "react-router-dom";
 import { Box, Container, Grid } from "@mui/material";
