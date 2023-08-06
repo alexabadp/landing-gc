@@ -1,0 +1,211 @@
+@media (min-width: 280px) and (max-width: 540px) {
+    .header-politica {
+      padding-top: 20px !important;
+    }
+  
+    .header-title {
+      font-weight: 800 !important;
+      font-size: 24px !important;
+      line-height: 31px !important;
+      margin-bottom: 30px !important;
+    }
+  
+    .header-subtitle {
+      font-weight: 700 !important;
+      font-size: 14px !important;
+      line-height: 18px !important;
+      margin-bottom: 0px !important;
+    }
+  
+    .body-title {
+      font-weight: 800 !important;
+      font-size: 20px !important;
+      line-height: 26px !important;
+      margin-left:  0px !important;
+    }
+  
+    .content-subtitle {
+      font-weight: 800 !important;
+      font-size: 16px !important;
+      line-height: 21px !important;
+    }
+  
+    .container-politica p {
+      font-weight: 400 !important;
+      font-size: 15px !important;
+      line-height: 24px !important;
+    }
+  
+    ol li {
+      font-weight: 400 !important;
+      font-size: 15px !important;
+      line-height: 24px !important;
+    }
+  
+    .container-politica .row {
+      margin-right: 2px !important;
+      margin-left: 2px !important;
+    }
+  
+    /* .header-politica .img,
+    svg { */
+      .header-politica .img {
+      margin-left: 20px !important;
+      stroke-width: "1px" !important;
+    }
+  }
+  
+  @media (min-width: 541px) and (max-width: 1439px) {
+    .container-politica {
+      width: 100%;
+      max-width: none;
+      padding: 0;
+    }
+  
+    .header-title {
+      font-weight: 800 !important;
+      font-size: 34px !important;
+      line-height: 31px !important;
+      margin-bottom: 30px !important;
+    }
+  
+    .header-subtitle {
+      font-weight: 700 !important;
+      font-size: 20px !important;
+      line-height: 18px !important;
+      margin-bottom: 0px !important;
+    }
+  
+    .container-politica .row {
+      margin-right: 8px !important;
+      margin-left: 8px !important;
+    }
+  
+    .header-content {
+      height: 300px;
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    .container-politica {
+      width: 100%;
+      max-width: none;
+      padding: 0;
+    }
+  
+    .container-politica .row {
+      margin-right: 250px;
+      margin-left: 250px;
+    }
+  
+    .content-subtitle {
+      /* font-family: "Marlin Geo"; */
+      color: #2d2a26;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 31px;
+      margin-top: 40px;
+      margin-left: 0px;
+    }
+  }
+  
+  .header-content {
+    background-color: rgba(231, 0, 49, 0.85);
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header-politica {
+    display: table-cell;
+    width: 1440px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 60px;
+  }
+  
+  .header-title {
+    /* font-family: "Marlin Geo"; */
+    height: 62px;
+    left: 350px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 62px;
+    color: white;
+  }
+  
+  .header-subtitle {
+    /* font-family: "Marlin Geo"; */
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: white;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+  
+  .body-title {
+    /* text-align: center; */
+    text-align: left;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 41px;
+    margin-top: 38px;
+    /* margin-bottom: 38px; */
+  }
+  
+  .container-politica p {
+    /* font-family: "Marlin Geo"; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* text-align: justify; */
+    text-align: left;
+  }
+  
+  .content-subtitle {
+    /* font-family: "Marlin Geo"; */
+    color: #2d2a26;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 31px;
+    margin-top: 40px;
+  }
+  
+  ol {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ol li {
+    /* font-family: "Marlin Geo"; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    counter-increment: my-awesome-counter;
+    /* text-align: justify; */
+    text-align: left;
+  }
+  
+  ol li::before {
+    content: counter(my-awesome-counter) ". ";
+    color: #e70031;
+    font-weight: bold;
+  }
+  
+  .last-parragraph {
+    margin-bottom: 40px;
+  }
+  
