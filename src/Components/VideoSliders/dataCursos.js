@@ -6,9 +6,9 @@ export const cursos = [
     subject: [
       {
         id: "-_5iHdfcTuk",
-        image: "./src/Components/VideoSliders/Assets/Especiales(NUEVO)/a.jpg",
+        image: "./src/Components/VideoSliders/Assets/Especiales/a.jpg",
         imageBg:
-          "./src/Components/VideoSliders/Assets/Especiales(NUEVO)/A.webp",
+          "./src/Components/VideoSliders/Assets/Especiales/A.webp",
 
         title: "TRIGONOMETRÍA - Ecuaciones trigonométricas",
         description:
@@ -17,9 +17,9 @@ export const cursos = [
       },
       {
         id: "s3wrr0kmQbA",
-        image: "./src/Components/VideoSliders/Assets/Especiales(NUEVO)/b.jpg",
+        image: "./src/Components/VideoSliders/Assets/Especiales/b.jpg",
         imageBg:
-          "./src/Components/VideoSliders/Assets/Especiales(NUEVO)/B.webp",
+          "./src/Components/VideoSliders/Assets/Especiales/B.webp",
         title: "TRIGONOMETRÍA - Repaso [CICLO FREE]",
         description:
           "Video invitación para el concurso de becas UNI 2023 II realizado con profesores y el toque especial de nuestros editores, abierto a todo el público y donde pueden obtener becas completas y hasta la beca extrema. Referencia a Naruto Shippuden Opening 1 - Hero's Come Back.",
@@ -27,9 +27,9 @@ export const cursos = [
       },
       {
         id: "qhJnU5RoyqM",
-        image: "./src/Components/VideoSliders/Assets/Especiales(NUEVO)/c.jpg",
+        image: "./src/Components/VideoSliders/Assets/Especiales/c.jpg",
         imageBg:
-          "./src/Components/VideoSliders/Assets/Especiales(NUEVO)/C.webp",
+          "./src/Components/VideoSliders/Assets/Especiales/C.webp",
         title:
           "TRIGONOMETRIA ✅ Repaso San Marcos 2022 II 📢 Full preguntas DECO 🧐",
         description:
@@ -38,9 +38,9 @@ export const cursos = [
       },
       {
         id: "nw6SNmP_6BA",
-        image: "./src/Components/VideoSliders/Assets/Especiales(NUEVO)/d.jpg",
+        image: "./src/Components/VideoSliders/Assets/Especiales/d.jpg",
         imageBg:
-          "./src/Components/VideoSliders/Assets/Especiales(NUEVO)/D.webp",
+          "./src/Components/VideoSliders/Assets/Especiales/D.webp",
         title:
           "TRIGONOMETRÍA - Funciones trigonométricas (Gráficas) [CICLO FREE]",
         description:
@@ -49,8 +49,8 @@ export const cursos = [
       },
       {
         id: "6AIf3kOWbCU",
-        image: "./src/Components/VideoSliders/Assets/Especiales(NUEVO)/e.jpg",
-        imageBg: "./src/Components/VideoSliders/Assets/Especiales(NUEVO)/E.jpg",
+        image: "./src/Components/VideoSliders/Assets/Especiales/e.jpg",
+        imageBg: "./src/Components/VideoSliders/Assets/Especiales/E.jpg",
         title:
           "TRIGONOMETRÍA - Funciones trigonométricas (Rango) - [CICLO FREE]",
         description:
@@ -59,8 +59,8 @@ export const cursos = [
       },
       {
         id: "tHT0A4gt6Cs",
-        image: "./src/Components/VideoSliders/Assets/Especiales(NUEVO)/f.jpg",
-        imageBg: "./src/Components/VideoSliders/Assets/Especiales(NUEVO)/F.jpg",
+        image: "./src/Components/VideoSliders/Assets/Especiales/f.jpg",
+        imageBg: "./src/Components/VideoSliders/Assets/Especiales/F.jpg",
         title:
           "TRIGONOMETRÍA - Cálculo del número de vueltas de una rueda [CICLO FREE]",
         description:
@@ -69,8 +69,8 @@ export const cursos = [
       },
       {
         id: "JSYEkazuxl8",
-        image: "./src/Components/VideoSliders/Assets/Especiales(NUEVO)/g.jpg",
-        imageBg: "./src/Components/VideoSliders/Assets/Especiales(NUEVO)/G.jpg",
+        image: "./src/Components/VideoSliders/Assets/Especiales/g.jpg",
+        imageBg: "./src/Components/VideoSliders/Assets/Especiales/G.jpg",
         title: "TRIGONOMETRÍA  - Razones trigonométricas Parte 02 [CICLO FREE]",
         description:
           "Gianella y Yessael en una de sus visitas a San Marcos el día del examen, entrevistando a amigos, padres y postulantes mientras conocemos diversas historias a nuestro estilo.",
@@ -78,8 +78,8 @@ export const cursos = [
       },
       {
         id: "skfCR2cWqrQ",
-        image: "./src/Components/VideoSliders/Assets/Especiales(NUEVO)/h.jpg",
-        imageBg: "./src/Components/VideoSliders/Assets/Especiales(NUEVO)/H.jpg",
+        image: "./src/Components/VideoSliders/Assets/Especiales/h.jpg",
+        imageBg: "./src/Components/VideoSliders/Assets/Especiales/H.jpg",
         title: "TRIGONOMETRÍA - Razones trigonométricas Parte 01 [CICLO FREE]",
         description:
           "El maestro César Ponce nos explica un poco sobre el examen de admisión a la Universidad Nacional de Ingeniería y la dificultad que lo ha convertido en uno de los exámenes más difíciles del mundo. Podcast en vivo.",
@@ -87,8 +87,8 @@ export const cursos = [
       },
       {
         id: "t-bK9y8balU",
-        image: "./src/Components/VideoSliders/Assets/Especiales(NUEVO)/i.jpg",
-        imageBg: "./src/Components/VideoSliders/Assets/Especiales(NUEVO)/I.jpg",
+        image: "./src/Components/VideoSliders/Assets/Especiales/i.jpg",
+        imageBg: "./src/Components/VideoSliders/Assets/Especiales/I.jpg",
         title:
           "TRIGONOMETRÍA - Circunferencia trigonométrica Parte 03 [CICLO FREE]",
         description:
@@ -97,8 +97,8 @@ export const cursos = [
       },
       {
         id: "kowe_F1eRQw",
-        image: "./src/Components/VideoSliders/Assets/Especiales(NUEVO)/j.jpg",
-        imageBg: "./src/Components/VideoSliders/Assets/Especiales(NUEVO)/J.jpg",
+        image: "./src/Components/VideoSliders/Assets/Especiales/j.jpg",
+        imageBg: "./src/Components/VideoSliders/Assets/Especiales/J.jpg",
         title:
           "TRIGONOMETRÍA - Circunferencia trigonométrica Parte 02 [CICLO FREE]",
         description:
