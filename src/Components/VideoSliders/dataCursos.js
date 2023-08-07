@@ -8,7 +8,8 @@ export const cursos = [
         id: "-_5iHdfcTuk",
         image:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fa.jpg?alt=media&token=b1f15846-aa20-45c2-a4f0-b3397b0d789c",
-        imageBg: "./src/Components/VideoSliders/Assets/Especiales/A.webp",
+        imageBg:
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fwebp%2FA.webp?alt=media&token=8193e7c3-4102-4f11-875c-16f28edfdedc",
 
         title: "TRIGONOMETRÍA - Ecuaciones trigonométricas",
         description:
@@ -19,7 +20,8 @@ export const cursos = [
         id: "s3wrr0kmQbA",
         image:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fb.jpg?alt=media&token=c1f39e5b-8782-40ff-97e0-7c983590a1de",
-        imageBg: "./src/Components/VideoSliders/Assets/Especiales/B.webp",
+        imageBg:
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fwebp%2FB.webp?alt=media&token=d6a48aa1-aa1e-42ec-891a-154c1d29c588",
         title: "TRIGONOMETRÍA - Repaso [CICLO FREE]",
         description:
           "Video invitación para el concurso de becas UNI 2023 II realizado con profesores y el toque especial de nuestros editores, abierto a todo el público y donde pueden obtener becas completas y hasta la beca extrema. Referencia a Naruto Shippuden Opening 1 - Hero's Come Back.",
@@ -29,7 +31,8 @@ export const cursos = [
         id: "qhJnU5RoyqM",
         image:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fc.jpg?alt=media&token=a40fd073-9bc2-4e02-bd95-38741dc792ba",
-        imageBg: "./src/Components/VideoSliders/Assets/Especiales/C.webp",
+        imageBg:
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fwebp%2FC.webp?alt=media&token=bea086e7-89f9-40d7-ad4d-35d1b0118914",
         title:
           "TRIGONOMETRIA ✅ Repaso San Marcos 2022 II 📢 Full preguntas DECO 🧐",
         description:
@@ -40,7 +43,8 @@ export const cursos = [
         id: "nw6SNmP_6BA",
         image:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fd.jpg?alt=media&token=c856c346-533d-46ed-9139-8d192cca50a8",
-        imageBg: "./src/Components/VideoSliders/Assets/Especiales/D.webp",
+        imageBg:
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fwebp%2FD.webp?alt=media&token=326c96bd-392d-4bb6-a3e5-1af757e6d286",
         title:
           "TRIGONOMETRÍA - Funciones trigonométricas (Gráficas) [CICLO FREE]",
         description:
@@ -51,7 +55,8 @@ export const cursos = [
         id: "6AIf3kOWbCU",
         image:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fe.jpg?alt=media&token=1e9423dd-6403-4f58-ae95-66b7938e455a",
-        imageBg: "./src/Components/VideoSliders/Assets/Especiales/E.jpg",
+        imageBg:
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fwebp%2FE.webp?alt=media&token=c9efae56-c278-4d7f-83f8-f67f4264f4f4",
         title:
           "TRIGONOMETRÍA - Funciones trigonométricas (Rango) - [CICLO FREE]",
         description:
@@ -62,7 +67,8 @@ export const cursos = [
         id: "tHT0A4gt6Cs",
         image:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Ff.jpg?alt=media&token=989d4eed-cd17-4ed6-9527-7653f7237da5",
-        imageBg: "./src/Components/VideoSliders/Assets/Especiales/F.jpg",
+        imageBg:
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fwebp%2FF.webp?alt=media&token=ba16bb33-b426-43c4-a5d5-edc678240378",
         title:
           "TRIGONOMETRÍA - Cálculo del número de vueltas de una rueda [CICLO FREE]",
         description:
@@ -73,7 +79,8 @@ export const cursos = [
         id: "JSYEkazuxl8",
         image:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fg.jpg?alt=media&token=6ebba6d3-d90e-44f1-8f68-5d8560ec7556",
-        imageBg: "./src/Components/VideoSliders/Assets/Especiales/G.jpg",
+        imageBg:
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fwebp%2FG.webp?alt=media&token=acf999aa-bdb3-4385-8ae1-edb55cc719ff",
         title: "TRIGONOMETRÍA  - Razones trigonométricas Parte 02 [CICLO FREE]",
         description:
           "Gianella y Yessael en una de sus visitas a San Marcos el día del examen, entrevistando a amigos, padres y postulantes mientras conocemos diversas historias a nuestro estilo.",
@@ -83,7 +90,8 @@ export const cursos = [
         id: "skfCR2cWqrQ",
         image:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fh.jpg?alt=media&token=cfb2fb99-7851-489c-9509-b8a2021eecdd",
-        imageBg: "./src/Components/VideoSliders/Assets/Especiales/H.jpg",
+        imageBg:
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fwebp%2FH.webp?alt=media&token=829c41e5-d483-44af-9b23-2e97241149b7",
         title: "TRIGONOMETRÍA - Razones trigonométricas Parte 01 [CICLO FREE]",
         description:
           "El maestro César Ponce nos explica un poco sobre el examen de admisión a la Universidad Nacional de Ingeniería y la dificultad que lo ha convertido en uno de los exámenes más difíciles del mundo. Podcast en vivo.",
@@ -93,7 +101,8 @@ export const cursos = [
         id: "t-bK9y8balU",
         image:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fi.jpg?alt=media&token=e3ec3e84-55d0-4af6-acee-ff8a359402f5",
-        imageBg: "./src/Components/VideoSliders/Assets/Especiales/I.jpg",
+        imageBg:
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fwebp%2FI.webp?alt=media&token=58410e63-647e-4445-8729-734819c8afa1",
         title:
           "TRIGONOMETRÍA - Circunferencia trigonométrica Parte 03 [CICLO FREE]",
         description:
@@ -104,7 +113,8 @@ export const cursos = [
         id: "kowe_F1eRQw",
         image:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fj.jpg?alt=media&token=bf233a5a-d1f8-4d04-a178-ee2f579a9f5c",
-        imageBg: "./src/Components/VideoSliders/Assets/Especiales/J.jpg",
+        imageBg:
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fwebp%2FJ.webp?alt=media&token=971fcbfa-d901-4b52-b944-3c91541bf920",
         title:
           "TRIGONOMETRÍA - Circunferencia trigonométrica Parte 02 [CICLO FREE]",
         description:
@@ -121,9 +131,9 @@ export const cursos = [
       {
         id: "-_5iHdfcTuk",
         image:
-          "./src/Components/VideoSliders/Assets/Solucionarios(NUEVO)/a.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fa.jpg?alt=media&token=0353e2c9-014e-46a9-bd4f-43d3f687a6db",
         imageBg:
-          "./src/Components/VideoSliders/Assets/Solucionarios(NUEVO)/A.webp",
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fwebp%2FA.webp?alt=media&token=1748809f-2303-4c80-bb87-38e47e04c0ec",
 
         title: "TRIGONOMETRÍA - Ecuaciones trigonométricas",
         description:
@@ -133,9 +143,9 @@ export const cursos = [
       {
         id: "s3wrr0kmQbA",
         image:
-          "./src/Components/VideoSliders/Assets/Solucionarios(NUEVO)/b.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fb.jpg?alt=media&token=f66a1a3c-0f19-496e-9c7d-5494dc2b2be1",
         imageBg:
-          "./src/Components/VideoSliders/Assets/Solucionarios(NUEVO)/B.webp",
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fwebp%2FB.webp?alt=media&token=0021640b-2183-47ed-9592-259ea25ac0ae",
         title: "TRIGONOMETRÍA - Repaso [CICLO FREE]",
         description:
           "Solucionario en vivo con nuestros profesores en una transmisión de 8 horas en vivo resolviendo el examen de admisión de las áreas B y C (ciencias e ingenierías) tomado ese mismo día por San Marcos.",
@@ -144,9 +154,9 @@ export const cursos = [
       {
         id: "qhJnU5RoyqM",
         image:
-          "./src/Components/VideoSliders/Assets/Solucionarios(NUEVO)/c.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fc.jpg?alt=media&token=9dbedbd4-fb01-4ff7-ac25-0f7bd440656a",
         imageBg:
-          "./src/Components/VideoSliders/Assets/Solucionarios(NUEVO)/C.webp",
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fwebp%2FC.webp?alt=media&token=925ae453-1042-49f3-8b7b-efc246b1977b",
         title:
           "TRIGONOMETRIA ✅ Repaso San Marcos 2022 II 📢 Full preguntas DECO 🧐",
         description:
@@ -156,9 +166,9 @@ export const cursos = [
       {
         id: "nw6SNmP_6BA",
         image:
-          "./src/Components/VideoSliders/Assets/Solucionarios(NUEVO)/d.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fd.jpg?alt=media&token=87fe30a2-917a-4da5-aef2-6f88ba4caa2a",
         imageBg:
-          "./src/Components/VideoSliders/Assets/Solucionarios(NUEVO)/D.webp",
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fwebp%2FD.webp?alt=media&token=8a2037ce-d1d3-4c04-87a4-91f54a9f5d94",
         title:
           "TRIGONOMETRÍA - Funciones trigonométricas (Gráficas) [CICLO FREE]",
         description:
@@ -168,9 +178,9 @@ export const cursos = [
       {
         id: "6AIf3kOWbCU",
         image:
-          "./src/Components/VideoSliders/Assets/Solucionarios(NUEVO)/e.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fe.jpg?alt=media&token=892435c4-84dc-40ff-a1de-99ac6500f876",
         imageBg:
-          "./src/Components/VideoSliders/Assets/Solucionarios(NUEVO)/E.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fwebp%2FE.webp?alt=media&token=bf29f280-3fe7-417b-b7fa-f2318e21bba2",
         title:
           "TRIGONOMETRÍA - Funciones trigonométricas (Rango) - [CICLO FREE]",
         description:
@@ -180,9 +190,9 @@ export const cursos = [
       {
         id: "tHT0A4gt6Cs",
         image:
-          "./src/Components/VideoSliders/Assets/Solucionarios(NUEVO)/f.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Ff.jpg?alt=media&token=5fd1badb-8c3e-4820-ad93-4b12011b5564",
         imageBg:
-          "./src/Components/VideoSliders/Assets/Solucionarios(NUEVO)/F.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fwebp%2FF.webp?alt=media&token=e8dd91e3-2402-4b96-b80b-40276c0aa520",
         title:
           "TRIGONOMETRÍA - Cálculo del número de vueltas de una rueda [CICLO FREE]",
         description:
@@ -192,9 +202,9 @@ export const cursos = [
       {
         id: "JSYEkazuxl8",
         image:
-          "./src/Components/VideoSliders/Assets/Solucionarios(NUEVO)/g.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fg.jpg?alt=media&token=cb5190a5-41ce-4700-b1ba-fa9756389ba4",
         imageBg:
-          "./src/Components/VideoSliders/Assets/Solucionarios(NUEVO)/G.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fwebp%2FG.webp?alt=media&token=f97ed31c-584a-4c25-b057-48e5c4a7341a",
         title: "TRIGONOMETRÍA  - Razones trigonométricas Parte 02 [CICLO FREE]",
         description:
           "Solucionario en vivo con nuestros profesores en una transmisión de 3 horas en vivo resolviendo el examen de admisión de matemáticas tomado ese mismo día por la Universidad Nacional de Ingeniería.",
@@ -203,9 +213,9 @@ export const cursos = [
       {
         id: "skfCR2cWqrQ",
         image:
-          "./src/Components/VideoSliders/Assets/Solucionarios(NUEVO)/h.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fh.jpg?alt=media&token=6c53d64e-5080-476a-87ab-64d4789ec502",
         imageBg:
-          "./src/Components/VideoSliders/Assets/Solucionarios(NUEVO)/H.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fwebp%2FH.webp?alt=media&token=5d4c8e6c-a33d-4a62-adee-e921600828ae",
         title: "TRIGONOMETRÍA - Razones trigonométricas Parte 01 [CICLO FREE]",
         description:
           "Solucionario en vivo con nuestros profesores en una transmisión de 9 horas en vivo resolviendo el examen de admisión del área A (ciencias de la salud) que fue filtrado en horas de la mañana y cancelado ese mismo día por San Marcos, el examen anulado.",
@@ -214,9 +224,9 @@ export const cursos = [
       {
         id: "t-bK9y8balU",
         image:
-          "./src/Components/VideoSliders/Assets/Solucionarios(NUEVO)/i.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fi.jpg?alt=media&token=1ae38b96-66e9-4c43-9e05-640436ac5ebf",
         imageBg:
-          "./src/Components/VideoSliders/Assets/Solucionarios(NUEVO)/I.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fwebp%2FI.webp?alt=media&token=80d46e64-67c7-4e94-afef-e3426c552d46",
         title:
           "TRIGONOMETRÍA - Circunferencia trigonométrica Parte 03 [CICLO FREE]",
         description:
@@ -226,9 +236,9 @@ export const cursos = [
       {
         id: "kowe_F1eRQw",
         image:
-          "./src/Components/VideoSliders/Assets/Solucionarios(NUEVO)/j.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fj.jpg?alt=media&token=da286b8b-56b9-4df3-91be-a52f8d763add",
         imageBg:
-          "./src/Components/VideoSliders/Assets/Solucionarios(NUEVO)/J.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fwebp%2FJ.webp?alt=media&token=6213c8ab-aac5-4d28-92af-c444c6a504b2",
         title:
           "TRIGONOMETRÍA - Circunferencia trigonométrica Parte 02 [CICLO FREE]",
         description:
