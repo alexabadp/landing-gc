@@ -137,7 +137,11 @@ const VideoSliders = () => {
                 className="videoSliderItem"
               >
                 <img
-                  src={imageVisible === e.image ? background : e.image}
+                  src={
+                    imageVisible === e.image
+                      ? "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FVideoClases%2Fbiblioteca%20341x192%201-100.jpg?alt=media&token=5a9841c1-dfc3-424e-9081-a0a3317c7ece"
+                      : e.image
+                  }
                   alt="Descripción de la imagen"
                   style={{
                     width: `${imageVisible === e.image ? "110%" : "100%"}`,
@@ -159,7 +163,7 @@ const VideoSliders = () => {
               className="videoSliderItem"
             >
               <img
-                src={background}
+                src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FVideoClases%2Fimagen%20para%20redirecionar%20a%20la%20lista%20de%20yt.png?alt=media&token=dde39662-dd51-46ef-a9c2-8e11f5f25d8f"
                 alt="Descripción de la imagen"
                 style={{
                   width: "100%",
@@ -178,7 +182,7 @@ const VideoSliders = () => {
                   display="flex"
                   justifyContent="center"
                   alignItems="center"
-                  padding="0 30px 0 30px"
+                  padding="0 30px 0 0px"
                   position="relative"
                   borderRadius="20px"
                   overflow="hidden"

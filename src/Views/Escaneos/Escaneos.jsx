@@ -3,6 +3,7 @@ import { Box } from "@mui/material";
 import BannerLibrary from "../../Components/BannerLibrary/BannerLibrary";
 import EscaneoFilters from "../../Components/EscaneoFilters/EscaneoFilters";
 import { useEffect, useState } from "react";
+import ClavesFilters from "../../Components/ClavesFilters/ClavesFilter";
 
 const Escaneos = () => {
   const url = useState(window.location.href);
@@ -16,6 +17,8 @@ const Escaneos = () => {
         <BannerLibrary />
 
         <EscaneoFilters />
+
+        <ClavesFilters />
       </Box>
     </>
   );

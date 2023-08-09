@@ -92,18 +92,18 @@ const EscaneoFilters = () => {
         >
           Escaneos
         </Typography>
-        <Grid container spacing={2} sx={{ padding: "0 0 100px 0" }}>
+        <Grid container spacing={2} sx={{ padding: "0 0 30px 0" }}>
           <Grid item xs={12} md={4}>
             <FilterUniversidades
               onChange={handleChangeUniversity}
               value={universidad}
-              name="Universidades"
+              name="Universidad"
               data={universidades}
             />
             <FilterAnio
               onChange={handleChangeAnio}
               value={anio}
-              name="Años"
+              name="Año"
               data={anios}
             />
           </Grid>

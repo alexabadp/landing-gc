@@ -86,7 +86,7 @@ function LibraryHeader() {
                 to="/admision"
                 onClick={handleCloseNavMenu}
               >
-                <Typography textAlign="center">Admision</Typography>
+                <Typography textAlign="center">Admisión</Typography>
               </MenuItem>
               <MenuItem
                 sx={{ "&:hover": { backgroundColor: "red", color: "#fff" } }}
@@ -162,7 +162,7 @@ function LibraryHeader() {
                 onClick={handleCloseNavMenu}
               >
                 <Typography textTransform="none" textAlign="center">
-                  Admision
+                  Admisión
                 </Typography>
               </Button>
               <Button

@@ -97,13 +97,13 @@ const SolucionarioFilter = () => {
             <FilterUniversidades
               onChange={handleChangeUniversity}
               value={universidad}
-              name="Universidades"
+              name="Universidad"
               data={universidades}
             />
             <FilterAnio
               onChange={handleChangeAnio}
               value={anio}
-              name="Años"
+              name="Año"
               data={anios}
             />
           </Grid>

@@ -153,20 +153,20 @@ const VideoFilters = () => {
             <FilterUniversidades
               onChange={handleChangeUniversity}
               value={universidad}
-              name="Universidades"
+              name="Universidad"
               data={universidades}
             />
             <FilterCursos
               onChange={handleChangeCourse}
               value={curso}
-              name="Cursos"
+              name="Curso"
               data={cursos}
             />
 
             <FilterTemas
               onChange={handleChangeSubject}
               value={tema}
-              name="Temas"
+              name="Tema"
               data={temas}
             />
           </Grid>

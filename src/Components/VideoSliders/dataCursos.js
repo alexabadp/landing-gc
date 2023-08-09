@@ -7,11 +7,12 @@ export const cursos = [
       {
         id: "-_5iHdfcTuk",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fa.jpg?alt=media&token=b1f15846-aa20-45c2-a4f0-b3397b0d789c",
+          // "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fa.jpg?alt=media&token=b1f15846-aa20-45c2-a4f0-b3397b0d789c",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F01%20ESPECIALES%20(NUEVO)%2Fimagen%20a%20remplazar%20lista%20especiales.jpg?alt=media&token=2a789230-c2c8-48be-8678-ddaa34d5b3bb",
         imageBg:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fwebp%2FA.webp?alt=media&token=8193e7c3-4102-4f11-875c-16f28edfdedc",
 
-        title: "TRIGONOMETRÍA - Ecuaciones trigonométricas",
+        title: "FIESTA DE CACHIMBOS ADMISION 2023 II",
         description:
           "Fiesta de cachimbos San Marcos 2023 II, reunión organizada con todos nuestros ingresantes en el local La Matarina en Los Olivos, hubieron sorteos y un almuerzo especial con docentes y sorpresas. Tradicional en Grupo Ciencias.",
         youtubeLink: "https://youtu.be/k2CNClG2g9U",
@@ -19,10 +20,11 @@ export const cursos = [
       {
         id: "s3wrr0kmQbA",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fb.jpg?alt=media&token=c1f39e5b-8782-40ff-97e0-7c983590a1de",
+          // "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fb.jpg?alt=media&token=c1f39e5b-8782-40ff-97e0-7c983590a1de",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F01%20ESPECIALES%20(NUEVO)%2Fb.jpg?alt=media&token=4bd389dc-fdd9-4ac1-8359-f3b7b3e4ad9c",
         imageBg:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fwebp%2FB.webp?alt=media&token=d6a48aa1-aa1e-42ec-891a-154c1d29c588",
-        title: "TRIGONOMETRÍA - Repaso [CICLO FREE]",
+        title: "BECA EXTREMA UNI",
         description:
           "Video invitación para el concurso de becas UNI 2023 II realizado con profesores y el toque especial de nuestros editores, abierto a todo el público y donde pueden obtener becas completas y hasta la beca extrema. Referencia a Naruto Shippuden Opening 1 - Hero's Come Back.",
         youtubeLink: "https://youtu.be/eXCWwsJj8eQ",
@@ -30,11 +32,11 @@ export const cursos = [
       {
         id: "qhJnU5RoyqM",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fc.jpg?alt=media&token=a40fd073-9bc2-4e02-bd95-38741dc792ba",
+          // "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fc.jpg?alt=media&token=a40fd073-9bc2-4e02-bd95-38741dc792ba",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F01%20ESPECIALES%20(NUEVO)%2Fc.jpg?alt=media&token=b84a5d17-cd50-43a4-b595-e90742f7ad76",
         imageBg:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fwebp%2FC.webp?alt=media&token=bea086e7-89f9-40d7-ad4d-35d1b0118914",
-        title:
-          "TRIGONOMETRIA ✅ Repaso San Marcos 2022 II 📢 Full preguntas DECO 🧐",
+        title: "MIERCOLES DE DIRECTO",
         description:
           "Podcast en vivo con el maestro de aritmética Akira Kamiya donde compartimos algunas vivencias y respondemos preguntas de nuestros seguidores.",
         youtubeLink: "https://youtube.com/live/847U-T097F0",
@@ -42,11 +44,11 @@ export const cursos = [
       {
         id: "nw6SNmP_6BA",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fd.jpg?alt=media&token=c856c346-533d-46ed-9139-8d192cca50a8",
+          // "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fd.jpg?alt=media&token=c856c346-533d-46ed-9139-8d192cca50a8",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F01%20ESPECIALES%20(NUEVO)%2Fd.jpg?alt=media&token=2ad22040-db8b-47d1-b1af-fcdd20cb52ae",
         imageBg:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fwebp%2FD.webp?alt=media&token=326c96bd-392d-4bb6-a3e5-1af757e6d286",
-        title:
-          "TRIGONOMETRÍA - Funciones trigonométricas (Gráficas) [CICLO FREE]",
+        title: "BECA EXTREMA SAN MARCOS",
         description:
           "Video invitación para el concurso de becas San Marcos 2024 I realizado on profesores y el toque especial de nuestros editores, abierto a todo el público y donde pueden obtener becas completas y hasta la beca extrema. Referencia a Jojo's Bizarre Adventure Diamond is Unbreakable Opening 1 -  Crazy Noisy Bizarre Town.",
         youtubeLink: "https://youtu.be/YmCIxzMqVAo",
@@ -54,11 +56,11 @@ export const cursos = [
       {
         id: "6AIf3kOWbCU",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fe.jpg?alt=media&token=1e9423dd-6403-4f58-ae95-66b7938e455a",
+          // "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fe.jpg?alt=media&token=1e9423dd-6403-4f58-ae95-66b7938e455a",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F01%20ESPECIALES%20(NUEVO)%2Fe.jpg?alt=media&token=b0274878-6e89-40f4-9ffc-18a864615d21",
         imageBg:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fwebp%2FE.webp?alt=media&token=c9efae56-c278-4d7f-83f8-f67f4264f4f4",
-        title:
-          "TRIGONOMETRÍA - Funciones trigonométricas (Rango) - [CICLO FREE]",
+        title: "ENTRAR MEDICINA CON YOUTUBE",
         description:
           "Entrevista a un cachimbo de Grupo Ciencias muy especial: Cristian de la Cruz ingresó a segundo puesto de medicina por la modalidad general estudiando sólo desde casa con nuestros videos de YouTube.",
         youtubeLink: "https://youtu.be/4uZyWhs6nz0",
@@ -66,11 +68,11 @@ export const cursos = [
       {
         id: "tHT0A4gt6Cs",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Ff.jpg?alt=media&token=989d4eed-cd17-4ed6-9527-7653f7237da5",
+          // "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Ff.jpg?alt=media&token=989d4eed-cd17-4ed6-9527-7653f7237da5",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F01%20ESPECIALES%20(NUEVO)%2Ff.jpg?alt=media&token=b3ccb66e-d3a5-4d66-9d93-688227350ad5",
         imageBg:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fwebp%2FF.webp?alt=media&token=ba16bb33-b426-43c4-a5d5-edc678240378",
-        title:
-          "TRIGONOMETRÍA - Cálculo del número de vueltas de una rueda [CICLO FREE]",
+        title: "ARQUITECTURA 1ER PUESTO",
         description:
           "Entrevista a nuestro primer puesto UNI, Eduardo nos cuenta su historia y todo lo que involucra convertirse en primer puesto.",
         youtubeLink: "https://youtu.be/e55FLh9b74M",
@@ -78,10 +80,11 @@ export const cursos = [
       {
         id: "JSYEkazuxl8",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fg.jpg?alt=media&token=6ebba6d3-d90e-44f1-8f68-5d8560ec7556",
+          // "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fg.jpg?alt=media&token=6ebba6d3-d90e-44f1-8f68-5d8560ec7556",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F01%20ESPECIALES%20(NUEVO)%2Fg.jpg?alt=media&token=39e7f773-062f-4835-8744-3e3b7f9a5a60",
         imageBg:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fwebp%2FG.webp?alt=media&token=acf999aa-bdb3-4385-8ae1-edb55cc719ff",
-        title: "TRIGONOMETRÍA  - Razones trigonométricas Parte 02 [CICLO FREE]",
+        title: "POSTULAS A INGENIERÍA Y NO SABES MATES",
         description:
           "Gianella y Yessael en una de sus visitas a San Marcos el día del examen, entrevistando a amigos, padres y postulantes mientras conocemos diversas historias a nuestro estilo.",
         youtubeLink: "https://youtu.be/6xQKM1SaClE",
@@ -89,10 +92,11 @@ export const cursos = [
       {
         id: "skfCR2cWqrQ",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fh.jpg?alt=media&token=cfb2fb99-7851-489c-9509-b8a2021eecdd",
+          // "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fh.jpg?alt=media&token=cfb2fb99-7851-489c-9509-b8a2021eecdd",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F01%20ESPECIALES%20(NUEVO)%2Fh.jpg?alt=media&token=68595a39-5914-4f61-908e-1853a3d08884",
         imageBg:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fwebp%2FH.webp?alt=media&token=829c41e5-d483-44af-9b23-2e97241149b7",
-        title: "TRIGONOMETRÍA - Razones trigonométricas Parte 01 [CICLO FREE]",
+        title: "¿QUÉ HACE ESPECIAL AL ADMISIÓN UNI?",
         description:
           "El maestro César Ponce nos explica un poco sobre el examen de admisión a la Universidad Nacional de Ingeniería y la dificultad que lo ha convertido en uno de los exámenes más difíciles del mundo. Podcast en vivo.",
         youtubeLink: "https://youtu.be/90nXlha9pTU",
@@ -100,11 +104,11 @@ export const cursos = [
       {
         id: "t-bK9y8balU",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fi.jpg?alt=media&token=e3ec3e84-55d0-4af6-acee-ff8a359402f5",
+          // "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fi.jpg?alt=media&token=e3ec3e84-55d0-4af6-acee-ff8a359402f5",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F01%20ESPECIALES%20(NUEVO)%2Fi.jpg?alt=media&token=be85ffd2-f541-4ba7-84bb-10e6d1a49f9c",
         imageBg:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fwebp%2FI.webp?alt=media&token=58410e63-647e-4445-8729-734819c8afa1",
-        title:
-          "TRIGONOMETRÍA - Circunferencia trigonométrica Parte 03 [CICLO FREE]",
+        title: "VIERNES DE DIRECTO",
         description:
           "Podcast en vivo con el maestro de química Luis León donde conocemos su historia y compartimos diversas anécdotas con nuestros seguidores.",
         youtubeLink: "https://youtube.com/live/mQGHg_5dBtQ",
@@ -112,11 +116,11 @@ export const cursos = [
       {
         id: "kowe_F1eRQw",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fj.jpg?alt=media&token=bf233a5a-d1f8-4d04-a178-ee2f579a9f5c",
+          // "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fj.jpg?alt=media&token=bf233a5a-d1f8-4d04-a178-ee2f579a9f5c",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F01%20ESPECIALES%20(NUEVO)%2Fj.jpg?alt=media&token=d6c91c44-b79a-4bd8-a49f-d62036edf917",
         imageBg:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FEspeciales(NUEVO)%2Fwebp%2FJ.webp?alt=media&token=971fcbfa-d901-4b52-b944-3c91541bf920",
-        title:
-          "TRIGONOMETRÍA - Circunferencia trigonométrica Parte 02 [CICLO FREE]",
+        title: "INGRESO  A LA UNI SOLO CON YOUTUBE",
         description:
           "Entrevista con Steven Miranda ingresante a la Universidad Nacional de Ingeniería preparándose solamente con el Ciclo free UNI.",
         youtubeLink: "https://youtu.be/wZEmXdk72RQ",
@@ -131,11 +135,12 @@ export const cursos = [
       {
         id: "-_5iHdfcTuk",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fa.jpg?alt=media&token=0353e2c9-014e-46a9-bd4f-43d3f687a6db",
+          // "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fa.jpg?alt=media&token=0353e2c9-014e-46a9-bd4f-43d3f687a6db",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F02%20SOLUCIONARIOS%20(NUEVO)%2Fa.jpg?alt=media&token=4e5affa1-7f6a-470a-b2d5-509662e16d34",
         imageBg:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fwebp%2FA.webp?alt=media&token=1748809f-2303-4c80-bb87-38e47e04c0ec",
 
-        title: "TRIGONOMETRÍA - Ecuaciones trigonométricas",
+        title: "SOLUCIONARIO SAN MARCOS 2023-II  MEDICINA",
         description:
           "Solucionario en vivo con nuestros profesores en una transmisión de 9 horas en vivo resolviendo el examen de admisión de medicina tomado ese mismo día por San Marcos.",
         youtubeLink: "https://youtube.com/live/OWWod6xS2Zw",
@@ -143,10 +148,11 @@ export const cursos = [
       {
         id: "s3wrr0kmQbA",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fb.jpg?alt=media&token=f66a1a3c-0f19-496e-9c7d-5494dc2b2be1",
+          // "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fb.jpg?alt=media&token=f66a1a3c-0f19-496e-9c7d-5494dc2b2be1",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F02%20SOLUCIONARIOS%20(NUEVO)%2Fb.jpg?alt=media&token=25d1dde4-00d9-49ee-9109-5fcd08d10322",
         imageBg:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fwebp%2FB.webp?alt=media&token=0021640b-2183-47ed-9592-259ea25ac0ae",
-        title: "TRIGONOMETRÍA - Repaso [CICLO FREE]",
+        title: "SOLUCIONARIO UNMSM 2023-I  AREAS BC",
         description:
           "Solucionario en vivo con nuestros profesores en una transmisión de 8 horas en vivo resolviendo el examen de admisión de las áreas B y C (ciencias e ingenierías) tomado ese mismo día por San Marcos.",
         youtubeLink: "https://youtube.com/live/cDbJcKjD6hw",
@@ -154,11 +160,12 @@ export const cursos = [
       {
         id: "qhJnU5RoyqM",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fc.jpg?alt=media&token=9dbedbd4-fb01-4ff7-ac25-0f7bd440656a",
+          // "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fc.jpg?alt=media&token=9dbedbd4-fb01-4ff7-ac25-0f7bd440656a"
+
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F02%20SOLUCIONARIOS%20(NUEVO)%2Fc.jpg?alt=media&token=5ccec7f7-0604-4548-a999-887f6157b0d2",
         imageBg:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fwebp%2FC.webp?alt=media&token=925ae453-1042-49f3-8b7b-efc246b1977b",
-        title:
-          "TRIGONOMETRIA ✅ Repaso San Marcos 2022 II 📢 Full preguntas DECO 🧐",
+        title: "UNI 2022 II FÍSICA Y QUÍMICA SOLUCIONARIO",
         description:
           "Solucionario en vivo con nuestros profesores en una transmisión de 4 horas en vivo resolviendo el examen de admisión de física y química tomado ese mismo día por la Universidad Nacional de Ingeniería.",
         youtubeLink: "https://youtube.com/live/SS4cvXvp51o",
@@ -166,11 +173,11 @@ export const cursos = [
       {
         id: "nw6SNmP_6BA",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fd.jpg?alt=media&token=87fe30a2-917a-4da5-aef2-6f88ba4caa2a",
+          // "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fd.jpg?alt=media&token=87fe30a2-917a-4da5-aef2-6f88ba4caa2a",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F02%20SOLUCIONARIOS%20(NUEVO)%2Fd.jpg?alt=media&token=19471940-4f43-4fd1-9260-ba8cbd7c646a",
         imageBg:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fwebp%2FD.webp?alt=media&token=8a2037ce-d1d3-4c04-87a4-91f54a9f5d94",
-        title:
-          "TRIGONOMETRÍA - Funciones trigonométricas (Gráficas) [CICLO FREE]",
+        title: "SOLUCIONARIO  2023-II AREAS DE",
         description:
           "Solucionario en vivo con nuestros profesores en una transmisión de 9 horas en vivo resolviendo el examen de admisión de las áreas D y E (económicas, administrativas y humanidades) tomado ese mismo día por San Marcos.",
         youtubeLink: "https://youtube.com/live/YKuvScIaJqY",
@@ -178,11 +185,11 @@ export const cursos = [
       {
         id: "6AIf3kOWbCU",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fe.jpg?alt=media&token=892435c4-84dc-40ff-a1de-99ac6500f876",
+          // "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fe.jpg?alt=media&token=892435c4-84dc-40ff-a1de-99ac6500f876",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F02%20SOLUCIONARIOS%20(NUEVO)%2Fe.jpg?alt=media&token=e3a208f9-230f-4d90-b280-eecabdd48fa5",
         imageBg:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fwebp%2FE.webp?alt=media&token=bf29f280-3fe7-417b-b7fa-f2318e21bba2",
-        title:
-          "TRIGONOMETRÍA - Funciones trigonométricas (Rango) - [CICLO FREE]",
+        title: "UNMSM 2022-I EXAMEN AREA C SOLUCIONARIO",
         description:
           "Solucionario en vivo con nuestros profesores en una transmisión de 7 horas en vivo resolviendo el examen de admisión del área C (ingenierías) tomado ese mismo día por San Marcos.",
         youtubeLink: "https://youtube.com/live/e6Vjuh9UK5U",
@@ -190,11 +197,11 @@ export const cursos = [
       {
         id: "tHT0A4gt6Cs",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Ff.jpg?alt=media&token=5fd1badb-8c3e-4820-ad93-4b12011b5564",
+          // "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Ff.jpg?alt=media&token=5fd1badb-8c3e-4820-ad93-4b12011b5564",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F02%20SOLUCIONARIOS%20(NUEVO)%2Ff.jpg?alt=media&token=9f573624-6408-4e7d-a98c-75dd60c2dfb1",
         imageBg:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fwebp%2FF.webp?alt=media&token=e8dd91e3-2402-4b96-b80b-40276c0aa520",
-        title:
-          "TRIGONOMETRÍA - Cálculo del número de vueltas de una rueda [CICLO FREE]",
+        title: "SOLUCIONARIO ÁREA A SAN  MARCOS 2023-II",
         description:
           "Solucionario en vivo con nuestros profesores en una transmisión de 9 horas en vivo resolviendo el examen de admisión del área A (ciencias de la salud) tomado ese mismo día por San Marcos.",
         youtubeLink: "https://youtube.com/live/AjaYPHFMDIg",
@@ -202,10 +209,11 @@ export const cursos = [
       {
         id: "JSYEkazuxl8",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fg.jpg?alt=media&token=cb5190a5-41ce-4700-b1ba-fa9756389ba4",
+          // "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fg.jpg?alt=media&token=cb5190a5-41ce-4700-b1ba-fa9756389ba4",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F02%20SOLUCIONARIOS%20(NUEVO)%2Fg.jpg?alt=media&token=b5b1406b-0a67-4d01-9f12-e12e6afe02bc",
         imageBg:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fwebp%2FG.webp?alt=media&token=f97ed31c-584a-4c25-b057-48e5c4a7341a",
-        title: "TRIGONOMETRÍA  - Razones trigonométricas Parte 02 [CICLO FREE]",
+        title: "UNI 2022 I (TARDE) MATEMATICAS SOLUCIONARIO",
         description:
           "Solucionario en vivo con nuestros profesores en una transmisión de 3 horas en vivo resolviendo el examen de admisión de matemáticas tomado ese mismo día por la Universidad Nacional de Ingeniería.",
         youtubeLink: "https://youtube.com/live/y2OeRbHwnI4",
@@ -213,10 +221,11 @@ export const cursos = [
       {
         id: "skfCR2cWqrQ",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fh.jpg?alt=media&token=6c53d64e-5080-476a-87ab-64d4789ec502",
+          // "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fh.jpg?alt=media&token=6c53d64e-5080-476a-87ab-64d4789ec502",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F02%20SOLUCIONARIOS%20(NUEVO)%2Fh.jpg?alt=media&token=fb02a74f-63cc-4748-b402-a28ec83cd92c",
         imageBg:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fwebp%2FH.webp?alt=media&token=5d4c8e6c-a33d-4a62-adee-e921600828ae",
-        title: "TRIGONOMETRÍA - Razones trigonométricas Parte 01 [CICLO FREE]",
+        title: "UNMSM 2022 II AREA A FILTRADO  SOLUCIONARIO",
         description:
           "Solucionario en vivo con nuestros profesores en una transmisión de 9 horas en vivo resolviendo el examen de admisión del área A (ciencias de la salud) que fue filtrado en horas de la mañana y cancelado ese mismo día por San Marcos, el examen anulado.",
         youtubeLink: "https://youtube.com/live/JphFa23oXM8",
@@ -224,11 +233,12 @@ export const cursos = [
       {
         id: "t-bK9y8balU",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fi.jpg?alt=media&token=1ae38b96-66e9-4c43-9e05-640436ac5ebf",
+          // "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fi.jpg?alt=media&token=1ae38b96-66e9-4c43-9e05-640436ac5ebf",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F02%20SOLUCIONARIOS%20(NUEVO)%2Fi.jpg?alt=media&token=c23aadcc-444e-49fa-b4ba-1de2bc3b7486",
         imageBg:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fwebp%2FI.webp?alt=media&token=80d46e64-67c7-4e94-afef-e3426c552d46",
         title:
-          "TRIGONOMETRÍA - Circunferencia trigonométrica Parte 03 [CICLO FREE]",
+          "SOLUCIONARIO EN VIVO ADMISION UNI 2023-I APTITUD Y  HUMANIDADES",
         description:
           "Solucionario en vivo con nuestros profesores en una transmisión de 7 horas en vivo resolviendo el examen de admisión de aptitud y humanidades tomado ese mismo día por la Universidad Nacional de Ingeniería.",
         youtubeLink: "https://youtube.com/live/XPxONPD_Ubw",
@@ -236,11 +246,11 @@ export const cursos = [
       {
         id: "kowe_F1eRQw",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fj.jpg?alt=media&token=da286b8b-56b9-4df3-91be-a52f8d763add",
+          // "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fj.jpg?alt=media&token=da286b8b-56b9-4df3-91be-a52f8d763add",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F02%20SOLUCIONARIOS%20(NUEVO)%2Fj.jpg?alt=media&token=9c75ec59-cf6f-4419-871a-7a6eab4b3db4",
         imageBg:
           "https://firebasestorage.googleapis.com/v0/b/react-imagenes-firebase.appspot.com/o/temporal%20gc%2FSolucionarios(NUEVO)%2Fwebp%2FJ.webp?alt=media&token=6213c8ab-aac5-4d28-92af-c444c6a504b2",
-        title:
-          "TRIGONOMETRÍA - Circunferencia trigonométrica Parte 02 [CICLO FREE]",
+        title: "UNI 2022 I (MAÑANA)  MATEMATICAS SOLUCIONARIO",
         description:
           "Solucionario en vivo con nuestros profesores en una transmisión de 3 horas en vivo resolviendo el examen de admisión de matemáticas tomado ese mismo día por la Universidad Nacional de Ingeniería.",
         youtubeLink: "https://youtube.com/live/DHc_MixzftM",
@@ -254,10 +264,11 @@ export const cursos = [
       {
         id: "Cum8xjpV0Jk",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F03%20RAZONAMIENTO%20MATEM%C3%81TICO%2Fa.jpg?alt=media&token=038900cf-42f8-480c-9ec2-537307414bc4",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/A.webp",
-        title: "H. VERBAL - Repaso  [CICLO FREE]",
+        title: "CUADRADOS MÁGICOS",
         description:
           "Cuadrados mágicos, a cargo del maestro Alex Muñoz Chichipe donde conocemos los cuadrados mágicos, del tipo aditivo y multiplicativo, así como ejemplos y propiedades. Clase con alumnos en aula y en vivo.",
         youtubeLink: "https://youtu.be/vls1S13u9Vw",
@@ -265,11 +276,11 @@ export const cursos = [
       {
         id: "kplSWOUghmM",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F03%20RAZONAMIENTO%20MATEM%C3%81TICO%2Fb.jpg?alt=media&token=39cbb3fc-9ab5-433e-a2b8-adb510925ed6",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/B.webp",
-        title:
-          "HABILIDAD VERBAL - Tipos de preguntas en la comprensión lectora [CICLO FREE]",
+        title: "PLANTEO DE ECUACIONES",
         description:
           "Planteo de ecuaciones, a cargo del maestro Ronald Carhuancho, donde nos explica el planteamiento literal o ecuación que genera un enunciado, acompañado de ejemplos y ejercicios. Clase en vivo Ciclo free.",
         youtubeLink: "https://youtu.be/veBhc1BUxds",
@@ -277,10 +288,11 @@ export const cursos = [
       {
         id: "Zh0U_cbnes0",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F03%20RAZONAMIENTO%20MATEM%C3%81TICO%2Fc%20(NUEVO).jpg?alt=media&token=21538b6b-15b3-42b4-b2ec-1857c3ed5c0f",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/C.webp",
-        title: "H. VERBAL - Inferencia y extrapolación [CICLO FREE]",
+        title: "PROBABILIDADES",
         description:
           "Los maestros Elias Cuestas y Arturo Orencio nos explican los conceptos básicos de probabilidades, la definición los tipos de probabilidades, los axiomas y los casos especiales de este tema. Acompañado de una selección de problemas variados y el estilo de esta dupla. Clase en vivo del Ciclo free.",
         youtubeLink: "https://youtube.com/live/cMQj9pbHmC4",
@@ -288,10 +300,11 @@ export const cursos = [
       {
         id: "6kHfuSIf03U",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F03%20RAZONAMIENTO%20MATEM%C3%81TICO%2Fd%20(NUEVO).jpg?alt=media&token=53ef9f38-1c6e-4a6d-b7ff-542061a28016",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/D.webp",
-        title: "R.V. - Jerarquìa Contextual  [CICLO FREE]",
+        title: "REPASO DE LAS FIJAS 2023-II   RECORRIDOS EULERIANOS",
         description:
           "El maestro Miguel Díaz nos explica lo que es un recorrido euleriano y los casos al hacer trazos de figuras junto a una colección de problemas de mapas, dibujos de un solo trazo y recorridos mínimos en un gráfico. Clase en vivo del Ciclo free.L",
         youtubeLink: "https://youtube.com/live/uNqP33YfLPk",
@@ -299,10 +312,11 @@ export const cursos = [
       {
         id: "PfJzdIlzBa4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F03%20RAZONAMIENTO%20MATEM%C3%81TICO%2Fe%20(NUEVO).jpg?alt=media&token=08001417-9c64-4b28-9b94-eeee618bfff6",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/E.webp",
-        title: "R.V. - La Referencia o Deixis [CICLO FREE]",
+        title: "REPASO  DE LA FIJAS 2023-II CERTEZAS  Y FRECUENCIAS DE SUCESOS",
         description:
           "Certezas y frecuencia de sucesos a cargo del maestro Jesús Cacsire, parte del concepto del peor de los casos y los tipos para desarrollar las diversas aplicaciones, con ejercicios de toma de objetos de diferentes tipos, fichas numeradas, llaves, tomas de pastillas en intervalos de tiempos y problemas de figura cercando una región plana. Clase en vivo del Ciclo free.",
         youtubeLink: "https://youtube.com/live/TmQIv0KvalM",
@@ -310,11 +324,11 @@ export const cursos = [
       {
         id: "u5EyoQxwSP4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F03%20RAZONAMIENTO%20MATEM%C3%81TICO%2Ff%20(NUEVO).jpg?alt=media&token=51937e8d-9ac7-45d3-b146-349b05d9dd7c",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/F.webp",
-        title:
-          "R.V. - Cohesión y Coherencia Textual: La referencia o Deixis Parte 02 [CICLO FREE]",
+        title: "VERDADES Y MENTIRAS",
         description:
           "Verdades y mentiras a cargo del maestro Jonathan Fuentes, analizamos las proposiciones contrarias, las proposiciones contradictorias y proposiciones equivalentes, el principio de suposición y la resolución de una colección de problemas tipo. Clase en vivo del Ciclo free.",
         youtubeLink: "https://youtube.com/live/G9stScz_Vxs",
@@ -322,11 +336,11 @@ export const cursos = [
       {
         id: "8DvZbjdg8DE",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F03%20RAZONAMIENTO%20MATEM%C3%81TICO%2Fg.jpg?alt=media&token=5eb861a7-8a9d-4a8c-baed-c3b25d1b5697",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/G.webp",
-        title:
-          "R.V. - Cohesión y Coherencia Textual: La referencia o Deixis Parte 01 [CICLO FREE]",
+        title: "EDADES",
         description:
           "Edades con la maestra Dámaris Aguirre donde nos explica la distinción de sujetos en los problemas, los tiempos y propiedades de los esquemas usados. Clase en vivo Ciclo free ",
         youtubeLink: "https://youtu.be/LBdb2H6_G_o",
@@ -334,10 +348,11 @@ export const cursos = [
       {
         id: "5Ozxv_MR9gw",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F03%20RAZONAMIENTO%20MATEM%C3%81TICO%2Fh.jpg?alt=media&token=107c38b3-0f6f-4121-a834-23ed483ec3ff",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/H.webp",
-        title: "R.V. - Ideas Generales [CICLO FREE]",
+        title: "SEMINARIOSD DE REPASO   SAN MARCOS 2020",
         description:
           "Seminario de repaso San marcos (2020) con los profesores Ronald Carhuancho y Cesar Chu desarrollando problemas tipo examen de admisión. Clase con alumnos y en vivo.",
         youtubeLink: "https://youtu.be/-d86ir8T95M",
@@ -345,10 +360,11 @@ export const cursos = [
       {
         id: "jC6Q8UAG_So",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F03%20RAZONAMIENTO%20MATEM%C3%81TICO%2Fi.jpg?alt=media&token=7bacbe3b-7826-4fe0-8728-4d404dbc5085",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/I.webp",
-        title: "R.V. - Ideas Generales y Particulares [CICLO FREE]",
+        title: "CERTEZAS",
         description:
           "Certezas a cargo del profesor Edgardo Valenzuela, conocemos los conceptos básicos, mientras aplicamos las propiedades con ejemplos. Clase con alumnos y en vivo ",
         youtubeLink: "https://youtu.be/Qh6_BQJlVdI",
@@ -356,10 +372,11 @@ export const cursos = [
       {
         id: "yWAvdBM22Jo",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F03%20RAZONAMIENTO%20MATEM%C3%81TICO%2Fj.jpg?alt=media&token=ad0d6c5b-3026-4aa4-8266-98052ca762cb",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/J.webp",
-        title: "R.V. - Texto Argumentativo e Informativo [CICLO FREE]",
+        title: "CALENDARIOS",
         description:
           "Calendarios a cargo del profesor Ricardo Melgar, aprendemos sobre la relación entre fechas y los días de la semana respecto a la variación de meses y años. Clase en vivo Ciclo pro ",
         youtubeLink: "https://youtu.be/YWp-jhkg0Gw",
@@ -374,7 +391,8 @@ export const cursos = [
       {
         id: "Cum8xjpV0Jk",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F04%20LENGUAJE%2Fa.jpg?alt=media&token=33e52a38-0bf5-480e-a5db-f743e218aaf9",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/A.webp",
         title: "H. VERBAL - Repaso  [CICLO FREE]",
@@ -385,7 +403,8 @@ export const cursos = [
       {
         id: "kplSWOUghmM",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F04%20LENGUAJE%2Fb%20(NUEVO).jpg?alt=media&token=e0303b6c-9ea4-40f6-a76d-64634d8f2605",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/B.webp",
         title:
@@ -397,7 +416,8 @@ export const cursos = [
       {
         id: "Zh0U_cbnes0",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F04%20LENGUAJE%2Fc%20(NUEVO).jpg?alt=media&token=cab7c660-9265-4aad-a77b-b37d644b8fce",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/C.webp",
         title: "H. VERBAL - Inferencia y extrapolación [CICLO FREE]",
@@ -408,7 +428,8 @@ export const cursos = [
       {
         id: "6kHfuSIf03U",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F04%20LENGUAJE%2Fd%20(NUEVO).jpg?alt=media&token=9d5e2891-b676-4d03-8bb0-d1cdbcdb4511",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/D.webp",
         title: "R.V. - Jerarquìa Contextual  [CICLO FREE]",
@@ -419,7 +440,8 @@ export const cursos = [
       {
         id: "PfJzdIlzBa4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F04%20LENGUAJE%2Fe%20(NUEVO).jpg?alt=media&token=b6cd8767-d752-4611-b1c6-912f23113a0f",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/E.webp",
         title: "R.V. - La Referencia o Deixis [CICLO FREE]",
@@ -430,7 +452,8 @@ export const cursos = [
       {
         id: "u5EyoQxwSP4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F04%20LENGUAJE%2Ff.jpg?alt=media&token=c6ac07fc-b077-40b4-9e74-fe83bb83aca9",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/F.webp",
         title:
@@ -442,7 +465,8 @@ export const cursos = [
       {
         id: "8DvZbjdg8DE",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F04%20LENGUAJE%2Fg.jpg?alt=media&token=b02a4284-91db-41ce-b264-fdd7011c2c82",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/G.webp",
         title:
@@ -454,7 +478,8 @@ export const cursos = [
       {
         id: "5Ozxv_MR9gw",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F04%20LENGUAJE%2Fh.jpg?alt=media&token=dcdd69cb-405f-41f5-8902-2637543bb01c",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/H.webp",
         title: "R.V. - Ideas Generales [CICLO FREE]",
@@ -465,7 +490,8 @@ export const cursos = [
       {
         id: "jC6Q8UAG_So",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F04%20LENGUAJE%2Fi.jpg?alt=media&token=3558ddcd-8a5c-4593-8fef-28e24a7209ba",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/I.webp",
         title: "R.V. - Ideas Generales y Particulares [CICLO FREE]",
@@ -476,7 +502,8 @@ export const cursos = [
       {
         id: "yWAvdBM22Jo",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F04%20LENGUAJE%2Fj.jpg?alt=media&token=7a4efddf-5690-4340-8aff-33fe9451c9fc",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/J.webp",
         title: "R.V. - Texto Argumentativo e Informativo [CICLO FREE]",
@@ -494,7 +521,8 @@ export const cursos = [
       {
         id: "Cum8xjpV0Jk",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F05%20HISTORIA%20UNIVERSAL%2Fa.jpg?alt=media&token=07a484f8-0890-4b2c-be19-fca12b0c8505",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/A.webp",
         title: "H. VERBAL - Repaso  [CICLO FREE]",
@@ -505,7 +533,8 @@ export const cursos = [
       {
         id: "kplSWOUghmM",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F05%20HISTORIA%20UNIVERSAL%2Fb%20NUEVO.jpg?alt=media&token=9c94488b-8497-44bf-afba-46ed070bcbc8",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/B.webp",
         title:
@@ -517,7 +546,8 @@ export const cursos = [
       {
         id: "Zh0U_cbnes0",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F05%20HISTORIA%20UNIVERSAL%2Fc%20NUEVO.jpg?alt=media&token=abe63efe-4038-4941-9ee3-d39eb20060d8",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/C.webp",
         title: "H. VERBAL - Inferencia y extrapolación [CICLO FREE]",
@@ -528,7 +558,8 @@ export const cursos = [
       {
         id: "6kHfuSIf03U",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F05%20HISTORIA%20UNIVERSAL%2Fd%20NUEVO.jpg?alt=media&token=f4cc2927-7474-4a8c-87ec-de9ce1bce388",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/D.webp",
         title: "R.V. - Jerarquìa Contextual  [CICLO FREE]",
@@ -539,7 +570,8 @@ export const cursos = [
       {
         id: "PfJzdIlzBa4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F05%20HISTORIA%20UNIVERSAL%2Fe.jpg?alt=media&token=362d9c71-2cce-40c2-8cc3-8020273ce561",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/E.webp",
         title: "R.V. - La Referencia o Deixis [CICLO FREE]",
@@ -550,7 +582,8 @@ export const cursos = [
       {
         id: "u5EyoQxwSP4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F05%20HISTORIA%20UNIVERSAL%2Ff.jpg?alt=media&token=65bd69f2-d216-4859-8e31-1509d08a49ac",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/F.webp",
         title:
@@ -562,7 +595,8 @@ export const cursos = [
       {
         id: "8DvZbjdg8DE",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F05%20HISTORIA%20UNIVERSAL%2Fg.jpg?alt=media&token=a59466dc-c88d-4ed9-a9f8-be5627255c61",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/G.webp",
         title:
@@ -574,7 +608,8 @@ export const cursos = [
       {
         id: "5Ozxv_MR9gw",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F05%20HISTORIA%20UNIVERSAL%2Fh.jpg?alt=media&token=4008de0e-09ae-4b91-bab8-ce2df845da69",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/H.webp",
         title: "R.V. - Ideas Generales [CICLO FREE]",
@@ -585,7 +620,8 @@ export const cursos = [
       {
         id: "jC6Q8UAG_So",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F05%20HISTORIA%20UNIVERSAL%2Fi.jpg?alt=media&token=fcf389e8-db03-45bf-a238-5a4881e5399a",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/I.webp",
         title: "R.V. - Ideas Generales y Particulares [CICLO FREE]",
@@ -596,7 +632,8 @@ export const cursos = [
       {
         id: "yWAvdBM22Jo",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F05%20HISTORIA%20UNIVERSAL%2Fj.jpg?alt=media&token=6c6ea9e3-4ad9-479b-aa05-e62ec86476b2",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/J.webp",
         title: "R.V. - Texto Argumentativo e Informativo [CICLO FREE]",
@@ -614,7 +651,8 @@ export const cursos = [
       {
         id: "Cum8xjpV0Jk",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F06%20QU%C3%8DMICA%2Fa.jpg?alt=media&token=030b554b-46a9-42d1-9370-d25cc9fc2290",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/A.webp",
         title: "H. VERBAL - Repaso  [CICLO FREE]",
@@ -625,7 +663,8 @@ export const cursos = [
       {
         id: "kplSWOUghmM",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F06%20QU%C3%8DMICA%2Fb%20(NUEVO).jpg?alt=media&token=e734dd50-3861-41f7-9142-ddc2cf0bd0a1",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/B.webp",
         title:
@@ -637,7 +676,8 @@ export const cursos = [
       {
         id: "Zh0U_cbnes0",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F06%20QU%C3%8DMICA%2Fc%20(NUEVO).jpg?alt=media&token=9918ec51-3e57-4a53-ab87-ceb30a292f4b",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/C.webp",
         title: "H. VERBAL - Inferencia y extrapolación [CICLO FREE]",
@@ -648,7 +688,8 @@ export const cursos = [
       {
         id: "6kHfuSIf03U",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F06%20QU%C3%8DMICA%2Fd%20(NUEVO).jpg?alt=media&token=d894f4cf-bc6f-49ab-887f-dbaa4aaf7b9b",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/D.webp",
         title: "R.V. - Jerarquìa Contextual  [CICLO FREE]",
@@ -659,7 +700,8 @@ export const cursos = [
       {
         id: "PfJzdIlzBa4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F06%20QU%C3%8DMICA%2Fe%20(NUEVO).jpg?alt=media&token=183e6b9d-1dac-4418-a6a8-4b0e649190a6",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/E.webp",
         title: "R.V. - La Referencia o Deixis [CICLO FREE]",
@@ -670,7 +712,8 @@ export const cursos = [
       {
         id: "u5EyoQxwSP4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F06%20QU%C3%8DMICA%2Ff.jpg?alt=media&token=452882a7-3240-4919-a4ea-41efb92bc60b",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/F.webp",
         title:
@@ -682,7 +725,8 @@ export const cursos = [
       {
         id: "8DvZbjdg8DE",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F06%20QU%C3%8DMICA%2Fg.jpg?alt=media&token=2cf2d5ff-ae8c-42ef-955f-8723cf2eca64",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/G.webp",
         title:
@@ -694,7 +738,8 @@ export const cursos = [
       {
         id: "5Ozxv_MR9gw",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F06%20QU%C3%8DMICA%2Fh.jpg?alt=media&token=912a0093-c056-4c42-af60-5bc1db4b5759",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/H.webp",
         title: "R.V. - Ideas Generales [CICLO FREE]",
@@ -705,7 +750,8 @@ export const cursos = [
       {
         id: "jC6Q8UAG_So",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F06%20QU%C3%8DMICA%2Fi.jpg?alt=media&token=a0989a29-65f0-424e-8651-5e1dfbd3b77f",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/I.webp",
         title: "R.V. - Ideas Generales y Particulares [CICLO FREE]",
@@ -716,7 +762,8 @@ export const cursos = [
       {
         id: "yWAvdBM22Jo",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F06%20QU%C3%8DMICA%2Fj.jpg?alt=media&token=e2fe07a5-c645-403b-bfad-29c1de0c8ee1",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/J.webp",
         title: "R.V. - Texto Argumentativo e Informativo [CICLO FREE]",
@@ -734,7 +781,8 @@ export const cursos = [
       {
         id: "Cum8xjpV0Jk",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F07%20BIOLOG%C3%8DA%2Fa.jpg?alt=media&token=a409d7ad-1181-42ba-b292-1061e1691a33",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/A.webp",
         title: "H. VERBAL - Repaso  [CICLO FREE]",
@@ -745,7 +793,8 @@ export const cursos = [
       {
         id: "kplSWOUghmM",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F07%20BIOLOG%C3%8DA%2Fb.jpg?alt=media&token=e88f33b8-54da-4bac-a5e1-c2f2f7e65cdd",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/B.webp",
         title:
@@ -757,7 +806,8 @@ export const cursos = [
       {
         id: "Zh0U_cbnes0",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F07%20BIOLOG%C3%8DA%2Fc%20(NUEVO).jpg?alt=media&token=ab877160-24d8-4ccd-8c96-7b41e65a5bdb",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/C.webp",
         title: "H. VERBAL - Inferencia y extrapolación [CICLO FREE]",
@@ -768,7 +818,8 @@ export const cursos = [
       {
         id: "6kHfuSIf03U",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F07%20BIOLOG%C3%8DA%2Fd%20(NUEVO).jpg?alt=media&token=7ff3b76d-a52d-4690-9268-35ae1afed5cb",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/D.webp",
         title: "R.V. - Jerarquìa Contextual  [CICLO FREE]",
@@ -779,7 +830,8 @@ export const cursos = [
       {
         id: "PfJzdIlzBa4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F07%20BIOLOG%C3%8DA%2Fe%20(NUEVO).jpg?alt=media&token=b4e17483-fdf2-4f3a-92d9-e7fa3ef9414d",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/E.webp",
         title: "R.V. - La Referencia o Deixis [CICLO FREE]",
@@ -790,7 +842,8 @@ export const cursos = [
       {
         id: "u5EyoQxwSP4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F07%20BIOLOG%C3%8DA%2Ff%20(NUEVO).jpg?alt=media&token=e30e92f7-3498-40ec-b53a-ecadc68fc287",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/F.webp",
         title:
@@ -802,7 +855,8 @@ export const cursos = [
       {
         id: "8DvZbjdg8DE",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F07%20BIOLOG%C3%8DA%2Fg.jpg?alt=media&token=016f7581-cf81-4ddb-bdf3-82890ef3a097",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/G.webp",
         title:
@@ -814,7 +868,8 @@ export const cursos = [
       {
         id: "5Ozxv_MR9gw",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F07%20BIOLOG%C3%8DA%2Fh.jpg?alt=media&token=db1cd76b-2b85-4d16-a55c-9f2a24154c7d",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/H.webp",
         title: "R.V. - Ideas Generales [CICLO FREE]",
@@ -825,7 +880,8 @@ export const cursos = [
       {
         id: "jC6Q8UAG_So",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F07%20BIOLOG%C3%8DA%2Fi.jpg?alt=media&token=cd7f8c1e-0da5-4b87-869f-c40b15d529e3",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/I.webp",
         title: "R.V. - Ideas Generales y Particulares [CICLO FREE]",
@@ -836,7 +892,8 @@ export const cursos = [
       {
         id: "yWAvdBM22Jo",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F07%20BIOLOG%C3%8DA%2Fj%20(NUEVO).jpg?alt=media&token=c54fa896-be33-4a28-bb82-882185a761a8",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/J.webp",
         title: "R.V. - Texto Argumentativo e Informativo [CICLO FREE]",
@@ -854,7 +911,8 @@ export const cursos = [
       {
         id: "Cum8xjpV0Jk",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F08%20ALGEBRA%2Fa.jpg?alt=media&token=ed191512-c303-4e44-8025-26aac7d5d802",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/A.webp",
         title: "H. VERBAL - Repaso  [CICLO FREE]",
@@ -865,7 +923,8 @@ export const cursos = [
       {
         id: "kplSWOUghmM",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F08%20ALGEBRA%2Fb.jpg?alt=media&token=c3bd7bd9-2510-48b2-8821-b9ffbfab0ab2",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/B.webp",
         title:
@@ -877,7 +936,8 @@ export const cursos = [
       {
         id: "Zh0U_cbnes0",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F08%20ALGEBRA%2Fc%20(NUEVO).jpg?alt=media&token=5d6a45dd-aea6-4c62-a832-beac45dfd07d",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/C.webp",
         title: "H. VERBAL - Inferencia y extrapolación [CICLO FREE]",
@@ -888,7 +948,8 @@ export const cursos = [
       {
         id: "6kHfuSIf03U",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F08%20ALGEBRA%2Fd%20(NUEVO).jpg?alt=media&token=d088867f-482c-44e6-9314-07f523e3316a",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/D.webp",
         title: "R.V. - Jerarquìa Contextual  [CICLO FREE]",
@@ -899,7 +960,8 @@ export const cursos = [
       {
         id: "PfJzdIlzBa4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F08%20ALGEBRA%2Fe%20(NUEVO).jpg?alt=media&token=1ed523e7-0896-4945-9135-c6b9f06dfe38",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/E.webp",
         title: "R.V. - La Referencia o Deixis [CICLO FREE]",
@@ -910,7 +972,8 @@ export const cursos = [
       {
         id: "u5EyoQxwSP4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F08%20ALGEBRA%2Ff%20(NUEVO).jpg?alt=media&token=a24fe2c6-f33b-4d4b-bfd0-a5003d3d5b4e",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/F.webp",
         title:
@@ -922,7 +985,8 @@ export const cursos = [
       {
         id: "8DvZbjdg8DE",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F08%20ALGEBRA%2Fg%20(NUEVO).jpg?alt=media&token=58f5b9aa-b4e0-44ed-8abf-964de68b7295",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/G.webp",
         title:
@@ -934,7 +998,8 @@ export const cursos = [
       {
         id: "5Ozxv_MR9gw",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F08%20ALGEBRA%2Fh%20(NUEVO).jpg?alt=media&token=2b2fc9a5-eda3-405a-88a0-34ea47987d1c",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/H.webp",
         title: "R.V. - Ideas Generales [CICLO FREE]",
@@ -945,7 +1010,8 @@ export const cursos = [
       {
         id: "jC6Q8UAG_So",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F08%20ALGEBRA%2Fi.jpg?alt=media&token=a5e1c597-8c2a-458f-89dc-5b2498d7d7f6",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/I.webp",
         title: "R.V. - Ideas Generales y Particulares [CICLO FREE]",
@@ -956,7 +1022,8 @@ export const cursos = [
       {
         id: "yWAvdBM22Jo",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F08%20ALGEBRA%2Fj.jpg?alt=media&token=5b28a89e-197a-4c55-b07e-e554062367d9",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/J.webp",
         title: "R.V. - Texto Argumentativo e Informativo [CICLO FREE]",
@@ -974,7 +1041,8 @@ export const cursos = [
       {
         id: "Cum8xjpV0Jk",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F09%20HISTORIA%20DEL%20PER%C3%9A%2Fa.jpg?alt=media&token=51dba1e0-a5af-4a7a-ac53-9d5b47f04f49",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/A.webp",
         title: "H. VERBAL - Repaso  [CICLO FREE]",
@@ -985,7 +1053,8 @@ export const cursos = [
       {
         id: "kplSWOUghmM",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F09%20HISTORIA%20DEL%20PER%C3%9A%2Fb.jpg?alt=media&token=b8fbabc4-285b-43c9-b759-a0c58c4041d4",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/B.webp",
         title:
@@ -997,7 +1066,8 @@ export const cursos = [
       {
         id: "Zh0U_cbnes0",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F09%20HISTORIA%20DEL%20PER%C3%9A%2Fc.jpg?alt=media&token=2bba3fc3-1ef9-47d3-9635-c1f60d90fcc1",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/C.webp",
         title: "H. VERBAL - Inferencia y extrapolación [CICLO FREE]",
@@ -1008,7 +1078,8 @@ export const cursos = [
       {
         id: "6kHfuSIf03U",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F09%20HISTORIA%20DEL%20PER%C3%9A%2Fd.jpg?alt=media&token=81fd014d-7b6e-4ef4-8491-bd03eb989015",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/D.webp",
         title: "R.V. - Jerarquìa Contextual  [CICLO FREE]",
@@ -1019,7 +1090,8 @@ export const cursos = [
       {
         id: "PfJzdIlzBa4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F09%20HISTORIA%20DEL%20PER%C3%9A%2Fe.jpg?alt=media&token=82bfbda2-b207-4bf1-a082-7be65b5f7be6",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/E.webp",
         title: "R.V. - La Referencia o Deixis [CICLO FREE]",
@@ -1030,7 +1102,8 @@ export const cursos = [
       {
         id: "u5EyoQxwSP4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F09%20HISTORIA%20DEL%20PER%C3%9A%2Ff.jpg?alt=media&token=4c7c5000-8474-4188-948c-a6e391a1f17a",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/F.webp",
         title:
@@ -1042,7 +1115,8 @@ export const cursos = [
       {
         id: "8DvZbjdg8DE",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F09%20HISTORIA%20DEL%20PER%C3%9A%2Fg.jpg?alt=media&token=51da723d-44ec-45f2-973c-a12640b95ad5",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/G.webp",
         title:
@@ -1054,7 +1128,8 @@ export const cursos = [
       {
         id: "5Ozxv_MR9gw",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F09%20HISTORIA%20DEL%20PER%C3%9A%2Fh.jpg?alt=media&token=3154d0df-8d45-4227-9407-52713ff7710e",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/H.webp",
         title: "R.V. - Ideas Generales [CICLO FREE]",
@@ -1065,7 +1140,8 @@ export const cursos = [
       {
         id: "jC6Q8UAG_So",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F09%20HISTORIA%20DEL%20PER%C3%9A%2Fi.jpg?alt=media&token=80504971-b039-4527-b769-fdf9e7b36196",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/I.webp",
         title: "R.V. - Ideas Generales y Particulares [CICLO FREE]",
@@ -1076,7 +1152,8 @@ export const cursos = [
       {
         id: "yWAvdBM22Jo",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F09%20HISTORIA%20DEL%20PER%C3%9A%2Fj.jpg?alt=media&token=19d27c97-f643-4144-861e-37210baabcd9",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/J.webp",
         title: "R.V. - Texto Argumentativo e Informativo [CICLO FREE]",
@@ -1094,7 +1171,8 @@ export const cursos = [
       {
         id: "Cum8xjpV0Jk",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F10%20LITERATURA%2Fa.jpg?alt=media&token=ff8e5537-fac4-4c90-80ff-3fcd69d2b119",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/A.webp",
         title: "H. VERBAL - Repaso  [CICLO FREE]",
@@ -1105,7 +1183,8 @@ export const cursos = [
       {
         id: "kplSWOUghmM",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F10%20LITERATURA%2Fb%20(NUEVO).jpg?alt=media&token=0ca166d3-3cfd-4a16-8169-407f64e84c97",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/B.webp",
         title:
@@ -1117,7 +1196,8 @@ export const cursos = [
       {
         id: "Zh0U_cbnes0",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F10%20LITERATURA%2Fc%20(NUEVO).jpg?alt=media&token=9c53086b-77e7-4629-9202-f9fc60c97d86",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/C.webp",
         title: "H. VERBAL - Inferencia y extrapolación [CICLO FREE]",
@@ -1128,7 +1208,8 @@ export const cursos = [
       {
         id: "6kHfuSIf03U",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F10%20LITERATURA%2Fd%20(NUEVO).jpg?alt=media&token=abcb967f-dc09-4b87-9e98-36a2aa99c872",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/D.webp",
         title: "R.V. - Jerarquìa Contextual  [CICLO FREE]",
@@ -1139,7 +1220,8 @@ export const cursos = [
       {
         id: "PfJzdIlzBa4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F10%20LITERATURA%2Fe%20(NUEVO).jpg?alt=media&token=26415302-cc9d-43de-8b20-d24fcf1e0738",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/E.webp",
         title: "R.V. - La Referencia o Deixis [CICLO FREE]",
@@ -1150,7 +1232,8 @@ export const cursos = [
       {
         id: "u5EyoQxwSP4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F10%20LITERATURA%2Ff%20(NUEVO).jpg?alt=media&token=b67166bb-3cff-476c-8ec1-1662ecdde7d6",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/F.webp",
         title:
@@ -1162,7 +1245,8 @@ export const cursos = [
       {
         id: "8DvZbjdg8DE",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F10%20LITERATURA%2Fg.jpg?alt=media&token=72b18932-8324-4d4e-b1cd-6c60c60fcf9e",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/G.webp",
         title:
@@ -1174,7 +1258,8 @@ export const cursos = [
       {
         id: "5Ozxv_MR9gw",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F10%20LITERATURA%2Fh.jpg?alt=media&token=5cec560e-af8a-4826-9dbe-33b6dd5f1dc7",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/H.webp",
         title: "R.V. - Ideas Generales [CICLO FREE]",
@@ -1185,7 +1270,8 @@ export const cursos = [
       {
         id: "jC6Q8UAG_So",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F10%20LITERATURA%2Fi.jpg?alt=media&token=ed511442-c15e-440e-b6ab-09e844a571b2",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/I.webp",
         title: "R.V. - Ideas Generales y Particulares [CICLO FREE]",
@@ -1196,7 +1282,8 @@ export const cursos = [
       {
         id: "yWAvdBM22Jo",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F10%20LITERATURA%2Fj.jpg?alt=media&token=68042c59-d934-40f7-a058-fd1c907d296e",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/J.webp",
         title: "R.V. - Texto Argumentativo e Informativo [CICLO FREE]",
@@ -1214,7 +1301,8 @@ export const cursos = [
       {
         id: "Cum8xjpV0Jk",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F11%20F%C3%8DSICA%2Fa.jpg?alt=media&token=6ecde386-7a0d-417d-94f4-201b513fbd62",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/A.webp",
         title: "H. VERBAL - Repaso  [CICLO FREE]",
@@ -1225,7 +1313,8 @@ export const cursos = [
       {
         id: "kplSWOUghmM",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F11%20F%C3%8DSICA%2Fb%20(NUEVO).jpg?alt=media&token=9b18ac2c-d431-49b0-b698-def1eb1b4f72",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/B.webp",
         title:
@@ -1237,7 +1326,8 @@ export const cursos = [
       {
         id: "Zh0U_cbnes0",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F11%20F%C3%8DSICA%2Fc%20(NUEVO).jpg?alt=media&token=7e04ef30-54ee-4711-b9b1-a3ac603b2ff0",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/C.webp",
         title: "H. VERBAL - Inferencia y extrapolación [CICLO FREE]",
@@ -1248,7 +1338,8 @@ export const cursos = [
       {
         id: "6kHfuSIf03U",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F11%20F%C3%8DSICA%2Fd.jpg?alt=media&token=a9d6373c-97ec-4055-bf77-a0d9278cfb26",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/D.webp",
         title: "R.V. - Jerarquìa Contextual  [CICLO FREE]",
@@ -1259,7 +1350,8 @@ export const cursos = [
       {
         id: "PfJzdIlzBa4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F11%20F%C3%8DSICA%2Fe%20(NUEVO).jpg?alt=media&token=bbd305eb-eeb3-4022-bae6-e26d594bb967",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/E.webp",
         title: "R.V. - La Referencia o Deixis [CICLO FREE]",
@@ -1270,7 +1362,8 @@ export const cursos = [
       {
         id: "u5EyoQxwSP4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F11%20F%C3%8DSICA%2Ff.jpg?alt=media&token=15f85946-fc30-4127-9051-843ad60bffe8",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/F.webp",
         title:
@@ -1282,7 +1375,8 @@ export const cursos = [
       {
         id: "8DvZbjdg8DE",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F11%20F%C3%8DSICA%2Fg.jpg?alt=media&token=6d687481-94e1-48ed-bd8e-ad321d44065b",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/G.webp",
         title:
@@ -1294,7 +1388,8 @@ export const cursos = [
       {
         id: "5Ozxv_MR9gw",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F11%20F%C3%8DSICA%2Fh%20(NUEVO).jpg?alt=media&token=9a8b07d0-4d6b-49fc-bf58-70e9e0cfe48f",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/H.webp",
         title: "R.V. - Ideas Generales [CICLO FREE]",
@@ -1305,7 +1400,8 @@ export const cursos = [
       {
         id: "jC6Q8UAG_So",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F11%20F%C3%8DSICA%2Fi%20(NUEVO).jpg?alt=media&token=eff58a7a-517c-4b43-805f-9574f5d457cb",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/I.webp",
         title: "R.V. - Ideas Generales y Particulares [CICLO FREE]",
@@ -1316,7 +1412,8 @@ export const cursos = [
       {
         id: "yWAvdBM22Jo",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F11%20F%C3%8DSICA%2Fj.jpg?alt=media&token=f95389c6-4259-4fe9-9759-a27e0e1396a3",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/J.webp",
         title: "R.V. - Texto Argumentativo e Informativo [CICLO FREE]",
@@ -1334,7 +1431,8 @@ export const cursos = [
       {
         id: "Cum8xjpV0Jk",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F12%20ECONOM%C3%8DA%2Fa.jpg?alt=media&token=be827820-ff90-4f5e-8a26-59b1ce9d8ee0",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/A.webp",
         title: "H. VERBAL - Repaso  [CICLO FREE]",
@@ -1345,7 +1443,8 @@ export const cursos = [
       {
         id: "kplSWOUghmM",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F12%20ECONOM%C3%8DA%2Fb.jpg?alt=media&token=4405a112-794c-4124-9086-b4eb6ac6c03a",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/B.webp",
         title:
@@ -1357,7 +1456,8 @@ export const cursos = [
       {
         id: "Zh0U_cbnes0",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F12%20ECONOM%C3%8DA%2Fc%20(NUEVO).jpg?alt=media&token=f54b8f3d-86e6-4a68-a457-711ffecc17d0",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/C.webp",
         title: "H. VERBAL - Inferencia y extrapolación [CICLO FREE]",
@@ -1368,7 +1468,8 @@ export const cursos = [
       {
         id: "6kHfuSIf03U",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F12%20ECONOM%C3%8DA%2Fd%20(NUEVO).jpg?alt=media&token=c60589c4-d51d-49f3-bba9-7f32b5eb5948",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/D.webp",
         title: "R.V. - Jerarquìa Contextual  [CICLO FREE]",
@@ -1379,7 +1480,8 @@ export const cursos = [
       {
         id: "PfJzdIlzBa4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F12%20ECONOM%C3%8DA%2Fe%20(NUEVO).jpg?alt=media&token=46c46809-7b29-466e-a9ce-0f2219adb2df",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/E.webp",
         title: "R.V. - La Referencia o Deixis [CICLO FREE]",
@@ -1390,7 +1492,8 @@ export const cursos = [
       {
         id: "u5EyoQxwSP4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F12%20ECONOM%C3%8DA%2Ff.jpg?alt=media&token=3c36cd89-a31e-46f5-8805-5159ab70b1fc",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/F.webp",
         title:
@@ -1402,7 +1505,8 @@ export const cursos = [
       {
         id: "8DvZbjdg8DE",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F12%20ECONOM%C3%8DA%2Fg.jpg?alt=media&token=72cc547b-cfd3-4410-91d8-f5e22e39f4d1",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/G.webp",
         title:
@@ -1414,7 +1518,8 @@ export const cursos = [
       {
         id: "5Ozxv_MR9gw",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F12%20ECONOM%C3%8DA%2Fh.jpg?alt=media&token=39668869-0fde-426d-866c-835ab7f27ebe",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/H.webp",
         title: "R.V. - Ideas Generales [CICLO FREE]",
@@ -1425,7 +1530,8 @@ export const cursos = [
       {
         id: "jC6Q8UAG_So",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F12%20ECONOM%C3%8DA%2Fi.jpg?alt=media&token=bb066455-6ea7-4ca5-9328-f228fbd13e1b",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/I.webp",
         title: "R.V. - Ideas Generales y Particulares [CICLO FREE]",
@@ -1436,7 +1542,8 @@ export const cursos = [
       {
         id: "yWAvdBM22Jo",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F12%20ECONOM%C3%8DA%2Fj.jpg?alt=media&token=1343ae06-4f15-407c-9836-7ab8ca10b130",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/J.webp",
         title: "R.V. - Texto Argumentativo e Informativo [CICLO FREE]",
@@ -1454,7 +1561,8 @@ export const cursos = [
       {
         id: "Cum8xjpV0Jk",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F13%20ARITM%C3%89TICA%2Fa.jpg?alt=media&token=37bea789-6902-4b9e-a9f9-b9845c4e522d",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/A.webp",
         title: "H. VERBAL - Repaso  [CICLO FREE]",
@@ -1465,7 +1573,8 @@ export const cursos = [
       {
         id: "kplSWOUghmM",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F13%20ARITM%C3%89TICA%2Fb%20(NUEVO).jpg?alt=media&token=a3b5b352-edb8-4fca-99ca-1ab998abf6b1",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/B.webp",
         title:
@@ -1477,7 +1586,8 @@ export const cursos = [
       {
         id: "Zh0U_cbnes0",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F13%20ARITM%C3%89TICA%2Fc%20(NUEVO).jpg?alt=media&token=df51ebc4-46b8-4620-a7cc-616df5628cb5",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/C.webp",
         title: "H. VERBAL - Inferencia y extrapolación [CICLO FREE]",
@@ -1488,7 +1598,8 @@ export const cursos = [
       {
         id: "6kHfuSIf03U",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F13%20ARITM%C3%89TICA%2Fd%20(NUEVO).jpg?alt=media&token=783aab00-311f-44eb-9587-fbc5f972aa61",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/D.webp",
         title: "R.V. - Jerarquìa Contextual  [CICLO FREE]",
@@ -1499,7 +1610,8 @@ export const cursos = [
       {
         id: "PfJzdIlzBa4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F13%20ARITM%C3%89TICA%2Fe%20(NUEVO).jpg?alt=media&token=2c500525-d938-4b8d-8021-6b5cb8a12bc0",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/E.webp",
         title: "R.V. - La Referencia o Deixis [CICLO FREE]",
@@ -1510,7 +1622,8 @@ export const cursos = [
       {
         id: "u5EyoQxwSP4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F13%20ARITM%C3%89TICA%2Ff.jpg?alt=media&token=a63ee6c8-0395-41f4-9d33-4ff0bd354029",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/F.webp",
         title:
@@ -1522,7 +1635,8 @@ export const cursos = [
       {
         id: "8DvZbjdg8DE",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F13%20ARITM%C3%89TICA%2Fg.jpg?alt=media&token=4284ab89-f5db-46fd-934a-30115adafd50",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/G.webp",
         title:
@@ -1534,7 +1648,8 @@ export const cursos = [
       {
         id: "5Ozxv_MR9gw",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F13%20ARITM%C3%89TICA%2Fh.jpg?alt=media&token=5130d6e0-a60b-4e62-a44c-be9fc7e014b8",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/H.webp",
         title: "R.V. - Ideas Generales [CICLO FREE]",
@@ -1545,7 +1660,8 @@ export const cursos = [
       {
         id: "jC6Q8UAG_So",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F13%20ARITM%C3%89TICA%2Fi.jpg?alt=media&token=29445687-e721-48e1-a338-9df2c2d4cb83",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/I.webp",
         title: "R.V. - Ideas Generales y Particulares [CICLO FREE]",
@@ -1556,7 +1672,8 @@ export const cursos = [
       {
         id: "yWAvdBM22Jo",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F13%20ARITM%C3%89TICA%2Fj.jpg?alt=media&token=7ec8550e-0bfb-4846-8ac8-12f0f9889e81",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/J.webp",
         title: "R.V. - Texto Argumentativo e Informativo [CICLO FREE]",
@@ -1574,7 +1691,8 @@ export const cursos = [
       {
         id: "Cum8xjpV0Jk",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F14%20GEOGRAF%C3%8DA%2Fa.jpg?alt=media&token=75222344-bae1-4856-81f3-b9067681e986",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/A.webp",
         title: "H. VERBAL - Repaso  [CICLO FREE]",
@@ -1585,7 +1703,8 @@ export const cursos = [
       {
         id: "kplSWOUghmM",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F14%20GEOGRAF%C3%8DA%2Fb%20(NUEVO).jpg?alt=media&token=f6492724-1172-454c-9f9b-3c3aa62022a4",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/B.webp",
         title:
@@ -1597,7 +1716,8 @@ export const cursos = [
       {
         id: "Zh0U_cbnes0",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F14%20GEOGRAF%C3%8DA%2Fc%20(NUEVO).jpg?alt=media&token=5c3cea84-60ac-4494-aff4-e1b55b61b2c1",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/C.webp",
         title: "H. VERBAL - Inferencia y extrapolación [CICLO FREE]",
@@ -1608,7 +1728,8 @@ export const cursos = [
       {
         id: "6kHfuSIf03U",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F14%20GEOGRAF%C3%8DA%2Fd%20(NUEVO).jpg?alt=media&token=cff0d7cc-b3ea-419b-8399-6b68a311f1bd",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/D.webp",
         title: "R.V. - Jerarquìa Contextual  [CICLO FREE]",
@@ -1619,7 +1740,8 @@ export const cursos = [
       {
         id: "PfJzdIlzBa4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F14%20GEOGRAF%C3%8DA%2Fe%20(NUEVO).jpg?alt=media&token=91b2d51f-9b39-4866-91d0-b76e248f8f2e",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/E.webp",
         title: "R.V. - La Referencia o Deixis [CICLO FREE]",
@@ -1630,7 +1752,8 @@ export const cursos = [
       {
         id: "u5EyoQxwSP4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F14%20GEOGRAF%C3%8DA%2Ff.jpg?alt=media&token=fe39b20f-f0a0-45f6-b1c0-f3ef4c3e1e21",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/F.webp",
         title:
@@ -1642,7 +1765,8 @@ export const cursos = [
       {
         id: "8DvZbjdg8DE",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F14%20GEOGRAF%C3%8DA%2Fg.jpg?alt=media&token=e647a8f9-a78e-440b-8b82-444a2d511824",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/G.webp",
         title:
@@ -1654,7 +1778,8 @@ export const cursos = [
       {
         id: "5Ozxv_MR9gw",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F14%20GEOGRAF%C3%8DA%2Fh.jpg?alt=media&token=44a5baae-7047-44f1-bf4f-ae19ce531f88",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/H.webp",
         title: "R.V. - Ideas Generales [CICLO FREE]",
@@ -1665,7 +1790,8 @@ export const cursos = [
       {
         id: "jC6Q8UAG_So",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F14%20GEOGRAF%C3%8DA%2Fi.jpg?alt=media&token=ae83a634-3025-4c95-9ea4-55c91ac47910",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/I.webp",
         title: "R.V. - Ideas Generales y Particulares [CICLO FREE]",
@@ -1676,7 +1802,8 @@ export const cursos = [
       {
         id: "yWAvdBM22Jo",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F14%20GEOGRAF%C3%8DA%2Fj%20(NUEVO).jpg?alt=media&token=8a098dab-5690-47bc-82b1-2d55d3afe8a2",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/J.webp",
         title: "R.V. - Texto Argumentativo e Informativo [CICLO FREE]",
@@ -1694,7 +1821,8 @@ export const cursos = [
       {
         id: "Cum8xjpV0Jk",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F15%20GEOMETR%C3%8DA%2Fa.jpg?alt=media&token=61263934-ec65-454b-9eb6-3e56db0e8941",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/A.webp",
         title: "H. VERBAL - Repaso  [CICLO FREE]",
@@ -1705,7 +1833,8 @@ export const cursos = [
       {
         id: "kplSWOUghmM",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F15%20GEOMETR%C3%8DA%2Fb%20(NUEVO).jpg?alt=media&token=68da6d77-7be5-4d28-b81a-66e80142d304",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/B.webp",
         title:
@@ -1717,7 +1846,8 @@ export const cursos = [
       {
         id: "Zh0U_cbnes0",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F15%20GEOMETR%C3%8DA%2Fc%20(NUEVO).jpg?alt=media&token=13cce772-dcee-4c4a-a299-022a93c35c5c",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/C.webp",
         title: "H. VERBAL - Inferencia y extrapolación [CICLO FREE]",
@@ -1728,7 +1858,8 @@ export const cursos = [
       {
         id: "6kHfuSIf03U",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F15%20GEOMETR%C3%8DA%2Fd%20(NUEVO).jpg?alt=media&token=48881ebb-c0ce-4e33-b7bd-721e147ed7ae",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/D.webp",
         title: "R.V. - Jerarquìa Contextual  [CICLO FREE]",
@@ -1739,7 +1870,8 @@ export const cursos = [
       {
         id: "PfJzdIlzBa4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F15%20GEOMETR%C3%8DA%2Fe%20(NUEVO).jpg?alt=media&token=8be60bca-964c-4446-bb34-7d2ff5add40c",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/E.webp",
         title: "R.V. - La Referencia o Deixis [CICLO FREE]",
@@ -1750,7 +1882,8 @@ export const cursos = [
       {
         id: "u5EyoQxwSP4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F15%20GEOMETR%C3%8DA%2Ff.jpg?alt=media&token=0a163ef4-45cc-4628-b113-f4499bbb7003",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/F.webp",
         title:
@@ -1762,7 +1895,8 @@ export const cursos = [
       {
         id: "8DvZbjdg8DE",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F15%20GEOMETR%C3%8DA%2Fg.jpg?alt=media&token=f96213ec-cb68-4f27-a69b-12b9aa6903bd",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/G.webp",
         title:
@@ -1774,7 +1908,8 @@ export const cursos = [
       {
         id: "5Ozxv_MR9gw",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F15%20GEOMETR%C3%8DA%2Fh.jpg?alt=media&token=85d9e984-d87f-4ba7-bb93-3f3ddee95da1",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/H.webp",
         title: "R.V. - Ideas Generales [CICLO FREE]",
@@ -1785,7 +1920,8 @@ export const cursos = [
       {
         id: "jC6Q8UAG_So",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F15%20GEOMETR%C3%8DA%2Fi.jpg?alt=media&token=3f1da7da-c86a-4e6b-867f-92fee3b85331",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/I.webp",
         title: "R.V. - Ideas Generales y Particulares [CICLO FREE]",
@@ -1796,7 +1932,8 @@ export const cursos = [
       {
         id: "yWAvdBM22Jo",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F15%20GEOMETR%C3%8DA%2Fj.jpg?alt=media&token=737a3ba8-dd91-41f8-9be1-e4b646a57e0e",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/J.webp",
         title: "R.V. - Texto Argumentativo e Informativo [CICLO FREE]",
@@ -1814,7 +1951,8 @@ export const cursos = [
       {
         id: "Cum8xjpV0Jk",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F16%20FILOSOF%C3%8DA%2Fa.jpg?alt=media&token=24f92e6f-9c61-4531-ae4e-255d682863b9",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/A.webp",
         title: "H. VERBAL - Repaso  [CICLO FREE]",
@@ -1825,7 +1963,8 @@ export const cursos = [
       {
         id: "kplSWOUghmM",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F16%20FILOSOF%C3%8DA%2Fb.jpg?alt=media&token=e1ca4982-8cc1-4fb7-a12e-bbff468db8c0",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/B.webp",
         title:
@@ -1837,7 +1976,8 @@ export const cursos = [
       {
         id: "Zh0U_cbnes0",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F16%20FILOSOF%C3%8DA%2Fc%20(NUEVO).jpg?alt=media&token=6030e602-584a-4f02-98b5-22aba1b275ea",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/C.webp",
         title: "H. VERBAL - Inferencia y extrapolación [CICLO FREE]",
@@ -1848,7 +1988,8 @@ export const cursos = [
       {
         id: "6kHfuSIf03U",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F16%20FILOSOF%C3%8DA%2Fd%20(NUEVO).jpg?alt=media&token=512598ea-f4cb-421d-a530-f779b38ee392",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/D.webp",
         title: "R.V. - Jerarquìa Contextual  [CICLO FREE]",
@@ -1859,7 +2000,8 @@ export const cursos = [
       {
         id: "PfJzdIlzBa4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F16%20FILOSOF%C3%8DA%2Fe%20(NUEVO).jpg?alt=media&token=2732843f-c491-4697-9db6-78be75e789d5",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/E.webp",
         title: "R.V. - La Referencia o Deixis [CICLO FREE]",
@@ -1870,7 +2012,8 @@ export const cursos = [
       {
         id: "u5EyoQxwSP4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F16%20FILOSOF%C3%8DA%2Ff.jpg?alt=media&token=2267f238-77ac-4afa-88ee-bcfd93db6e34",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/F.webp",
         title:
@@ -1882,7 +2025,8 @@ export const cursos = [
       {
         id: "8DvZbjdg8DE",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F16%20FILOSOF%C3%8DA%2Fg.jpg?alt=media&token=284c7958-1047-429f-af55-3838def17ec7",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/G.webp",
         title:
@@ -1894,7 +2038,8 @@ export const cursos = [
       {
         id: "5Ozxv_MR9gw",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F16%20FILOSOF%C3%8DA%2Fh.jpg?alt=media&token=e1d9b973-5ebd-41c0-8179-6c1e4d6524f2",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/H.webp",
         title: "R.V. - Ideas Generales [CICLO FREE]",
@@ -1905,7 +2050,8 @@ export const cursos = [
       {
         id: "jC6Q8UAG_So",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F16%20FILOSOF%C3%8DA%2Fi.jpg?alt=media&token=4b7a989a-8361-4cc6-aafa-04b5fcb36af1",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/I.webp",
         title: "R.V. - Ideas Generales y Particulares [CICLO FREE]",
@@ -1916,7 +2062,8 @@ export const cursos = [
       {
         id: "yWAvdBM22Jo",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F16%20FILOSOF%C3%8DA%2Fj.jpg?alt=media&token=16e0e690-1961-4232-820a-679294a07673",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/J.webp",
         title: "R.V. - Texto Argumentativo e Informativo [CICLO FREE]",
@@ -1934,7 +2081,8 @@ export const cursos = [
       {
         id: "Cum8xjpV0Jk",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F17%20ANATOM%C3%8DA%2Fa.jpg?alt=media&token=00e9ad19-7670-43f3-a384-104537415180",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/A.webp",
         title: "H. VERBAL - Repaso  [CICLO FREE]",
@@ -1945,7 +2093,8 @@ export const cursos = [
       {
         id: "kplSWOUghmM",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F17%20ANATOM%C3%8DA%2Fb.jpg?alt=media&token=45618e3b-08df-4cde-b8be-9d8a2ace2acf",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/B.webp",
         title:
@@ -1957,7 +2106,8 @@ export const cursos = [
       {
         id: "Zh0U_cbnes0",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F17%20ANATOM%C3%8DA%2Fc.jpg?alt=media&token=b7e28d16-0285-4e6e-8ab6-c740ae276e48",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/C.webp",
         title: "H. VERBAL - Inferencia y extrapolación [CICLO FREE]",
@@ -1968,7 +2118,8 @@ export const cursos = [
       {
         id: "6kHfuSIf03U",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F17%20ANATOM%C3%8DA%2Fd%20(NUEVO).jpg?alt=media&token=6f638e85-12cb-4533-9af9-86aea087bd72",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/D.webp",
         title: "R.V. - Jerarquìa Contextual  [CICLO FREE]",
@@ -1979,7 +2130,8 @@ export const cursos = [
       {
         id: "PfJzdIlzBa4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F17%20ANATOM%C3%8DA%2Fe%20(NUEVO).jpg?alt=media&token=a4533747-0214-4207-ade2-d7d610a5e28e",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/E.webp",
         title: "R.V. - La Referencia o Deixis [CICLO FREE]",
@@ -1990,7 +2142,8 @@ export const cursos = [
       {
         id: "u5EyoQxwSP4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F17%20ANATOM%C3%8DA%2Ff.jpg?alt=media&token=273cec0a-99d5-4cbc-88ec-a667484613e1",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/F.webp",
         title:
@@ -2002,7 +2155,8 @@ export const cursos = [
       {
         id: "8DvZbjdg8DE",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F17%20ANATOM%C3%8DA%2Fg.jpg?alt=media&token=64e0383f-236f-4e5b-920f-1239b17f69ac",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/G.webp",
         title:
@@ -2014,7 +2168,8 @@ export const cursos = [
       {
         id: "5Ozxv_MR9gw",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F17%20ANATOM%C3%8DA%2Fh%20(NUEVO).jpg?alt=media&token=ce7c5393-1bbf-4fff-bb69-9c76ba7eef80",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/H.webp",
         title: "R.V. - Ideas Generales [CICLO FREE]",
@@ -2025,7 +2180,8 @@ export const cursos = [
       {
         id: "jC6Q8UAG_So",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F17%20ANATOM%C3%8DA%2Fi.jpg?alt=media&token=f0b2a5ee-8421-4ef6-a894-d43e9d911ad7",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/I.webp",
         title: "R.V. - Ideas Generales y Particulares [CICLO FREE]",
@@ -2036,7 +2192,8 @@ export const cursos = [
       {
         id: "yWAvdBM22Jo",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F17%20ANATOM%C3%8DA%2Fj.jpg?alt=media&token=4067936d-60fc-4e32-b18c-b477c2157c34",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/J.webp",
         title: "R.V. - Texto Argumentativo e Informativo [CICLO FREE]",
@@ -2054,7 +2211,8 @@ export const cursos = [
       {
         id: "Cum8xjpV0Jk",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F18%20PSICOLOG%C3%8DA%2Fa.jpg?alt=media&token=57528bd0-31ab-47bc-af2d-178c1d8aa55b",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/A.webp",
         title: "H. VERBAL - Repaso  [CICLO FREE]",
@@ -2065,7 +2223,8 @@ export const cursos = [
       {
         id: "kplSWOUghmM",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F18%20PSICOLOG%C3%8DA%2Fb%20(NUEVO).jpg?alt=media&token=ac1f65e7-d3d4-4e80-bc52-219c9608d40d",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/B.webp",
         title:
@@ -2077,7 +2236,8 @@ export const cursos = [
       {
         id: "Zh0U_cbnes0",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F18%20PSICOLOG%C3%8DA%2Fc%20(NUEVO).jpg?alt=media&token=71a52d72-d399-4f99-a900-4e12be956d85",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/C.webp",
         title: "H. VERBAL - Inferencia y extrapolación [CICLO FREE]",
@@ -2088,7 +2248,8 @@ export const cursos = [
       {
         id: "6kHfuSIf03U",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F18%20PSICOLOG%C3%8DA%2Fd%20(NUEVO).jpg?alt=media&token=75a4bf2b-c7b1-4a61-a497-d77ec26c0cc4",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/D.webp",
         title: "R.V. - Jerarquìa Contextual  [CICLO FREE]",
@@ -2099,7 +2260,8 @@ export const cursos = [
       {
         id: "PfJzdIlzBa4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F18%20PSICOLOG%C3%8DA%2Fe.jpg?alt=media&token=a9594db9-2958-407a-919a-7ca7f1402d31",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/E.webp",
         title: "R.V. - La Referencia o Deixis [CICLO FREE]",
@@ -2110,7 +2272,8 @@ export const cursos = [
       {
         id: "u5EyoQxwSP4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F18%20PSICOLOG%C3%8DA%2Ff.jpg?alt=media&token=5e7164e1-0b38-403a-af67-c6d78327a716",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/F.webp",
         title:
@@ -2122,7 +2285,8 @@ export const cursos = [
       {
         id: "8DvZbjdg8DE",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F18%20PSICOLOG%C3%8DA%2Fg.jpg?alt=media&token=792bc7ee-cae0-4d00-90de-ed03b1f980b9",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/G.webp",
         title:
@@ -2134,7 +2298,8 @@ export const cursos = [
       {
         id: "5Ozxv_MR9gw",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F18%20PSICOLOG%C3%8DA%2Fh.jpg?alt=media&token=726848b4-c256-4f38-acf2-eec73975c8d7",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/H.webp",
         title: "R.V. - Ideas Generales [CICLO FREE]",
@@ -2145,7 +2310,8 @@ export const cursos = [
       {
         id: "jC6Q8UAG_So",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F18%20PSICOLOG%C3%8DA%2Fi.jpg?alt=media&token=8bd08c13-03a7-4d6c-ae8f-931aa88908fc",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/I.webp",
         title: "R.V. - Ideas Generales y Particulares [CICLO FREE]",
@@ -2156,7 +2322,8 @@ export const cursos = [
       {
         id: "yWAvdBM22Jo",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F18%20PSICOLOG%C3%8DA%2Fj.jpg?alt=media&token=4bb9feb1-143a-4751-8539-f0008cb97749",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/J.webp",
         title: "R.V. - Texto Argumentativo e Informativo [CICLO FREE]",
@@ -2174,7 +2341,8 @@ export const cursos = [
       {
         id: "Cum8xjpV0Jk",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F19%20C%C3%8DVICA%2Fa.jpg?alt=media&token=65492374-28c9-4568-98de-53a849043461",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/A.webp",
         title: "H. VERBAL - Repaso  [CICLO FREE]",
@@ -2185,7 +2353,8 @@ export const cursos = [
       {
         id: "kplSWOUghmM",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F19%20C%C3%8DVICA%2Fb%20(NUEVO).jpg?alt=media&token=77852208-579d-4d2f-9856-8b4966ebc5af",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/B.webp",
         title:
@@ -2197,7 +2366,8 @@ export const cursos = [
       {
         id: "Zh0U_cbnes0",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F19%20C%C3%8DVICA%2Fc%20(NUEVO).jpg?alt=media&token=a2e19d5f-2b1e-4cf9-a9a3-759f60758bbc",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/C.webp",
         title: "H. VERBAL - Inferencia y extrapolación [CICLO FREE]",
@@ -2208,7 +2378,8 @@ export const cursos = [
       {
         id: "6kHfuSIf03U",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F19%20C%C3%8DVICA%2Fd%20(NUEVO).jpg?alt=media&token=5d35413f-d484-4ed7-9260-02e73bb4790b",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/D.webp",
         title: "R.V. - Jerarquìa Contextual  [CICLO FREE]",
@@ -2219,7 +2390,8 @@ export const cursos = [
       {
         id: "PfJzdIlzBa4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F19%20C%C3%8DVICA%2Fe.jpg?alt=media&token=8c90099d-bd4a-4eb9-96d6-3e3aab9a85c0",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/E.webp",
         title: "R.V. - La Referencia o Deixis [CICLO FREE]",
@@ -2230,7 +2402,8 @@ export const cursos = [
       {
         id: "u5EyoQxwSP4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F19%20C%C3%8DVICA%2Ff.jpg?alt=media&token=9c28234e-398d-49dc-ac9e-e208c034e106",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/F.webp",
         title:
@@ -2242,7 +2415,8 @@ export const cursos = [
       {
         id: "8DvZbjdg8DE",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F19%20C%C3%8DVICA%2Fg.jpg?alt=media&token=8cc85fb5-3020-4d54-a196-cadbaaddb791",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/G.webp",
         title:
@@ -2254,7 +2428,8 @@ export const cursos = [
       {
         id: "5Ozxv_MR9gw",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F19%20C%C3%8DVICA%2Fh.jpg?alt=media&token=d45ff341-0fdf-4acb-a3b3-4382e7a5f9f9",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/H.webp",
         title: "R.V. - Ideas Generales [CICLO FREE]",
@@ -2265,7 +2440,8 @@ export const cursos = [
       {
         id: "jC6Q8UAG_So",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F19%20C%C3%8DVICA%2Fi.jpg?alt=media&token=07f54bd2-f60b-46b1-96e9-26705be3a920",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/I.webp",
         title: "R.V. - Ideas Generales y Particulares [CICLO FREE]",
@@ -2276,7 +2452,8 @@ export const cursos = [
       {
         id: "yWAvdBM22Jo",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F19%20C%C3%8DVICA%2Fj.jpg?alt=media&token=bcf76d98-39d3-44e5-aa2b-5cf695472195",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/J.webp",
         title: "R.V. - Texto Argumentativo e Informativo [CICLO FREE]",
@@ -2294,7 +2471,8 @@ export const cursos = [
       {
         id: "Cum8xjpV0Jk",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F20%20INGL%C3%89S%2Fa.jpg?alt=media&token=a5b33c30-5fe0-4218-a845-f7b892b096f0",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/A.webp",
         title: "H. VERBAL - Repaso  [CICLO FREE]",
@@ -2305,7 +2483,8 @@ export const cursos = [
       {
         id: "kplSWOUghmM",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F20%20INGL%C3%89S%2Fb.jpg?alt=media&token=288675d9-5dac-4eb0-bb97-0533b2ae3852",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/B.webp",
         title:
@@ -2317,7 +2496,8 @@ export const cursos = [
       {
         id: "Zh0U_cbnes0",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F20%20INGL%C3%89S%2Fc.jpg?alt=media&token=0b697e70-0006-4ead-8d28-e6d76efa0ee9",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/C.webp",
         title: "H. VERBAL - Inferencia y extrapolación [CICLO FREE]",
@@ -2328,7 +2508,8 @@ export const cursos = [
       {
         id: "6kHfuSIf03U",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F20%20INGL%C3%89S%2Fd.jpg?alt=media&token=b9d19146-e238-44cb-b53a-8613e5c1a9eb",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/D.webp",
         title: "R.V. - Jerarquìa Contextual  [CICLO FREE]",
@@ -2339,7 +2520,8 @@ export const cursos = [
       {
         id: "PfJzdIlzBa4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F20%20INGL%C3%89S%2Fe.jpg?alt=media&token=1fc6877a-50c8-49e0-85f7-7e7642174f82",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/E.webp",
         title: "R.V. - La Referencia o Deixis [CICLO FREE]",
@@ -2350,7 +2532,8 @@ export const cursos = [
       {
         id: "u5EyoQxwSP4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F20%20INGL%C3%89S%2Ff.jpg?alt=media&token=c0c7230a-504c-469e-84fa-610dbe35c2d8",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/F.webp",
         title:
@@ -2362,7 +2545,8 @@ export const cursos = [
       {
         id: "8DvZbjdg8DE",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F20%20INGL%C3%89S%2Fg.jpg?alt=media&token=2361dcb6-c6d9-4d04-8f19-a6a7dbc3e70f",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/G.webp",
         title:
@@ -2374,7 +2558,8 @@ export const cursos = [
       {
         id: "5Ozxv_MR9gw",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F20%20INGL%C3%89S%2Fh%20(NUEVO).jpg?alt=media&token=8ead77af-6ff8-43fe-aee1-96cdf1c4beb2",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/H.webp",
         title: "R.V. - Ideas Generales [CICLO FREE]",
@@ -2385,7 +2570,8 @@ export const cursos = [
       {
         id: "jC6Q8UAG_So",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F20%20INGL%C3%89S%2Fi%20(NUEVO).jpg?alt=media&token=827fc1e2-7f30-4bab-867c-edfe07157308",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/I.webp",
         title: "R.V. - Ideas Generales y Particulares [CICLO FREE]",
@@ -2396,7 +2582,8 @@ export const cursos = [
       {
         id: "yWAvdBM22Jo",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F20%20INGL%C3%89S%2Fj%20(NUEVO).jpg?alt=media&token=b6755585-be38-4fc9-9e19-882acd314fb0",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/J.webp",
         title: "R.V. - Texto Argumentativo e Informativo [CICLO FREE]",
@@ -2414,7 +2601,8 @@ export const cursos = [
       {
         id: "Cum8xjpV0Jk",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F21%20RAZONAMIENTO%20VERBAL%2Fa.jpg?alt=media&token=644f0312-684d-4a3b-9e86-e712bd32fe9c",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/A.webp",
         title: "H. VERBAL - Repaso  [CICLO FREE]",
@@ -2425,7 +2613,8 @@ export const cursos = [
       {
         id: "kplSWOUghmM",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F21%20RAZONAMIENTO%20VERBAL%2Fb.jpg?alt=media&token=76466435-a4ef-47b3-a5b0-eff2096dea8f",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/B.webp",
         title:
@@ -2437,7 +2626,8 @@ export const cursos = [
       {
         id: "Zh0U_cbnes0",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F21%20RAZONAMIENTO%20VERBAL%2Fc%20(NUEVO).jpg?alt=media&token=65f9b520-7f28-4289-8f63-0bbe9635c288",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/C.webp",
         title: "H. VERBAL - Inferencia y extrapolación [CICLO FREE]",
@@ -2448,7 +2638,8 @@ export const cursos = [
       {
         id: "6kHfuSIf03U",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F21%20RAZONAMIENTO%20VERBAL%2Fd%20(NUEVO).jpg?alt=media&token=1e07dd06-f990-4b8e-82dc-c1bc42c888c9",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/D.webp",
         title: "R.V. - Jerarquìa Contextual  [CICLO FREE]",
@@ -2459,7 +2650,8 @@ export const cursos = [
       {
         id: "PfJzdIlzBa4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F21%20RAZONAMIENTO%20VERBAL%2Fe%20(NUEVO).jpg?alt=media&token=bbfe84c2-c1bf-4f05-9da0-0fb9775c1233",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/E.webp",
         title: "R.V. - La Referencia o Deixis [CICLO FREE]",
@@ -2470,7 +2662,8 @@ export const cursos = [
       {
         id: "u5EyoQxwSP4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F21%20RAZONAMIENTO%20VERBAL%2Ff%20(NUEVO).jpg?alt=media&token=03d89ca9-2e25-47b1-bdbb-eb15181b9c00",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/F.webp",
         title:
@@ -2482,7 +2675,8 @@ export const cursos = [
       {
         id: "8DvZbjdg8DE",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F21%20RAZONAMIENTO%20VERBAL%2Fg%20(NUEVO).jpg?alt=media&token=896ee687-17b2-4959-be24-2db02b8ad59a",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/G.webp",
         title:
@@ -2494,7 +2688,8 @@ export const cursos = [
       {
         id: "5Ozxv_MR9gw",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F21%20RAZONAMIENTO%20VERBAL%2Fh.jpg?alt=media&token=f54acac6-72d5-428d-b1b9-074b711305cd",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/H.webp",
         title: "R.V. - Ideas Generales [CICLO FREE]",
@@ -2505,7 +2700,8 @@ export const cursos = [
       {
         id: "jC6Q8UAG_So",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F21%20RAZONAMIENTO%20VERBAL%2Fi.jpg?alt=media&token=58931236-76d2-46c2-af3a-05342816e5a9",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/I.webp",
         title: "R.V. - Ideas Generales y Particulares [CICLO FREE]",
@@ -2516,7 +2712,8 @@ export const cursos = [
       {
         id: "yWAvdBM22Jo",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F21%20RAZONAMIENTO%20VERBAL%2Fj.jpg?alt=media&token=cf049435-29c8-4f9d-a4bc-07ad2904e051",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/J.webp",
         title: "R.V. - Texto Argumentativo e Informativo [CICLO FREE]",
@@ -2534,7 +2731,8 @@ export const cursos = [
       {
         id: "Cum8xjpV0Jk",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/a.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F22%20TRIGONOMETR%C3%8DA%2Fa.jpg?alt=media&token=a947c9e6-2a0b-49a9-b547-112e28fcb7e6",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/A.webp",
         title: "H. VERBAL - Repaso  [CICLO FREE]",
@@ -2545,7 +2743,8 @@ export const cursos = [
       {
         id: "kplSWOUghmM",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/b.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F22%20TRIGONOMETR%C3%8DA%2Fb.jpg?alt=media&token=ace892f1-b568-4022-91f0-5a95872dc47d",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/B.webp",
         title:
@@ -2557,7 +2756,8 @@ export const cursos = [
       {
         id: "Zh0U_cbnes0",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/c (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F22%20TRIGONOMETR%C3%8DA%2Fc%20(NUEVO).jpg?alt=media&token=506adb5a-e4bd-4e68-bda4-c2ee87ddad58",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/C.webp",
         title: "H. VERBAL - Inferencia y extrapolación [CICLO FREE]",
@@ -2568,7 +2768,8 @@ export const cursos = [
       {
         id: "6kHfuSIf03U",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/d (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F22%20TRIGONOMETR%C3%8DA%2Fd%20(NUEVO).jpg?alt=media&token=3758af1f-914c-49cc-b8d8-662f4f31bd86",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/D.webp",
         title: "R.V. - Jerarquìa Contextual  [CICLO FREE]",
@@ -2579,7 +2780,8 @@ export const cursos = [
       {
         id: "PfJzdIlzBa4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/e (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F22%20TRIGONOMETR%C3%8DA%2Fe%20(NUEVO).jpg?alt=media&token=200fe389-df65-44b2-b78a-7fb7abdccbcc",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/E.webp",
         title: "R.V. - La Referencia o Deixis [CICLO FREE]",
@@ -2590,7 +2792,8 @@ export const cursos = [
       {
         id: "u5EyoQxwSP4",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/f (NUEVO).jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F22%20TRIGONOMETR%C3%8DA%2Ff%20(NUEVO).jpg?alt=media&token=da1d9663-cdb7-463a-8cdc-de60b0632eb5",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/F.webp",
         title:
@@ -2602,7 +2805,8 @@ export const cursos = [
       {
         id: "8DvZbjdg8DE",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/g.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F22%20TRIGONOMETR%C3%8DA%2Fg.jpg?alt=media&token=764bdfe4-fc18-45c9-9db6-1ff0f8a93751",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/G.webp",
         title:
@@ -2614,7 +2818,8 @@ export const cursos = [
       {
         id: "5Ozxv_MR9gw",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/h.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F22%20TRIGONOMETR%C3%8DA%2Fh.jpg?alt=media&token=bcb7cf8e-b3b9-4e99-aaf5-a480a0bbba14",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/H.webp",
         title: "R.V. - Ideas Generales [CICLO FREE]",
@@ -2625,7 +2830,8 @@ export const cursos = [
       {
         id: "jC6Q8UAG_So",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/i.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F22%20TRIGONOMETR%C3%8DA%2Fi.jpg?alt=media&token=3d151570-74d4-4b9d-9cb2-ce1ccef048f4",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/I.webp",
         title: "R.V. - Ideas Generales y Particulares [CICLO FREE]",
@@ -2636,7 +2842,8 @@ export const cursos = [
       {
         id: "yWAvdBM22Jo",
         image:
-          "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          // "./src/Components/VideoSliders/Assets/Razonamiento Matematico/j.jpg",
+          "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FMiniaturas%2F22%20TRIGONOMETR%C3%8DA%2Fj.jpg?alt=media&token=ef9dbb28-49c3-45eb-8840-de66b70252ea",
         imageBg:
           "./src/Components/VideoSliders/Assets/Razonamiento Matematico/J.webp",
         title: "R.V. - Texto Argumentativo e Informativo [CICLO FREE]",
