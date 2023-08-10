@@ -186,6 +186,9 @@ const VideoSliders = () => {
                   position="relative"
                   borderRadius="20px"
                   overflow="hidden"
+                  // style={{
+                  //   boxShadow: "10px 0px 20px rgba(0, 0, 0, 0.5)", // Agrega la sombra de color negro al lado izquierdo
+                  // }}
                 >
                   <img
                     src={e.imageBg}
@@ -218,14 +221,34 @@ const VideoSliders = () => {
                       },
                     }}
                   />
-                  <Box className="contenidoVideo">
-                    <h2>{e.title}</h2>
-                    <p>
-                      {e.description}{" "}
-                      <a href={e.youtubeLink} target="_blank" rel="noreferrer">
-                        Ver Video
-                      </a>
-                    </p>
+                  <Box
+                    className="shadowOverlay"
+                    style={{
+                      content: "",
+                      position: "absolute",
+                      top: 0,
+                      left: 0,
+                      width: "60%", // La mitad izquierda de la imagen
+                      height: "100%",
+                      background:
+                        "linear-gradient(to right, rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0))", // Degradado de izquierda a derecha
+                      zIndex: 1,
+                    }}
+                  >
+                    <Box className="contenidoVideo">
+                      <h2>{e.title}</h2>
+                      <p>
+                        {e.description}
+                        <br></br>
+                        <a
+                          href={e.youtubeLink}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Ver Video
+                        </a>
+                      </p>
+                    </Box>
                   </Box>
                 </Box>
               )
@@ -241,6 +264,7 @@ const VideoSliders = () => {
           shape="rounded"
           color="primary"
           sx={{
+            padding: "20px 0",
             display: "flex",
             justifyContent: "center",
             color: "#fff",

@@ -62,20 +62,17 @@
 }
 
 .contenidoVideo p{
-  /* width: 90%;
-  margin: 0;
-  font-size: 32px;
-  display: inline-block;
-  border-radius: 10px;
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
-  padding: 10px;
-  color: #000;
-  font-weight: 500; */
-
-  font-size: 24px;
+  font-size: 22px;
   color: #999;
   margin-top: 20px;
-  max-width: 500px;
+  padding: 0px 50px;
+  color: #fff;
+  line-height: 32px;
+}
+
+.contenidoVideo p a {
+  color: red;
+  font-weight: 700;
 }
 
 
@@ -83,22 +80,37 @@
   padding: 20px 0;
 } 
 
+.videoSliderImagenContainer::before {
+  content: ""; /* Crea un pseudo-elemento antes del contenido real */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%; /* Ancho de la sombra, puedes ajustarlo según tus necesidades */
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)); /* Degradado de negro a transparente */
+  z-index: -1; /* Coloca el pseudo-elemento detrás de la imagen */
+}
+
 @media (max-width: 778px) {
   .contenidoVideo h2{
     font-size: 14px;
+    padding: 0;
   }
 
   .contenidoVideo p{
-    font-size: 12px;
-    line-height: 22px;
+    font-size: 11px;
+    line-height: 13px;
+    padding: 0 0 0 20px;
+    margin: 0;
   }
 
   .containerSliders .react-multi-carousel-list li:hover {
     scale: 1;
     z-index: 9999;
     transition: transform 0.3s ease-in-out;
+  }
 
-  } 
+
 }
 
 

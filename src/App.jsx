@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import "./App.css";
 import Inicio from "./Views/Inicio/Inicio";
 import Header from "./Layouts/Header/Header";
@@ -20,7 +20,30 @@ import Admision from "./Views/Admision/Admision";
 function App() {
   return (
     <BrowserRouter>
-      {location.pathname === "/" ||
+      <Routes>
+        <Route exact path="/" element={<Inicio />} />
+        <Route exact path="/ciclos/:idCiclo" element={<CicloPage />} />
+        <Route exact path="/contactus" element={<Contactanos />} />
+        <Route exact path="/sedes" element={<Sedes />} />
+        <Route
+          exact
+          path="/libroreclamaciones"
+          element={<LibroReclamaciones />}
+        />
+        <Route
+          exact
+          path="/politicaproteccion"
+          element={<PoliticaProteccion />}
+        />
+        <Route exact path="/videoclases" element={<VideoClases />} />
+        <Route exact path="/materiales" element={<Materiales />} />
+        <Route exact path="/escaneos" element={<Escaneos />} />
+        <Route exact path="/claves" element={<Claves />} />
+        <Route exact path="/solucionarios" element={<Solucionarios />} />
+        <Route exact path="/prospectos" element={<Prospectos />} />
+        <Route exact path="/admision" element={<Admision />} />
+      </Routes>
+      {/* {location.pathname === "/" ||
       location.pathname.includes("/ciclos/") ||
       location.pathname.includes("/sedes") ||
       location.pathname.includes("/libroreclamaciones") ||
@@ -28,33 +51,29 @@ function App() {
         <Header />
       ) : (
         <LibraryHeader />
-      )}
-      <Routes>
-        <Route exact path="/" element={<Inicio />} />
-        <Route exact path="/ciclos/:idCiclo" Component={CicloPage} />
-        <Route exact path="/contactus" Component={Contactanos} />
-        <Route exact path="/sedes" Component={Sedes} />
-        <Route
-          exact
-          path="/libroreclamaciones"
-          Component={LibroReclamaciones}
-        />
-        <Route
-          exact
-          path="/politicaproteccion"
-          Component={PoliticaProteccion}
-        />
-        <Route exact path="/videoclases" Component={VideoClases} />
-        <Route exact path="/materiales" Component={Materiales} />
-        <Route exact path="/escaneos" Component={Escaneos} />
-        <Route exact path="/claves" Component={Claves} />
-        <Route exact path="/solucionarios" Component={Solucionarios} />
-        <Route exact path="/prospectos" Component={Prospectos} />
-        <Route exact path="/admision" Component={Admision} />
-      </Routes>
+      )} */}
+      <HeaderSwitch />
       <Footer />
     </BrowserRouter>
   );
 }
+
+const HeaderSwitch = () => {
+  const location = useLocation();
+
+  const pathsWithHeader = [
+    "/",
+    "/ciclos/",
+    "/sedes",
+    "/libroreclamaciones",
+    "/politicaproteccion",
+  ];
+
+  const isHeaderVisible = pathsWithHeader.some((path) =>
+    location.pathname.includes(path)
+  );
+
+  return isHeaderVisible ? <Header /> : <LibraryHeader />;
+};
 
 export default App;
