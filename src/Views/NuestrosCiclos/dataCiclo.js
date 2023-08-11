@@ -102,7 +102,8 @@ export const dataCiclos = [
   {
     id: 6,
     subtitle: "UNI",
-    title: "Ciclo Semestral Basico",
+    // title: "Ciclo Semestral Basico",
+    title: "Ciclo Anual",
     Image:
       "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FHeader%2Fsbuni.jpg?alt=media&token=fb161222-027a-404d-8bf5-5b218147bbf9",
     titleresume:
@@ -112,7 +113,7 @@ export const dataCiclos = [
     horario: "8am a 5pm",
     inicio: "20 de febrero",
     fin: "Agosto 2023",
-    duracion: "6 Meses",
+    duracion: "10 Meses",
     schedule_Image: [{ url: "ssbuni" }],
     temario:
       "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Semestral%20b%C3%A1sico%20UNI.pdf?alt=media&token=c8a4c2b5-48f2-48ea-809c-424404d8a5f6",
@@ -122,7 +123,7 @@ export const dataCiclos = [
   {
     id: 7,
     subtitle: "UNI",
-    title: "Ciclo Semestral Intensivo",
+    title: "Ciclo Semestral",
     Image:
       "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FHeader%2Fsiuni.jpg?alt=media&token=9ebb589b-d2c7-43be-869b-3063f5ab94ef",
     titleresume:
@@ -171,7 +172,7 @@ export const dataCiclos = [
     horario: "8am a 4:30pm",
     inicio: "Septiembre 2023",
     fin: "Marzo 2024",
-    duracion: "8 Meses",
+    duracion: "7 Meses",
     schedule_Image: [{ url: "ssasm" }],
     temario:
       "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Semianual%20UNMSM.pdf?alt=media&token=e14fcb8a-daf6-42d5-96eb-8ed76e0c10eb",

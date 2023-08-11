@@ -10,6 +10,7 @@ import Heroslider from "../../Components/HeroSlider/HeroSlider";
 import QuienesSomos from "../../Components/QuienesSomos/QuienesSomos";
 import SeccionCachimbos from "../../Components/SeccionCachimbos/SeccionCachimbos";
 import SeccionCiclos from "../../Components/SeccionCiclos/SeccionCiclos";
+import Header from "../../Layouts/Header/Header";
 
 // import Comunicado from "../Comunicado/Comunicado";
 // import Heroslider from "./Heroslider";
@@ -28,6 +29,7 @@ function Inicio() {
   return (
     <>
       {/* <p>Hola</p> */}
+      <Header />
       <Heroslider />
       <QuienesSomos />
       <AcademiaYoutube />

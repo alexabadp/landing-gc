@@ -4,6 +4,7 @@ import BannerLibrary from "../../Components/BannerLibrary/BannerLibrary";
 import EscaneoFilters from "../../Components/EscaneoFilters/EscaneoFilters";
 import { useEffect, useState } from "react";
 import ClavesFilters from "../../Components/ClavesFilters/ClavesFilter";
+import LibraryHeader from "../../Layouts/Header/LibraryHeader";
 
 const Escaneos = () => {
   const url = useState(window.location.href);
@@ -13,6 +14,7 @@ const Escaneos = () => {
 
   return (
     <>
+      <LibraryHeader />
       <Box sx={{ background: "#262626", minHeight: "calc(100vh - 300px)" }}>
         <BannerLibrary />
 

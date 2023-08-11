@@ -28,11 +28,16 @@ const opcionesCiclos = [
   { value: "Ciclo Repaso San Marcos", label: "Ciclo Repaso San Marcos" },
   { value: "Ciclo Repaso UNI", label: "Ciclo Repaso UNI" },
   { value: "Ciclo Semestral San Marcos", label: "Ciclo Semestral San Marcos" },
-  { value: "Ciclo Semestral Básico UNI", label: "Ciclo Semestral Básico UNI" },
+  // { value: "Ciclo Semestral Básico UNI", label: "Ciclo Semestral Básico UNI" },
+  { value: "Ciclo Anual UNI", label: "Ciclo Anual UNI" },
   {
-    value: "Ciclo Semestral Intensivo UNI",
-    label: "Ciclo Semestral Intensivo UNI",
+    value: "Ciclo Semestral UNI",
+    label: "Ciclo Semestral UNI",
   },
+  // {
+  //   value: "Ciclo Semestral Intensivo UNI",
+  //   label: "Ciclo Semestral Intensivo UNI",
+  // },
   { value: "Ciclo Anual San Marcos", label: "Ciclo Anual San Marcos" },
   { value: "Ciclo Semianual San Marcos", label: "Ciclo Semianual San Marcos" },
 ];

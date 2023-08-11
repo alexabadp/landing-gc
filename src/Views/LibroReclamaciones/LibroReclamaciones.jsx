@@ -20,6 +20,7 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
 import moment from "moment/moment";
+import Header from "../../Layouts/Header/Header";
 
 function LibroReclamaciones() {
   const [numeroLibro, setNumeroLibro] = useState(0);
@@ -153,6 +154,7 @@ function LibroReclamaciones() {
 
   return (
     <>
+      <Header />
       <Box
         sx={{
           width: { xs: "100%", md: "90%" },

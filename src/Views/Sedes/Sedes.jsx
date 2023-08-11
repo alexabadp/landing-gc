@@ -3,6 +3,7 @@ import Sede from "../../Components/Sede/Sede";
 import { dataSede } from "./dataSede";
 import SedeMap from "../../Components/Sede/SedeMap";
 import { Container, Grid, Typography } from "@mui/material";
+import Header from "../../Layouts/Header/Header";
 
 const Sedes = () => {
   const [position, setPosition] = useState({
@@ -22,6 +23,7 @@ const Sedes = () => {
 
   return (
     <>
+      <Header />
       <Container maxWidth="xl">
         <Grid
           container

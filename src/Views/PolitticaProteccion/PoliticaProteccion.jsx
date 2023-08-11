@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import { BsChevronDown } from "react-icons/bs";
 import "./PoliticaProteccion.css";
 import { Container, Typography } from "@mui/material";
+import Header from "../../Layouts/Header/Header";
 
 const PoliticaProteccion = () => {
   useEffect(() => {
@@ -21,6 +22,7 @@ const PoliticaProteccion = () => {
   };
   return (
     <>
+      <Header />
       <Container maxWidth="xl">
         {/* <Box> */}
         <div className="header-content col-lg-12">

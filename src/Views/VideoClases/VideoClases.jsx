@@ -6,6 +6,7 @@ import VideoFilters from "../../Components/VideoFilters/VideoFilters";
 import BannerLibrary from "../../Components/BannerLibrary/BannerLibrary";
 import VideoSliders from "../../Components/VideoSliders/VideoSliders";
 import { useEffect, useState } from "react";
+import LibraryHeader from "../../Layouts/Header/LibraryHeader";
 
 function VideoClases() {
   const url = useState(window.location.href);
@@ -15,6 +16,7 @@ function VideoClases() {
 
   return (
     <>
+      <LibraryHeader />
       <Box className="contenedorGlobal">
         <BannerLibrary />
 

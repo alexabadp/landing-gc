@@ -71,9 +71,7 @@ function Header() {
               </MenuItem>
               <Select
                 label="Nuestro Ciclos"
-                // className={classes.select}
                 margin="dense"
-                // margin="normal"
                 defaultValue=""
                 value="opcion1"
                 variant="standard"
@@ -147,48 +145,6 @@ function Header() {
                   Ciclo Repaso UNI
                 </MenuItem>
                 <MenuItem
-                  key="option6"
-                  sx={{
-                    "&:hover": {
-                      backgroundColor: "red",
-                      color: "#fff",
-                    },
-                  }}
-                  component={Link}
-                  to="/ciclos/5"
-                  onClick={handleCloseNavMenu}
-                >
-                  Ciclo Semestral San Marcos
-                </MenuItem>
-                <MenuItem
-                  key="option7"
-                  sx={{
-                    "&:hover": {
-                      backgroundColor: "red",
-                      color: "#fff",
-                    },
-                  }}
-                  component={Link}
-                  to="/ciclos/6"
-                  onClick={handleCloseNavMenu}
-                >
-                  Ciclo Semestral Básico UNI
-                </MenuItem>
-                <MenuItem
-                  key="option8"
-                  sx={{
-                    "&:hover": {
-                      backgroundColor: "red",
-                      color: "#fff",
-                    },
-                  }}
-                  component={Link}
-                  to="/ciclos/7"
-                  onClick={handleCloseNavMenu}
-                >
-                  Ciclo Semestral Intensivo UNI
-                </MenuItem>
-                <MenuItem
                   key="option9"
                   sx={{
                     "&:hover": {
@@ -215,6 +171,50 @@ function Header() {
                   onClick={handleCloseNavMenu}
                 >
                   Ciclo Semianual San Marcos
+                </MenuItem>
+                <MenuItem
+                  key="option7"
+                  sx={{
+                    "&:hover": {
+                      backgroundColor: "red",
+                      color: "#fff",
+                    },
+                  }}
+                  component={Link}
+                  to="/ciclos/6"
+                  onClick={handleCloseNavMenu}
+                >
+                  {/* Ciclo Semestral Básico UNI */}
+                  Ciclo Anual UNI
+                </MenuItem>
+                <MenuItem
+                  key="option6"
+                  sx={{
+                    "&:hover": {
+                      backgroundColor: "red",
+                      color: "#fff",
+                    },
+                  }}
+                  component={Link}
+                  to="/ciclos/5"
+                  onClick={handleCloseNavMenu}
+                >
+                  Ciclo Semestral San Marcos
+                </MenuItem>
+                <MenuItem
+                  key="option8"
+                  sx={{
+                    "&:hover": {
+                      backgroundColor: "red",
+                      color: "#fff",
+                    },
+                  }}
+                  component={Link}
+                  to="/ciclos/7"
+                  onClick={handleCloseNavMenu}
+                >
+                  {/* Ciclo Semestral Intensivo UNI */}
+                  Ciclo Semestral UNI
                 </MenuItem>
               </Select>
               <MenuItem
@@ -279,7 +279,6 @@ function Header() {
               <Select
                 label="Nuestro Ciclos"
                 margin="dense"
-                // margin="normal"
                 defaultValue=""
                 value="opcion1"
                 variant="standard"
@@ -354,45 +353,6 @@ function Header() {
                       color: "#fff",
                     },
                   }}
-                  key="option6"
-                  component={Link}
-                  to="/ciclos/5"
-                >
-                  Ciclo Semestral San Marcos
-                </MenuItem>
-                <MenuItem
-                  sx={{
-                    "&:hover": {
-                      backgroundColor: "red",
-                      color: "#fff",
-                    },
-                  }}
-                  key="option7"
-                  component={Link}
-                  to="/ciclos/6"
-                >
-                  Ciclo Semestral Básico UNI
-                </MenuItem>
-                <MenuItem
-                  sx={{
-                    "&:hover": {
-                      backgroundColor: "red",
-                      color: "#fff",
-                    },
-                  }}
-                  key="option8"
-                  component={Link}
-                  to="/ciclos/7"
-                >
-                  Ciclo Semestral Intensivo UNI
-                </MenuItem>
-                <MenuItem
-                  sx={{
-                    "&:hover": {
-                      backgroundColor: "red",
-                      color: "#fff",
-                    },
-                  }}
                   key="option9"
                   component={Link}
                   to="/ciclos/8"
@@ -411,6 +371,47 @@ function Header() {
                   to="/ciclos/9"
                 >
                   Ciclo Semianual San Marcos
+                </MenuItem>
+                <MenuItem
+                  sx={{
+                    "&:hover": {
+                      backgroundColor: "red",
+                      color: "#fff",
+                    },
+                  }}
+                  key="option7"
+                  component={Link}
+                  to="/ciclos/6"
+                >
+                  {/* Ciclo Semestral Básico UNI */}
+                  Ciclo Anual UNI
+                </MenuItem>
+                <MenuItem
+                  sx={{
+                    "&:hover": {
+                      backgroundColor: "red",
+                      color: "#fff",
+                    },
+                  }}
+                  key="option6"
+                  component={Link}
+                  to="/ciclos/5"
+                >
+                  Ciclo Semestral San Marcos
+                </MenuItem>
+                <MenuItem
+                  sx={{
+                    "&:hover": {
+                      backgroundColor: "red",
+                      color: "#fff",
+                    },
+                  }}
+                  key="option8"
+                  component={Link}
+                  to="/ciclos/7"
+                >
+                  {/* Ciclo Semestral Intensivo UNI */}
+                  Ciclo Semestral UNI
                 </MenuItem>
               </Select>
 

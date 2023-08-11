@@ -9,6 +9,7 @@ import "./NuestroCiclo.css";
 import Horario from "../../Components/Horario/Horario";
 import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import PagoSlider from "../../Components/PagoSlider/PagoSlider";
+import Header from "../../Layouts/Header/Header";
 
 function CicloPage() {
   const url = useState(window.location.href);
@@ -29,6 +30,7 @@ function CicloPage() {
 
   return (
     <>
+      <Header />
       <Box sx={{ margin: { xs: "64px 0 ", md: "64px 0" } }}>
         <Container maxWidth="xl" margin="auto">
           <Box padding="0px 20px 20px">

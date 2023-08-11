@@ -5,6 +5,7 @@ import "./Admision.css";
 import { Link } from "react-router-dom";
 import { Box, Container, Grid } from "@mui/material";
 import { useEffect, useState } from "react";
+import LibraryHeader from "../../Layouts/Header/LibraryHeader";
 
 function Admision() {
   const url = useState(window.location.href);
@@ -13,6 +14,7 @@ function Admision() {
   }, [url]);
   return (
     <>
+      <LibraryHeader />
       <Box sx={{ background: "#262626", minHeight: "calc(100vh - 300px)" }}>
         <Container maxWidth="xl">
           <Grid container spacing={2} sx={{ padding: "100px 0 0 0" }}>

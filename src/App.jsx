@@ -1,7 +1,6 @@
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Inicio from "./Views/Inicio/Inicio";
-import Header from "./Layouts/Header/Header";
 import Footer from "./Layouts/Footer/Footer";
 import CicloPage from "./Views/NuestrosCiclos/NuestrosCiclos";
 import Contactanos from "./Views/Contactanos/Contactanos";
@@ -9,7 +8,6 @@ import Sedes from "./Views/Sedes/Sedes";
 import LibroReclamaciones from "./Views/LibroReclamaciones/LibroReclamaciones";
 import PoliticaProteccion from "./Views/PolitticaProteccion/PoliticaProteccion";
 import VideoClases from "./Views/VideoClases/VideoClases";
-import LibraryHeader from "./Layouts/Header/LibraryHeader";
 import Materiales from "./Views/Meteriales/Materiales";
 import Escaneos from "./Views/Escaneos/Escaneos";
 import Claves from "./Views/Claves/Claves";
@@ -43,37 +41,10 @@ function App() {
         <Route exact path="/prospectos" element={<Prospectos />} />
         <Route exact path="/admision" element={<Admision />} />
       </Routes>
-      {/* {location.pathname === "/" ||
-      location.pathname.includes("/ciclos/") ||
-      location.pathname.includes("/sedes") ||
-      location.pathname.includes("/libroreclamaciones") ||
-      location.pathname.includes("/politicaproteccion") ? (
-        <Header />
-      ) : (
-        <LibraryHeader />
-      )} */}
-      <HeaderSwitch />
+
       <Footer />
     </BrowserRouter>
   );
 }
-
-const HeaderSwitch = () => {
-  const location = useLocation();
-
-  const pathsWithHeader = [
-    "/",
-    "/ciclos/",
-    "/sedes",
-    "/libroreclamaciones",
-    "/politicaproteccion",
-  ];
-
-  const isHeaderVisible = pathsWithHeader.some((path) =>
-    location.pathname.includes(path)
-  );
-
-  return isHeaderVisible ? <Header /> : <LibraryHeader />;
-};
 
 export default App;

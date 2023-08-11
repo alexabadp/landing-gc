@@ -1,6 +1,7 @@
 import { Box, Container, Grid } from "@mui/material";
 import { useEffect } from "react";
 import FormularioInscripcion from "../../Components/FormularioInscripcion/FormularioInscripcion";
+import Header from "../../Layouts/Header/Header";
 
 function Contactanos() {
   useEffect(() => {
@@ -8,6 +9,7 @@ function Contactanos() {
   }, []);
   return (
     <>
+      <Header />
       <Box sx={{ background: "#f9faff" }}>
         <Container maxWidth="lg">
           <Grid container marginTop="60px">
