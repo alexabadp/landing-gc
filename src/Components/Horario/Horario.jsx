@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-// import { Modal } from "react-bootstrap";
 import Modal from "@mui/material/Modal";
 import {
   BsFillArrowLeftCircleFill,
@@ -8,7 +7,7 @@ import {
 } from "react-icons/bs";
 
 import "./Horario.css";
-import { Box, Button, Container } from "@mui/material";
+import { Box } from "@mui/material";
 
 const Horario = (props) => {
   const [currentImage, setCurrentImage] = useState();
@@ -33,10 +32,6 @@ const Horario = (props) => {
       setImageNumber(imageNumber + 1);
     }
   };
-
-  console.log(file_name, "file_name");
-
-  const imagePath = `../src/Components/Horario/Images/Schedule/${file_name}.png`;
 
   useEffect(() => {
     file_name === "sasm" &&

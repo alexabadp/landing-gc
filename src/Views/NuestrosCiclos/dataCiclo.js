@@ -135,7 +135,8 @@ export const dataCiclos = [
     fin: "Agosto 2023",
     duracion: "6 Meses",
     schedule_Image: [{ url: "ssiuni" }],
-    temario: "Temario Semestral intensivo UNI",
+    temario:
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Semestral%20intensivo%20UNI.pdf?alt=media&token=29cc9d90-7642-4590-853a-0726a5c4545f",
     imageBottom:
       "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FBottom%2F7.png?alt=media&token=a2929a04-0f1d-4d6c-8550-e08e08744f8b",
   },
@@ -175,6 +176,7 @@ export const dataCiclos = [
     duracion: "7 Meses",
     schedule_Image: [{ url: "ssasm" }],
     temario:
+      // "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Semianual%20UNMSM.pdf?alt=media&token=e14fcb8a-daf6-42d5-96eb-8ed76e0c10eb",
       "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Semianual%20UNMSM.pdf?alt=media&token=e14fcb8a-daf6-42d5-96eb-8ed76e0c10eb",
     imageBottom:
       "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FBottom%2F9.png?alt=media&token=8f5b017c-515d-405f-9792-e9cfb2d51531",
