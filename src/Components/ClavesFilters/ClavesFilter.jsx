@@ -33,7 +33,7 @@ const ClavesFilters = () => {
       })
       .then(function (data) {
         const datos = JSON.parse(data);
-        setAnios(datos);
+        setAnios(datos.sort(compararFechas));
       });
   };
 
@@ -79,6 +79,12 @@ const ClavesFilters = () => {
         });
     });
   };
+
+  // Función de comparación para ordenar por fecha_creacion
+  const compararFechas = (a, b) => {
+    return a.anio.localeCompare(b.anio);
+  };
+
   return (
     <>
       <Container maxWidth="xl">

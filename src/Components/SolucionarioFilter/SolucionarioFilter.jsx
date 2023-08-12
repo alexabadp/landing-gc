@@ -33,7 +33,7 @@ const SolucionarioFilter = () => {
       })
       .then(function (data) {
         const datos = JSON.parse(data);
-        setAnios(datos);
+        setAnios(datos.sort(compararFechas));
       });
   };
 
@@ -79,6 +79,11 @@ const SolucionarioFilter = () => {
         });
     });
   };
+
+  const compararFechas = (a, b) => {
+    return a.anio.localeCompare(b.anio);
+  };
+
   return (
     <>
       <Container maxWidth="xl">
