@@ -33,7 +33,7 @@ function LibroReclamaciones() {
 
     axios
       // .get("https://localhost:5001/api/Landing/UltimoRegistro")
-      .get("http://162.248.54.85:4001/api/Landing/UltimoRegistro")
+      .get("https://162.248.54.85:4001/api/Landing/UltimoRegistro")
       .then((response) => {
         setNumeroLibro(response.data.Data);
       })
@@ -108,7 +108,7 @@ function LibroReclamaciones() {
       setIsSubmitting(true);
       axios
         // .post("https://localhost:5001/api/Landing/ComplaintUser", data)
-        .post("http://162.248.54.85:4001/api/Landing/ComplaintUser", data)
+        .post("https://162.248.54.85:4001/api/Landing/ComplaintUser", data)
         .then((response) => {
           console.log(response.data);
         })
