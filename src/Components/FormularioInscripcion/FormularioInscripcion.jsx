@@ -95,7 +95,8 @@ const FormularioInscripcion = () => {
     onSubmit: (data) => {
       setIsSubmitting(true);
       axios
-        .post("https://localhost:5001/api/Landing/RegisterUser", data)
+        // .post("https://localhost:5001/api/Landing/RegisterUser", data)
+        .post("http://162.248.54.85:4001/api/Landing/RegisterUser", data)
         .then((response) => {
           console.log(response.data);
         })
