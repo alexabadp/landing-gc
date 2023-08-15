@@ -52,7 +52,7 @@ const PoliticaProteccion = () => {
         </div>
         {/* </Box> */}
       </Container>
-      <Container>
+      <Container maxWidth="xl">
         <div className="container container-politica">
           <div className="row">
             <div className="col-lg-12">
