@@ -387,7 +387,7 @@ function Footer() {
                     alignItems: "center",
                   }}
                 >
-                  Proteccion de Datos Personales
+                  Protección de Datos Personales
                 </Link>
               </div>
             </Box>
@@ -640,7 +640,7 @@ function Footer() {
               "&:hover": { color: "red" },
             }}
           >
-            Proteccion de Datos Personales
+            Protección de Datos Personales
           </Typography>
         </Box>
         <Typography textAlign="center" fontSize="20px" padding="30px">

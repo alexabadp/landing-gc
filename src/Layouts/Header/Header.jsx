@@ -97,7 +97,7 @@ function Header() {
                     },
                   }}
                   component={Link}
-                  to="/ciclos/1"
+                  to="/ciclos/veranosanmarcos"
                   onClick={handleCloseNavMenu}
                 >
                   Ciclo Verano San Marcos
@@ -111,7 +111,7 @@ function Header() {
                     },
                   }}
                   component={Link}
-                  to="/ciclos/2"
+                  to="/ciclos/veranouni"
                   onClick={handleCloseNavMenu}
                 >
                   Ciclo Verano UNI
@@ -125,7 +125,7 @@ function Header() {
                     },
                   }}
                   component={Link}
-                  to="/ciclos/3"
+                  to="/ciclos/repasosanmarcos"
                   onClick={handleCloseNavMenu}
                 >
                   Ciclo Repaso San Marcos
@@ -139,7 +139,7 @@ function Header() {
                     },
                   }}
                   component={Link}
-                  to="/ciclos/4"
+                  to="/ciclos/repasouni"
                   onClick={handleCloseNavMenu}
                 >
                   Ciclo Repaso UNI
@@ -153,7 +153,7 @@ function Header() {
                     },
                   }}
                   component={Link}
-                  to="/ciclos/8"
+                  to="/ciclos/anualsanmarcos"
                   onClick={handleCloseNavMenu}
                 >
                   Ciclo Anual San Marcos
@@ -167,7 +167,7 @@ function Header() {
                     },
                   }}
                   component={Link}
-                  to="/ciclos/9"
+                  to="/ciclos/seminualsanmarcos"
                   onClick={handleCloseNavMenu}
                 >
                   Ciclo Semianual San Marcos
@@ -181,7 +181,7 @@ function Header() {
                     },
                   }}
                   component={Link}
-                  to="/ciclos/6"
+                  to="/ciclos/anualuni"
                   onClick={handleCloseNavMenu}
                 >
                   {/* Ciclo Semestral Básico UNI */}
@@ -196,7 +196,7 @@ function Header() {
                     },
                   }}
                   component={Link}
-                  to="/ciclos/5"
+                  to="/ciclos/semestralsanmarcos"
                   onClick={handleCloseNavMenu}
                 >
                   Ciclo Semestral San Marcos
@@ -210,7 +210,7 @@ function Header() {
                     },
                   }}
                   component={Link}
-                  to="/ciclos/7"
+                  to="/ciclos/semestraluni"
                   onClick={handleCloseNavMenu}
                 >
                   {/* Ciclo Semestral Intensivo UNI */}
@@ -303,7 +303,7 @@ function Header() {
                   }}
                   key="option2"
                   component={Link}
-                  to="/ciclos/1"
+                  to="/ciclos/veranosanmarcos"
                 >
                   Ciclo Verano San Marcos
                 </MenuItem>
@@ -316,7 +316,7 @@ function Header() {
                   }}
                   key="option3"
                   component={Link}
-                  to="/ciclos/2"
+                  to="/ciclos/veranouni"
                 >
                   Ciclo Verano UNI
                 </MenuItem>
@@ -329,7 +329,7 @@ function Header() {
                   }}
                   key="option4"
                   component={Link}
-                  to="/ciclos/3"
+                  to="/ciclos/repasosanmarcos"
                 >
                   Ciclo Repaso San Marcos
                 </MenuItem>
@@ -342,7 +342,7 @@ function Header() {
                   }}
                   key="option5"
                   component={Link}
-                  to="/ciclos/4"
+                  to="/ciclos/repasouni"
                 >
                   Ciclo Repaso UNI
                 </MenuItem>
@@ -355,7 +355,7 @@ function Header() {
                   }}
                   key="option9"
                   component={Link}
-                  to="/ciclos/8"
+                  to="/ciclos/anualsanmarcos"
                 >
                   Ciclo Anual San Marcos
                 </MenuItem>
@@ -368,7 +368,7 @@ function Header() {
                   }}
                   key="option10"
                   component={Link}
-                  to="/ciclos/9"
+                  to="/ciclos/seminualsanmarcos"
                 >
                   Ciclo Semianual San Marcos
                 </MenuItem>
@@ -381,7 +381,7 @@ function Header() {
                   }}
                   key="option7"
                   component={Link}
-                  to="/ciclos/6"
+                  to="/ciclos/anualuni"
                 >
                   {/* Ciclo Semestral Básico UNI */}
                   Ciclo Anual UNI
@@ -395,7 +395,7 @@ function Header() {
                   }}
                   key="option6"
                   component={Link}
-                  to="/ciclos/5"
+                  to="/ciclos/semestralsanmarcos"
                 >
                   Ciclo Semestral San Marcos
                 </MenuItem>
@@ -408,7 +408,7 @@ function Header() {
                   }}
                   key="option8"
                   component={Link}
-                  to="/ciclos/7"
+                  to="/ciclos/semestraluni"
                 >
                   {/* Ciclo Semestral Intensivo UNI */}
                   Ciclo Semestral UNI

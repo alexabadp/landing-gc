@@ -28,7 +28,7 @@ const SeccionCiclos = () => {
           marginBottom: { xs: "5px", md: "25px" },
         }}
       >
-        Nuestros Ciclos
+        Nuestros ciclos
       </Typography>
 
       <ImageList

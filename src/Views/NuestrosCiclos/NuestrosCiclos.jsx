@@ -25,7 +25,7 @@ function CicloPage() {
   }
 
   const ciclo = dataCiclos.find((obj) => {
-    return obj.id == idCiclo;
+    return obj.idUrl == idCiclo;
   });
 
   return (

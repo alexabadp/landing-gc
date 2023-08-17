@@ -1,6 +1,6 @@
 export const cursos = [
   {
-    name: "ESPECIALES (NUEVO)",
+    name: "ESPECIALES",
     listLink:
       "https://www.youtube.com/playlist?list=PLLiqnnM197D_QR5JV8vHFGuiwT23c08hl",
     subject: [
@@ -138,7 +138,7 @@ export const cursos = [
     ],
   },
   {
-    name: "SOLUCIONARIOS (NUEVO) ",
+    name: "SOLUCIONARIOS",
     listLink:
       "https://www.youtube.com/playlist?list=PLLiqnnM197D_SZVk1mUVoScDQKKyXSV7o",
     subject: [

@@ -1,6 +1,7 @@
 export const dataCiclos = [
   {
     id: 1,
+    idUrl: "veranosanmarcos",
     subtitle: "San Marcos",
     title: "Ciclo Verano",
     Image:
@@ -9,7 +10,7 @@ export const dataCiclos = [
       "Inicia el camino a San Marcos conociendo el sistema pre y desarrollando tus habilidades.",
     resumen:
       "Ciclo introductorio, ideal para estudiantes que inician su preparación. Conocerás los cursos desde lo básico con profesores didácticos, desarrollarás los cursos del prospecto y tendrás un simulacro tipo admisión cada 2 semanas. ",
-    horario: "8am a 2pm",
+    horario: "8am a 1:30pm",
     inicio: "26 de Diciembre",
     fin: "25 de febrero",
     duracion: "9 Semanas",
@@ -21,6 +22,7 @@ export const dataCiclos = [
   },
   {
     id: 2,
+    idUrl: "veranouni",
     subtitle: "UNI",
     title: "Ciclo Verano",
     Image:
@@ -29,7 +31,7 @@ export const dataCiclos = [
       "Conoce el sistema de preparación UNI con profesores especialistas.",
     resumen:
       "Ciclo introductorio, ideal para estudiantes que inician el camino a la Universidad Nacional de Ingeniería. Tendrán clases con profesores especialistas y enfocadas en matemáticas y ciencias.",
-    horario: "8am a 2pm",
+    horario: "8am a 1:30pm",
     inicio: "26 de Diciembre",
     fin: "25 de febrero",
     duracion: "9 Semanas",
@@ -41,6 +43,7 @@ export const dataCiclos = [
   },
   {
     id: 3,
+    idUrl: "repasosanmarcos",
     subtitle: "San Marcos",
     title: "Ciclo Repaso",
     Image:
@@ -49,7 +52,7 @@ export const dataCiclos = [
       "Ciclo de full práctica con ejercicios DECO y la exigencia que necesitas para convertirte en cachimbo.",
     resumen:
       "Ciclo enfocado en resolver ejercicios DECO (exclusivos de San Marcos), los profesores desarrollan de 2 a 4 temas en cada clase en un horario extendido con el objetivo de alcanzar el mayor nivel académico. Tendrás aulas y horarios especializados por áreas (ABC y DE).",
-    horario: "8am a 5:30pm",
+    horario: "7:50am a 5:30pm",
     inicio: "26 de Diciembre",
     fin: "10 de Marzo",
     duracion: "4 - 8 semanas",
@@ -61,6 +64,7 @@ export const dataCiclos = [
   },
   {
     id: 4,
+    idUrl: "repasouni",
     subtitle: "UNI",
     title: "Ciclo Repaso",
     Image:
@@ -81,6 +85,7 @@ export const dataCiclos = [
   },
   {
     id: 5,
+    idUrl: "semestralsanmarcos",
     subtitle: "San Marcos",
     title: "Ciclo Semestral",
     Image:
@@ -89,10 +94,10 @@ export const dataCiclos = [
       "Ciclo 50% teórico y 50% práctico para postulantes con experiencia en preparación San Marcos.",
     resumen:
       "Ciclo dirigido a estudiantes con preparación San Marcos. Los profesores desarrollan una teoría breve y resumida para enfocarse en resolver ejercicios, se ven 2 o 3 temas en cada clase, trabajamos con el sistema DECO y docentes especialistas. Tendrás aulas y horarios especializados por áreas (ABC y DE).",
-    horario: "8am a 5:30pm",
+    horario: "7:50am a 5:30pm",
     inicio: "Enero 2023",
     fin: "Septiembre 2023",
-    duracion: "6 Meses",
+    duracion: "4 - 6 Meses",
     schedule_Image: [{ url: "sssm_1" }, { url: "sssm_2" }],
     temario:
       "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Semestral%20UNMSM.pdf?alt=media&token=145d4826-7f6f-4011-ade2-036dd6778691",
@@ -101,8 +106,8 @@ export const dataCiclos = [
   },
   {
     id: 6,
+    idUrl: "anualuni",
     subtitle: "UNI",
-    // title: "Ciclo Semestral Basico",
     title: "Ciclo Anual",
     Image:
       "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FHeader%2Fsbuni.jpg?alt=media&token=fb161222-027a-404d-8bf5-5b218147bbf9",
@@ -122,6 +127,7 @@ export const dataCiclos = [
   },
   {
     id: 7,
+    idUrl: "semestraluni",
     subtitle: "UNI",
     title: "Ciclo Semestral",
     Image:
@@ -142,6 +148,7 @@ export const dataCiclos = [
   },
   {
     id: 8,
+    idUrl: "anualsanmarcos",
     subtitle: "San Marcos",
     title: "Ciclo Anual",
     Image:
@@ -150,7 +157,7 @@ export const dataCiclos = [
       "Ciclo base para San Marcos, aprende paso a paso desde lo básico hasta lo avanzado.",
     resumen:
       "Ciclo de preparación más completo para todo postulante a San Marcos, profesores te guiarán desde lo elemental hasta lo avanzado un tema por cada clase, conocerás la teoría a profundidad y tendrás un dominio completo en cada curso.",
-    horario: "8am a 4:30pm",
+    horario: "7:50am a 4:30pm",
     inicio: "Marzo 2023",
     fin: "Diciembre 2023",
     duracion: "10 Meses",
@@ -162,6 +169,7 @@ export const dataCiclos = [
   },
   {
     id: 9,
+    idUrl: "seminualsanmarcos",
     subtitle: "San Marcos",
     title: "Ciclo Semianual",
     Image:
@@ -170,10 +178,10 @@ export const dataCiclos = [
       "Ciclo base para San Marcos, aprende paso a paso los temas fijos.",
     resumen:
       "Ciclo de preparación base para todo postulante a San Marcos, profesores te guiarán desde lo elemental hasta lo avanzado un tema por cada clase, conocerás la teoría a profundidad en los temas fijos de cada curso.",
-    horario: "8am a 4:30pm",
+    horario: "7:50am a 4:30pm",
     inicio: "Septiembre 2023",
     fin: "Marzo 2024",
-    duracion: "7 Meses",
+    duracion: "5 - 7 Meses",
     schedule_Image: [{ url: "ssasm" }],
     temario:
       // "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Semianual%20UNMSM.pdf?alt=media&token=e14fcb8a-daf6-42d5-96eb-8ed76e0c10eb",

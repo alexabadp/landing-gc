@@ -77,7 +77,7 @@ function LibraryHeader() {
                 to="/videoclases"
                 onClick={handleCloseNavMenu}
               >
-                <Typography textAlign="center">Video Clases</Typography>
+                <Typography textAlign="center">Videoclases</Typography>
               </MenuItem>
 
               <MenuItem
@@ -149,7 +149,7 @@ function LibraryHeader() {
                 onClick={handleCloseNavMenu}
               >
                 <Typography textTransform="none" textAlign="center">
-                  Video Clases
+                  Videoclases
                 </Typography>
               </Button>
               <Button
