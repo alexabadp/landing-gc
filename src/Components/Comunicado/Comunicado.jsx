@@ -28,7 +28,8 @@ const Comunicado = () => {
             top: "50%",
             left: "50%",
             transform: "translate(-50%, -50%)",
-
+            borderRadius: "20px",
+            overflow: "hidden",
             width: { xs: "350px", sm: "600px", md: "800px", lg: "1000px" },
             bgcolor: "background.paper",
             border: "2px solid #000",

@@ -141,7 +141,8 @@ const VideoFilters = () => {
           sx={{
             color: "#fff",
             padding: "20px 0",
-            fontSize: "32px",
+            // fontSize: "32px",
+            fontSize: { xs: "22px", md: "32px" },
             textAlign: "center",
           }}
         >

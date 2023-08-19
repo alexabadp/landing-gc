@@ -4,6 +4,7 @@ import { dataSede } from "./dataSede";
 import SedeMap from "../../Components/Sede/SedeMap";
 import { Container, Grid, Typography } from "@mui/material";
 import Header from "../../Layouts/Header/Header";
+import "../../Components/Sede/Sede.css";
 
 const Sedes = () => {
   const [position, setPosition] = useState({

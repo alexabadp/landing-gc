@@ -49,6 +49,7 @@ const Sede = ({
     }
   };
 
+  console.log("position", position);
   return (
     <>
       <Container maxWidth="xl" ref={elementRef}>
@@ -140,11 +141,11 @@ const Sede = ({
 
 export default Sede;
 
-Sede.propTypes = {
-  dataSede: React.ReactNode,
-  position: React.ReactNode,
-  setPosition: React.ReactNode,
-  imagen: React.ReactNode,
-  botonClick: React.ReactNode,
-  imagenVisible: React.ReactNode,
-};
+// Sede.propTypes = {
+//   dataSede: React.ReactNode,
+//   position: React.ReactNode,
+//   setPosition: React.ReactNode,
+//   imagen: React.ReactNode,
+//   botonClick: React.ReactNode,
+//   imagenVisible: React.ReactNode,
+// };

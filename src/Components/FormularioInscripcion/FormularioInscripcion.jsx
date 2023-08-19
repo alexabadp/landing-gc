@@ -152,9 +152,11 @@ const FormularioInscripcion = () => {
       >
         <Typography
           component="h1"
-          fontSize="38px"
           fontWeight="700"
-          sx={{ textAlign: { xs: "center", sm: "left" } }}
+          sx={{
+            textAlign: { xs: "center", sm: "left" },
+            fontSize: { xs: "26px", md: "32px" },
+          }}
         >
           Inscríbete ahora
         </Typography>

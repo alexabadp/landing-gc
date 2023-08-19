@@ -24,7 +24,11 @@ function VideoClases() {
 
         <Container maxWidth="xl">
           <Typography
-            sx={{ color: "#FFF", fontSize: "30px", padding: "50px 0 0 0 " }}
+            sx={{
+              color: "#FFF",
+              fontSize: { xs: "22px", md: "32px" },
+              padding: "50px 0 0 0 ",
+            }}
           >
             Conoce más del ciclo FREE
           </Typography>

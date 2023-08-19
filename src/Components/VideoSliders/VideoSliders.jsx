@@ -70,7 +70,9 @@ const VideoSliders = () => {
     <>
       {itemsToShow.map((data) => (
         <Box key={data.name} className="containerSliders">
-          <Typography sx={{ fontSize: " 18px", color: "#fff" }}>
+          <Typography
+            sx={{ fontSize: { xs: "16px", md: "18px" }, color: "#fff" }}
+          >
             {data.name}
           </Typography>
           <Carousel
@@ -278,9 +280,9 @@ const VideoSliders = () => {
               padding: "10px",
             },
             "& .MuiPaginationItem-page.Mui-selected": {
-              fontSize: "30px",
+              fontSize: { xs: "24px", md: "30px" },
               color: "#fff",
-              padding: "18px",
+              padding: { xs: "12px", md: "18px" },
               background: "red",
             },
           }}

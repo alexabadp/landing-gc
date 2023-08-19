@@ -34,7 +34,7 @@ const ListaDesplegableBiblioteca = ({ elemento, opciones }) => {
             disablePadding
             sx={{ color: "#fff" }}
           >
-            <ListItemButton sx={{ pl: 4 }}>
+            <ListItemButton sx={{ pl: 4, "&:hover": { color: "red" } }}>
               <ListItemText primary={e.name} />
             </ListItemButton>
           </List>

@@ -43,10 +43,10 @@ export default function EscaneoTable({ dataTable }) {
             <TableHead>
               <TableRow>
                 <TableCell align="center" sx={{ color: "#fff" }}>
-                  Nombre
+                  Nombre de Archivo
                 </TableCell>
                 <TableCell align="center" sx={{ color: "#fff" }}>
-                  Area
+                  Área
                 </TableCell>
                 {/* <TableCell align="center" sx={{ color: "#fff" }}>
                   Fecha

@@ -43,7 +43,7 @@ export default function ProspectoTable({ dataTable }) {
             <TableHead>
               <TableRow>
                 <TableCell align="center" sx={{ color: "#fff" }}>
-                  Nombre
+                  Nombre de Archivo
                 </TableCell>
                 {/* <TableCell align="center" sx={{ color: "#fff" }}>
                   Fecha

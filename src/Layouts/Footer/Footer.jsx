@@ -99,7 +99,7 @@ function Footer() {
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
-                    "&:hover": { fontSize: "100px" },
+                    "&:hover": { transform: "scale(1.3)" },
                   }}
                 >
                   <FaWhatsapp color="rgba(255, 255, 255, 1)" />
@@ -121,6 +121,8 @@ function Footer() {
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
+                    "&:hover": { transform: "scale(1.3)" },
+                    cursor: "pointer",
                   }}
                 >
                   <FaYoutube color="rgba(255, 255, 255, 1)" />
@@ -193,7 +195,7 @@ function Footer() {
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
-                    "&:hover": { fontSize: "100px" },
+                    "&:hover": { transform: "scale(1.3)" },
                   }}
                 >
                   <FaInstagram color="rgba(255, 255, 255, 1)" />
@@ -208,10 +210,10 @@ function Footer() {
                   height: "44px",
                   borderRadius: "50%",
                   background: "#fff",
-
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
+                  "&:hover": { transform: "scale(1.3)" },
                 }}
               >
                 <a
@@ -228,7 +230,7 @@ function Footer() {
                       display: "flex",
                       justifyContent: "center",
                       alignItems: "center",
-                      "&:hover": { transform: "scale(1.3)" },
+                      // "&:hover": { transform: "scale(1.3)" },
                     }}
                   >
                     <FaFacebook color="rgba(59, 89, 152, 1)" />
@@ -456,7 +458,6 @@ function Footer() {
             <Typography
               sx={{
                 fontSize: { xs: "24px", md: "30px" },
-
                 background: "rgb(37, 211, 102)",
                 borderRadius: "50%",
                 width: "40px",
@@ -464,6 +465,7 @@ function Footer() {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
+                "&:hover": { transform: "scale(1.2)" },
               }}
             >
               <FaWhatsapp color="rgba(255, 255, 255, 1)" />
@@ -485,6 +487,7 @@ function Footer() {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
+                "&:hover": { transform: "scale(1.2)" },
               }}
             >
               <FaYoutube color="rgba(255, 255, 255, 1)" />
@@ -557,6 +560,7 @@ function Footer() {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
+                "&:hover": { transform: "scale(1.2)" },
               }}
             >
               <FaInstagram color="rgba(255, 255, 255, 1)" />
@@ -575,6 +579,7 @@ function Footer() {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
+              "&:hover": { transform: "scale(1.2)" },
             }}
           >
             <a
@@ -612,6 +617,7 @@ function Footer() {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
+                "&:hover": { transform: "scale(1.2)" },
               }}
             >
               <FaTiktok color="rgba(255, 255, 255, 1)" />
@@ -650,7 +656,7 @@ function Footer() {
             Protección de Datos Personales
           </Typography>
         </Box>
-        <Typography textAlign="center" fontSize="20px" padding="30px">
+        <Typography textAlign="center" fontSize="18px" padding="30px">
           Copyright © 2022. EXAFRAME S.A ® Marca registrada.
         </Typography>
       </Grid>

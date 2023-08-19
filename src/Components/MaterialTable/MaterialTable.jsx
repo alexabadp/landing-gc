@@ -42,11 +42,11 @@ export default function MaterialTable({ dataTable }) {
             <TableHead>
               <TableRow>
                 <TableCell align="center" sx={{ color: "#fff" }}>
-                  Nombre
+                  Nombre de Archivo
                 </TableCell>
-                <TableCell align="center" sx={{ color: "#fff" }}>
+                {/* <TableCell align="center" sx={{ color: "#fff" }}>
                   Fecha
-                </TableCell>
+                </TableCell> */}
                 <TableCell align="center" sx={{ color: "#fff" }}>
                   Copiar Link
                 </TableCell>
@@ -76,7 +76,7 @@ export default function MaterialTable({ dataTable }) {
                     <TableCell align="center" component="th" scope="row">
                       {row.nombre_material}
                     </TableCell>
-                    <TableCell align="center">{row.fecha}</TableCell>
+                    {/* <TableCell align="center">{row.fecha}</TableCell> */}
 
                     <TableCell align="center">
                       <CopyText text={row.url_clase_relacionada}>
