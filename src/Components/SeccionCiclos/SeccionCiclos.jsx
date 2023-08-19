@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 import { Container, Typography, useMediaQuery } from "@mui/material";
-
+import style from "./SeccionCiclos.module.css";
 import { dataCiclos } from "./dataCiclos";
 
 const SeccionCiclos = () => {
@@ -34,11 +34,11 @@ const SeccionCiclos = () => {
       <ImageList
         sx={{
           width: "100%",
-
           height: { xs: 450, md: 600 },
         }}
         cols={numColumns}
         gap={20}
+        className={style.videoContainer}
       >
         {dataCiclos.map((item) => (
           <ImageListItem key={item.img}>
@@ -49,6 +49,7 @@ const SeccionCiclos = () => {
                 srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
                 alt={item.title}
                 loading="lazy"
+                style={{ borderRadius: "10px" }}
               />
             </Typography>
           </ImageListItem>

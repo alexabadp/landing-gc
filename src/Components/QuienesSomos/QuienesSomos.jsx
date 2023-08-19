@@ -1,5 +1,7 @@
 import { Box, Container, Grid, Typography } from "@mui/material";
+import style from "./QuienesSomos.module.css";
 import ReactPlayer from "react-player";
+import { borders } from "@mui/system";
 
 const QuienesSomos = () => {
   return (
@@ -14,9 +16,12 @@ const QuienesSomos = () => {
         <Grid container margin="auto" alignItems="center">
           <Grid item xs={12} lg={6} paddingBottom="20px">
             <Box
-              sx={{ height: { xs: "280px", sm: "400px" } }}
+              sx={{
+                height: { xs: "280px", sm: "400px" },
+              }}
               maxWidth="600px"
               margin="auto"
+              className={style.videoContainer}
             >
               <ReactPlayer
                 url="https://youtu.be/84Ab2z-MUWw"

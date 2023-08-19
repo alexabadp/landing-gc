@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 import { Box, Container, Typography, useMediaQuery } from "@mui/material";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
-
+import style from "./SeccionCachimbos.module.css";
 import { dataCachimbos } from "./dataCachimbos";
 
 const SeccionCachimbos = () => {
@@ -46,7 +46,7 @@ const SeccionCachimbos = () => {
           gap={sizeGap}
         >
           {dataCachimbos.map((item) => (
-            <ImageListItem key={item.img}>
+            <ImageListItem key={item.img} className={style.videoContainer}>
               <ReactPlayer
                 url={item.img}
                 // className="react-player"

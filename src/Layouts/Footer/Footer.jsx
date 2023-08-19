@@ -99,6 +99,7 @@ function Footer() {
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
+                    "&:hover": { fontSize: "100px" },
                   }}
                 >
                   <FaWhatsapp color="rgba(255, 255, 255, 1)" />
@@ -192,6 +193,7 @@ function Footer() {
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
+                    "&:hover": { fontSize: "100px" },
                   }}
                 >
                   <FaInstagram color="rgba(255, 255, 255, 1)" />
@@ -226,6 +228,7 @@ function Footer() {
                       display: "flex",
                       justifyContent: "center",
                       alignItems: "center",
+                      "&:hover": { transform: "scale(1.3)" },
                     }}
                   >
                     <FaFacebook color="rgba(59, 89, 152, 1)" />
@@ -247,6 +250,7 @@ function Footer() {
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
+                    "&:hover": { transform: "scale(1.3)" },
                   }}
                 >
                   <FaTiktok color="rgba(255, 255, 255, 1)" />
@@ -283,6 +287,7 @@ function Footer() {
                 textAlign: "left",
                 color: "#fff",
                 display: "inherit",
+                "&:hover": { color: "red" },
               }}
             >
               Videoclases
@@ -296,6 +301,7 @@ function Footer() {
                 textAlign: "left",
                 color: "#fff",
                 display: "inherit",
+                "&:hover": { color: "red" },
               }}
             >
               Materiales
@@ -308,6 +314,7 @@ function Footer() {
                 textAlign: "left",
                 color: "#fff",
                 display: "inherit",
+                "&:hover": { color: "red" },
               }}
             >
               Admisión

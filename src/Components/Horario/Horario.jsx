@@ -146,7 +146,12 @@ const Horario = (props) => {
             )}
             <Box sx={{ display: { xs: "block", sm: "block" } }}>
               {/* <img width="100%" src={imagePath} alt="Imagen de modal" /> */}
-              <img width="100%" src={currentImage} alt="Imagen de modal" />
+              <img
+                width="100%"
+                src={currentImage}
+                alt="Imagen de modal"
+                style={{ borderRadius: "20px", overflow: "hidden" }}
+              />
             </Box>
           </Box>
         </Modal>

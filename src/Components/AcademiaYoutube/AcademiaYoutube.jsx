@@ -92,6 +92,7 @@ const AcademiaYoutube = () => {
                   src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FDescripcion%2Fwebp%2Fbrain2.webp?alt=media&token=f091facd-959b-47ba-a65f-3e5e59627f72"
                   width="100%"
                   alt="logo"
+                  style={{ borderRadius: "10px" }}
                 />
               </Box>
             </Grid>

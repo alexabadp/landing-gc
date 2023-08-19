@@ -42,6 +42,7 @@ const Comunicado = () => {
               width="100%"
               src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FModal%2Fwebp%2FcomunicadoXL.webp?alt=media&token=d7a0162d-2922-4702-a666-9322b9fd890d"
               alt="Imagen de modal"
+              style={{ borderRadius: "20px", overflow: "hidden" }}
             />
           </Box>
           <Box sx={{ display: { xs: "block", sm: "none" } }}>
