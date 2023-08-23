@@ -22,6 +22,8 @@ import axios from "axios";
 import moment from "moment/moment";
 import Header from "../../Layouts/Header/Header";
 
+import emailjs from "emailjs-com";
+
 function LibroReclamaciones() {
   const [numeroLibro, setNumeroLibro] = useState(0);
   const [currentTime, setCurrentTime] = useState("");
@@ -32,12 +34,6 @@ function LibroReclamaciones() {
     window.scrollTo(0, 0);
 
     axios
-      // .get("https://localhost:5001/api/Landing/UltimoRegistro")
-      // .get("http://162.248.54.85:4001/api/Landing/UltimoRegistro")
-      // .get("https://grupociencias.edu.pe/api/Landing/UltimoRegistro")
-      // .get(
-      //   "https://grupociencias.edu.pe:8080/api.grupociencias.intranet/api/Landing/UltimoRegistro"
-      // )
       .get(
         "https://grupociencias.edu.pe/exaframe-ms/api/Landing/UltimoRegistro"
       )
@@ -114,12 +110,12 @@ function LibroReclamaciones() {
     onSubmit: (data) => {
       setIsSubmitting(true);
       axios
-        // .post("https://localhost:5001/api/Landing/ComplaintUser", data)
         .post(
           "https://grupociencias.edu.pe/exaframe-ms/api/Landing/ComplaintUser",
           data
         )
         .then((response) => {
+          handleSendEmail(data);
           console.log(response.data);
         })
         .catch((error) => {
@@ -149,6 +145,40 @@ function LibroReclamaciones() {
       return;
     }
     setSnackbar(false);
+  };
+
+  const handleSendEmail = (data) => {
+    let templateParams = {
+      idreclamo: numeroLibro,
+      tipoDocumento: data.tipoDocumento,
+      numerodocumento: data.numerodocumento,
+      nombres: data.nombres,
+      apellidos: data.apellidos,
+      email: data.email,
+      telefono: data.telefono,
+      provincia: data.provincia,
+      direccion: data.direccion,
+      sede: data.sede,
+      ciclo: data.ciclo,
+      comentario: data.comentario,
+      solicitud: data.solicitud,
+    };
+
+    emailjs
+      .send(
+        "service_swvmsg8",
+        "template_09zvz3j",
+        templateParams,
+        "PiilxYrt1ccsrUNrm"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
 
   useEffect(() => {

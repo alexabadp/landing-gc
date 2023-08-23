@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
+import emailjs from "emailjs-com";
+
 import {
   Alert,
   Button,
@@ -95,13 +97,12 @@ const FormularioInscripcion = () => {
     onSubmit: (data) => {
       setIsSubmitting(true);
       axios
-        // .post("https://localhost:5001/api/Landing/RegisterUser", data)
-        // .post("http://162.248.54.85:4001/api/Landing/RegisterUser", data)
         .post(
           "https://grupociencias.edu.pe/exaframe-ms/api/Landing/RegisterUser",
           data
         )
         .then((response) => {
+          handleSendEmail(data);
           console.log(response.data);
         })
         .catch((error) => {
@@ -131,6 +132,32 @@ const FormularioInscripcion = () => {
       return;
     }
     setSnackbar(false);
+  };
+
+  const handleSendEmail = (data) => {
+    let templateParams = {
+      ciclo: data.ciclo,
+      nombreapellido: data.nombreapellido,
+      dni: data.dni,
+      email: data.email,
+      celular: data.celular,
+    };
+
+    emailjs
+      .send(
+        "service_swvmsg8",
+        "template_02tn7qs",
+        templateParams,
+        "PiilxYrt1ccsrUNrm"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
 
   useEffect(() => {
