@@ -50,7 +50,7 @@ function LibroReclamaciones() {
       setCurrentTime(time);
     }, 1000);
     return () => clearInterval(interval);
-  }, []);
+  }, [numeroLibro]);
 
   const [showErrors, setShowErrors] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
