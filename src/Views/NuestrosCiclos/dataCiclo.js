@@ -16,9 +16,9 @@ export const dataCiclos = [
     duracion: "9 Semanas",
     schedule_Image: [{ url: "svsm" }],
     temario:
-      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Verano%20UNMSM.pdf?alt=media&token=3fa7eb1b-cc5b-4b37-8d16-6497686f9057",
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Verano%20San%20Marcos2.pdf?alt=media&token=1f249638-fc1e-413a-90dd-552f78380724",
     imageBottom:
-      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FBottom%2F1.png?alt=media&token=38c88269-0e9f-4344-9dec-c76a83a53eaa",
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FBottom%2FVERANO%20SAN%20MARCOS.png?alt=media&token=031cc8a8-66ca-48e6-bbe2-93bbb795bf7b",
   },
   {
     id: 2,
@@ -37,9 +37,9 @@ export const dataCiclos = [
     duracion: "9 Semanas",
     schedule_Image: [{ url: "svuni" }],
     temario:
-      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Verano%20UNI%202023.pdf?alt=media&token=03072303-1b09-4beb-94ad-ce4e0f25e9d7",
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Verano%20UNI2.pdf?alt=media&token=f18e4fab-2ead-4b3e-8941-f0412a1dbf25",
     imageBottom:
-      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FBottom%2F2.png?alt=media&token=016819ad-4f0a-4ca1-b78d-2125b9b8fc3a",
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FBottom%2FVERANO%20UNI.png?alt=media&token=0ea68a5c-b297-4fd6-b978-4bee9aae32a5",
   },
   {
     id: 3,
@@ -58,9 +58,9 @@ export const dataCiclos = [
     duracion: "4 - 8 semanas",
     schedule_Image: [{ url: "srsm_1" }, { url: "srsm_2" }],
     temario:
-      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Repaso%20UNMSM.pdf?alt=media&token=b51084b8-32eb-429c-a920-5c72ff4f5475",
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Repaso%20San%20Marcos2.pdf?alt=media&token=dec6df4e-3071-43b9-b2cd-1036fd9c35c3",
     imageBottom:
-      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FBottom%2F3.png?alt=media&token=6e48eeeb-0b2b-4742-ada9-5b9244356a33",
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FBottom%2FREPASO%20SAN%20MARCOS.png?alt=media&token=6b2017aa-0e46-4eaf-b3c4-349887b3fce4",
   },
   {
     id: 4,
@@ -79,9 +79,9 @@ export const dataCiclos = [
     duracion: "4 - 8 semanas",
     schedule_Image: [{ url: "sruni" }],
     temario:
-      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Repaso%20UNI%202023.pdf?alt=media&token=387f22a8-c46b-42b9-b28a-528993a30aaa",
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Repaso%20UNI2.pdf?alt=media&token=32ec1788-dccb-49a1-8c6a-c48bb51fb106",
     imageBottom:
-      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FBottom%2F4.png?alt=media&token=114827a3-920f-4e3b-8c90-388717642e6b",
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FBottom%2FREPASO%20UNI.png?alt=media&token=3d33b0d3-c35a-464e-9e83-f99d9f014c82",
   },
   {
     id: 5,
@@ -100,9 +100,9 @@ export const dataCiclos = [
     duracion: "4 - 6 Meses",
     schedule_Image: [{ url: "sssm_1" }, { url: "sssm_2" }],
     temario:
-      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Semestral%20UNMSM.pdf?alt=media&token=145d4826-7f6f-4011-ade2-036dd6778691",
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Semestral%20San%20Marcos2.pdf?alt=media&token=de99ed1e-e3f3-4f4b-9bfb-fb81a2b07123",
     imageBottom:
-      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FBottom%2F5.png?alt=media&token=ae652411-529c-49d0-b281-03d35793ffc8",
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FBottom%2FSEMESTRAL%20SAN%20MARCOS.png?alt=media&token=cef9767a-8efa-4962-b650-cbe19a48ec9f",
   },
   {
     id: 6,
@@ -123,7 +123,7 @@ export const dataCiclos = [
     temario:
       "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Semestral%20b%C3%A1sico%20UNI.pdf?alt=media&token=c8a4c2b5-48f2-48ea-809c-424404d8a5f6",
     imageBottom:
-      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FBottom%2F6.png?alt=media&token=0aa28743-6faf-406d-8c5d-cc002c235a4c",
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FBottom%2FANUAL%20UNI.png?alt=media&token=b88c5914-c42d-448e-aff1-54bcab7d192a",
   },
   {
     id: 7,
@@ -142,9 +142,9 @@ export const dataCiclos = [
     duracion: "6 Meses",
     schedule_Image: [{ url: "ssiuni" }],
     temario:
-      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Semestral%20intensivo%20UNI.pdf?alt=media&token=29cc9d90-7642-4590-853a-0726a5c4545f",
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Semestral%20intensivo%20UNI2.pdf?alt=media&token=1544443e-2b8d-4372-bdf6-ede4ceda318a",
     imageBottom:
-      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FBottom%2F7.png?alt=media&token=a2929a04-0f1d-4d6c-8550-e08e08744f8b",
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FBottom%2FSEMESTRAL%20UNI.png?alt=media&token=7021eee5-d3a0-42da-8832-ece6480be636",
   },
   {
     id: 8,
@@ -163,9 +163,9 @@ export const dataCiclos = [
     duracion: "10 Meses",
     schedule_Image: [{ url: "sasm" }],
     temario:
-      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Anual%20UNMSM.pdf?alt=media&token=b6eeb4cb-e781-4fc6-abff-e43e4b6ea0b9",
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Anual%20San%20Marcos2.pdf?alt=media&token=5aaab5df-d5b7-4bd9-b394-4680f670e2bd",
     imageBottom:
-      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FBottom%2F8.png?alt=media&token=fe958b9f-a445-4e8c-afa1-93e2ddbe253d",
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FBottom%2FANUAL%20SAN%20MARCOS.png?alt=media&token=b64c98b9-33d6-410b-a8f5-c34f7c1abf42",
   },
   {
     id: 9,
@@ -185,8 +185,8 @@ export const dataCiclos = [
     schedule_Image: [{ url: "ssasm" }],
     temario:
       // "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Semianual%20UNMSM.pdf?alt=media&token=e14fcb8a-daf6-42d5-96eb-8ed76e0c10eb",
-      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Semianual%20UNMSM.pdf?alt=media&token=e14fcb8a-daf6-42d5-96eb-8ed76e0c10eb",
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FTemario%2FTemario%20Semianual%20San%20Marcos2.pdf?alt=media&token=e8392cf9-8c17-4af5-8e68-bb99361ebccc",
     imageBottom:
-      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FBottom%2F9.png?alt=media&token=8f5b017c-515d-405f-9792-e9cfb2d51531",
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FBottom%2FSEMIANUAL%20SAN%20MARCOS.png?alt=media&token=de3bf095-daae-4fc3-adc1-01517b61611b",
   },
 ];

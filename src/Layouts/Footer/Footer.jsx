@@ -160,7 +160,7 @@ function Footer() {
                     </Button>
                   </a>
                   <a
-                    href="https://www.youtube.com/@GrupoCiencias"
+                    href="https://www.youtube.com/c/GrupoCienciasSanMarcos"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -525,7 +525,7 @@ function Footer() {
                 </Button>
               </a>
               <a
-                href="https://www.youtube.com/@GrupoCiencias"
+                href="https://www.youtube.com/c/GrupoCienciasSanMarcos"
                 target="_blank"
                 rel="noreferrer"
               >
