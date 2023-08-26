@@ -141,11 +141,14 @@ const FormularioInscripcion = () => {
       dni: data.dni,
       email: data.email,
       celular: data.celular,
+      subject: "Nuevo Registro Landing Page",
+      body_mail:
+        "Tienes un nuevo alumno registrado en el Landing Page con la siguiente Informacion:",
     };
 
     emailjs
       .send(
-        "service_swvmsg8",
+        "service_42isdsd",
         "template_02tn7qs",
         templateParams,
         "PiilxYrt1ccsrUNrm"

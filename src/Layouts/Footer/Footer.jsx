@@ -260,7 +260,7 @@ function Footer() {
               </a>
             </Box>
           </Grid>
-          <Grid item lg={3} sx={{ display: { xs: "none", lg: "inline-flex" } }}>
+          {/* <Grid item lg={3} sx={{ display: { xs: "none", lg: "inline-flex" } }}>
             <Box maxWidth="260px">
               <Typography fontSize="24px">Universidades</Typography>
               <Typography fontSize="17px" sx={{ paddingTop: { xs: "25px" } }}>
@@ -270,7 +270,7 @@ function Footer() {
                 Universidad Nacional Mayor de San Marcos (UNMSM)
               </Typography>
             </Box>
-          </Grid>
+          </Grid> */}
           <Grid
             item
             xl={3}
@@ -405,13 +405,13 @@ function Footer() {
       </Container>
 
       <Grid container sx={{ display: { xs: "block", sm: "none" } }}>
-        <ListaDesplegable
+        {/* <ListaDesplegable
           elemento={"Universidades"}
           opciones={[
             "Universidad Nacional de Ingeniería (UNIas)",
             "Universidad Nacional Mayor de San Marcos (UNMSM)",
           ]}
-        />
+        /> */}
         <ListaDesplegableBiblioteca
           elemento={"Biblioteca"}
           opciones={[

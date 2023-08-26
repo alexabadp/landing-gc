@@ -166,7 +166,7 @@ function LibroReclamaciones() {
 
     emailjs
       .send(
-        "service_swvmsg8",
+        "service_42isdsd",
         "template_09zvz3j",
         templateParams,
         "PiilxYrt1ccsrUNrm"

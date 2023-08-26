@@ -5,7 +5,7 @@ export const dataCiclos = [
     subtitle: "San Marcos",
     title: "Ciclo Verano",
     Image:
-      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FHeader%2Fvsm.jpg?alt=media&token=bb04d7c0-1e60-44ca-8e20-c37970aac25c",
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FHeader%2FVERANO%20SAN%20MARCOS.png?alt=media&token=64fc53b4-9a8f-4599-9e8b-5680326592c8",
     titleresume:
       "Inicia el camino a San Marcos conociendo el sistema pre y desarrollando tus habilidades.",
     resumen:
@@ -26,7 +26,7 @@ export const dataCiclos = [
     subtitle: "UNI",
     title: "Ciclo Verano",
     Image:
-      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FHeader%2Fvuni.jpg?alt=media&token=2dae7911-8cdf-4ac4-9dc4-8ef8767e1d0a",
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FHeader%2FVERANO%20UNI.png?alt=media&token=236a68c1-b3ad-40fa-8d13-2c9d6b34c8b0",
     titleresume:
       "Conoce el sistema de preparación UNI con profesores especialistas.",
     resumen:
@@ -47,7 +47,7 @@ export const dataCiclos = [
     subtitle: "San Marcos",
     title: "Ciclo Repaso",
     Image:
-      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FHeader%2Frsm.jpg?alt=media&token=729d5bd6-dfd3-433b-a5e3-553adf0548cd",
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FHeader%2FREPASO%20SAN%20MARCOS.png?alt=media&token=d9a1e815-2b11-49cc-a650-2c4cf5ae4b69",
     titleresume:
       "Ciclo de full práctica con ejercicios DECO y la exigencia que necesitas para convertirte en cachimbo.",
     resumen:
@@ -68,7 +68,7 @@ export const dataCiclos = [
     subtitle: "UNI",
     title: "Ciclo Repaso",
     Image:
-      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FHeader%2Fruni.jpg?alt=media&token=89bc5084-3f1d-4ff3-9442-bd96ec1f1530",
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FHeader%2FREPASO%20UNI.png?alt=media&token=3bb50115-df83-4382-8c2a-53a1f1ef6e2d",
     titleresume:
       "El máximo nivel de exigencia con full ejercicios nivel admisión UNI.",
     resumen:
@@ -89,7 +89,7 @@ export const dataCiclos = [
     subtitle: "San Marcos",
     title: "Ciclo Semestral",
     Image:
-      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FHeader%2Fssm.jpg?alt=media&token=688788f4-d430-4f87-ad7b-60f06a5d39de",
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FHeader%2FSEMESTRAL%20SAN%20MARCOS.png?alt=media&token=66d9b46a-5667-4e17-8297-9052ed7c9d46",
     titleresume:
       "Ciclo 50% teórico y 50% práctico para postulantes con experiencia en preparación San Marcos.",
     resumen:
@@ -110,7 +110,7 @@ export const dataCiclos = [
     subtitle: "UNI",
     title: "Ciclo Anual",
     Image:
-      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FHeader%2Fsbuni.jpg?alt=media&token=fb161222-027a-404d-8bf5-5b218147bbf9",
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FHeader%2FANUAL%20UNI.png?alt=media&token=538ff587-c994-406c-9333-7faaec767ab9",
     titleresume:
       "Ciclo base para UNI, aprende paso a paso desde lo básico hasta lo avanzado.",
     resumen:
@@ -131,7 +131,7 @@ export const dataCiclos = [
     subtitle: "UNI",
     title: "Ciclo Semestral",
     Image:
-      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FHeader%2Fsiuni.jpg?alt=media&token=9ebb589b-d2c7-43be-869b-3063f5ab94ef",
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FHeader%2FSEMESTRAL%20UNI.png?alt=media&token=64211c43-2e9d-4cf7-853d-120eefbc33ea",
     titleresume:
       "Pensado en alumnos que desean centrarse en la resolución de ejercicios tipo admisión UNI.",
     resumen:
@@ -152,7 +152,7 @@ export const dataCiclos = [
     subtitle: "San Marcos",
     title: "Ciclo Anual",
     Image:
-      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FHeader%2Fasm.jpg?alt=media&token=e4c91727-d6fd-44ef-adfd-1f27b55fa0ce",
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FHeader%2FANUAL%20SAN%20MARCOS.png?alt=media&token=fa6b712e-a116-46cc-a53f-6657ab2918b3",
     titleresume:
       "Ciclo base para San Marcos, aprende paso a paso desde lo básico hasta lo avanzado.",
     resumen:
@@ -173,7 +173,7 @@ export const dataCiclos = [
     subtitle: "San Marcos",
     title: "Ciclo Semianual",
     Image:
-      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FHeader%2Fsasm.jpg?alt=media&token=fb00442f-ae7d-4194-90b7-6721aa56ce8b",
+      "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FNuestros%20Ciclos%2FHeader%2FSEMIANUAL%20SAN%20MARCOS.png?alt=media&token=12398de5-b9a4-41ff-bd75-9acf4697b1cc",
     titleresume:
       "Ciclo base para San Marcos, aprende paso a paso los temas fijos.",
     resumen:

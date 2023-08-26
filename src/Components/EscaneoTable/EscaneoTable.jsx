@@ -7,26 +7,95 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import TablePagination from "@mui/material/TablePagination"; // Importar TablePagination
 import Paper from "@mui/material/Paper";
-
+import emailjs from "emailjs-com";
 import InsertLinkIcon from "@mui/icons-material/InsertLink";
 import FileDownloadIcon from "@mui/icons-material/FileDownload";
 import SlideshowIcon from "@mui/icons-material/Slideshow";
-import { Box } from "@mui/material";
+import {
+  Alert,
+  Box,
+  Button,
+  CircularProgress,
+  Dialog,
+  DialogContent,
+  DialogContentText,
+  DialogTitle,
+  Snackbar,
+} from "@mui/material";
 import background from "../../assets/background.png";
 import CopyText from "../CopyText/CopyText";
+import { ErrorRounded, WarningAmber } from "@mui/icons-material";
+import DialogActions from "@mui/material/DialogActions";
+import Slide from "@mui/material/Slide";
 
 export default function EscaneoTable({ dataTable }) {
   console.log("dataTable", dataTable);
   const [page, setPage] = React.useState(0); // Estado para el número de página actual
   const [rowsPerPage, setRowsPerPage] = React.useState(5); // Estado para el número de filas por página
 
+  const [selectedItemId, setSelectedItemId] = React.useState(null);
+  const [open, setOpen] = React.useState(false);
+  const [nombreEscaneoValue, setNombreEscaneoValue] = React.useState("");
+  const [snackbar, setSnackbar] = React.useState(false);
+  const [loading, setLoading] = React.useState(false);
+
   const handleChangePage = (event, newPage) => {
     setPage(newPage);
+  };
+
+  const handleSendEmail = () => {
+    setLoading(true);
+    let templateParams = {
+      ciclo: "N/A",
+      nombreapellido: "N/A",
+      dni: "N/A",
+      email: "N/A",
+      celular: "N/A",
+      subject: "Nuevo Reporte Archivo Caido",
+      body_mail: `Tiene un nuevo reporte de archivo caido en Escaneos, el nombre del archivo es el siguiente => ${nombreEscaneoValue}.`,
+    };
+    emailjs
+      .send(
+        "service_42isdsd",
+        "template_02tn7qs",
+        templateParams,
+        "PiilxYrt1ccsrUNrm"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setOpen(false);
+          setTimeout(() => {
+            setLoading(false);
+            setSnackbar(true);
+          }, 1000);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
 
   const handleChangeRowsPerPage = (event) => {
     setRowsPerPage(parseInt(event.target.value, 10));
     setPage(0); // Regresar a la primera página cuando se cambie el número de filas por página
+  };
+
+  const handleCellAlert = (nombreEscaneo) => {
+    setNombreEscaneoValue(nombreEscaneo);
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+    setNombreEscaneoValue("");
+  };
+
+  const handleCloseSnackbar = (event, reason) => {
+    if (reason === "clickaway") {
+      return;
+    }
+    setSnackbar(false);
   };
 
   return (
@@ -59,6 +128,9 @@ export default function EscaneoTable({ dataTable }) {
                 </TableCell>
                 <TableCell align="center" sx={{ color: "#fff" }}>
                   Descargar
+                </TableCell>
+                <TableCell align="center" sx={{ color: "#fff" }}>
+                  Reportar
                 </TableCell>
               </TableRow>
             </TableHead>
@@ -107,6 +179,13 @@ export default function EscaneoTable({ dataTable }) {
                         <FileDownloadIcon sx={{ color: "#fff" }} />
                       </a>
                     </TableCell>
+                    <TableCell
+                      align="center"
+                      onClick={() => handleCellAlert(row.nombre_escaneo)}
+                      style={{ cursor: "pointer" }}
+                    >
+                      <WarningAmber sx={{ color: "red" }} />
+                    </TableCell>
                   </TableRow>
                 ))}
             </TableBody>
@@ -130,6 +209,40 @@ export default function EscaneoTable({ dataTable }) {
           />
         </Box>
       )}
+      <Dialog
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="alert-dialog-title"
+        aria-describedby="alert-dialog-description"
+      >
+        <DialogTitle id="alert-dialog-title">{"Reportar archivo"}</DialogTitle>
+        <DialogContent>
+          <DialogContentText id="alert-dialog-description">
+            ¿Seguro que deseas reportar que no se puede acceder a este archivo o
+            que no corresponde al tema indicado?.
+          </DialogContentText>
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={handleClose}>No</Button>
+          <Button onClick={handleSendEmail} disabled={loading} autoFocus>
+            {loading ? <CircularProgress size={20} /> : "Si"}
+          </Button>
+        </DialogActions>
+      </Dialog>
+      <Snackbar
+        open={snackbar}
+        autoHideDuration={5000}
+        onClose={handleCloseSnackbar}
+      >
+        <Alert
+          onClose={handleCloseSnackbar}
+          severity="success"
+          variant="filled"
+        >
+          Muchas gracias, reportaremos el problema para descargar este archivo
+          al area encargada.
+        </Alert>
+      </Snackbar>
     </>
   );
 }

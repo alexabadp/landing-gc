@@ -110,7 +110,7 @@ const Heroslider = () => {
           overflow="hidden"
         >
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FHeroSlider%2Factualizadas%2FPORTADA%202.webp?alt=media&token=5c32bd3f-3ca0-4da0-8553-5f265f0508db&_gl=1*ix49q5*_ga*Njk4NjE0MDA1LjE2ODQ3MDg2NTU.*_ga_CW55HF8NVT*MTY4NTU2NzYzOC4yMi4xLjE2ODU1Njc2ODguMC4wLjA."
+            src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FHeroSlider%2Factualizadas%2Fportada-1er-puesto-UNI.webp?alt=media&token=35a19089-ca4d-4d23-b979-7c4c887fbefe"
             alt="Descripción de la imagen"
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           />
@@ -123,7 +123,7 @@ const Heroslider = () => {
           overflow="hidden"
         >
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FHeroSlider%2Factualizadas%2FPORTADA%203.webp?alt=media&token=1b017194-41ab-44ba-beb8-7c955154a579&_gl=1*1h3183a*_ga*Njk4NjE0MDA1LjE2ODQ3MDg2NTU.*_ga_CW55HF8NVT*MTY4NTU2NzYzOC4yMi4xLjE2ODU1Njc3MTguMC4wLjA."
+            src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FHeroSlider%2Factualizadas%2Fcristhian-y-gerald.webp?alt=media&token=50252aca-2550-4e08-84d9-0c87e29b4d09"
             alt="Descripción de la imagen"
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           />
@@ -162,9 +162,10 @@ const Heroslider = () => {
           overflow="hidden"
         >
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FHeroSlider%2Factualizadas%2Fportada%206.webp?alt=media&token=c75375f9-2594-41e2-aa61-06c0fe2853d9&_gl=1*8htbci*_ga*Njk4NjE0MDA1LjE2ODQ3MDg2NTU.*_ga_CW55HF8NVT*MTY4NTU2NzYzOC4yMi4xLjE2ODU1Njc3NjguMC4wLjA."
+            src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FHeroSlider%2Factualizadas%2Fportada-sedes_nueva.webp?alt=media&token=dc1a3037-bc25-4226-a5dd-dec44cc7603a"
+            // src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FHeroSlider%2Factualizadas%2Fportada%206.webp?alt=media&token=c75375f9-2594-41e2-aa61-06c0fe2853d9&_gl=1*8htbci*_ga*Njk4NjE0MDA1LjE2ODQ3MDg2NTU.*_ga_CW55HF8NVT*MTY4NTU2NzYzOC4yMi4xLjE2ODU1Njc3NjguMC4wLjA."
             alt="Descripción de la imagen"
-            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            style={{ width: "100%", height: "90%", objectFit: "cover" }}
           />
         </Box>
       </Carousel>
