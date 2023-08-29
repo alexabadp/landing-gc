@@ -165,7 +165,7 @@ const VideoSliders = () => {
               className="videoSliderItem"
             >
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FVideoClases%2Fimagen%20para%20redirecionar%20a%20la%20lista%20de%20yt.png?alt=media&token=dde39662-dd51-46ef-a9c2-8e11f5f25d8f"
+                src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FVideoClases%2Fimagen-para-redirecionar-a-la-lista-de-yt.webp?alt=media&token=69f17ec4-b6e9-4005-a986-24c07b319410"
                 alt="Descripción de la imagen"
                 style={{
                   width: "100%",
