@@ -244,10 +244,16 @@ function Header() {
             </Menu>
           </Box>
 
-          <Button component={Link} to="/" color="inherit">
+          <Button
+            component={Link}
+            to="/"
+            color="inherit"
+            sx={{ height: { xs: "40px", md: "55px" } }}
+          >
             <img
               width="100%"
-              height="40px"
+              // height="40px"
+              height="100%"
               src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FHeader%2Fwebp%2Flogo-small.webp?alt=media&token=9b00a52e-4f75-40d2-aa34-35ba358bf35c"
               alt=""
             />

@@ -104,6 +104,25 @@
     margin: 0;
   }
 
+  .contenidoVideoSmaller h2{
+    color: #fff;
+    font-size: 9px;
+    padding: 0 0 0 15px;
+  }
+
+  .contenidoVideoSmaller p{
+    color: #fff;
+    font-size: 9px;
+    line-height: 12px;
+    padding: 0 0 0 15px;
+    margin: 0;
+  }
+
+  .contenidoVideoSmaller a{
+    color: red;
+    text-transform: none;
+  }
+
   .containerSliders .react-multi-carousel-list li:hover {
     scale: 1;
     z-index: 9999;

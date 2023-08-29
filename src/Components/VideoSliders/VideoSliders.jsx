@@ -237,7 +237,13 @@ const VideoSliders = () => {
                       zIndex: 1,
                     }}
                   >
-                    <Box className="contenidoVideo">
+                    <Box
+                      className={
+                        e.description.length > 360
+                          ? "contenidoVideoSmaller"
+                          : "contenidoVideo"
+                      }
+                    >
                       <h2>{e.title}</h2>
                       <p>
                         {e.description}
