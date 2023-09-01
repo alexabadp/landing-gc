@@ -395,7 +395,7 @@ export const cursos = [
           "https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Biblioteca%20GC%2FTomas%2F03%20-%20RAZONAMIENTO%20MATEMATICO%2FI.webp?alt=media&token=fc0824f9-2da1-436d-93ff-88f28e65004a",
         title: "CERTEZAS",
         description:
-          "Certezas a cargo del profesor Edgardo Valenzuela, conocemos los conceptos básicos, mientras aplicamos las propiedades con ejemplos. Clase con alumnos y en vivo ",
+          "Certezas a cargo del profesor Edgardo Valenzuela, conocemos los conceptos básicos, mientras aplicamos las propiedades con ejemplos. Clase con alumnos y en vivo",
         youtubeLink: "https://youtu.be/Qh6_BQJlVdI",
       },
       {

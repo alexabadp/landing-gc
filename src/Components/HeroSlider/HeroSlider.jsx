@@ -93,7 +93,7 @@ const Heroslider = () => {
           overflow="hidden"
         >
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FHeroSlider%2Factualizadas%2FPORTADA%201.webp?alt=media&token=6e607e12-8e45-4ac0-982e-40daa89c9e97&_gl=1*pp18jp*_ga*Njk4NjE0MDA1LjE2ODQ3MDg2NTU.*_ga_CW55HF8NVT*MTY4NTU2OTYzNC4yMy4xLjE2ODU1Njk2NTguMC4wLjA."
+            src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FHeroSlider%2Factualizadas%2Fportada-1%20(1).webp?alt=media&token=59bd2ddc-f750-4d47-bd91-8567bda87049"
             alt="Descripción de la imagen"
             style={{
               width: "100%",
@@ -110,7 +110,7 @@ const Heroslider = () => {
           overflow="hidden"
         >
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FHeroSlider%2Factualizadas%2Fportada-1er-puesto-UNI.webp?alt=media&token=35a19089-ca4d-4d23-b979-7c4c887fbefe"
+            src="https://firebasestorage.googleapis.com/v0/b/grupo-ciencias.appspot.com/o/Landing%20GC%2FInicio%2FHeroSlider%2Factualizadas%2Fportada-2%20(1).webp?alt=media&token=13b2244b-bcdf-4c65-bf7a-7a109ebfcc9e"
             alt="Descripción de la imagen"
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           />
