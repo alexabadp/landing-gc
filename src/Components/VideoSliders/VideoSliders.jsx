@@ -239,7 +239,7 @@ const VideoSliders = () => {
                   >
                     <Box
                       className={
-                        e.description.length > 350
+                        e.description.length > 360
                           ? "contenidoVideoSmaller"
                           : "contenidoVideo"
                       }

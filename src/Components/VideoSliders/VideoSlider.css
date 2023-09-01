@@ -1,5 +1,5 @@
 /*Ajuste del contenedor del carrousel*/
-.containerSliders .react-multi-carousel-list {
+.containerSliders .react-multi-carousel-list{
   /* display: flex;
   align-items: center; */
   padding: 30px 10px 30px 10px;
@@ -11,7 +11,8 @@
   scale: 1.2;
   z-index: 9999;
   transition: transform 0.3s ease-in-out;
-}
+} 
+
 
 .containerSliders .videoSliderContainer {
   position: relative;
@@ -36,14 +37,14 @@
   transition: transform 0.5s ease-in-out !important;
 } */
 
-.contenidoVideo {
+.contenidoVideo{
   position: absolute;
   color: #fff;
   height: 100%;
   width: 90%;
 }
 
-.videoSliderImagen {
+.videoSliderImagen{
   border-radius: 20px;
   overflow: hidden;
 }
@@ -60,31 +61,10 @@
   font-weight: 700;
 }
 
-.contenidoVideoSmaller h2 {
-  width: 90%;
-  text-align: center;
-  display: inline-block;
-  /* background: linear-gradient(rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0.5)); */
-  color: #fff;
-  font-size: 45px;
-  border-radius: 10px;
-  padding: 5px;
-  font-weight: 700;
-}
-
-.contenidoVideo p {
+.contenidoVideo p{
   font-size: 22px;
   color: #999;
   margin-top: 20px;
-  padding: 0px 50px;
-  color: #fff;
-  line-height: 32px;
-}
-
-.contenidoVideoSmaller p {
-  font-size: 22px;
-  color: #999;
-  margin-top: 18px;
   padding: 0px 50px;
   color: #fff;
   line-height: 32px;
@@ -95,14 +75,10 @@
   font-weight: 700;
 }
 
-.contenidoVideoSmaller p a {
-  color: red;
-  font-weight: 700;
-}
 
-.containerSliders {
+.containerSliders{
   padding: 20px 0;
-}
+} 
 
 .videoSliderImagenContainer::before {
   content: ""; /* Crea un pseudo-elemento antes del contenido real */
@@ -111,37 +87,40 @@
   left: 0;
   width: 50%; /* Ancho de la sombra, puedes ajustarlo según tus necesidades */
   height: 100%;
-  background: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0.8),
-    rgba(0, 0, 0, 0)
-  ); /* Degradado de negro a transparente */
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)); /* Degradado de negro a transparente */
   z-index: -1; /* Coloca el pseudo-elemento detrás de la imagen */
 }
 
 @media (max-width: 778px) {
-  .contenidoVideo h2 {
+  .contenidoVideo h2{
     font-size: 10px;
     padding: 0;
   }
 
-  .contenidoVideoSmaller h2 {
-    font-size: 10px;
-    padding: 0;
-  }
-
-  .contenidoVideo p {
+  .contenidoVideo p{
     font-size: 10px;
     line-height: 13px;
     padding: 0 0 0 20px;
     margin: 0;
   }
 
-  .contenidoVideoSmaller p {
+  .contenidoVideoSmaller h2{
+    color: #fff;
     font-size: 9px;
-    line-height: 13px;
-    padding: 0 0 0 10px;
+    padding: 0 0 0 15px;
+  }
+
+  .contenidoVideoSmaller p{
+    color: #fff;
+    font-size: 9px;
+    line-height: 12px;
+    padding: 0 0 0 15px;
     margin: 0;
+  }
+
+  .contenidoVideoSmaller a{
+    color: red;
+    text-transform: none;
   }
 
   .containerSliders .react-multi-carousel-list li:hover {
@@ -149,4 +128,10 @@
     z-index: 9999;
     transition: transform 0.3s ease-in-out;
   }
+
+
 }
+
+
+
+
